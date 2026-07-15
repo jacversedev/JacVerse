@@ -1,0 +1,263 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Class 9 | JacVerse</title>
+<style>
+    /* Base Reset & Vibrant Mesh Background */
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+    }
+
+
+    body {
+        /* Premium deep cyber blue background with a glow effect */
+        background: radial-gradient(circle at top, #1e293b 0%, #0f172a 100%);
+        color: #f8fafc;
+        min-height: 100vh;
+        padding: 20px 15px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    /* Attractive Neon Glow Header Section */
+    .hero {
+        width: 100%;
+        max-width: 480px;
+        text-align: center;
+        background: linear-gradient(145deg, rgba(30, 41, 59, 0.8), rgba(15, 23, 42, 0.9));
+        border: 1px solid rgba(99, 102, 241, 0.2); /* Subtle purple/blue neon border */
+        box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37), 0 0 15px rgba(99, 102, 241, 0.1);
+        padding: 25px 20px;
+        border-radius: 20px;
+        backdrop-filter: blur(12px);
+        margin-bottom: 25px;
+    }
+
+
+    .logo {
+        font-size: 40px;
+        margin-bottom: 8px;
+        filter: drop-shadow(0 0 8px rgba(255, 255, 255, 0.3));
+    }
+
+
+    .hero h1 {
+        font-size: 28px;
+        font-weight: 800;
+        letter-spacing: 0.5px;
+        background: linear-gradient(to right, #ffffff, #cbd5e1);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        margin-bottom: 4px;
+    }
+
+
+    .hero p {
+        font-size: 14px;
+        color: #38bdf8; /* Bright Cyan color for subtitle */
+        font-weight: 500;
+        margin-bottom: 18px;
+        letter-spacing: 0.5px;
+    }
+
+
+    /* Sleek Glossy Search Bar */
+    .hero input[type="text"] {
+        width: 100%;
+        max-width: 380px;
+        padding: 12px 20px;
+        background: rgba(15, 23, 42, 0.7);
+        border: 1.5px solid rgba(255, 255, 255, 0.1);
+        border-radius: 30px;
+        color: #fff;
+        font-size: 14px;
+        transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        text-align: center;
+        box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.5);
+    }
+
+
+    .hero input[type="text"]:focus {
+        outline: none;
+        border-color: #38bdf8;
+        background: rgba(15, 23, 42, 0.9);
+        box-shadow: 0 0 15px rgba(56, 189, 248, 0.3), inset 0 2px 4px rgba(0, 0, 0, 0.3);
+    }
+
+
+    .hero input[type="text"]::placeholder {
+        color: #64748b;
+    }
+
+
+    /* Responsive 2-Column Grid Layout */
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 14px;
+        width: 100%;
+        max-width: 480px;
+        margin-bottom: 30px;
+    }
+
+
+    /* Premium Modern Cards with Colorful Subtle Borders */
+    .card {
+        background: linear-gradient(145deg, rgba(30, 41, 59, 0.7), rgba(15, 23, 42, 0.8));
+        border: 1px solid rgba(255, 255, 255, 0.08);
+        border-radius: 16px;
+        padding: 18px 12px;
+        text-align: center;
+        text-decoration: none;
+        color: #fff;
+        transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        min-height: 105px;
+        box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.2), 0 2px 4px -1px rgba(0, 0, 0, 0.1);
+        position: relative;
+        overflow: hidden;
+    }
+
+
+    /* Subtle top glow effect on cards */
+    .card::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 3px;
+        background: linear-gradient(90deg, transparent, rgba(255,255,255,0.15), transparent);
+    }
+
+
+    /* Beautiful Tap/Hover Effect with Pop Color Border */
+    .card:active {
+        transform: translateY(-2px) scale(0.97);
+        background: rgba(30, 41, 59, 0.9);
+        border-color: #38bdf8; /* Bright Cyan border on click */
+        box-shadow: 0 0 15px rgba(56, 189, 248, 0.2);
+    }
+
+
+    /* Clean Bold Typography for English Text */
+    .card h2 {
+        font-size: 15px;
+        font-weight: 600;
+        margin-bottom: 5px;
+        color: #ffffff;
+        letter-spacing: 0.3px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 4px;
+    }
+
+
+    /* High Contrast & Clean Hindi Subtext */
+    .card p {
+        font-size: 12px;
+        color: #94a3b8;
+        font-weight: 500;
+        letter-spacing: 0.5px;
+    }
+
+
+    /* Premium Footer Design */
+    footer {
+        width: 100%;
+        max-width: 480px;
+        text-align: center;
+        font-size: 12px;
+        color: #64748b;
+        margin-top: auto;
+        padding: 20px 0;
+        border-top: 1px solid rgba(255, 255, 255, 0.05);
+        letter-spacing: 0.5px;
+    }
+</style>
+</head>
+
+
+<body>
+
+
+<header class="hero">
+<div class="logo">🎓</div>
+<h1>📘 Class 9 </h1>
+<p>JAC Board Class 9 Study Materials</p>
+<input type="text" placeholder="🔍 Search Subject...">
+</header>
+
+
+<main class="grid">
+
+
+<a href="#" class="card">
+<h2>📐 Mathematics</h2>
+<p>गणित</p>
+</a>
+
+
+<a href="#" class="card">
+<h2>🧪 Science</h2>
+<p>विज्ञान</p>
+</a>
+
+
+<a href="#" class="card">
+<h2>🌍 Geography</h2>
+<p>भूगोल</p>
+</a>
+
+
+<a href="#" class="card">
+<h2>🏛️ History</h2>
+<p>इतिहास</p>
+</a>
+
+
+<a href="#" class="card">
+<h2>🗳️ Civics</h2>
+<p>नागरिक शास्त्र</p>
+</a>
+
+
+<a href="#" class="card">
+<h2>💰 Economics</h2>
+<p>अर्थशास्त्र</p>
+</a>
+
+
+<a href="#" class="card">
+<h2>📖 Hindi</h2>
+<p>हिन्दी</p>
+</a>
+
+
+<a href="#" class="card">
+<h2>🇬🇧 English</h2>
+<p>अंग्रेज़ी</p>
+</a>
+
+
+</main>
+
+
+<footer>
+<p>© 2026 JacVerse | Learn Smart 🚀</p>
+</footer>
+
+
+</body>
+</html>

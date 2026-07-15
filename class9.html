@@ -1,0 +1,230 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class 9 | JacVerse</title>
+    <style>
+        /* Base Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', system-ui, sans-serif;
+        }
+
+
+        body {
+            background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+            color: #f8fafc;
+            min-height: 100vh;
+            padding: 15px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+
+        /* Fixed Hero Header Section */
+        .hero {
+            width: 100%;
+            max-width: 500px;
+            text-align: center;
+            background: rgba(255, 255, 255, 0.03);
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            padding: 20px 15px;
+            border-radius: 16px;
+            backdrop-filter: blur(10px);
+            margin-bottom: 20px;
+        }
+
+
+        .header-content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 6px;
+        }
+
+
+        .logo {
+            font-size: 32px;
+            margin-bottom: 2px;
+        }
+
+
+        .hero h1 {
+            font-size: 24px;
+            font-weight: 700;
+            color: #ffffff;
+        }
+
+
+        .hero p {
+            font-size: 13px;
+            color: #94a3b8;
+            margin-bottom: 12px;
+        }
+
+
+        /* Full-Width Search Bar */
+        .hero input[type="text"] {
+            width: 100%;
+            max-width: 350px;
+            padding: 10px 16px;
+            background: rgba(15, 23, 42, 0.6);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 25px;
+            color: #fff;
+            font-size: 14px;
+            transition: all 0.3s ease;
+            text-align: center;
+        }
+
+
+        .hero input[type="text"]:focus {
+            outline: none;
+            border-color: #3b82f6;
+            box-shadow: 0 0 10px rgba(59, 130, 246, 0.25);
+        }
+
+
+        /* Compact 2-Column Grid */
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 12px;
+            width: 100%;
+            max-width: 500px;
+            margin-bottom: 30px;
+        }
+
+
+        /* Redesigned Compact Card Feature */
+        .card {
+            background: rgba(255, 255, 255, 0.04);
+            border: 1px solid rgba(255, 255, 255, 0.06);
+            border-radius: 14px;
+            padding: 14px 8px;
+            text-align: center;
+            text-decoration: none;
+            color: #fff;
+            transition: all 0.2s ease;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 95px;
+        }
+
+
+        .card:active {
+            transform: scale(0.96);
+            background: rgba(255, 255, 255, 0.08);
+            border-color: rgba(255, 255, 255, 0.15);
+        }
+
+
+        /* English Name Style */
+        .card h2 {
+            font-size: 14px;
+            font-weight: 600;
+            margin-bottom: 3px;
+            color: #ffffff;
+        }
+
+
+        /* Hindi Name Style */
+        .card p {
+            font-size: 12px;
+            color: #94a3b8;
+            font-weight: 400;
+        }
+
+
+        /* Footer */
+        footer {
+            width: 100%;
+            text-align: center;
+            font-size: 11px;
+            color: #64748b;
+            margin-top: auto;
+            padding: 15px 0;
+            border-top: 1px solid rgba(255, 255, 255, 0.05);
+        }
+    </style>
+</head>
+<body>
+
+
+<header class="hero">
+    <div class="header-content">
+        <div class="logo">🎓</div>
+        <h1>📘 Class 9</h1>
+        <p>JAC Board Study Materials</p>
+        <input type="text" placeholder="🔍 Search Subject...">
+    </div>
+</header>
+
+
+<main class="grid">
+
+
+    <a href="#" class="card">
+        <h2>📐 Mathematics</h2>
+        <p>गणित</p>
+    </a>
+
+
+    <a href="#" class="card">
+        <h2>🧪 Science</h2>
+        <p>विज्ञान</p>
+    </a>
+
+
+    <a href="#" class="card">
+        <h2>🌍 Geography</h2>
+        <p>भूगोल</p>
+    </a>
+
+
+    <a href="#" class="card">
+        <h2>🏛️ History</h2>
+        <p>इतिहास</p>
+    </a>
+
+
+    <a href="#" class="card">
+        <h2>🗳️ Civics</h2>
+        <p>नागरिक शास्त्र</p>
+    </a>
+
+
+    <a href="#" class="card">
+        <h2>💰 Economics</h2>
+        <p>अर्थशास्त्र</p>
+    </a>
+
+
+    <a href="#" class="card">
+        <h2>📖 Hindi</h2>
+        <p>हिन्दी</p>
+    </a>
+
+
+    <a href="#" class="card">
+        <h2>🇬🇧 English</h2>
+        <p>अंग्रेज़ी</p>
+    </a>
+
+
+</main>
+
+
+<footer>
+    <p>© 2026 JacVerse | Learn Smart 🚀</p>
+</footer>
+
+
+</body>
+</html>

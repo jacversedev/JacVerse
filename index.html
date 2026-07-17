@@ -1,381 +1,899 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
+
+
 <head>
+
+
+    <!-- ========================= -->
+    <!-- BASIC META -->
+    <!-- ========================= -->
+
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JacVerse | Premium Ultimate Study Hub</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    
-    <style>
-        /* ==========================================================================
-           PREMIUM LUXURY DESIGN SYSTEM & MOBILE TIMINGS
-           ========================================================================== */
-        :root {
-            --bg-base: #f7fafc;
-            --bg-card: #ffffff;
-            --text-primary: #1a202c;
-            --text-secondary: #4a5568;
-            --text-hint: #718096;
-            --border-subtle: #e2e8f0;
-            --premium-accent: #4f46e5;
-            --premium-glow: rgba(79, 70, 229, 0.15);
-            --gold-tint: #d69e2e;
-            --luxury-shadow: 0 10px 30px rgba(0, 0, 0, 0.03);
-            --gradient-brand: linear-gradient(135deg, #6366f1, #4f46e5);
-        }
 
 
-        body.dark {
-            --bg-base: #0b0f17;
-            --bg-card: #151c28;
-            --text-primary: #f7fafc;
-            --text-secondary: #cbd5e0;
-            --text-hint: #a0aec0;
-            --border-subtle: #222d3f;
-            --premium-accent: #818cf8;
-            --premium-glow: rgba(129, 140, 248, 0.25);
-            --luxury-shadow: 0 12px 40px rgba(0, 0, 0, 0.35);
-        }
+    <!-- ========================= -->
+    <!-- SEO -->
+    <!-- ========================= -->
 
 
-        * { box-sizing: border-box; margin: 0; padding: 0; font-family: -apple-system, system-ui, sans-serif; -webkit-tap-highlight-color: transparent; }
-        body { background-color: var(--bg-base); color: var(--text-primary); min-height: 100vh; overflow-x: hidden; position: relative; transition: background 0.2s; }
+    <title>JacVerse | Premium JAC Study Platform</title>
 
 
-        /* Background Pattern (10-15% Opacity Spec) */
-        .luxury-study-bg { position: fixed; top: 0; left: 0; width: 100%; height: 100%; z-index: -2; opacity: 0.12; display: flex; flex-wrap: wrap; gap: 50px; padding: 40px 20px; justify-content: space-around; align-content: space-around; pointer-events: none; font-size: 3rem; color: var(--text-hint); }
-        .premium-glass-overlay { position: fixed; top: 0; left: 0; width: 100%; height: 100%; z-index: -1; backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); pointer-events: none; }
+    <meta name="description"
+        content="JacVerse - Premium Study Platform for Jharkhand JAC Board Class 9 & 10 Students.">
 
 
-        /* Header UI (No Admin Button Visible) */
-        .luxury-header { position: sticky; top: 0; z-index: 100; background-color: rgba(var(--bg-card), 0.8); backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px); border-bottom: 1px solid var(--border-subtle); display: flex; align-items: center; padding: 14px 20px; }
-        .menu-action-btn { background: none; border: none; color: var(--text-primary); font-size: 1.4rem; cursor: pointer; margin-right: 15px; }
-        .brand-hub { display: flex; align-items: center; gap: 10px; cursor: pointer; user-select: none; }
-        .brand-badge-logo { width: 36px; height: 36px; background: var(--gradient-brand); color: #ffffff; border-radius: 10px; display: flex; align-items: center; justify-content: center; font-weight: 800; font-size: 1rem; }
-        .brand-text-logo { font-size: 1.35rem; font-weight: 800; letter-spacing: -0.5px; }
+    <meta name="keywords"
+        content="JAC Board, Class 9, Class 10, Notes, MCQ, PYQ">
 
 
-        /* Main Big Responsive Grid Cards for Mobile Users */
-        .app-main-workspace { padding: 24px 20px 120px; max-width: 520px; margin: 0 auto; }
-        .core-vertical-grid { display: flex; flex-direction: column; gap: 18px; }
-        .premium-luxury-card { background-color: var(--bg-card); border: 1px solid var(--border-subtle); border-radius: 20px; padding: 24px; box-shadow: var(--luxury-shadow); cursor: pointer; transition: transform 0.2s; position: relative; }
-        .premium-luxury-card:active { transform: scale(0.96); }
-        .card-meta { display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px; }
-        .luxury-pill { font-size: 0.7rem; font-weight: 800; text-transform: uppercase; background: var(--gradient-brand); color: #ffffff; padding: 4px 10px; border-radius: 8px; }
-        .premium-luxury-card h2 { font-size: 1.4rem; font-weight: 700; }
-        .action-arrow { color: var(--text-hint); }
+    <meta name="author"
+        content="JacVerse">
 
 
-        /* Navigation Drawer */
-        .nav-side-drawer { position: fixed; top: 0; left: -300px; width: 300px; height: 100%; background-color: var(--bg-card); z-index: 200; box-shadow: var(--luxury-shadow); transition: left 0.3s ease; padding: 24px; display: flex; flex-direction: column; }
-        .nav-side-drawer.active { left: 0; }
-        .drawer-top-bar { display: flex; justify-content: space-between; align-items: center; padding-bottom: 16px; border-bottom: 1px solid var(--border-subtle); }
-        .drawer-top-bar button { background: none; border: none; font-size: 1.3rem; color: var(--text-primary); }
-        .drawer-links-wrapper { margin-top: 24px; display: flex; flex-direction: column; gap: 14px; height: 100%; }
-        .drawer-nav-item { text-decoration: none; color: var(--text-secondary); font-size: 1.05rem; font-weight: 500; display: flex; align-items: center; gap: 14px; padding: 12px; border-radius: 10px; }
-        .drawer-divider { border: 0; height: 1px; background-color: var(--border-subtle); margin: 8px 0; }
-        .toggle-container-row { display: flex; justify-content: space-between; align-items: center; padding: 10px 12px; }
-        
-        /* Social Growth Section */
-        .drawer-socials { margin-top: auto; display: flex; flex-direction: column; gap: 10px; }
-        .drawer-socials p { font-size: 0.85rem; color: var(--text-hint); font-weight: 600; }
-        .social-btn { display: flex; align-items: center; justify-content: center; gap: 10px; padding: 12px; border-radius: 10px; text-decoration: none; color: white; font-weight: 600; }
-        .social-btn.yt { background-color: #ff0000; }
-        .social-btn.ig { background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888); }
-        .drawer-backdrop-overlay { position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.4); z-index: 190; display: none; backdrop-filter: blur(4px); }
-        .drawer-backdrop-overlay.active { display: block; }
+    <!-- Theme -->
 
 
-        /* Custom Toggle Switch */
-        .premium-toggle-switch { position: relative; width: 48px; height: 26px; display: inline-block; }
-        .premium-toggle-switch input { display: none; }
-        .luxury-slider { position: absolute; top: 0; left: 0; right: 0; bottom: 0; background-color: var(--border-subtle); border-radius: 30px; cursor: pointer; transition: 0.3s; }
-        .luxury-slider:before { position: absolute; content: ""; height: 20px; width: 20px; left: 3px; bottom: 3px; background-color: #ffffff; border-radius: 50%; transition: 0.3s; }
-        input:checked + .luxury-slider { background: var(--gradient-brand); }
-        input:checked + .luxury-slider:before { transform: translateX(22px); }
+    <meta name="theme-color"
+        content="#0f172a">
 
 
-        /* Hidden/Sub-menus Framework */
-        .hidden { display: none !important; }
-        .navigation-context-header { display: flex; align-items: center; gap: 16px; margin-bottom: 8px; }
-        .back-action-control { background: var(--bg-card); border: 1px solid var(--border-subtle); padding: 10px 18px; border-radius: 12px; color: var(--text-primary); font-weight: 700; cursor: pointer; }
-        .context-indicator { font-size: 1.1rem; font-weight: 700; color: var(--premium-accent); }
-        .sub-item-card { padding: 20px 24px; border-left: 5px solid var(--premium-accent); }
+    <!-- CSS -->
 
 
-        /* Winner Podium Architecture */
-        .winner-rules-alert { font-size: 0.95rem; color: var(--text-secondary); line-height: 1.6; background-color: var(--bg-card); padding: 16px; border-radius: 16px; border-left: 4px solid var(--gold-tint); margin-bottom: 24px; }
-        .podium-card { background: var(--bg-card); border: 2px solid var(--gold-tint); border-radius: 24px; padding: 32px 20px; text-align: center; position: relative; box-shadow: var(--luxury-shadow); }
-        .crown-badge { position: absolute; top: -14px; left: 50%; transform: translateX(-50%); background: var(--gold-tint); color: #ffffff; padding: 5px 20px; border-radius: 30px; font-size: 0.85rem; font-weight: 800; }
-        .avatar-circle-wrapper { width: 84px; height: 84px; border-radius: 50%; background: var(--bg-base); margin: 14px auto; display: flex; align-items: center; justify-content: center; font-size: 2.5rem; color: var(--gold-tint); border: 3px solid var(--border-subtle); }
+    <link rel="stylesheet"
+        href="style.css">
 
 
-        /* Placeholder Content Views */
-        .placeholder-card-frame { background-color: var(--bg-card); border: 1px dashed var(--border-subtle); border-radius: 24px; padding: 40px 20px; text-align: center; }
-        .placeholder-card-frame i { font-size: 3rem; color: var(--premium-accent); margin-bottom: 16px; }
+    <!-- Google Font -->
 
 
-        /* Hidden Developer Authentication Panel Overlay */
-        .dev-modal-overlay { position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.6); backdrop-filter: blur(8px); z-index: 300; display: flex; align-items: center; justify-content: center; padding: 20px; }
-        .dev-modal-box { background-color: var(--bg-card); border: 1px solid var(--border-subtle); border-radius: 24px; padding: 28px; max-width: 400px; width: 100%; }
-        .dev-modal-box h3 { font-size: 1.25rem; display: flex; align-items: center; gap: 10px; color: var(--premium-accent); }
-        .input-field-group { display: flex; flex-direction: column; gap: 8px; margin: 20px 0; }
-        .input-field-group input { padding: 12px; border-radius: 12px; border: 1px solid var(--border-subtle); background-color: var(--bg-base); color: var(--text-primary); font-size: 1rem; outline: none; }
-        .modal-buttons-row { display: flex; gap: 12px; justify-content: flex-end; }
-        .btn-cancel, .btn-authenticate { padding: 10px 18px; border-radius: 10px; font-weight: 700; cursor: pointer; border: none; }
-        .btn-cancel { background-color: var(--bg-base); color: var(--text-primary); }
-        .btn-authenticate { background: var(--gradient-brand); color: #ffffff; }
+    <link rel="preconnect"
+        href="https://fonts.googleapis.com">
 
 
-        /* Fixed Mobile Bottom Tab Navigation */
-        .luxury-bottom-nav { position: fixed; bottom: 0; left: 0; width: 100%; height: 70px; background-color: var(--bg-card); border-top: 1px solid var(--border-subtle); display: flex; z-index: 150; box-shadow: 0 -4px 20px rgba(0, 0, 0, 0.02); }
-        .nav-mobile-tab { flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: center; text-decoration: none; color: var(--text-hint); gap: 6px; }
-        .nav-mobile-tab i { font-size: 1.35rem; }
-        .nav-mobile-tab span { font-size: 0.75rem; font-weight: 700; }
-        .nav-mobile-tab.active { color: var(--premium-accent); }
-    </style>
+    <link rel="preconnect"
+        href="https://fonts.gstatic.com"
+        crossorigin>
+
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+
+    <!-- Font Awesome -->
+
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+
 </head>
+
+
 <body>
 
 
-    <!-- Watermark Architecture -->
-    <div class="luxury-study-bg">
-        <i class="fa-solid fa-book-open"></i><i class="fa-solid fa-graduation-cap"></i>
-        <i class="fa-solid fa-pen-fancy"></i><i class="fa-solid fa-microscope"></i>
-        <i class="fa-solid fa-brain"></i><i class="fa-solid fa-laptop-code"></i>
-    </div>
-    <div class="premium-glass-overlay"></div>
+<!-- ========================= -->
+<!-- LOADER -->
+<!-- ========================= -->
 
 
-    <!-- Header System -->
-    <header class="luxury-header">
-        <button id="hamburgerTrigger" class="menu-action-btn"><i class="fa-solid fa-bars-staggered"></i></button>
-        <!-- Secret Action Point: Tapping this text 5 times triggers Developer Portal -->
-        <div class="brand-hub" id="secretLogoTrigger">
-            <div class="brand-badge-logo">JV</div>
-            <h1 class="brand-text-logo">JacVerse</h1>
-        </div>
-    </header>
+<div class="loader">
 
 
-    <!-- Side Menu Drawer -->
-    <aside id="sideDrawer" class="nav-side-drawer">
-        <div class="drawer-top-bar">
-            <h3>Navigation Hub</h3>
-            <button id="closeDrawer"><i class="fa-solid fa-xmark"></i></button>
-        </div>
-        <nav class="drawer-links-wrapper">
-            <div class="toggle-container-row">
-                <span><i class="fa-solid fa-circle-half-stroke"></i> Dark Mode</span>
-                <label class="premium-toggle-switch">
-                    <input type="checkbox" id="themeToggleCheckbox">
-                    <span class="luxury-slider"></span>
-                </label>
-            </div>
-            <hr class="drawer-divider">
-            <a href="#" class="drawer-nav-item"><i class="fa-solid fa-address-card"></i> About Us</a>
-            <a href="#" class="drawer-nav-item"><i class="fa-solid fa-envelope-open-text"></i> Contact Us</a>
-            <a href="#" class="drawer-nav-item"><i class="fa-solid fa-user-shield"></i> Privacy Policy</a>
-            <hr class="drawer-divider">
-            <div class="drawer-socials">
-                <p>Social Channels:</p>
-                <a href="https://youtube.com/@JacVerse" target="_blank" class="social-btn yt"><i class="fa-brands fa-youtube"></i> YouTube</a>
-                <a href="https://instagram.com/JacVerse" target="_blank" class="social-btn ig"><i class="fa-brands fa-instagram"></i> Instagram</a>
-            </div>
-        </nav>
-    </aside>
-    <div id="drawerOverlay" class="drawer-backdrop-overlay"></div>
+    <div class="book-loader">
 
 
-    <!-- Center Hub Content -->
-    <main class="app-main-workspace">
-        
-        <!-- Main Hub Grid View -->
-        <section id="mainHubGrid" class="core-vertical-grid">
-            <div class="premium-luxury-card" onclick="openSubjectContext('Class 9')">
-                <div class="card-meta"><span class="luxury-pill">Academic</span><i class="fa-solid fa-chevron-right action-arrow"></i></div>
-                <h2>Class 9</h2>
-            </div>
-            <div class="premium-luxury-card" onclick="openSubjectContext('Class 10')">
-                <div class="card-meta"><span class="luxury-pill">Boards</span><i class="fa-solid fa-chevron-right action-arrow"></i></div>
-                <h2>Class 10</h2>
-            </div>
-            <div class="premium-luxury-card" onclick="openSubjectContext('Notes')">
-                <div class="card-meta"><span class="luxury-pill">Revision</span><i class="fa-solid fa-chevron-right action-arrow"></i></div>
-                <h2>Notes</h2>
-            </div>
-            <div class="premium-luxury-card" onclick="openSubjectContext('MCQ')">
-                <div class="card-meta"><span class="luxury-pill">Practice</span><i class="fa-solid fa-chevron-right action-arrow"></i></div>
-                <h2>MCQ</h2>
-            </div>
-        </section>
+        <span></span>
+        <span></span>
+        <span></span>
 
 
-        <!-- Secondary Subject Layer Sub-Grid -->
-        <section id="subjectSubGrid" class="core-vertical-grid hidden">
-            <div class="navigation-context-header">
-                <button onclick="returnToMainHub()" class="back-action-control"><i class="fa-solid fa-arrow-left"></i> Back</button>
-                <h3 id="currentSelectionTitle" class="context-indicator">Subjects</h3>
-            </div>
-            <div class="premium-luxury-card sub-item-card" onclick="handleSubjectClick('Math')"><h2>Math</h2></div>
-            <div class="premium-luxury-card sub-item-card" onclick="handleSubjectClick('Science')"><h2>Science</h2></div>
-            <div class="premium-luxury-card sub-item-card" onclick="handleSubjectClick('Social Science')"><h2>Social Science</h2></div>
-            <div class="premium-luxury-card sub-item-card" onclick="handleSubjectClick('English')"><h2>English</h2></div>
-            <div class="premium-luxury-card sub-item-card" onclick="handleSubjectClick('Hindi')"><h2>Hindi</h2></div>
-        </section>
-
-
-        <!-- Winner Tab Viewport -->
-        <section id="winnerView" class="core-vertical-grid hidden">
-            <div class="winner-rules-alert">
-                Har Sunday ko test hoga. Top 3 Rank holders ki photo aur details yahan display rahengi! (View-Only Mode Active)
-            </div>
-            <div class="podium-card">
-                <div class="crown-badge"><i class="fa-solid fa-crown"></i> Rank 1</div>
-                <div class="avatar-circle-wrapper"><i class="fa-solid fa-user-graduate"></i></div>
-                <h3 id="displayRank1Name">Aman Kumar</h3>
-                <p style="font-weight:600; margin:5px 0;">Class 10 • Score: 98%</p>
-                <p style="color:var(--text-hint);">📍 Village, District</p>
-            </div>
-        </section>
-
-
-        <!-- Placeholders Tabs Viewport -->
-        <section id="genericPlaceholderView" class="hidden">
-            <div class="placeholder-card-frame">
-                <i id="placeholderIcon" class="fa-solid fa-box-open"></i>
-                <h2 id="placeholderHeading" style="margin-top:10px;">Portal Section</h2>
-                <p style="color:var(--text-hint); margin-top:6px;">This data stream is fully locked down under encryption. Students cannot modify anything.</p>
-            </div>
-        </section>
-    </main>
-
-
-    <!-- Invisible Dynamic Security Control Modal Window -->
-    <div id="devModalWindow" class="dev-modal-overlay hidden">
-        <div class="dev-modal-box">
-            <h3><i class="fa-solid fa-shield-halved"></i> Dev Console Login</h3>
-            <div class="input-field-group">
-                <label>Enter Passkey:</label>
-                <input type="password" id="devKeyInput" placeholder="••••">
-            </div>
-            <div class="modal-buttons-row">
-                <button id="cancelDevModal" class="btn-cancel">Cancel</button>
-                <button id="authDevModal" class="btn-authenticate">Verify</button>
-            </div>
-        </div>
     </div>
 
 
-    <!-- Sticky Navigation Panel -->
-    <nav class="luxury-bottom-nav">
-        <a href="#" class="nav-mobile-tab active" onclick="handleTabNavigation('hub', this)"><i class="fa-solid fa-graduation-cap"></i><span>Hub</span></a>
-        <a href="#" class="nav-mobile-tab" onclick="handleTabNavigation('pyq', this)"><i class="fa-solid fa-clock-rotate-left"></i><span>PYQ</span></a>
-        <a href="#" class="nav-mobile-tab" onclick="handleTabNavigation('selftest', this)"><i class="fa-solid fa-clipboard-check"></i><span>Self Test</span></a>
-        <a href="#" class="nav-mobile-tab" onclick="handleTabNavigation('winner', this)"><i class="fa-solid fa-trophy"></i><span>Winner</span></a>
-        <a href="#" class="nav-mobile-tab" onclick="handleTabNavigation('shopping', this)"><i class="fa-solid fa-bag-shopping"></i><span>Shopping</span></a>
-    </nav>
+</div>
 
 
-    <script>
-        document.addEventListener("DOMContentLoaded", () => {
-            const hamburgerTrigger = document.getElementById("hamburgerTrigger");
-            const sideDrawer = document.getElementById("sideDrawer");
-            const closeDrawer = document.getElementById("closeDrawer");
-            const drawerOverlay = document.getElementById("drawerOverlay");
-            const themeToggleCheckbox = document.getElementById("themeToggleCheckbox");
-            
-            const mainHubGrid = document.getElementById("mainHubGrid");
-            const subjectSubGrid = document.getElementById("subjectSubGrid");
-            const currentSelectionTitle = document.getElementById("currentSelectionTitle");
-            const winnerView = document.getElementById("winnerView");
-            const genericPlaceholderView = document.getElementById("genericPlaceholderView");
-            const placeholderIcon = document.getElementById("placeholderIcon");
-            const placeholderHeading = document.getElementById("placeholderHeading");
+<!-- ========================= -->
+<!-- BLUR BACKGROUND -->
+<!-- ========================= -->
 
 
-            // Secret Dynamic Triggers
-            const secretLogoTrigger = document.getElementById("secretLogoTrigger");
-            const devModalWindow = document.getElementById("devModalWindow");
-            const cancelDevModal = document.getElementById("cancelDevModal");
-            const authDevModal = document.getElementById("authDevModal");
-            const devKeyInput = document.getElementById("devKeyInput");
-            const displayRank1Name = document.getElementById("displayRank1Name");
+<div class="bg-blur"></div>
 
 
-            let clickCount = 0;
+<!-- ========================= -->
+<!-- HEADER -->
+<!-- ========================= -->
 
 
-            // Open Menu Control
-            hamburgerTrigger.onclick = () => { sideDrawer.classList.add("active"); drawerOverlay.classList.add("active"); };
-            closeDrawer.onclick = () => { sideDrawer.classList.remove("active"); drawerOverlay.classList.remove("active"); };
-            drawerOverlay.onclick = () => { sideDrawer.classList.remove("active"); drawerOverlay.classList.remove("active"); };
+<header>
 
 
-            // Theme Management
-            if(localStorage.getItem("theme") === "dark") { document.body.classList.add("dark"); themeToggleCheckbox.checked = true; }
-            themeToggleCheckbox.onchange = () => {
-                if(themeToggleCheckbox.checked) { document.body.classList.add("dark"); localStorage.setItem("theme", "dark"); }
-                else { document.body.classList.remove("dark"); localStorage.setItem("theme", "light"); }
-            };
+<nav class="navbar">
 
 
-            // Grid Router Architecture
-            window.openSubjectContext = (title) => {
-                mainHubGrid.classList.add("hidden"); winnerView.classList.add("hidden"); genericPlaceholderView.classList.add("hidden");
-                subjectSubGrid.classList.remove("hidden"); currentSelectionTitle.textContent = title;
-            };
-            window.returnToMainHub = () => { subjectSubGrid.classList.add("hidden"); mainHubGrid.classList.remove("hidden"); };
-            window.handleSubjectClick = (sub) => { alert(`🔒 Content Secure: Normal view mode active for ${sub}. Changes restricted.`); };
+<div class="left-nav">
 
 
-            // Bottom Navigation Core Panel Switching
-            window.handleTabNavigation = (view, element) => {
-                document.querySelectorAll(".nav-mobile-tab").forEach(t => t.classList.remove("active"));
-                element.classList.add("active");
-                mainHubGrid.classList.add("hidden"); subjectSubGrid.classList.add("hidden"); winnerView.classList.add("hidden"); genericPlaceholderView.classList.add("hidden");
+<button id="menuBtn">
 
 
-                if(view === "hub") mainHubGrid.classList.remove("hidden");
-                else if(view === "winner") winnerView.classList.remove("hidden");
-                else {
-                    genericPlaceholderView.classList.remove("hidden");
-                    if(view === "pyq") { placeholderIcon.className = "fa-solid fa-clock-rotate-left"; placeholderHeading.textContent = "PYQs Portal"; }
-                    if(view === "selftest") { placeholderIcon.className = "fa-solid fa-clipboard-check"; placeholderHeading.textContent = "Self Assessment Mock Test"; }
-                    if(view === "shopping") { placeholderIcon.className = "fa-solid fa-bag-shopping"; placeholderHeading.textContent = "Stationery Store"; }
-                }
-            };
+<i class="fas fa-bars"></i>
 
 
-            // 🤫 Secret Easter Egg: Click "JacVerse" Text 5 times to invoke password console
-            secretLogoTrigger.addEventListener("click", () => {
-                clickCount++;
-                if (clickCount === 5) {
-                    clickCount = 0;
-                    devModalWindow.classList.remove("hidden");
-                    devKeyInput.value = "";
-                }
-            });
+</button>
 
 
-            cancelDevModal.onclick = () => devModalWindow.classList.add("hidden");
+<a href="index.html"
+class="logo">
 
 
-            authDevModal.onclick = () => {
-                // Secret password is now changed to: Sahibganj tph
-                if(devKeyInput.value === "Sahibganj tph") {
-                    devModalWindow.classList.add("hidden");
-                    const action = prompt("Welcome Admin Arif! Choose option:\n1. Change Winner Name\n2. Clear Cache");
-                    if(action === "1") {
-                        const newName = prompt("Enter new Winner Student Name:");
-                        if(newName) displayRank1Name.textContent = newName;
-                    }
-                } else {
-                    alert("Unauthorized Access Attempt Blocked.");
-                    devModalWindow.classList.add("hidden");
-                }
-            };
-        });
-    </script>
+<div class="logo-box">
+
+
+JV
+
+
+</div>
+
+
+<div>
+
+
+<h2>
+
+
+JacVerse
+
+
+</h2>
+
+
+<p>
+
+
+Learn • Practice • Success
+
+
+</p>
+
+
+</div>
+
+
+</a>
+
+
+</div>
+
+
+<div class="right-nav">
+
+
+<button id="themeBtn">
+
+
+<i class="fas fa-moon"></i>
+
+
+</button>
+
+
+</div>
+
+
+</nav>
+
+
+</header>
+
+
+<!-- ========================= -->
+<!-- SIDEBAR -->
+<!-- ========================= -->
+
+
+<aside id="sidebar">
+
+
+<div class="sidebar-header">
+
+
+<h2>
+
+
+JacVerse
+
+
+</h2>
+
+
+</div>
+
+
+<ul>
+
+
+<li>
+
+
+<a href="index.html">
+
+
+<i class="fas fa-house"></i>
+
+
+Home
+
+
+</a>
+
+
+</li>
+
+
+<li>
+
+
+<a href="about.html">
+
+
+<i class="fas fa-circle-info"></i>
+
+
+About
+
+
+</a>
+
+
+</li>
+
+
+<li>
+
+
+<a href="contact.html">
+
+
+<i class="fas fa-phone"></i>
+
+
+Contact Us
+
+
+</a>
+
+
+</li>
+
+
+<li>
+
+
+<a href="privacy.html">
+
+
+<i class="fas fa-shield-halved"></i>
+
+
+Privacy Policy
+
+
+</a>
+
+
+</li>
+
+
+<li>
+
+
+<a href="terms.html">
+
+
+<i class="fas fa-file-contract"></i>
+
+
+Terms & Conditions
+
+
+</a>
+
+
+</li>
+
+
+<li>
+
+
+<a href="disclaimer.html">
+
+
+<i class="fas fa-scale-balanced"></i>
+
+
+Disclaimer
+
+
+</a>
+
+
+</li>
+
+
+</ul>
+
+
+</aside>
+
+
+<div id="overlay"></div>
+
+
+<!-- ========================= -->
+<!-- HERO SECTION -->
+<!-- ========================= -->
+
+
+<section class="hero">
+
+
+<div class="hero-glass">
+
+
+<span class="badge">
+
+
+🔥 JAC Board Premium Platform
+
+
+</span>
+
+
+<h1>
+
+
+Study Smarter with
+
+
+<span>
+
+
+JacVerse
+
+
+</span>
+
+
+</h1>
+
+
+<p>
+
+
+Notes • MCQ • PYQ • Self Test • Study Material
+
+
+All in One Platform
+
+
+</p>
+
+
+<div class="search-box">
+
+
+<i class="fas fa-search"></i>
+
+
+<input
+type="text"
+placeholder="Search anything...">
+
+
+</div>
+
+
+<div class="hero-buttons">
+
+
+<a href="#classes"
+class="btn-primary">
+
+
+Start Learning
+
+
+</a>
+
+
+<a href="#features"
+class="btn-secondary">
+
+
+Explore
+
+
+</a>
+
+
+</div>
+
+
+</div>
+
+
+</section>
+
+
+<!-- ========================= -->
+<!-- MAIN START -->
+<!-- ========================= -->
+
+
+<main>
+<!-- ========================= -->
+<!-- QUICK STATS -->
+<!-- ========================= -->
+
+
+<section class="stats">
+
+
+    <div class="stat-card">
+        <h2>100+</h2>
+        <p>Premium Notes</p>
+    </div>
+
+
+    <div class="stat-card">
+        <h2>5000+</h2>
+        <p>MCQs</p>
+    </div>
+
+
+    <div class="stat-card">
+        <h2>200+</h2>
+        <p>PYQs</p>
+    </div>
+
+
+</section>
+
+
+<!-- ========================= -->
+<!-- CLASSES -->
+<!-- ========================= -->
+
+
+<section id="classes" class="classes">
+
+
+    <h2 class="section-title">
+        Choose Your Class
+    </h2>
+
+
+    <div class="class-grid">
+
+
+        <a href="class9.html" class="class-card">
+
+
+            <div class="card-top">
+
+
+                <i class="fas fa-book-open"></i>
+
+
+            </div>
+
+
+            <h3>Class 9</h3>
+
+
+            <p>
+                Complete JAC Class 9 Study Material
+            </p>
+
+
+        </a>
+
+
+        <a href="class10.html" class="class-card">
+
+
+            <div class="card-top">
+
+
+                <i class="fas fa-graduation-cap"></i>
+
+
+            </div>
+
+
+            <h3>Class 10</h3>
+
+
+            <p>
+                Complete JAC Class 10 Study Material
+            </p>
+
+
+        </a>
+
+
+    </div>
+
+
+</section>
+
+
+<!-- ========================= -->
+<!-- FEATURES -->
+<!-- ========================= -->
+
+
+<section id="features" class="features">
+
+
+    <h2 class="section-title">
+
+
+        Everything You Need
+
+
+    </h2>
+
+
+    <div class="feature-grid">
+
+
+        <a href="notes.html" class="feature-card">
+
+
+            <i class="fas fa-book"></i>
+
+
+            <h3>Notes</h3>
+
+
+            <p>
+
+
+                Easy Hinglish Notes
+
+
+            </p>
+
+
+        </a>
+
+
+        <a href="mcq.html" class="feature-card">
+
+
+            <i class="fas fa-circle-question"></i>
+
+
+            <h3>MCQ</h3>
+
+
+            <p>
+
+
+                Practice Questions
+
+
+            </p>
+
+
+        </a>
+
+
+        <a href="pyq.html" class="feature-card">
+
+
+            <i class="fas fa-file-lines"></i>
+
+
+            <h3>PYQ</h3>
+
+
+            <p>
+
+
+                Previous Year Questions
+
+
+            </p>
+
+
+        </a>
+
+
+        <a href="selftest.html" class="feature-card">
+
+
+            <i class="fas fa-brain"></i>
+
+
+            <h3>Self Test</h3>
+
+
+            <p>
+
+
+                Test Yourself
+
+
+            </p>
+
+
+        </a>
+
+
+        <a href="studymaterial.html" class="feature-card">
+
+
+            <i class="fas fa-cart-shopping"></i>
+
+
+            <h3>Study Material</h3>
+
+
+            <p>
+
+
+                Premium Resources
+
+
+            </p>
+
+
+        </a>
+
+
+        <a href="winners.html" class="feature-card">
+
+
+            <i class="fas fa-trophy"></i>
+
+
+            <h3>Winners</h3>
+
+
+            <p>
+
+
+                Top Students
+
+
+            </p>
+
+
+        </a>
+
+
+    </div>
+
+
+</section>
+
+
+<!-- ========================= -->
+<!-- MOTIVATION -->
+<!-- ========================= -->
+
+
+<section class="motivation">
+
+
+    <div class="motivation-box">
+
+
+        <h2>
+
+
+            Your Success Starts Here 🚀
+
+
+        </h2>
+
+
+        <p>
+
+
+            Learn every day, practice regularly and achieve your dream with JacVerse.
+
+
+        </p>
+
+
+    </div>
+
+
+</section>
+<!-- ========================= -->
+<!-- BOTTOM NAVIGATION -->
+<!-- ========================= -->
+
+
+<nav class="bottom-nav">
+
+
+    <a href="index.html" class="active">
+        <i class="fas fa-house"></i>
+        <span>Home</span>
+    </a>
+
+
+    <a href="notes.html">
+        <i class="fas fa-book"></i>
+        <span>Notes</span>
+    </a>
+
+
+    <a href="mcq.html">
+        <i class="fas fa-circle-question"></i>
+        <span>MCQ</span>
+    </a>
+
+
+    <a href="pyq.html">
+        <i class="fas fa-file-lines"></i>
+        <span>PYQ</span>
+    </a>
+
+
+    <a href="studymaterial.html">
+        <i class="fas fa-cart-shopping"></i>
+        <span>Shop</span>
+    </a>
+
+
+</nav>
+
+
+</main>
+
+
+<!-- ========================= -->
+<!-- FOOTER -->
+<!-- ========================= -->
+
+
+<footer class="footer">
+
+
+    <div class="footer-top">
+
+
+        <div class="footer-brand">
+
+
+            <div class="footer-logo">
+
+
+                JV
+
+
+            </div>
+
+
+            <div>
+
+
+                <h2>JacVerse</h2>
+
+
+                <p>
+
+
+                    Learn • Practice • Success
+
+
+                </p>
+
+
+            </div>
+
+
+        </div>
+
+
+        <div class="footer-links">
+
+
+            <a href="about.html">About</a>
+
+
+            <a href="contact.html">Contact</a>
+
+
+            <a href="privacy.html">Privacy</a>
+
+
+            <a href="terms.html">Terms</a>
+
+
+            <a href="disclaimer.html">Disclaimer</a>
+
+
+        </div>
+
+
+    </div>
+
+
+    <div class="social-icons">
+
+
+        <a href="#" aria-label="YouTube">
+
+
+            <i class="fab fa-youtube"></i>
+
+
+        </a>
+
+
+        <a href="#" aria-label="Telegram">
+
+
+            <i class="fab fa-telegram"></i>
+
+
+        </a>
+
+
+        <a href="#" aria-label="Instagram">
+
+
+            <i class="fab fa-instagram"></i>
+
+
+        </a>
+
+
+        <a href="#" aria-label="Facebook">
+
+
+            <i class="fab fa-facebook"></i>
+
+
+        </a>
+
+
+    </div>
+
+
+    <p class="copyright">
+
+
+        © 2026 JacVerse. All Rights Reserved.
+
+
+    </p>
+
+
+</footer>
+
+
+<!-- ========================= -->
+<!-- SCRIPT -->
+<!-- ========================= -->
+
+
+<script src="script.js"></script>
+
+
 </body>
 </html>

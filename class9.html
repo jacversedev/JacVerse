@@ -1,338 +1,358 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Class 9 | JacVerse</title>
-<style>
-    /* Base Reset & Vibrant Mesh Background */
-    * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-        font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
-    }
 
 
+    <!-- Basic Meta -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 
-    body {
-        /* Premium deep cyber blue background with a glow effect */
-        background: radial-gradient(circle at top, #1e293b 0%, #0f172a 100%);
-        color: #f8fafc;
-        min-height: 100vh;
-        padding: 20px 15px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
+    <!-- Primary SEO -->
+    <title>Class 9 | JacVerse</title>
 
 
+    <meta name="description"
+        content="JAC Board Class 9 Study Materials. Get easy language notes, MCQs, PYQs, and other study resources.">
 
 
-    /* Attractive Neon Glow Header Section */
-    .hero {
-        width: 100%;
-        max-width: 480px;
-        text-align: center;
-        background: linear-gradient(145deg, rgba(30, 41, 59, 0.8), rgba(15, 23, 42, 0.9));
-        border: 1px solid rgba(99, 102, 241, 0.2); /* Subtle purple/blue neon border */
-        box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37), 0 0 15px rgba(99, 102, 241, 0.1);
-        padding: 25px 20px;
-        border-radius: 20px;
-        backdrop-filter: blur(12px);
-        margin-bottom: 25px;
-    }
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 
 
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
 
 
-    .logo {
-        font-size: 40px;
-        margin-bottom: 8px;
-        filter: drop-shadow(0 0 8px rgba(255, 255, 255, 0.3));
-    }
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
 
 
+    <style>
+        /* Modern Grid & Cards for Subjects inside Class 9 */
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 14px;
+            width: 100%;
+            max-width: 480px;
+            margin: 0 auto 30px auto;
+            padding: 0 15px;
+        }
 
 
-    .hero h1 {
-        font-size: 28px;
-        font-weight: 800;
-        letter-spacing: 0.5px;
-        background: linear-gradient(to right, #ffffff, #cbd5e1);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        margin-bottom: 4px;
-    }
+        .card {
+            background: linear-gradient(145deg, rgba(30, 41, 59, 0.7), rgba(15, 23, 42, 0.8));
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            border-radius: 16px;
+            padding: 18px 12px;
+            text-align: center;
+            text-decoration: none;
+            color: #fff;
+            transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 105px;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.2), 0 2px 4px -1px rgba(0, 0, 0, 0.1);
+            position: relative;
+            overflow: hidden;
+        }
 
 
+        .card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 3px;
+            background: linear-gradient(90deg, transparent, rgba(255,255,255,0.15), transparent);
+        }
 
 
-    .hero p {
-        font-size: 14px;
-        color: #38bdf8; /* Bright Cyan color for subtitle */
-        font-weight: 500;
-        margin-bottom: 18px;
-        letter-spacing: 0.5px;
-    }
+        .card:active {
+            transform: translateY(-2px) scale(0.97);
+            background: rgba(30, 41, 59, 0.9);
+            border-color: #38bdf8;
+            box-shadow: 0 0 15px rgba(56, 189, 248, 0.2);
+        }
 
 
+        .card h2 {
+            font-size: 15px;
+            font-weight: 600;
+            margin-bottom: 5px;
+            color: #ffffff;
+            letter-spacing: 0.3px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 4px;
+        }
 
 
-    /* Sleek Glossy Search Bar */
-    .hero input[type="text"] {
-        width: 100%;
-        max-width: 380px;
-        padding: 12px 20px;
-        background: rgba(15, 23, 42, 0.7);
-        border: 1.5px solid rgba(255, 255, 255, 0.1);
-        border-radius: 30px;
-        color: #fff;
-        font-size: 14px;
-        transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-        text-align: center;
-        box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.5);
-    }
+        .card p {
+            font-size: 12px;
+            color: #94a3b8;
+            font-weight: 500;
+            letter-spacing: 0.5px;
+        }
+    </style>
 
 
-
-
-    .hero input[type="text"]:focus {
-        outline: none;
-        border-color: #38bdf8;
-        background: rgba(15, 23, 42, 0.9);
-        box-shadow: 0 0 15px rgba(56, 189, 248, 0.3), inset 0 2px 4px rgba(0, 0, 0, 0.3);
-    }
-
-
-
-
-    .hero input[type="text"]::placeholder {
-        color: #64748b;
-    }
-
-
-
-
-    /* Responsive 2-Column Grid Layout */
-    .grid {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        gap: 14px;
-        width: 100%;
-        max-width: 480px;
-        margin-bottom: 30px;
-    }
-
-
-
-
-    /* Premium Modern Cards with Colorful Subtle Borders */
-    .card {
-        background: linear-gradient(145deg, rgba(30, 41, 59, 0.7), rgba(15, 23, 42, 0.8));
-        border: 1px solid rgba(255, 255, 255, 0.08);
-        border-radius: 16px;
-        padding: 18px 12px;
-        text-align: center;
-        text-decoration: none;
-        color: #fff;
-        transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        min-height: 105px;
-        box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.2), 0 2px 4px -1px rgba(0, 0, 0, 0.1);
-        position: relative;
-        overflow: hidden;
-    }
-
-
-
-
-    /* Subtle top glow effect on cards */
-    .card::before {
-        content: '';
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 3px;
-        background: linear-gradient(90deg, transparent, rgba(255,255,255,0.15), transparent);
-    }
-
-
-
-
-    /* Beautiful Tap/Hover Effect with Pop Color Border */
-    .card:active {
-        transform: translateY(-2px) scale(0.97);
-        background: rgba(30, 41, 59, 0.9);
-        border-color: #38bdf8; /* Bright Cyan border on click */
-        box-shadow: 0 0 15px rgba(56, 189, 248, 0.2);
-    }
-
-
-
-
-    /* Clean Bold Typography for English Text */
-    .card h2 {
-        font-size: 15px;
-        font-weight: 600;
-        margin-bottom: 5px;
-        color: #ffffff;
-        letter-spacing: 0.3px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 4px;
-    }
-
-
-
-
-    /* High Contrast & Clean Hindi Subtext */
-    .card p {
-        font-size: 12px;
-        color: #94a3b8;
-        font-weight: 500;
-        letter-spacing: 0.5px;
-    }
-
-
-
-
-    /* Premium Footer Design */
-    footer {
-        width: 100%;
-        max-width: 480px;
-        text-align: center;
-        font-size: 12px;
-        color: #64748b;
-        margin-top: auto;
-        padding: 20px 0;
-        border-top: 1px solid rgba(255, 255, 255, 0.05);
-        letter-spacing: 0.5px;
-    }
-</style>
 </head>
-
-
 
 
 <body>
 
 
+<!-- Loader -->
+<div class="loader" id="loader">
+    <div class="book-loader">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+</div>
 
 
-<header class="hero">
-<div class="logo">🎓</div>
-<h1>📘 Class 9 </h1>
-<p>JAC Board Class 9 Study Materials</p>
-<input type="text" placeholder="🔍 Search Subject...">
+<!-- Background Blur -->
+<div class="bg-blur"></div>
+
+
+<!-- ===========================
+     Header
+=========================== -->
+<header>
+
+
+    <nav class="navbar">
+
+
+        <!-- Left -->
+        <div class="left-nav">
+
+
+            <button id="menuBtn">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+
+
+            <div class="logo">
+                <div class="logo-box">
+                    JV
+                </div>
+                <div>
+                    <h2>JacVerse</h2>
+                    <p>Learn • Practice • Success</p>
+                </div>
+            </div>
+
+
+        </div>
+
+
+        <!-- Right -->
+        <div class="right-nav">
+            <button id="themeBtn">
+                <i class="fa-solid fa-moon"></i>
+            </button>
+        </div>
+
+
+    </nav>
+
+
 </header>
 
 
+<!-- ===========================
+     Sidebar (HAMBURGER MENU)
+=========================== -->
+<aside id="sidebar">
 
 
-<main class="grid">
+    <div class="sidebar-header">
+        <h2>JacVerse</h2>
+    </div>
 
 
+    <ul>
+        <li>
+            <a href="about.html">
+                <i class="fa-solid fa-circle-info"></i>
+                About
+            </a>
+        </li>
+        <li>
+            <a href="contact.html">
+                <i class="fa-solid fa-envelope"></i>
+                Contact
+            </a>
+        </li>
+        <li>
+            <a href="privacy.html">
+                <i class="fa-solid fa-shield-halved"></i>
+                Privacy Policy
+            </a>
+        </li>
+        <li>
+            <a href="terms.html">
+                <i class="fa-solid fa-file-contract"></i>
+                Terms & Conditions
+            </a>
+        </li>
+        <li>
+            <a href="disclaimer.html">
+                <i class="fa-solid fa-scale-balanced"></i>
+                Disclaimer
+            </a>
+        </li>
+    </ul>
 
 
-<a href="#" class="card">
-<h2>📐 Mathematics</h2>
-<p>गणित</p>
-</a>
+</aside>
 
 
+<!-- Overlay -->
+<div id="overlay"></div>
 
 
-<a href="#" class="card">
-<h2>🧪 Science</h2>
-<p>विज्ञान</p>
-</a>
+<!-- Main Content -->
+<main style="margin-top: 80px; padding-bottom: 90px;">
 
 
+    <!-- Hero Section -->
+    <section class="hero" style="padding: 0 15px; margin-bottom: 25px;">
+        <div class="hero-glass" style="padding: 25px 20px; text-align: center; max-width: 480px; margin: 0 auto;">
+            <div class="badge" style="margin-bottom: 12px; font-size: 32px; background: none; border: none; box-shadow: none;">
+                📘
+            </div>
+            <h1 style="font-size: 28px; font-weight: 800; margin-bottom: 4px;">Class 9</h1>
+            <p style="font-size: 14px; color: #38bdf8; font-weight: 500; margin-bottom: 18px;">
+                JAC Board Class 9 Study Materials
+            </p>
+            <div class="search-box" style="margin: 0 auto; max-width: 380px;">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="text" placeholder="Search Subject...">
+            </div>
+        </div>
+    </section>
 
 
-<a href="#" class="card">
-<h2>🌍 Geography</h2>
-<p>भूगोल</p>
-</a>
+    <!-- Subjects Grid -->
+    <section class="grid">
 
 
+        <!-- Mathematics Linked to mathematics.html -->
+        <a href="mathematics.html" class="card">
+            <h2>📐 Mathematics</h2>
+            <p>गणित</p>
+        </a>
 
 
-<a href="#" class="card">
-<h2>🏛️ History</h2>
-<p>इतिहास</p>
-</a>
+        <a href="#" class="card">
+            <h2>🧪 Science</h2>
+            <p>विज्ञान</p>
+        </a>
 
 
+        <a href="#" class="card">
+            <h2>🌍 Geography</h2>
+            <p>भूगोल</p>
+        </a>
 
 
-<a href="#" class="card">
-<h2>🗳️ Civics</h2>
-<p>नागरिक शास्त्र</p>
-</a>
+        <a href="#" class="card">
+            <h2>🏛️ History</h2>
+            <p>इतिहास</p>
+        </a>
 
 
+        <a href="#" class="card">
+            <h2>🗳️ Civics</h2>
+            <p>नागरिक शास्त्र</p>
+        </a>
 
 
-<a href="#" class="card">
-<h2>💰 Economics</h2>
-<p>अर्थशास्त्र</p>
-</a>
+        <a href="#" class="card">
+            <h2>💰 Economics</h2>
+            <p>अर्थशास्त्र</p>
+        </a>
 
 
+        <a href="#" class="card">
+            <h2>📖 क्षितिज</h2>
+            <p>( Hindi )</p>
+        </a>
 
 
-<!-- Hindi Books (Kshitiz & Kritika in Hindi) -->
-<a href="#" class="card">
-<h2>📖 क्षितिज</h2>
-<p>( Hindi )</p>
-</a>
+        <a href="#" class="card">
+            <h2>📖 कृतिका</h2>
+            <p>( Hindi )</p>
+        </a>
 
 
+        <a href="#" class="card">
+            <h2>🇬🇧 Beehive</h2>
+            <p>( English )</p>
+        </a>
 
 
-<a href="#" class="card">
-<h2>📖 कृतिका</h2>
-<p>( Hindi )</p>
-</a>
+        <a href="#" class="card">
+            <h2>🇬🇧 Moments</h2>
+            <p>( English )</p>
+        </a>
 
 
+    </section>
 
 
-<!-- English Books Segmented -->
-<a href="#" class="card">
-<h2>🇬🇧 Beehive</h2>
-<p>( English )</p>
-</a>
+    <!-- Footer -->
+    <footer class="footer" style="max-width: 480px; margin: 0 auto; padding: 20px 0;">
+        <div class="copyright" style="border: none; padding: 0;">
+            © 2026 JacVerse | Learn Smart 🚀
+        </div>
+    </footer>
 
 
-
-
-<a href="#" class="card">
-<h2>🇬🇧 Moments</h2>
-<p>( English )</p>
-</a>
-
-
+    <!-- ===================================
+         BOTTOM NAVIGATION
+    =================================== -->
+    <nav class="bottom-nav">
+        <a href="index.html">
+            <i class="fa-solid fa-house"></i>
+            <span>Home</span>
+        </a>
+        <a href="updates.html">
+            <i class="fa-solid fa-bullhorn"></i>
+            <span>Updates</span>
+        </a>
+        <a href="mcq.html">
+            <i class="fa-solid fa-circle-question"></i>
+            <span>MCQ</span>
+        </a>
+        <a href="pyq.html">
+            <i class="fa-solid fa-file-lines"></i>
+            <span>PYQ</span>
+        </a>
+        <a href="store.html">
+            <i class="fa-solid fa-store"></i>
+            <span>Store</span>
+        </a>
+    </nav>
 
 
 </main>
 
 
-
-
-<footer>
-<p>© 2026 JacVerse | Learn Smart 🚀</p>
-</footer>
-
-
+<!-- JavaScript -->
+<script src="script.js"></script>
 
 
 </body>

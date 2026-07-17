@@ -1,479 +1,381 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
-
-
 <head>
 
 
-    <!-- ========================= -->
-    <!-- BASIC META -->
-    <!-- ========================= -->
-
-
+    <!-- Basic Meta -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 
-    <!-- ========================= -->
-    <!-- SEO -->
-    <!-- ========================= -->
-
-
-    <title>JacVerse | Premium JAC Study Platform</title>
+    <!-- Primary SEO -->
+    <title>JacVerse | JAC Board Class 9 & 10 Study Platform</title>
 
 
     <meta name="description"
-        content="JacVerse - Premium Study Platform for Jharkhand JAC Board Class 9 & 10 Students.">
+        content="JacVerse is a free JAC Board study platform for Class 9 & 10 students. Get easy language notes, MCQs, PYQs, one-shot revision, self tests, and study resources.">
 
 
     <meta name="keywords"
-        content="JAC Board, Class 9, Class 10, Notes, MCQ, PYQ">
+        content="JacVerse,JAC Board,JAC Class 9,JAC Class 10,JAC Notes,Jharkhand Board,Class 9 Notes,Class 10 Notes,MCQ,PYQ,Study Material">
 
 
-    <meta name="author"
-        content="JacVerse">
+    <meta name="author" content="JacVerse">
+
+
+    <meta name="robots" content="index, follow">
+
+
+    <link rel="canonical" href="https://jacversedev.github.io/JacVerse/">
 
 
     <!-- Theme -->
+    <meta name="theme-color" content="#2563eb">
 
 
-    <meta name="theme-color"
-        content="#0f172a">
-
-
-    <!-- CSS -->
-
-
-    <link rel="stylesheet"
-        href="style.css">
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="favicon.png">
 
 
     <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
 
-    <link rel="preconnect"
-        href="https://fonts.googleapis.com">
-
-
-    <link rel="preconnect"
-        href="https://fonts.gstatic.com"
-        crossorigin>
-
-
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 
 
     <!-- Font Awesome -->
-
-
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
 
 
 </head>
 
 
 <body>
+<!-- ===========================
+     Loader
+=========================== -->
 
 
-<!-- ========================= -->
-<!-- LOADER -->
-<!-- ========================= -->
-
-
-<div class="loader">
-
-
+<div class="loader" id="loader">
     <div class="book-loader">
-
-
         <span></span>
         <span></span>
         <span></span>
-
-
     </div>
-
-
 </div>
 
 
-<!-- ========================= -->
-<!-- BLUR BACKGROUND -->
-<!-- ========================= -->
+<!-- Background Blur -->
 
 
 <div class="bg-blur"></div>
 
 
-<!-- ========================= -->
-<!-- HEADER -->
-<!-- ========================= -->
+<!-- ===========================
+     Header
+=========================== -->
 
 
 <header>
 
 
-<nav class="navbar">
+    <nav class="navbar">
 
 
-<div class="left-nav">
+        <!-- Left -->
 
 
-<button id="menuBtn">
+        <div class="left-nav">
 
 
-<i class="fas fa-bars"></i>
+            <button id="menuBtn">
+                <i class="fa-solid fa-bars"></i>
+            </button>
 
 
-</button>
+            <div class="logo">
 
 
-<a href="index.html"
-class="logo">
+                <div class="logo-box">
+                    JV
+                </div>
 
 
-<div class="logo-box">
+                <div>
 
 
-JV
+                    <h2>JacVerse</h2>
 
 
-</div>
+                    <p>Learn • Practice • Success</p>
 
 
-<div>
+                </div>
 
 
-<h2>
+            </div>
 
 
-JacVerse
+        </div>
 
 
-</h2>
+        <!-- Right -->
 
 
-<p>
+        <div class="right-nav">
 
 
-Learn • Practice • Success
+            <button id="themeBtn">
+                <i class="fa-solid fa-moon"></i>
+            </button>
 
 
-</p>
+        </div>
 
 
-</div>
-
-
-</a>
-
-
-</div>
-
-
-<div class="right-nav">
-
-
-<button id="themeBtn">
-
-
-<i class="fas fa-moon"></i>
-
-
-</button>
-
-
-</div>
-
-
-</nav>
+    </nav>
 
 
 </header>
 
 
-<!-- ========================= -->
-<!-- SIDEBAR -->
-<!-- ========================= -->
+<!-- ===========================
+     Sidebar
+=========================== -->
 
 
 <aside id="sidebar">
 
 
-<div class="sidebar-header">
+    <div class="sidebar-header">
 
 
-<h2>
+        <h2>JacVerse</h2>
 
 
-JacVerse
+    </div>
 
 
-</h2>
+    <ul>
 
 
-</div>
+        <!-- Home intentionally removed -->
 
 
-<ul>
+        <li>
+            <a href="class9.html">
+                <i class="fa-solid fa-book"></i>
+                Class 9
+            </a>
+        </li>
 
 
-<li>
+        <li>
+            <a href="class10.html">
+                <i class="fa-solid fa-graduation-cap"></i>
+                Class 10
+            </a>
+        </li>
 
 
-<a href="index.html">
+        <li>
+            <a href="updates.html">
+                <i class="fa-solid fa-bullhorn"></i>
+                Updates
+            </a>
+        </li>
 
 
-<i class="fas fa-house"></i>
+        <li>
+            <a href="mcq.html">
+                <i class="fa-solid fa-circle-question"></i>
+                MCQ Practice
+            </a>
+        </li>
 
 
-Home
+        <li>
+            <a href="pyq.html">
+                <i class="fa-solid fa-file-lines"></i>
+                Previous Year Questions
+            </a>
+        </li>
 
 
-</a>
+        <li>
+            <a href="studymaterial.html">
+                <i class="fa-solid fa-store"></i>
+                Study Material
+            </a>
+        </li>
 
 
-</li>
+        <li>
+            <a href="about.html">
+                <i class="fa-solid fa-circle-info"></i>
+                About
+            </a>
+        </li>
 
 
-<li>
+        <li>
+            <a href="contact.html">
+                <i class="fa-solid fa-envelope"></i>
+                Contact
+            </a>
+        </li>
 
 
-<a href="about.html">
+        <li>
+            <a href="privacy.html">
+                <i class="fa-solid fa-shield-halved"></i>
+                Privacy Policy
+            </a>
+        </li>
 
 
-<i class="fas fa-circle-info"></i>
+        <li>
+            <a href="terms.html">
+                <i class="fa-solid fa-file-contract"></i>
+                Terms & Conditions
+            </a>
+        </li>
 
 
-About
+        <li>
+            <a href="disclaimer.html">
+                <i class="fa-solid fa-scale-balanced"></i>
+                Disclaimer
+            </a>
+        </li>
 
 
-</a>
-
-
-</li>
-
-
-<li>
-
-
-<a href="contact.html">
-
-
-<i class="fas fa-phone"></i>
-
-
-Contact Us
-
-
-</a>
-
-
-</li>
-
-
-<li>
-
-
-<a href="privacy.html">
-
-
-<i class="fas fa-shield-halved"></i>
-
-
-Privacy Policy
-
-
-</a>
-
-
-</li>
-
-
-<li>
-
-
-<a href="terms.html">
-
-
-<i class="fas fa-file-contract"></i>
-
-
-Terms & Conditions
-
-
-</a>
-
-
-</li>
-
-
-<li>
-
-
-<a href="disclaimer.html">
-
-
-<i class="fas fa-scale-balanced"></i>
-
-
-Disclaimer
-
-
-</a>
-
-
-</li>
-
-
-</ul>
+    </ul>
 
 
 </aside>
 
 
+<!-- Overlay -->
+
+
 <div id="overlay"></div>
 
 
-<!-- ========================= -->
-<!-- HERO SECTION -->
-<!-- ========================= -->
+<!-- Main Start -->
+
+
+<main>
+<!-- ===================================
+     HERO SECTION
+=================================== -->
 
 
 <section class="hero">
 
 
-<div class="hero-glass">
+    <div class="hero-glass">
 
 
-<span class="badge">
+        <!-- Premium Badge -->
 
 
-🔥 JAC Board Premium Platform
+        <div class="badge">
+            <i class="fa-solid fa-fire"></i>
+            #1 JAC Board Learning Platform
+        </div>
 
 
-</span>
+        <!-- Heading -->
 
 
-<h1>
+        <h1>
+            Learn Smarter with
+            <span>JacVerse</span>
+        </h1>
 
 
-Study Smarter with
+        <!-- Description -->
 
 
-<span>
+        <p>
+            Free JAC Board Study Platform for Class 9 & 10 Students.
+            Get Easy Language Notes, MCQs, Previous Year Questions,
+            One Shot Revision, Self Tests and Much More.
+        </p>
 
 
-JacVerse
+        <!-- Live Update -->
 
 
-</span>
+        <div class="live-update">
 
 
-</h1>
+            <i class="fa-solid fa-bullhorn"></i>
 
 
-<p>
+            <marquee scrollamount="5">
+                🔥 Latest Updates • New Notes Added • JAC Class 9 & 10 Study Materials Updated Regularly
+            </marquee>
 
 
-Notes • MCQ • PYQ • Self Test • Study Material
+        </div>
 
 
-All in One Platform
+        <!-- Search -->
 
 
-</p>
+        <div class="search-box">
 
 
-<div class="search-box">
+            <i class="fa-solid fa-magnifying-glass"></i>
 
 
-<i class="fas fa-search"></i>
+            <input
+                type="text"
+                placeholder="Search Notes, MCQs, PYQs..."
+            >
 
 
-<input
-type="text"
-placeholder="Search anything...">
+        </div>
 
 
-</div>
+        <!-- Buttons -->
 
 
-<div class="hero-buttons">
+        <div class="hero-buttons">
 
 
-<a href="#classes"
-class="btn-primary">
+            <a href="class9.html" class="btn-primary">
+                Class 9
+            </a>
 
 
-Start Learning
+            <a href="class10.html" class="btn-secondary">
+                Class 10
+            </a>
 
 
-</a>
+        </div>
 
 
-<a href="#features"
-class="btn-secondary">
-
-
-Explore
-
-
-</a>
-
-
-</div>
-
-
-</div>
-
-
-</section>
-
-
-<!-- ========================= -->
-<!-- MAIN START -->
-<!-- ========================= -->
-
-
-<main>
-<!-- ========================= -->
-<!-- QUICK STATS -->
-<!-- ========================= -->
-
-
-<section class="stats">
-
-
-    <div class="stat-card">
-        <h2>100+</h2>
-        <p>Premium Notes</p>
-    </div>
-
-
-    <div class="stat-card">
-        <h2>5000+</h2>
-        <p>MCQs</p>
-    </div>
-
-
-    <div class="stat-card">
-        <h2>200+</h2>
-        <p>PYQs</p>
     </div>
 
 
 </section>
+<!-- ===================================
+     CLASS SECTION
+=================================== -->
 
 
-<!-- ========================= -->
-<!-- CLASSES -->
-<!-- ========================= -->
-
-
-<section id="classes" class="classes">
+<section class="classes">
 
 
     <h2 class="section-title">
@@ -484,15 +386,14 @@ Explore
     <div class="class-grid">
 
 
-        <a href="class9.html" class="class-card">
+        <!-- Class 9 -->
+
+
+        <a href="class9.html" class="class-card fade-up">
 
 
             <div class="card-top">
-
-
-                <i class="fas fa-book-open"></i>
-
-
+                <i class="fa-solid fa-book-open"></i>
             </div>
 
 
@@ -500,22 +401,23 @@ Explore
 
 
             <p>
-                Complete JAC Class 9 Study Material
+                Complete JAC Board Class 9 Notes,
+                MCQs, PYQs, One Shot Revision,
+                Chapter-wise Study Material.
             </p>
 
 
         </a>
 
 
-        <a href="class10.html" class="class-card">
+        <!-- Class 10 -->
+
+
+        <a href="class10.html" class="class-card fade-up">
 
 
             <div class="card-top">
-
-
-                <i class="fas fa-graduation-cap"></i>
-
-
+                <i class="fa-solid fa-graduation-cap"></i>
             </div>
 
 
@@ -523,7 +425,9 @@ Explore
 
 
             <p>
-                Complete JAC Class 10 Study Material
+                Complete JAC Board Class 10 Notes,
+                MCQs, PYQs, One Shot Revision,
+                Chapter-wise Study Material.
             </p>
 
 
@@ -536,146 +440,36 @@ Explore
 </section>
 
 
-<!-- ========================= -->
-<!-- FEATURES -->
-<!-- ========================= -->
+<!-- ===================================
+     NOTES SECTION
+=================================== -->
 
 
-<section id="features" class="features">
+<section class="features">
 
 
     <h2 class="section-title">
-
-
-        Everything You Need
-
-
+        Easy Language Notes
     </h2>
 
 
     <div class="feature-grid">
 
 
-        <a href="notes.html" class="feature-card">
+        <a href="notes.html" class="feature-card fade-up">
 
 
-            <i class="fas fa-book"></i>
+            <i class="fa-solid fa-book"></i>
 
 
-            <h3>Notes</h3>
-
-
-            <p>
-
-
-                Easy Hinglish Notes
-
-
-            </p>
-
-
-        </a>
-
-
-        <a href="mcq.html" class="feature-card">
-
-
-            <i class="fas fa-circle-question"></i>
-
-
-            <h3>MCQ</h3>
+            <h3>Premium Notes</h3>
 
 
             <p>
-
-
-                Practice Questions
-
-
-            </p>
-
-
-        </a>
-
-
-        <a href="pyq.html" class="feature-card">
-
-
-            <i class="fas fa-file-lines"></i>
-
-
-            <h3>PYQ</h3>
-
-
-            <p>
-
-
-                Previous Year Questions
-
-
-            </p>
-
-
-        </a>
-
-
-        <a href="selftest.html" class="feature-card">
-
-
-            <i class="fas fa-brain"></i>
-
-
-            <h3>Self Test</h3>
-
-
-            <p>
-
-
-                Test Yourself
-
-
-            </p>
-
-
-        </a>
-
-
-        <a href="studymaterial.html" class="feature-card">
-
-
-            <i class="fas fa-cart-shopping"></i>
-
-
-            <h3>Study Material</h3>
-
-
-            <p>
-
-
-                Premium Resources
-
-
-            </p>
-
-
-        </a>
-
-
-        <a href="winners.html" class="feature-card">
-
-
-            <i class="fas fa-trophy"></i>
-
-
-            <h3>Winners</h3>
-
-
-            <p>
-
-
-                Top Students
-
-
+                Easy Language Notes specially
+                designed for JAC Board students.
+                Simple explanations, quick revision
+                and exam-focused content.
             </p>
 
 
@@ -686,11 +480,9 @@ Explore
 
 
 </section>
-
-
-<!-- ========================= -->
-<!-- MOTIVATION -->
-<!-- ========================= -->
+<!-- ===================================
+     MOTIVATION SECTION
+=================================== -->
 
 
 <section class="motivation">
@@ -699,21 +491,13 @@ Explore
     <div class="motivation-box">
 
 
-        <h2>
-
-
-            Your Success Starts Here 🚀
-
-
-        </h2>
+        <h2>Keep Learning, Keep Growing 🚀</h2>
 
 
         <p>
-
-
-            Learn every day, practice regularly and achieve your dream with JacVerse.
-
-
+            Every chapter you complete today brings you one step closer
+            to your dream. Stay consistent, practice daily and make
+            JacVerse your best study partner.
         </p>
 
 
@@ -721,53 +505,11 @@ Explore
 
 
 </section>
-<!-- ========================= -->
-<!-- BOTTOM NAVIGATION -->
-<!-- ========================= -->
 
 
-<nav class="bottom-nav">
-
-
-    <a href="index.html" class="active">
-        <i class="fas fa-house"></i>
-        <span>Home</span>
-    </a>
-
-
-    <a href="notes.html">
-        <i class="fas fa-book"></i>
-        <span>Notes</span>
-    </a>
-
-
-    <a href="mcq.html">
-        <i class="fas fa-circle-question"></i>
-        <span>MCQ</span>
-    </a>
-
-
-    <a href="pyq.html">
-        <i class="fas fa-file-lines"></i>
-        <span>PYQ</span>
-    </a>
-
-
-    <a href="studymaterial.html">
-        <i class="fas fa-cart-shopping"></i>
-        <span>Shop</span>
-    </a>
-
-
-</nav>
-
-
-</main>
-
-
-<!-- ========================= -->
-<!-- FOOTER -->
-<!-- ========================= -->
+<!-- ===================================
+     FOOTER
+=================================== -->
 
 
 <footer class="footer">
@@ -780,11 +522,7 @@ Explore
 
 
             <div class="footer-logo">
-
-
                 JV
-
-
             </div>
 
 
@@ -794,13 +532,7 @@ Explore
                 <h2>JacVerse</h2>
 
 
-                <p>
-
-
-                    Learn • Practice • Success
-
-
-                </p>
+                <p>Learn • Practice • Success</p>
 
 
             </div>
@@ -818,10 +550,10 @@ Explore
             <a href="contact.html">Contact</a>
 
 
-            <a href="privacy.html">Privacy</a>
+            <a href="privacy.html">Privacy Policy</a>
 
 
-            <a href="terms.html">Terms</a>
+            <a href="terms.html">Terms & Conditions</a>
 
 
             <a href="disclaimer.html">Disclaimer</a>
@@ -833,63 +565,93 @@ Explore
     </div>
 
 
-    <div class="social-icons">
-
-
-        <a href="#" aria-label="YouTube">
-
-
-            <i class="fab fa-youtube"></i>
-
-
-        </a>
-
-
-        <a href="#" aria-label="Telegram">
-
-
-            <i class="fab fa-telegram"></i>
-
-
-        </a>
-
-
-        <a href="#" aria-label="Instagram">
-
-
-            <i class="fab fa-instagram"></i>
-
-
-        </a>
-
-
-        <a href="#" aria-label="Facebook">
-
-
-            <i class="fab fa-facebook"></i>
-
-
-        </a>
-
-
-    </div>
-
-
-    <p class="copyright">
+    <div class="copyright">
 
 
         © 2026 JacVerse. All Rights Reserved.
 
 
-    </p>
+    </div>
 
 
 </footer>
 
 
-<!-- ========================= -->
-<!-- SCRIPT -->
-<!-- ========================= -->
+<!-- ===================================
+     BOTTOM NAVIGATION
+=================================== -->
+
+
+<nav class="bottom-nav">
+
+
+    <a href="index.html" class="active">
+
+
+        <i class="fa-solid fa-house"></i>
+
+
+        <span>Home</span>
+
+
+    </a>
+
+
+    <a href="updates.html">
+
+
+        <i class="fa-solid fa-bullhorn"></i>
+
+
+        <span>Updates</span>
+
+
+    </a>
+
+
+    <a href="mcq.html">
+
+
+        <i class="fa-solid fa-circle-question"></i>
+
+
+        <span>MCQ</span>
+
+
+    </a>
+
+
+    <a href="pyq.html">
+
+
+        <i class="fa-solid fa-file-lines"></i>
+
+
+        <span>PYQ</span>
+
+
+    </a>
+
+
+    <a href="studymaterial.html">
+
+
+        <i class="fa-solid fa-store"></i>
+
+
+        <span>Store</span>
+
+
+    </a>
+
+
+</nav>
+
+
+</main>
+
+
+<!-- JavaScript -->
 
 
 <script src="script.js"></script>

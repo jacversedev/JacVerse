@@ -381,3 +381,36 @@ window.addEventListener("scroll", () => {
 
 console.log("%c🚀 JacVerse V2 Loaded Successfully!",
 "color:#2563eb;font-size:18px;font-weight:bold;");
+// ===== Dynamic Class Page =====
+
+if (window.location.pathname.includes("class.html")) {
+
+    const params = new URLSearchParams(window.location.search);
+    const classNo = params.get("class");
+
+    fetch("database.json")
+        .then(res => res.json())
+        .then(data => {
+
+            document.getElementById("classTitle").textContent = `Class ${classNo}`;
+
+            const grid = document.getElementById("subjectsGrid");
+
+            const subjects = data[`class${classNo}`].subjects;
+
+            grid.innerHTML = "";
+
+            for (let key in subjects) {
+
+                grid.innerHTML += `
+                    <a href="#" class="card">
+                        <h2>${subjects[key].icon} ${subjects[key].name}</h2>
+                        <p>${subjects[key].hindi}</p>
+                    </a>
+                `;
+
+            }
+
+        });
+
+}

@@ -1,4 +1,291 @@
-here{
-  "class9": {},
-  "class10": {}
+﻿{
+  "class9": {
+    "mathematics": {
+      "bookName": "गणित",
+      "chapters": [
+        { "id": 1, "title": "संख्या पद्धति", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
+        { "id": 2, "title": "बहुपद", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
+        { "id": 3, "title": "निर्देशांक ज्यामिति", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
+        { "id": 4, "title": "दो चरों वाले रैखिक समीकरण", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
+        { "id": 5, "title": "यूक्लिड की ज्यामिति का परिचय", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
+        { "id": 6, "title": "रेखाएँ और कोण", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
+        { "id": 7, "title": "त्रिभुज", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
+        { "id": 8, "title": "चतुर्भुज", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
+        { "id": 9, "title": "वृत्त", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
+        { "id": 10, "title": "हेरॉन का सूत्र", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
+        { "id": 11, "title": "पृष्ठीय क्षेत्रफल और आयतन", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
+        { "id": 12, "title": "सांख्यिकी", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" }
+      ]
+    },
+    "science": {
+      "bookName": "विज्ञान",
+      "chapters": [
+        { "id": 1, "title": "हमारे आस-पास के पदार्थ", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
+        { "id": 2, "title": "क्या हमारे आस-पास के पदार्थ शुद्ध हैं", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
+        { "id": 3, "title": "परमाणु एवं अणु", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
+        { "id": 4, "title": "परमाणु की संरचना", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
+        { "id": 5, "title": "जीवन की मौलिक इकाई", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
+        { "id": 6, "title": "ऊतक", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
+        { "id": 7, "title": "गति", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
+        { "id": 8, "title": "बल तथा गति के नियम", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
+        { "id": 9, "title": "गुरुत्वाकर्षण", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
+        { "id": 10, "title": "कार्य तथा ऊर्जा", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
+        { "id": 11, "title": "ध्वनि", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
+        { "id": 12, "title": "खाद्य संसाधनों में सुधार", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" }
+      ]
+    },
+    "hindi_kshitij": {
+      "bookName": "क्षितिज (भाग 1)",
+      "gadya": [
+        { "id": 1, "title": "दो बैलों की कथा", "author": "प्रेमचंद", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
+        { "id": 2, "title": "ल्हासा की ओर", "author": "राहुल सांकृत्यायन", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
+        { "id": 3, "title": "उपभोक्तावाद की संस्कृति", "author": "श्यामाचरण दुबे", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
+        { "id": 4, "title": "साँवले सपनों की याद", "author": "जाबिर हुसैन", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
+        { "id": 5, "title": "प्रेमचंद के फटे जूते", "author": "हरिशंकर परसाई", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
+        { "id": 6, "title": "मेरे बचपन के दिन", "author": "महादेवी वर्मा", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" }
+      ],
+      "kavya": [
+        { "id": 1, "title": "साखियाँ एवं सबद", "author": "कबीर", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
+        { "id": 2, "title": "वाख", "author": "ललद्यद", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
+        { "id": 3, "title": "सवैये", "author": "रसखान", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
+        { "id": 4, "title": "कैदी और कोकिला", "author": "माखनलाल चतुर्वेदी", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
+        { "id": 5, "title": "ग्राम श्री", "author": "सुमित्रानंदन पंत", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
+        { "id": 6, "title": "मेघ आए", "author": "सर्वेश्वर दयाल सक्सेना", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
+        { "id": 7, "title": "यमराज की दिशा", "author": "चंद्रकांत देवताले", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" }
+      ]
+    },
+    "hindi_kritika": {
+      "bookName": "कृतिका (भाग 1)",
+      "chapters": [
+        { "id": 1, "title": "इस जल प्रलय में", "author": "फणीश्वरनाथ रेणु", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
+        { "id": 2, "title": "मेरे संग की औरतें", "author": "मृदुला गर्ग", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
+        { "id": 3, "title": "रीढ़ की हड्डी", "author": "जगदीश चंद्र माथुर", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" }
+      ]
+    },
+    "english_beehive": {
+      "bookName": "Beehive",
+      "prose": [
+        { "id": 1, "title": "The Fun They Had", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
+        { "id": 2, "title": "The Sound of Music", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
+        { "id": 3, "title": "The Little Girl", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
+        { "id": 4, "title": "A Truly Beautiful Mind", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
+        { "id": 5, "title": "The Snake and the Mirror", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
+        { "id": 6, "title": "My Childhood", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
+        { "id": 7, "title": "Reach for the Top", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
+        { "id": 8, "title": "Kathmandu", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
+        { "id": 9, "title": "If I Were You", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" }
+      ],
+      "poems": [
+        { "id": 1, "title": "The Road Not Taken", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [] },
+        { "id": 2, "title": "Wind", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [] },
+        { "id": 3, "title": "Rain on the Roof", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [] },
+        { "id": 4, "title": "The Lake Isle of Innisfree", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [] },
+        { "id": 5, "title": "A Legend of the Northland", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [] },
+        { "id": 6, "title": "No Men Are Foreign", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [] },
+        { "id": 7, "title": "On Killing a Tree", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [] },
+        { "id": 8, "title": "A Slumber Did My Spirit Seal", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [] }
+      ]
+    },
+    "english_moments": {
+      "bookName": "Moments",
+      "chapters": [
+        { "id": 1, "title": "The Lost Child", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
+        { "id": 2, "title": "The Adventures of Toto", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
+        { "id": 3, "title": "Iswaran the Storyteller", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
+        { "id": 4, "title": "In the Kingdom of Fools", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
+        { "id": 5, "title": "The Happy Prince", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
+        { "id": 6, "title": "Weathering the Storm in Ersama", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
+        { "id": 7, "title": "The Last Leaf", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
+        { "id": 8, "title": "A House Is Not a Home", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
+        { "id": 9, "title": "The Beggar", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" }
+      ]
+    },
+    "social_science_history": {
+      "bookName": "भारत और समकालीन विश्व - I",
+      "chapters": [
+        { "id": 1, "title": "फ्रांसीसी क्रांति", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
+        { "id": 2, "title": "यूरोप में समाजवाद एवं रूसी क्रांति", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
+        { "id": 3, "title": "नात्सीवाद और हिटलर का उदय", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
+        { "id": 4, "title": "वन्य समाज और उपनिवेशवाद", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" }
+      ]
+    },
+    "social_science_geography": {
+      "bookName": "समकालीन भारत - I",
+      "chapters": [
+        { "id": 1, "title": "भारत – आकार और स्थिति", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
+        { "id": 2, "title": "भारत का भौतिक स्वरूप", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
+        { "id": 3, "title": "अपवाह", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
+        { "id": 4, "title": "जलवायु", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
+        { "id": 5, "title": "प्राकृतिक वनस्पति तथा वन्य प्राणी", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
+        { "id": 6, "title": "जनसंख्या", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" }
+      ]
+    },
+    "social_science_civics": {
+      "bookName": "लोकतांत्रिक राजनीति - I",
+      "chapters": [
+        { "id": 1, "title": "लोकतंत्र क्या? लोकतंत्र क्यों?", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
+        { "id": 2, "title": "संविधान निर्माण", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
+        { "id": 3, "title": "चुनावी राजनीति", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
+        { "id": 4, "title": "संस्थाओं का कामकाज", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
+        { "id": 5, "title": "लोकतांत्रिक अधिकार", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" }
+      ]
+    },
+    "social_science_economics": {
+      "bookName": "अर्थशास्त्र",
+      "chapters": [
+        { "id": 1, "title": "पालमपुर गाँव की कहानी", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
+        { "id": 2, "title": "संसाधन के रूप में लोग", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
+        { "id": 3, "title": "निर्धनता : एक चुनौती", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
+        { "id": 4, "title": "भारत में खाद्य सुरक्षा", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" }
+      ]
+    }
+  },
+  "class10": {
+    "mathematics": {
+      "bookName": "गणित",
+      "chapters": [
+        { "id": 1, "title": "वास्तविक संख्याएँ", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
+        { "id": 2, "title": "बहुपद", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
+        { "id": 3, "title": "दो चर वाले रैखिक समीकरण युग्म", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
+        { "id": 4, "title": "द्विघात समीकरण", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
+        { "id": 5, "title": "समांतर श्रेढ़ियाँ", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
+        { "id": 6, "title": "त्रिभुज", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
+        { "id": 7, "title": "निर्देशांक ज्यामिति", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
+        { "id": 8, "title": "त्रिकोणमिति का परिचय", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
+        { "id": 9, "title": "त्रिकोणमिति के कुछ अनुप्रयोग", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
+        { "id": 10, "title": "वृत्त", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
+        { "id": 11, "title": "वृत्तों से संबंधित क्षेत्रफल", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
+        { "id": 12, "title": "पृष्ठीय क्षेत्रफल اور आयतन", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
+        { "id": 13, "title": "सांख्यिकी", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
+        { "id": 14, "title": "प्रायिकता", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" }
+      ]
+    },
+    "science": {
+      "bookName": "विज्ञान",
+      "chapters": [
+        { "id": 1, "title": "रासायनिक अभिक्रियाएँ एवं समीकरण", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
+        { "id": 2, "title": "अम्ल, क्षारक एवं लवण", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
+        { "id": 3, "title": "धातु और अधातु", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
+        { "id": 4, "title": "कार्बन एवं उसके यौगिक", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
+        { "id": 5, "title": "जैव प्रक्रम", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
+        { "id": 6, "title": "नियंत्रण एवं समन्वय", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
+        { "id": 7, "title": "जीव जनन कैसे करते हैं?", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
+        { "id": 8, "title": "आनुवंशिकता", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
+        { "id": 9, "title": "प्रकाश – परावर्तन तथा अपवर्तन", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
+        { "id": 10, "title": "मानव नेत्र तथा रंगबिरंगा संसार", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
+        { "id": 11, "title": "विद्युत", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
+        { "id": 12, "title": "विद्युत धारा के चुंबकीय प्रभाव", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
+        { "id": 13, "title": "हमारा पर्यावरण", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" }
+      ]
+    },
+    "hindi_kshitij": {
+      "bookName": "क्षितिज (भाग 2)",
+      "gadya": [
+        { "id": 1, "title": "नेताजी का चश्मा", "author": "स्वयं प्रकाश", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
+        { "id": 2, "title": "बालगोबिन भगत", "author": "रामवृक्ष बेनीपुरी", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
+        { "id": 3, "title": "लखनवी अंदाज़", "author": "यशपाल", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
+        { "id": 4, "title": "एक कहानी यह भी", "author": "मन्नू भंडारी", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
+        { "id": 5, "title": "नौबतखाने में इबादत", "author": "यतीन्द्र मिश्र", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
+        { "id": 6, "title": "संस्कृति", "author": "भदंत आनंद कौसल्यायन", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" }
+      ],
+      "kavya": [
+        { "id": 1, "title": "पद", "author": "सूरदास", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [] },
+        { "id": 2, "title": "राम-लक्ष्मण-परशुराम संवाद", "author": "तुलसीदास", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [] },
+        { "id": 3, "title": "आत्मकथ्य", "author": "जयशंकर प्रसाद", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [] },
+        { "id": 4, "title": "उत्साह और अट नहीं रही है", "author": "सूर्यकांत त्रिपाठी 'निराला'", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [] },
+        { "id": 5, "title": "यह दंतुरित मुस्कान और फसल", "author": "नागार्जुन", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [] },
+        { "id": 6, "title": "संगतकार", "author": "मंगलेश डबराल", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [] }
+      ]
+    },
+    "hindi_kritika": {
+      "bookName": "कृतिका (भाग 2)",
+      "chapters": [
+        { "id": 1, "title": "माता का अँचल", "author": "शिवपूजन सहाय", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
+        { "id": 2, "title": "साना-साना हाथ जोड़ि...", "author": "मधु कांकरिया", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
+        { "id": 3, "title": "मैं क्यों लिखता हूँ?", "author": "अज्ञेय", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" }
+      ]
+    },
+    "english_first_flight": {
+      "bookName": "First Flight",
+      "prose": [
+        { "id": 1, "title": "A Letter to God", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
+        { "id": 2, "title": "Nelson Mandela: Long Walk to Freedom", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
+        { "id": 3, "title": "Two Stories about Flying", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
+        { "id": 4, "title": "From the Diary of Anne Frank", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
+        { "id": 5, "title": "Glimpses of India", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
+        { "id": 6, "title": "Mijbil the Otter", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
+        { "id": 7, "title": "Madam Rides the Bus", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
+        { "id": 8, "title": "The Sermon at Benares", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
+        { "id": 9, "title": "The Proposal", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" }
+      ],
+      "poems": [
+        { "id": 1, "title": "Dust of Snow", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [] },
+        { "id": 2, "title": "Fire and Ice", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [] },
+        { "id": 3, "title": "A Tiger in the Zoo", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [] },
+        { "id": 4, "title": "How to Tell Wild Animals", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [] },
+        { "id": 5, "title": "The Ball Poem", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [] },
+        { "id": 6, "title": "Amanda!", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [] },
+        { "id": 7, "title": "The Trees", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [] },
+        { "id": 8, "title": "Fog", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [] },
+        { "id": 9, "title": "The Tale of Custard the Dragon", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [] },
+        { "id": 10, "title": "For Anne Gregory", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [] }
+      ]
+    },
+    "english_footprints": {
+      "bookName": "Footprints Without Feet",
+      "chapters": [
+        { "id": 1, "title": "A Triumph of Surgery", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
+        { "id": 2, "title": "The Thief's Story", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
+        { "id": 3, "title": "The Midnight Visitor", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
+        { "id": 4, "title": "A Question of Trust", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
+        { "id": 5, "title": "Footprints Without Feet", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
+        { "id": 6, "title": "The Making of a Scientist", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
+        { "id": 7, "title": "The Necklace", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
+        { "id": 8, "title": "Bholi", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
+        { "id": 9, "title": "The Book That Saved the Earth", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" }
+      ]
+    },
+    "social_science_history": {
+      "bookName": "भारत और समकालीन विश्व - II",
+      "chapters": [
+        { "id": 1, "title": "यूरोप में राष्ट्रवाद का उदय", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
+        { "id": 2, "title": "भारत में राष्ट्रवाद", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
+        { "id": 3, "title": "भूमंडलीकृत विश्व का बनना", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
+        { "id": 4, "title": "औद्योगीकरण का युग", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
+        { "id": 5, "title": "मुद्रण संस्कृति और आधुनिक दुनिया", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" }
+      ]
+    },
+    "social_science_geography": {
+      "bookName": "समकालीन भारत - II",
+      "chapters": [
+        { "id": 1, "title": "संसाधन और विकास", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
+        { "id": 2, "title": "वन और वन्यजीव संसाधन", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
+        { "id": 3, "title": "जल संसाधन", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
+        { "id": 4, "title": "कृषि", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
+        { "id": 5, "title": "खनिज तथा ऊर्जा संसाधन", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
+        { "id": 6, "title": "विनिर्माण उद्योग", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
+        { "id": 7, "title": "राष्ट्रीय अर्थव्यवस्था की जीवन रेखाएँ", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" }
+      ]
+    },
+    "social_science_civics": {
+      "bookName": "लोकतांत्रिक राजनीति - II",
+      "chapters": [
+        { "id": 1, "title": "सत्ता की साझेदारी", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
+        { "id": 2, "title": "संघवाद", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
+        { "id": 3, "title": "जाति, धर्म और लैंगिक मसले", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
+        { "id": 4, "title": "राजनीतिक दल", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
+        { "id": 5, "title": "लोकतंत्र के परिणाम", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" }
+      ]
+    },
+    "social_science_economics": {
+      "bookName": "आर्थिक विकास की समझ",
+      "chapters": [
+        { "id": 1, "title": "विकास", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
+        { "id": 2, "title": "भारतीय अर्थव्यवस्था के क्षेत्रक", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
+        { "id": 3, "title": "मुद्रा और साख", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
+        { "id": 4, "title": "वैश्वीकरण और भारतीय अर्थव्यवस्था", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
+        { "id": 5, "title": "उपभोक्ता अधिकार", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" }
+      ]
+    }
+  }
 }

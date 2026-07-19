@@ -15,6 +15,8 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
 
+
+
     // 2. Auto Highlight Active Bottom Nav Link Based on URL
     const currentPath = window.location.pathname;
     const navLinks = document.querySelectorAll(".bottom-nav a");
@@ -29,12 +31,16 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 
+
+
 // ===========================
 // Sidebar Toggle Setup
 // ===========================
 const menuBtn = document.getElementById("menuBtn");
 const sidebar = document.getElementById("sidebar");
 const overlay = document.getElementById("overlay");
+
+
 
 
 if (menuBtn && sidebar && overlay) {
@@ -44,6 +50,8 @@ if (menuBtn && sidebar && overlay) {
     });
 
 
+
+
     overlay.addEventListener("click", () => {
         sidebar.classList.remove("active");
         overlay.classList.remove("active");
@@ -51,10 +59,14 @@ if (menuBtn && sidebar && overlay) {
 }
 
 
+
+
 // ===========================
 // Dark Mode Setup & Storage
 // ===========================
 const themeBtn = document.getElementById("themeBtn");
+
+
 
 
 if (localStorage.getItem("theme") === "dark") {
@@ -67,10 +79,14 @@ if (localStorage.getItem("theme") === "dark") {
 }
 
 
+
+
 if (themeBtn) {
     themeBtn.addEventListener("click", () => {
         document.body.classList.toggle("dark");
         const icon = themeBtn.querySelector("i");
+
+
 
 
         if (document.body.classList.contains("dark")) {
@@ -90,16 +106,23 @@ if (themeBtn) {
 }
 
 
+
+
 // ===========================
 // Search Content Filter
 // ===========================
 const searchInput = document.querySelector(".search-box input");
 
 
+
+
 if (searchInput) {
     searchInput.addEventListener("keyup", function () {
         const value = this.value.toLowerCase();
+        // Dynamic dynamic cards ko bhi target karne ke liye yahan selectors check kiye hain
         const cards = document.querySelectorAll(".class-card, .feature-card, #subjectsGrid .card");
+
+
 
 
         cards.forEach(card => {
@@ -112,6 +135,8 @@ if (searchInput) {
         });
     });
 }
+
+
 
 
 // ===========================
@@ -128,9 +153,13 @@ const observer = new IntersectionObserver((entries) => {
 });
 
 
+
+
 document.querySelectorAll(".class-card, .feature-card, .motivation-box").forEach((el) => {
     observer.observe(el);
 });
+
+
 
 
 // Manual click fallback for active classes
@@ -140,6 +169,8 @@ document.querySelectorAll(".bottom-nav a").forEach(link => {
         this.classList.add("active");
     });
 });
+
+
 
 
 // ===========================
@@ -158,6 +189,8 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 });
 
 
+
+
 // Dismiss Drawer Panel
 document.querySelectorAll("#sidebar a").forEach(link => {
     link.addEventListener("click", () => {
@@ -167,6 +200,8 @@ document.querySelectorAll("#sidebar a").forEach(link => {
         }
     });
 });
+
+
 
 
 // Scroll Header State
@@ -179,17 +214,24 @@ window.addEventListener("scroll", () => {
 });
 
 
-// ===========================
-// Dynamic Class/Subject Engine
-// ===========================
-if (window.location.pathname.includes("class.html")) {
+
+
+// ==========================================
+// Dynamic Class/Subject Engine (UPDATED)
+// ==========================================
+// class.html aur class_2.html dono pages par safely trigger hone ke liye:
+if (window.location.pathname.includes("class.html") || window.location.pathname.includes("class_2.html")) {
     const params = new URLSearchParams(window.location.search);
     const classNo = params.get("class");
+
+
 
 
     if (classNo) {
         const titleEl = document.getElementById("classTitle");
         if (titleEl) titleEl.textContent = `Class ${classNo}`;
+
+
 
 
         fetch("database.json")
@@ -201,6 +243,8 @@ if (window.location.pathname.includes("class.html")) {
                 if (grid && data[targetKey]) {
                     const subjects = data[targetKey];
                     grid.innerHTML = "";
+
+
 
 
                     const iconMap = {
@@ -217,6 +261,8 @@ if (window.location.pathname.includes("class.html")) {
                         "social_science_civics": "⚖️",
                         "social_science_economics": "💰"
                     };
+
+
 
 
                     for (let key in subjects) {

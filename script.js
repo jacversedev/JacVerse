@@ -1,348 +1,260 @@
-﻿/* ===================================
-   JACVERSE V2 FINAL (SEO & NAVIGATION)
-   SCRIPT.JS
-=================================== */
+﻿// ==========================================
+// 1. COMPLETE DATA CENTER (JACVERSE DATABASE)
+// ==========================================
+const jacData = {
+    "class9": {
+        "mathematics": {
+            "bookName": "गणित (NCERT)",
+            "chapters": [
+                { "id": 1, "title": "संख्या पद्धति", "notes": "#", "revision": "#", "qa": "#" },
+                { "id": 2, "title": "बहुपद", "notes": "#", "revision": "#", "qa": "#" },
+                { "id": 3, "title": "निर्देशांक ज्यामिति", "notes": "#", "revision": "#", "qa": "#" },
+                { "id": 4, "title": "दो चरों वाले रैखिक समीकरण", "notes": "#", "revision": "#", "qa": "#" },
+                { "id": 5, "title": "यूक्लिड की ज्यामिति का परिचय", "notes": "#", "revision": "#", "qa": "#" },
+                { "id": 6, "title": "रेखाएँ और कोण", "notes": "#", "revision": "#", "qa": "#" },
+                { "id": 7, "title": "त्रिभुज", "notes": "#", "revision": "#", "qa": "#" },
+                { "id": 8, "title": "चतुर्भुज", "notes": "#", "revision": "#", "qa": "#" },
+                { "id": 9, "title": "वृत्त", "notes": "#", "revision": "#", "qa": "#" },
+                { "id": 10, "title": "हीरोन का सूत्र", "notes": "#", "revision": "#", "qa": "#" },
+                { "id": 11, "title": "पृष्ठीय क्षेत्रफल और आयतन", "notes": "#", "revision": "#", "qa": "#" },
+                { "id": 12, "title": "सांख्यिकी", "notes": "#", "revision": "#", "qa": "#" }
+            ]
+        },
+        "science": {
+            "bookName": "विज्ञान (NCERT)",
+            "chapters": [
+                { "id": 1, "title": "हमारे आस-पास के पदार्थ", "notes": "#", "revision": "#", "qa": "#" },
+                { "id": 2, "title": "क्या हमारे आस-पास के पदार्थ शुद्ध हैं", "notes": "#", "revision": "#", "qa": "#" },
+                { "id": 3, "title": "परमाणु एवं अणु", "notes": "#", "revision": "#", "qa": "#" },
+                { "id": 4, "title": "परमाणु की संरचना", "notes": "#", "revision": "#", "qa": "#" },
+                { "id": 5, "title": "जीवन की मौलिक इकाई", "notes": "#", "revision": "#", "qa": "#" },
+                { "id": 6, "title": "ऊतक", "notes": "#", "revision": "#", "qa": "#" },
+                { "id": 7, "title": "गति", "notes": "#", "revision": "#", "qa": "#" },
+                { "id": 8, "title": "बल तथा गति के नियम", "notes": "#", "revision": "#", "qa": "#" },
+                { "id": 9, "title": "गुरुत्वाकर्षण", "notes": "#", "revision": "#", "qa": "#" },
+                { "id": 10, "title": "कार्य तथा ऊर्जा", "notes": "#", "revision": "#", "qa": "#" },
+                { "id": 11, "title": "ध्वनि", "notes": "#", "revision": "#", "qa": "#" },
+                { "id": 12, "title": "खाद्य संसाधनों में सुधार", "notes": "#", "revision": "#", "qa": "#" }
+            ]
+        }
+    },
+    "class10": {
+        "mathematics": {
+            "bookName": "गणित (NCERT)",
+            "chapters": [
+                { "id": 1, "title": "वास्तविक संख्याएँ", "notes": "#", "revision": "#", "qa": "#" },
+                { "id": 2, "title": "बहुपद", "notes": "#", "revision": "#", "qa": "#" },
+                { "id": 3, "title": "दो चर वाले रैखिक समीकरण युग्म", "notes": "#", "revision": "#", "qa": "#" },
+                { "id": 4, "title": "द्विघात समीकरण", "notes": "#", "revision": "#", "qa": "#" },
+                { "id": 5, "title": "समांतर श्रेढ़ियाँ", "notes": "#", "revision": "#", "qa": "#" },
+                { "id": 6, "title": "त्रिभुज", "notes": "#", "revision": "#", "qa": "#" },
+                { "id": 7, "title": "निर्देशांक ज्यामिति", "notes": "#", "revision": "#", "qa": "#" },
+                { "id": 8, "title": "त्रिकोणमिति का परिचय", "notes": "#", "revision": "#", "qa": "#" },
+                { "id": 9, "title": "त्रिकोणमिति के कुछ अनुप्रयोग", "notes": "#", "revision": "#", "qa": "#" },
+                { "id": 10, "title": "वृत्त", "notes": "#", "revision": "#", "qa": "#" },
+                { "id": 11, "title": "वृत्तों से संबंधित क्षेत्रफल", "notes": "#", "revision": "#", "qa": "#" },
+                { "id": 12, "title": "पृष्ठीय क्षेत्रफल और आयतन", "notes": "#", "revision": "#", "qa": "#" },
+                { "id": 13, "title": "सांख्यिकी", "notes": "#", "revision": "#", "qa": "#" },
+                { "id": 14, "title": "प्रायिकता", "notes": "#", "revision": "#", "qa": "#" }
+            ]
+        },
+        "science": {
+            "bookName": "विज्ञान (NCERT)",
+            "chapters": [
+                { "id": 1, "title": "रासायनिक अभिक्रियाएँ एवं समीकरण", "notes": "#", "revision": "#", "qa": "#" },
+                { "id": 2, "title": "अम्ल, क्षारक एवं लवण", "notes": "#", "revision": "#", "qa": "#" },
+                { "id": 3, "title": "धातु एवं अधातु", "notes": "#", "revision": "#", "qa": "#" },
+                { "id": 4, "title": "कार्बन एवं उसके यौगिक", "notes": "#", "revision": "#", "qa": "#" },
+                { "id": 5, "title": "जैव प्रक्रम", "notes": "#", "revision": "#", "qa": "#" },
+                { "id": 6, "title": "नियंत्रण एवं समन्वय", "notes": "#", "revision": "#", "qa": "#" },
+                { "id": 7, "title": "जीव जनन कैसे करते हैं?", "notes": "#", "revision": "#", "qa": "#" },
+                { "id": 8, "title": "आनुवंशिकता एवं जैव विकास", "notes": "#", "revision": "#", "qa": "#" },
+                { "id": 9, "title": "प्रकाश – परावर्तन तथा अपवर्तन", "notes": "#", "revision": "#", "qa": "#" },
+                { "id": 10, "title": "मानव नेत्र तथा रंगबिरंगा संसार", "notes": "#", "revision": "#", "qa": "#" },
+                { "id": 11, "title": "विद्युत", "notes": "#", "revision": "#", "qa": "#" },
+                { "id": 12, "title": "विद्युत धारा के चुंबकीय प्रभाव", "notes": "#", "revision": "#", "qa": "#" },
+                { "id": 13, "title": "हमारा पर्यावरण", "notes": "#", "revision": "#", "qa": "#" }
+            ]
+        }
+    }
+};
 
 
+// ==========================================
+// 2. SEO HELPER FUNCTION (DYNAMIC META TAGS)
+// ==========================================
+function updateSEO(title, description) {
+    document.title = title + " | JACVERSE";
+    let metaDesc = document.querySelector('meta[name="description"]');
+    if (!metaDesc) {
+        metaDesc = document.createElement('meta');
+        metaDesc.setAttribute('name', 'description');
+        document.head.appendChild(metaDesc);
+    }
+    metaDesc.setAttribute('content', description);
+}
+
+
+// ==========================================
+// 3. MAIN DOM EXECUTION
+// ==========================================
 document.addEventListener("DOMContentLoaded", () => {
-    // 1. Loader Logic
+    
+    // ----- A. LOADER LOGIC -----
     const loader = document.getElementById("loader");
     if (loader) {
-        loader.style.opacity = "0";
         setTimeout(() => {
-            loader.style.display = "none";
-        }, 300);
+            loader.style.opacity = "0";
+            setTimeout(() => loader.style.display = "none", 400);
+        }, 400);
     }
 
 
-    // 2. Auto Highlight Active Bottom Nav Link Based on URL
-    const currentPath = window.location.pathname;
-    const navLinks = document.querySelectorAll(".bottom-nav a");
-    
-    navLinks.forEach(link => {
-        const href = link.getAttribute("href");
-        if (currentPath.includes(href) && href !== "") {
-            navLinks.forEach(item => item.classList.remove("active"));
-            link.classList.add("active");
-        }
-    });
-});
+    // ----- B. SIDEBAR LOGIC -----
+    const sidebar = document.getElementById("sidebar");
+    const menuBtn = document.getElementById("menuBtn");
+    const closeBtn = document.getElementById("closeBtn");
+    const overlay = document.getElementById("overlay");
 
 
-// ===========================
-// Sidebar Toggle Setup
-// ===========================
-const menuBtn = document.getElementById("menuBtn");
-const sidebar = document.getElementById("sidebar");
-const overlay = document.getElementById("overlay");
-
-
-if (menuBtn && sidebar && overlay) {
-    menuBtn.addEventListener("click", () => {
-        sidebar.classList.toggle("active");
-        overlay.classList.toggle("active");
-    });
-
-
-    overlay.addEventListener("click", () => {
-        sidebar.classList.remove("active");
-        overlay.classList.remove("active");
-    });
-}
-
-
-// ===========================
-// Dark Mode Setup & Storage
-// ===========================
-const themeBtn = document.getElementById("themeBtn");
-
-
-if (localStorage.getItem("theme") === "dark") {
-    document.body.classList.add("dark");
-    const icon = document.querySelector("#themeBtn i");
-    if (icon) {
-        icon.classList.remove("fa-moon");
-        icon.classList.add("fa-sun");
+    if (menuBtn && sidebar) {
+        menuBtn.addEventListener("click", () => {
+            sidebar.classList.add("active");
+            if (overlay) overlay.classList.add("active");
+        });
     }
-}
 
 
-if (themeBtn) {
-    themeBtn.addEventListener("click", () => {
-        document.body.classList.toggle("dark");
-        const icon = themeBtn.querySelector("i");
+    const closeSidebar = () => {
+        if (sidebar) sidebar.classList.remove("active");
+        if (overlay) overlay.classList.remove("active");
+    };
 
 
-        if (document.body.classList.contains("dark")) {
-            if (icon) {
-                icon.classList.remove("fa-moon");
-                icon.classList.add("fa-sun");
-            }
-            localStorage.setItem("theme", "dark");
-        } else {
-            if (icon) {
-                icon.classList.remove("fa-sun");
-                icon.classList.add("fa-moon");
-            }
-            localStorage.setItem("theme", "light");
-        }
-    });
-}
+    if (closeBtn) closeBtn.addEventListener("click", closeSidebar);
+    if (overlay) overlay.addEventListener("click", closeSidebar);
 
 
-// ===========================
-// Search Content Filter
-// ===========================
-const searchInput = document.querySelector(".search-box input");
+    // ----- C. DARK MODE LOGIC -----
+    const themeToggle = document.getElementById("themeToggle");
+    const currentTheme = localStorage.getItem("theme");
 
 
-if (searchInput) {
-    searchInput.addEventListener("keyup", function () {
-        const value = this.value.toLowerCase();
-        const cards = document.querySelectorAll(".class-card, .feature-card, #subjectsGrid .card");
+    if (currentTheme === "dark") {
+        document.body.classList.add("dark-mode");
+        if (themeToggle) themeToggle.innerHTML = '<i class="fa-solid fa-sun"></i>';
+    }
 
 
-        cards.forEach(card => {
-            const text = card.innerText.toLowerCase();
-            if (text.includes(value)) {
-                card.style.display = "flex";
+    if (themeToggle) {
+        themeToggle.addEventListener("click", () => {
+            document.body.classList.toggle("dark-mode");
+            if (document.body.classList.contains("dark-mode")) {
+                localStorage.setItem("theme", "dark");
+                themeToggle.innerHTML = '<i class="fa-solid fa-sun"></i>';
             } else {
-                card.style.display = "none";
+                localStorage.setItem("theme", "light");
+                themeToggle.innerHTML = '<i class="fa-solid fa-moon"></i>';
             }
         });
-    });
-}
-
-
-// ===========================
-// Intersection Fade Observers
-// ===========================
-const observer = new IntersectionObserver((entries) => {
-    entries.forEach(entry => {
-        if (entry.isIntersecting) {
-            entry.target.classList.add("fade-up");
-        }
-    });
-}, {
-    threshold: 0.1
-});
-
-
-document.querySelectorAll(".class-card, .feature-card, .motivation-box").forEach((el) => {
-    observer.observe(el);
-});
-
-
-// Manual click fallback for active classes
-document.querySelectorAll(".bottom-nav a").forEach(link => {
-    link.addEventListener("click", function() {
-        document.querySelectorAll(".bottom-nav a").forEach(item => item.classList.remove("active"));
-        this.classList.add("active");
-    });
-});
-
-
-// ===========================
-// Smooth Page Anchors Scroll
-// ===========================
-document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-    anchor.addEventListener("click", function (e) {
-        const target = document.querySelector(this.getAttribute("href"));
-        if (target) {
-            e.preventDefault();
-            target.scrollIntoView({
-                behavior: "smooth"
-            });
-        }
-    });
-});
-
-
-// Dismiss Drawer Panel
-document.querySelectorAll("#sidebar a").forEach(link => {
-    link.addEventListener("click", () => {
-        if (sidebar && overlay) {
-            sidebar.classList.remove("active");
-            overlay.classList.remove("active");
-        }
-    });
-});
-
-
-// Scroll Header State
-window.addEventListener("scroll", () => {
-    if (window.scrollY > 200) {
-        document.body.classList.add("scrolled");
-    } else {
-        document.body.classList.remove("scrolled");
     }
-});
 
 
-// ==========================================
-// Dynamic Class/Subject Engine (With SEO Integration)
-// ==========================================
-if (window.location.pathname.includes("class.html") || window.location.pathname.includes("class_2.html")) {
-    const params = new URLSearchParams(window.location.search);
-    const classNo = params.get("class");
+    // ==========================================
+    // 4. GOOGLE SEO & DYNAMIC CONTENT ENGINE
+    // ==========================================
+    const urlParams = new URLSearchParams(window.location.search);
+    const selectedClass = urlParams.get('class');     
+    const selectedSubject = urlParams.get('subject'); 
 
 
-    if (classNo) {
-        const titleEl = document.getElementById("classTitle");
-        if (titleEl) titleEl.textContent = `Class ${classNo}`;
+    // --- CASE 1: SUBJECTS PAGE (class.html) ---
+    const subjectsGrid = document.getElementById("subjectsGrid");
+    const classTitle = document.getElementById("classTitle");
 
 
-        // 🔥 SEO Setup for Class Page
-        document.title = `JAC Board Class ${classNo} Complete Study Material | JacVerse`;
-        let metaDesc = document.querySelector('meta[name="description"]');
-        if (!metaDesc) {
-            metaDesc = document.createElement('meta');
-            metaDesc.setAttribute('name', 'description');
-            document.head.appendChild(metaDesc);
-        }
-        metaDesc.setAttribute('content', `Get JAC Board Class ${classNo} all subjects solutions, text books name, chapter notes, online MCQ tests, and key study resources.`);
+    if (subjectsGrid && selectedClass) {
+        const classKey = "class" + selectedClass;
+        
+        const seoTitle = `JAC Board Class ${selectedClass} Textbooks & Solutions`;
+        const seoDesc = `Download JAC Board Class ${selectedClass} complete study material, syllabus, notes, and textbook answers for all major subjects.`;
+        updateSEO(seoTitle, seoDesc);
 
 
-        fetch("./database_2.json") // Sahi relative path kiya gaya hai
-            .then(res => res.json())
-            .then(data => {
-                const grid = document.getElementById("subjectsGrid");
-                const targetKey = `class${classNo}`;
+        if (classTitle) classTitle.innerText = `कक्षा ${selectedClass} - विषय सूची`;
+        
+        subjectsGrid.innerHTML = ""; 
+        const subjects = jacData[classKey];
+        
+        if (subjects && Object.keys(subjects).length > 0) {
+            Object.keys(subjects).forEach(subKey => {
+                const subjectData = subjects[subKey];
                 
-                if (grid && data[targetKey]) {
-                    const subjects = data[targetKey];
-                    grid.innerHTML = "";
-
-
-                    const iconMap = {
-                        "mathematics": "📐",
-                        "science": "🔬",
-                        "hindi_kshitij": "📖",
-                        "hindi_kritika": "📚",
-                        "english_beehive": "🎨",
-                        "english_first_flight": "🦅",
-                        "english_moments": "⌛",
-                        "english_footprints": "👣",
-                        "social_science_history": "⏳",
-                        "social_science_geography": "🌍",
-                        "social_science_civics": "⚖️",
-                        "social_science_economics": "💰"
-                    };
-
-
-                    for (let key in subjects) {
-                        const subjectData = subjects[key];
-                        const icon = iconMap[key] || "📘";
-                        const engName = key.replace(/_/g, ' ').toUpperCase();
-                        
-                        grid.innerHTML += `
-                            <a href="chapters.html?class=${classNo}&subject=${key}" class="card">
-                                <h2><span>${icon}</span> ${engName}</h2>
-                                <p>${subjectData.bookName}</p>
-                            </a>
-                        `;
-                    }
-                }
-            })
-            .catch(err => console.error("Database loading error:", err));
-    }
-}
-
-
-// ==========================================
-// Dynamic Chapters Loader Engine (With Pure Google SEO)
-// ==========================================
-if (window.location.pathname.includes("chapters.html")) {
-    const params = new URLSearchParams(window.location.search);
-    const classNo = params.get("class");
-    const subjectKey = params.get("subject");
-
-
-    if (classNo && subjectKey) {
-        const classContextEl = document.getElementById("classContext");
-        if (classContextEl) classContextEl.textContent = `JAC Board Class ${classNo}`;
-
-
-        fetch("./database_2.json") // Sahi relative path kiya gaya hai
-            .then(res => res.json())
-            .then(data => {
-                // Handle both structures: "class10" or just "10"
-                const targetClass = data[`class${classNo}`] ? `class${classNo}` : classNo;
-                const subjectData = data[targetClass] ? data[targetClass][subjectKey] : null;
-                const container = document.getElementById("chaptersList");
-
-
-                if (container && subjectData) {
-                    const readableSubject = subjectKey.replace(/_/g, ' ').toUpperCase();
-                    const bookNameHindi = subjectData.bookName || "Study Material";
-
-
-                    // 🔥 DYNAMIC GOOGLE SEO INJECTION START
-                    document.title = `JAC Board Class ${classNo} ${readableSubject} (${bookNameHindi}) Notes, MCQs & PYQs | JacVerse`;
-
-
-                    let metaDesc = document.querySelector('meta[name="description"]');
-                    if (!metaDesc) {
-                        metaDesc = document.createElement('meta');
-                        metaDesc.setAttribute('name', 'description');
-                        document.head.appendChild(metaDesc);
-                    }
-                    metaDesc.setAttribute('content', `Download JAC Board Class ${classNo} ${bookNameHindi} (${readableSubject}) chapter-wise complete notes, important question answers, online MCQ tests, and previous year papers.`);
-                    // 🔥 DYNAMIC GOOGLE SEO INJECTION END
-
-
-                    // Update Headers in UI
-                    document.getElementById("subjectTitle").textContent = readableSubject;
-                    document.getElementById("bookSubTitle").textContent = bookNameHindi;
-                    
-                    container.innerHTML = "";
-
-
-                    // Extracting chapters based on json format
-                    let chaptersArray = [];
-                    if (subjectData.chapters) {
-                        chaptersArray = subjectData.chapters;
-                    } else {
-                        if (subjectData.gadya) chaptersArray = chaptersArray.concat(subjectData.gadya);
-                        if (subjectData.kavya) chaptersArray = chaptersArray.concat(subjectData.kavya);
-                        if (subjectData.prose) chaptersArray = chaptersArray.concat(subjectData.prose);
-                        if (subjectData.poems) chaptersArray = chaptersArray.concat(subjectData.poems);
-                    }
-
-
-                    if (chaptersArray.length === 0) {
-                        container.innerHTML = `<p style="text-align:center; color:#94a3b8;">कोई अध्याय नहीं मिला।</p>`;
-                        return;
-                    }
-
-
-                    // Render Chapters exactly as original UI layout
-                    chaptersArray.forEach((ch, index) => {
-                        container.innerHTML += `
-                            <div class="chapter-card">
-                                <h3><span>Ch ${ch.id || index + 1}</span> ${ch.title}</h3>
-                                <div class="resource-grid">
-                                    <a href="view.html?class=${classNo}&subject=${subjectKey}&id=${ch.id || (index+1)}&type=notes" class="res-btn">
-                                        <i class="fa-solid fa-file-pdf" style="color:#ef4444;"></i> नोट्स
-                                    </a>
-                                    <a href="view.html?class=${classNo}&subject=${subjectKey}&id=${ch.id || (index+1)}&type=mcq" class="res-btn">
-                                        <i class="fa-solid fa-circle-check" style="color:#22c55e;"></i> MCQ Test
-                                    </a>
-                                    <a href="view.html?class=${classNo}&subject=${subjectKey}&id=${ch.id || (index+1)}&type=qa" class="res-btn">
-                                        <i class="fa-solid fa-pen-to-square" style="color:#eab308;"></i> Q&A
-                                    </a>
-                                </div>
-                            </div>
-                        `;
-                    });
-                } else {
-                    if (container) container.innerHTML = `<p style="text-align:center; color:#94a3b8;">डाटा खोजने में समस्या आई। कृपया database_2.json जांचें।</p>`;
-                }
-            })
-            .catch(err => {
-                console.error("Chapters fetching error:", err);
-                const container = document.getElementById("chaptersList");
-                if (container) container.innerHTML = `<p style="text-align:center; color:#ef4444;">त्रुटि: डाटा लोड नहीं हो सका।</p>`;
+                const card = document.createElement("a");
+                card.className = "card animate-card";
+                card.href = `chapters.html?class=${selectedClass}&subject=${subKey}`;
+                card.innerHTML = `
+                    <div class="card-icon" aria-hidden="true"><i class="fa-solid fa-book-open"></i></div>
+                    <h2>${subjectData.bookName}</h2>
+                    <p class="sub-tag">${subKey.toUpperCase()}</p>
+                `;
+                subjectsGrid.appendChild(card);
             });
+        } else {
+            subjectsGrid.innerHTML = `<div class="error-msg"><p>डेटा उपलब्ध नहीं है।</p></div>`;
+        }
     }
-}
+
+
+    // --- CASE 2: CHAPTERS PAGE (chapters.html) ---
+    const chaptersList = document.getElementById("chaptersList");
+    const subjectTitle = document.getElementById("subjectTitle");
+    const bookSubTitle = document.getElementById("bookSubTitle");
+    const classContext = document.getElementById("classContext");
+
+
+    if (chaptersList && selectedClass && selectedSubject) {
+        const classKey = "class" + selectedClass;
+        const subjectData = jacData[classKey]?.[selectedSubject];
+
+
+        if (subjectData) {
+            const formattedSubName = selectedSubject.charAt(0).toUpperCase() + selectedSubject.slice(1);
+            
+            const seoTitle = `JAC Board Class ${selectedClass} ${formattedSubName} PDF Notes & Videos`;
+            const seoDesc = `Free Chapter-wise PDF Notes, 1-Shot Revision Videos, and Important Q&A for JAC Board Class ${selectedClass} ${subjectData.bookName}.`;
+            updateSEO(seoTitle, seoDesc);
+
+
+            if (subjectTitle) subjectTitle.innerText = selectedSubject.toUpperCase();
+            if (bookSubTitle) bookSubTitle.innerText = subjectData.bookName;
+            if (classContext) classContext.innerText = `JAC Board Class ${selectedClass} Quality Content`;
+
+
+            chaptersList.innerHTML = ""; 
+
+
+            subjectData.chapters.forEach(chap => {
+                const chapCard = document.createElement("article"); 
+                chapCard.className = "chapter-card";
+                chapCard.innerHTML = `
+                    <h3><span>अध्याय ${chap.id}</span> ${chap.title}</h3>
+                    <div class="resource-grid">
+                        <a href="${chap.notes || '#'}" class="res-btn notes-btn" target="_blank" rel="noopener" title="${chap.title} Class ${selectedClass} PDF Notes">
+                            <i class="fa-solid fa-file-pdf"></i> PDF Notes
+                        </a>
+                        <a href="${chap.revision || '#'}" class="res-btn video-btn" title="${chap.title} Class ${selectedClass} Lecture Video">
+                            <i class="fa-solid fa-bolt"></i> 1-Shot Video
+                        </a>
+                        <a href="${chap.qa || '#'}" class="res-btn qa-btn" title="${chap.title} Class ${selectedClass} Questions Answers">
+                            <i class="fa-solid fa-question-circle"></i> Imp Q&A
+                        </a>
+                    </div>
+                `;
+                chaptersList.appendChild(chapCard);
+            });
+        } else {
+            chaptersList.innerHTML = `<div class="error-msg"><p>जल्द ही अपलोड किया जाएगा।</p></div>`;
+        }
+    }
+});

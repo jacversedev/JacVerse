@@ -1,26 +1,36 @@
 ﻿/* ===================================
-   JACVERSE V2 FINAL (FAST LOAD FIX)
+   JACVERSE V2 FINAL (NAVIGATION FIX)
    SCRIPT.JS
-   PART 1
 =================================== */
 
 
-// ===========================
-// Loader (Instant Load Fix)
-// ===========================
 document.addEventListener("DOMContentLoaded", () => {
+    // 1. Loader Logic
     const loader = document.getElementById("loader");
     if (loader) {
         loader.style.opacity = "0";
         setTimeout(() => {
             loader.style.display = "none";
-        }, 300); // Fast fade out
+        }, 300);
     }
+
+
+    // 2. Auto Highlight Active Bottom Nav Link Based on URL
+    const currentPath = window.location.pathname;
+    const navLinks = document.querySelectorAll(".bottom-nav a");
+    
+    navLinks.forEach(link => {
+        const href = link.getAttribute("href");
+        if (currentPath.includes(href) && href !== "") {
+            navLinks.forEach(item => item.classList.remove("active"));
+            link.classList.add("active");
+        }
+    });
 });
 
 
 // ===========================
-// Sidebar
+// Sidebar Toggle Setup
 // ===========================
 const menuBtn = document.getElementById("menuBtn");
 const sidebar = document.getElementById("sidebar");
@@ -42,12 +52,11 @@ if (menuBtn && sidebar && overlay) {
 
 
 // ===========================
-// Dark Mode Toggle & Save
+// Dark Mode Setup & Storage
 // ===========================
 const themeBtn = document.getElementById("themeBtn");
 
 
-// Page load par local storage check karna
 if (localStorage.getItem("theme") === "dark") {
     document.body.classList.add("dark");
     const icon = document.querySelector("#themeBtn i");
@@ -81,15 +90,8 @@ if (themeBtn) {
 }
 
 
-/* ===================================
-   JACVERSE V2 FINAL
-   SCRIPT.JS
-   PART 2
-=================================== */
-
-
 // ===========================
-// Search
+// Search Content Filter
 // ===========================
 const searchInput = document.querySelector(".search-box input");
 
@@ -97,13 +99,13 @@ const searchInput = document.querySelector(".search-box input");
 if (searchInput) {
     searchInput.addEventListener("keyup", function () {
         const value = this.value.toLowerCase();
-        const cards = document.querySelectorAll(".class-card, .feature-card");
+        const cards = document.querySelectorAll(".class-card, .feature-card, #subjectsGrid .card");
 
 
         cards.forEach(card => {
             const text = card.innerText.toLowerCase();
             if (text.includes(value)) {
-                card.style.display = "block";
+                card.style.display = "flex";
             } else {
                 card.style.display = "none";
             }
@@ -113,7 +115,7 @@ if (searchInput) {
 
 
 // ===========================
-// Fade Animation
+// Intersection Fade Observers
 // ===========================
 const observer = new IntersectionObserver((entries) => {
     entries.forEach(entry => {
@@ -122,7 +124,7 @@ const observer = new IntersectionObserver((entries) => {
         }
     });
 }, {
-    threshold: 0.2
+    threshold: 0.1
 });
 
 
@@ -131,29 +133,17 @@ document.querySelectorAll(".class-card, .feature-card, .motivation-box").forEach
 });
 
 
-// ===========================
-// Active Bottom Navigation
-// ===========================
-const navLinks = document.querySelectorAll(".bottom-nav a");
-
-
-navLinks.forEach(link => {
-    link.addEventListener("click", () => {
-        navLinks.forEach(item => item.classList.remove("active"));
-        link.classList.add("active");
+// Manual click fallback for active classes
+document.querySelectorAll(".bottom-nav a").forEach(link => {
+    link.addEventListener("click", function() {
+        document.querySelectorAll(".bottom-nav a").forEach(item => item.classList.remove("active"));
+        this.classList.add("active");
     });
 });
 
 
-/* ===================================
-   JACVERSE V2 FINAL
-   SCRIPT.JS
-   PART 3
-=================================== */
-
-
 // ===========================
-// Smooth Scroll
+// Smooth Page Anchors Scroll
 // ===========================
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener("click", function (e) {
@@ -168,9 +158,7 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 });
 
 
-// ===========================
-// Close Sidebar After Click
-// ===========================
+// Dismiss Drawer Panel
 document.querySelectorAll("#sidebar a").forEach(link => {
     link.addEventListener("click", () => {
         if (sidebar && overlay) {
@@ -181,9 +169,7 @@ document.querySelectorAll("#sidebar a").forEach(link => {
 });
 
 
-// ===========================
-// Scroll To Top
-// ===========================
+// Scroll Header State
 window.addEventListener("scroll", () => {
     if (window.scrollY > 200) {
         document.body.classList.add("scrolled");
@@ -194,7 +180,7 @@ window.addEventListener("scroll", () => {
 
 
 // ===========================
-// Dynamic Class Page
+// Dynamic Class/Subject Engine
 // ===========================
 if (window.location.pathname.includes("class.html")) {
     const params = new URLSearchParams(window.location.search);
@@ -202,33 +188,51 @@ if (window.location.pathname.includes("class.html")) {
 
 
     if (classNo) {
+        const titleEl = document.getElementById("classTitle");
+        if (titleEl) titleEl.textContent = `Class ${classNo}`;
+
+
         fetch("database.json")
             .then(res => res.json())
             .then(data => {
-                const titleEl = document.getElementById("classTitle");
-                if (titleEl) titleEl.textContent = `Class ${classNo}`;
-
-
                 const grid = document.getElementById("subjectsGrid");
-                if (grid && data[`class${classNo}`]) {
-                    const subjects = data[`class${classNo}`].subjects;
+                const targetKey = `class${classNo}`;
+                
+                if (grid && data[targetKey]) {
+                    const subjects = data[targetKey];
                     grid.innerHTML = "";
 
 
+                    const iconMap = {
+                        "mathematics": "📐",
+                        "science": "🔬",
+                        "hindi_kshitij": "📖",
+                        "hindi_kritika": "📚",
+                        "english_beehive": "🎨",
+                        "english_first_flight": "🦅",
+                        "english_moments": "⌛",
+                        "english_footprints": "👣",
+                        "social_science_history": "⏳",
+                        "social_science_geography": "🌍",
+                        "social_science_civics": "⚖️",
+                        "social_science_economics": "💰"
+                    };
+
+
                     for (let key in subjects) {
+                        const subjectData = subjects[key];
+                        const icon = iconMap[key] || "📘";
+                        const engName = key.replace(/_/g, ' ').toUpperCase();
+                        
                         grid.innerHTML += `
-                            <a href="#" class="card">
-                                <h2>${subjects[key].icon} ${subjects[key].name}</h2>
-                                <p>${subjects[key].hindi}</p>
+                            <a href="chapters.html?class=${classNo}&subject=${key}" class="card">
+                                <h2><span>${icon}</span> ${engName}</h2>
+                                <p>${subjectData.bookName}</p>
                             </a>
                         `;
                     }
                 }
             })
-            .catch(err => console.error("Error loading database:", err));
+            .catch(err => console.error("Database loading error:", err));
     }
 }
-
-
-// Console Message
-console.log("%c🚀 JacVerse V2 Loaded Successfully with Navigation Fix!", "color:#2563eb;font-size:18px;font-weight:bold;");

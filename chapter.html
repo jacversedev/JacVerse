@@ -1,1 +1,186 @@
+﻿<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <!-- Basic Meta Tags for Google SEO -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Fallback SEO Titles (JavaScript isko dynamic update kar dega Google ke liye) -->
+    <title>JAC Board Class 9 & 10 Chapter-wise Study Materials | JacVerse</title>
+    <meta name="description" content="Get JAC Board Class 9 and 10 complete notes, important question answers, online MCQ mock tests, and previous year question papers on JacVerse.">
+    <meta name="keywords" content="JAC Board, Class 10 Notes, Class 9 MCQs, Jharkhand Board, JacVerse, JAC Board Syllabus">
+    <link rel="canonical" href="https://jacversedev.github.io/JacVerse/chapters.html" />
 
+
+    <!-- Google Font & FontAwesome Icons -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+
+    <!-- Linking your main stylesheet -->
+    <link rel="stylesheet" href="style.css">
+
+
+    <style>
+        /* Premium Chapter List UI Design - Matching your App Layout */
+        .chapter-container {
+            width: 100%;
+            max-width: 480px;
+            margin: 0 auto 30px auto;
+            padding: 0 15px;
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+
+
+        .chapter-card {
+            background: linear-gradient(145deg, rgba(30, 41, 59, 0.7), rgba(15, 23, 42, 0.8));
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            border-radius: 16px;
+            padding: 16px;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.2);
+            transition: all 0.25s ease;
+        }
+
+
+        .chapter-card h3 {
+            font-size: 16px;
+            color: #ffffff;
+            margin-bottom: 12px;
+            display: flex;
+            align-items: flex-start;
+            gap: 8px;
+            line-height: 1.4;
+        }
+
+
+        .chapter-card h3 span {
+            background: #2563eb;
+            color: #fff;
+            font-size: 11px;
+            padding: 2px 6px;
+            border-radius: 6px;
+            font-weight: 700;
+        }
+
+
+        .resource-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 8px;
+        }
+
+
+        .res-btn {
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            color: #94a3b8;
+            padding: 8px 4px;
+            border-radius: 8px;
+            font-size: 12px;
+            font-weight: 500;
+            text-align: center;
+            text-decoration: none;
+            transition: all 0.2s ease;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 4px;
+        }
+
+
+        .res-btn i {
+            font-size: 14px;
+        }
+
+
+        .res-btn:active, .res-btn:hover {
+            background: #2563eb;
+            color: #fff;
+            border-color: #38bdf8;
+        }
+    </style>
+</head>
+<body>
+
+
+<!-- Loader Section -->
+<div class="loader" id="loader">
+    <div class="book-loader">
+        <span></span><span></span><span></span>
+    </div>
+</div>
+
+
+<div class="bg-blur"></div>
+
+
+<!-- App Header with Dynamic Title Back Button -->
+<header>
+    <nav class="navbar">
+        <div class="left-nav">
+            <button onclick="history.back()" style="background:none; border:none; color:inherit; font-size:1.2rem; cursor:pointer; margin-right:10px;">
+                <i class="fa-solid fa-arrow-left"></i>
+            </button>
+            <div class="logo">
+                <div class="logo-box">JV</div>
+                <div>
+                    <h2 id="subjectTitle">Chapters</h2>
+                    <p id="bookSubTitle">Study Materials</p>
+                </div>
+            </div>
+        </div>
+        <div class="right-nav">
+            <button id="themeBtn"><i class="fa-solid fa-moon"></i></button>
+        </div>
+    </nav>
+</header>
+
+
+<!-- Main Dynamic Area -->
+<main style="margin-top: 80px; padding-bottom: 90px;">
+
+
+    <!-- Context Info Section -->
+    <section style="padding: 0 15px; margin-bottom: 20px;">
+        <div class="hero-glass" style="padding: 20px; text-align: center; max-width: 480px; margin: 0 auto;">
+            <p style="font-size: 13px; color: #38bdf8; font-weight: 600;" id="classContext">JAC Board Learning</p>
+            <h2 style="font-size: 20px; font-weight: 800; margin-top: 4px; color: #fff;">📚 अध्याय सूची (Chapters List)</h2>
+        </div>
+    </section>
+
+
+    <!-- Chapters Target Container (JavaScript yahan data generate karega) -->
+    <section class="chapter-container" id="chaptersList">
+        <p style="text-align:center; color:#94a3b8;">अध्याय लोड हो रहे हैं...</p>
+    </section>
+
+
+    <!-- Footer -->
+    <footer class="footer" style="max-width: 480px; margin: 0 auto; padding: 20px 0;">
+        <div class="copyright" style="border: none; padding: 0;">
+            © 2026 JacVerse | Learn Smart 🚀
+        </div>
+    </footer>
+
+
+</main>
+
+
+<!-- Bottom Navigation Bar Map -->
+<nav class="bottom-nav">
+    <a href="index.html"><i class="fa-solid fa-house"></i><span>Home</span></a>
+    <a href="updates.html"><i class="fa-solid fa-bullhorn"></i><span>Updates</span></a>
+    <a href="mcq.html"><i class="fa-solid fa-circle-question"></i><span>MCQ</span></a>
+    <a href="pyq.html"><i class="fa-solid fa-file-lines"></i><span>PYQ</span></a>
+    <a href="store.html"><i class="fa-solid fa-store"></i><span>Store</span></a>
+</nav>
+
+
+<!-- Main JS Application Logic -->
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,290 +1,282 @@
 ﻿{
   "class9": {
     "mathematics": {
-      "bookName": "गणित",
+      "bookName": "गणित (NCERT)",
       "chapters": [
-        { "id": 1, "title": "संख्या पद्धति", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
-        { "id": 2, "title": "बहुपद", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
-        { "id": 3, "title": "निर्देशांक ज्यामिति", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
-        { "id": 4, "title": "दो चरों वाले रैखिक समीकरण", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
-        { "id": 5, "title": "यूक्लिड की ज्यामिति का परिचय", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
-        { "id": 6, "title": "रेखाएँ और कोण", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
-        { "id": 7, "title": "त्रिभुज", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
-        { "id": 8, "title": "चतुर्भुज", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
-        { "id": 9, "title": "वृत्त", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
-        { "id": 10, "title": "हेरॉन का सूत्र", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
-        { "id": 11, "title": "पृष्ठीय क्षेत्रफल और आयतन", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
-        { "id": 12, "title": "सांख्यिकी", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" }
+        { "id": 1, "title": "संख्या पद्धति", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "2026-07-19", "seoTitle": "JAC Board Class 9 Maths Chapter 1 संख्या पद्धति Notes & MCQs", "seoDescription": "Get complete JAC Board Class 9 Mathematics Chapter 1 Number System solutions, short notes, and online test." },
+        { "id": 2, "title": "बहुपद", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "2026-07-19", "seoTitle": "JAC Board Class 9 Maths Chapter 2 बहुपद Notes & PYQs", "seoDescription": "Download JAC Board Class 9 Mathematics Chapter 2 Polynomials question answers and chapter notes." },
+        { "id": 3, "title": "निर्देशांक ज्यामिति", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "2026-07-19", "seoTitle": "JAC Board Class 9 Maths Chapter 3 निर्देशांक ज्यामिति Material", "seoDescription": "Class 9 Maths Chapter 3 Coordinate Geometry important questions and solved notes for Jharkhand Board." },
+        { "id": 4, "title": "दो चरों वाले रैखिक समीकरण", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "2026-07-19", "seoTitle": "JAC Board Class 9 Maths Chapter 4 रैखिक समीकरण Study Guide", "seoDescription": "Linear Equations in Two Variables Class 9 Notes and online MCQ practice sheet for JAC Board exam." },
+        { "id": 5, "title": "यूक्लिड की ज्यामिति का परिचय", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "2026-07-19", "seoTitle": "JAC Board Class 9 Maths Chapter 5 यूक्लिड की ज्यामिति", "seoDescription": "Introduction to Euclid's Geometry Class 9 solutions and important objectives for Jharkhand Board." },
+        { "id": 6, "title": "रेखाएँ और कोण", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "2026-07-19", "seoTitle": "JAC Board Class 9 Maths Chapter 6 रेखाएँ और कोण Solutions", "seoDescription": "Lines and Angles Class 9 revision notes and model question answers for JAC board students." },
+        { "id": 7, "title": "त्रिभुज", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "2026-07-19", "seoTitle": "JAC Board Class 9 Maths Chapter 7 त्रिभुज Notes & Mock Test", "seoDescription": "Triangles Class 9 complete solutions, theorems, and previous year board questions." },
+        { "id": 8, "title": "चतुर्भुज", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "2026-07-19", "seoTitle": "JAC Board Class 9 Maths Chapter 8 चतुर्भुज Notes", "seoDescription": "Quadrilaterals Class 9 geometry concepts, definitions, and practice worksheets for JAC Exam." },
+        { "id": 9, "title": "वृत्त", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "2026-07-19", "seoTitle": "JAC Board Class 9 Maths Chapter 9 वृत्त Important Questions", "seoDescription": "Circles Class 9 textbook answers, key formulas, and online practice test options." },
+        { "id": 10, "title": "हेरॉन का सूत्र", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "2026-07-19", "seoTitle": "JAC Board Class 9 Maths Chapter 10 हेरॉन का सूत्र Notes", "seoDescription": "Heron's Formula Class 9 math formulas and step-by-step solutions for JAC Board." },
+        { "id": 11, "title": "पृष्ठीय क्षेत्रफल और आयतन", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "2026-07-19", "seoTitle": "JAC Board Class 9 Maths Chapter 11 क्षेत्रफल और आयतन", "seoDescription": "Surface Areas and Volumes Class 9 chapter summary and formula bank for board exams." },
+        { "id": 12, "title": "सांख्यिकी", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "2026-07-19", "seoTitle": "JAC Board Class 9 Maths Chapter 12 सांख्यिकी Notes", "seoDescription": "Statistics Class 9 textbook question bank and descriptive answers for JAC board." }
       ]
     },
     "science": {
-      "bookName": "विज्ञान",
+      "bookName": "विज्ञान (NCERT)",
       "chapters": [
-        { "id": 1, "title": "हमारे आस-पास के पदार्थ", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
-        { "id": 2, "title": "क्या हमारे आस-पास के पदार्थ शुद्ध हैं", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
-        { "id": 3, "title": "परमाणु एवं अणु", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
-        { "id": 4, "title": "परमाणु की संरचना", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
-        { "id": 5, "title": "जीवन की मौलिक इकाई", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
-        { "id": 6, "title": "ऊतक", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
-        { "id": 7, "title": "गति", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
-        { "id": 8, "title": "बल तथा गति के नियम", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
-        { "id": 9, "title": "गुरुत्वाकर्षण", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
-        { "id": 10, "title": "कार्य तथा ऊर्जा", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
-        { "id": 11, "title": "ध्वनि", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
-        { "id": 12, "title": "खाद्य संसाधनों में सुधार", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" }
+        { "id": 1, "title": "हमारे आस-पास के पदार्थ", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "2026-07-19", "seoTitle": "JAC Board Class 9 Science Chapter 1 हमारे आस-पास के पदार्थ", "seoDescription": "Matter in Our Surroundings Class 9 Science notes and dynamic objective test sheets." },
+        { "id": 2, "title": "क्या हमारे आस-पास के पदार्थ शुद्ध हैं", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "2026-07-19", "seoTitle": "JAC Board Class 9 Science Chapter 2 Is Matter Around Us Pure", "seoDescription": "Is Matter Around Us Pure Class 9 chapter solutions and board model questions." },
+        { "id": 3, "title": "परमाणु एवं अणु", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "2026-07-19", "seoTitle": "JAC Board Class 9 Science Chapter 3 परमाणु एवं अणु Notes", "seoDescription": "Atoms and Molecules Class 9 basic chemistry notes and numerical formulas for JAC Board." },
+        { "id": 4, "title": "परमाणु की संरचना", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "2026-07-19", "seoTitle": "JAC Board Class 9 Science Chapter 4 परमाणु की संरचना Guide", "seoDescription": "Structure of the Atom Class 9 model explanations and question answers set." },
+        { "id": 5, "title": "जीवन की मौलिक इकाई", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "2026-07-19", "seoTitle": "JAC Board Class 9 Science Chapter 5 जीवन की मौलिक इकाई", "seoDescription": "The Fundamental Unit of Life Class 9 biology structure and cell notes." },
+        { "id": 6, "title": "ऊतक", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "2026-07-19", "seoTitle": "JAC Board Class 9 Science Chapter 6 ऊतक Notes & MCQs", "seoDescription": "Tissues Class 9 brief notes, plant and animal tissue classification summaries." },
+        { "id": 7, "title": "गति", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "2026-07-19", "seoTitle": "JAC Board Class 9 Science Chapter 7 गति Physics Notes", "seoDescription": "Motion Class 9 physics formula guides, numerical keys, and question answers." },
+        { "id": 8, "title": "बल तथा गति के नियम", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "2026-07-19", "seoTitle": "JAC Board Class 9 Science Chapter 8 बल तथा गति के नियम", "seoDescription": "Force and Laws of Motion Class 9 notes and important derivations for JAC." },
+        { "id": 9, "title": "गुरुत्वाकर्षण", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "2026-07-19", "seoTitle": "JAC Board Class 9 Science Chapter 9 गुरुत्वाकर्षण Answers", "seoDescription": "Gravitation Class 9 definition, laws, and solved terminal numerical problems." },
+        { "id": 10, "title": "कार्य तथा ऊर्जा", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "2026-07-19", "seoTitle": "JAC Board Class 9 Science Chapter 10 कार्य तथा ऊर्जा Notes", "seoDescription": "Work and Energy Class 9 detailed theory, kinetic & potential energy notes." },
+        { "id": 11, "title": "ध्वनि", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "2026-07-19", "seoTitle": "JAC Board Class 9 Science Chapter 11 ध्वनि Notes & Mock Test", "seoDescription": "Sound Class 9 characteristics, echo, ultrasound structures for JAC Board." },
+        { "id": 12, "title": "खाद्य संसाधनों में सुधार", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "2026-07-19", "seoTitle": "JAC Board Class 9 Science Chapter 12 खाद्य संसाधन Notes", "seoDescription": "Improvement in Food Resources Class 9 agriculture and animal husbandry notes." }
       ]
     },
     "hindi_kshitij": {
       "bookName": "क्षितिज (भाग 1)",
-      "gadya": [
-        { "id": 1, "title": "दो बैलों की कथा", "author": "प्रेमचंद", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
-        { "id": 2, "title": "ल्हासा की ओर", "author": "राहुल सांकृत्यायन", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
-        { "id": 3, "title": "उपभोक्तावाद की संस्कृति", "author": "श्यामाचरण दुबे", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
-        { "id": 4, "title": "साँवले सपनों की याद", "author": "जाबिर हुसैन", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
-        { "id": 5, "title": "प्रेमचंद के फटे जूते", "author": "हरिशंकर परसाई", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
-        { "id": 6, "title": "मेरे बचपन के दिन", "author": "महादेवी वर्मा", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" }
-      ],
-      "kavya": [
-        { "id": 1, "title": "साखियाँ एवं सबद", "author": "कबीर", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
-        { "id": 2, "title": "वाख", "author": "ललद्यद", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
-        { "id": 3, "title": "सवैये", "author": "रसखान", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
-        { "id": 4, "title": "कैदी और कोकिला", "author": "माखनलाल चतुर्वेदी", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
-        { "id": 5, "title": "ग्राम श्री", "author": "सुमित्रानंदन पंत", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
-        { "id": 6, "title": "मेघ आए", "author": "सर्वेश्वर दयाल सक्सेना", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
-        { "id": 7, "title": "यमराज की दिशा", "author": "चंद्रकांत देवताले", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" }
+      "chapters": [
+        { "id": 1, "title": "दो बैलों की कथा (गद्य)", "author": "प्रेमचंद", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "2026-07-19", "seoTitle": "JAC Class 9 Hindi Chapter 1 दो बैलों की कथा Notes", "seoDescription": "Do Bailon Ki Katha Class 9 summary and question answers for JAC Board." },
+        { "id": 2, "title": "ल्हासा की ओर (गद्य)", "author": "राहुल सांकृत्यायन", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "2026-07-19", "seoTitle": "JAC Class 9 Hindi Chapter 2 ल्हासा की ओर Analysis", "seoDescription": "Lhasa Ki Aur Class 9 detailed summary and character sketches." },
+        { "id": 3, "title": "उपभोक्तावाद की संस्कृति (गद्य)", "author": "श्यामाचरण दुबे", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "2026-07-19", "seoTitle": "JAC Class 9 Hindi Chapter 3 उपभोक्तावाद की संस्कृति", "seoDescription": "Upbhoktavad Ki Sanskriti Class 9 explanation and question answers." },
+        { "id": 4, "title": "साँवले सपनों की याद (गद्य)", "author": "जाबिर हुसैन", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "2026-07-19", "seoTitle": "JAC Class 9 Hindi Chapter 4 साँवले सपनों की याद Notes", "seoDescription": "Sanwle Sapnon Ki Yaad Class 9 full chapter description and solutions." },
+        { "id": 5, "title": "प्रेमचंद के फटे जूते (गद्य)", "author": "हरिशंकर परसाई", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "2026-07-19", "seoTitle": "JAC Class 9 Hindi Chapter 5 प्रेमचंद के फटे जूते Answers", "seoDescription": "Premchand Ke Phate Joote Class 9 satire explanation and model answers." },
+        { "id": 6, "title": "मेरे बचपन के दिन (गद्य)", "author": "महादेवी वर्मा", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "2026-07-19", "seoTitle": "JAC Class 9 Hindi Chapter 6 मेरे बचपन के दिन Material", "seoDescription": "Mere Bachpan Ke Din Class 9 autobiography notes and summary." },
+        { "id": 7, "title": "साखियाँ एवं सबद (काव्य)", "author": "कबीर", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "2026-07-19", "seoTitle": "JAC Class 9 Hindi Chapter 7 साखियाँ एवं सबद व्याख्या", "seoDescription": "Kabir Ke Sabad Aur Sakhiyaan Class 9 standard explanations and question answers." },
+        { "id": 8, "title": "वाख (काव्य)", "author": "ललद्यद", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "2026-07-19", "seoTitle": "JAC Class 9 Hindi Chapter 8 वाख भावार्थ एवं प्रश्न", "seoDescription": "Vaakh Class 9 complete poetic translation and answers for Jharkhand board." },
+        { "id": 9, "title": "सवैये (काव्य)", "author": "रसखान", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "2026-07-19", "seoTitle": "JAC Class 9 Hindi Chapter 9 सवैये व्याख्या Study Material", "seoDescription": "Savaiye Class 9 poem metrics explanation and dynamic objective worksheets." },
+        { "id": 10, "title": "कैदी और कोकिला (काव्य)", "author": "माखनलाल चतुर्वेदी", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "2026-07-19", "seoTitle": "JAC Class 9 Hindi Chapter 10 कैदी और कोकिला Notes", "seoDescription": "Kaidi Aur Kokila Class 9 intensive textbook summary and dynamic test." },
+        { "id": 11, "title": "ग्राम श्री (काव्य)", "author": "सुमित्रानंदन पंत", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "2026-07-19", "seoTitle": "JAC Class 9 Hindi Chapter 11 ग्राम श्री काव्य विश्लेषण", "seoDescription": "Gram Shree Class 9 poem themes, answers, and context lines definition." },
+        { "id": 12, "title": "मेघ आए (काव्य)", "author": "सर्वेश्वर दयाल सक्सेना", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "2026-07-19", "seoTitle": "JAC Class 9 Hindi Chapter 12 मेघ आए व्याख्या", "seoDescription": "Megh Aaye Class 9 creative poem breakdowns and long question arrays." },
+        { "id": 13, "title": "यमराज की दिशा (काव्य)", "author": "चंद्रकांत देवताले", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "2026-07-19", "seoTitle": "JAC Class 9 Hindi Chapter 13 यमराज की दिशा Solutions", "seoDescription": "Yamraj Ki Disha Class 9 standard answers and contextual learning notes." }
       ]
     },
     "hindi_kritika": {
       "bookName": "कृतिका (भाग 1)",
       "chapters": [
-        { "id": 1, "title": "इस जल प्रलय में", "author": "फणीश्वरनाथ रेणु", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
-        { "id": 2, "title": "मेरे संग की औरतें", "author": "मृदुला गर्ग", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
-        { "id": 3, "title": "रीढ़ की हड्डी", "author": "जगदीश चंद्र माथुर", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" }
+        { "id": 1, "title": "इस जल प्रलय में", "author": "फणीश्वरनाथ रेणु", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "2026-07-19", "seoTitle": "JAC Class 9 Kritika Chapter 1 इस जल प्रलय में Notes", "seoDescription": "Is Jal Pralay Mein Class 9 detailed narration summary and text answers." },
+        { "id": 2, "title": "मेरे संग की औरतें", "author": "मृदुला गर्ग", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "2026-07-19", "seoTitle": "JAC Class 9 Kritika Chapter 2 मेरे संग की औरतें Answers", "seoDescription": "Mere Sang Ki Auratein Class 9 values, summaries, and structural questions." },
+        { "id": 3, "title": "रीढ़ की हड्डी", "author": "जगदीश चंद्र माथुर", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "2026-07-19", "seoTitle": "JAC Class 9 Kritika Chapter 3 रीढ़ की हड्डी Play Summary", "seoDescription": "Reedh Ki Haddi Class 9 play themes, character sketches, and objective test templates." }
       ]
     },
     "english_beehive": {
       "bookName": "Beehive",
-      "prose": [
-        { "id": 1, "title": "The Fun They Had", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
-        { "id": 2, "title": "The Sound of Music", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
-        { "id": 3, "title": "The Little Girl", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
-        { "id": 4, "title": "A Truly Beautiful Mind", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
-        { "id": 5, "title": "The Snake and the Mirror", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
-        { "id": 6, "title": "My Childhood", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
-        { "id": 7, "title": "Reach for the Top", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
-        { "id": 8, "title": "Kathmandu", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
-        { "id": 9, "title": "If I Were You", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" }
-      ],
-      "poems": [
-        { "id": 1, "title": "The Road Not Taken", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [] },
-        { "id": 2, "title": "Wind", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [] },
-        { "id": 3, "title": "Rain on the Roof", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [] },
-        { "id": 4, "title": "The Lake Isle of Innisfree", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [] },
-        { "id": 5, "title": "A Legend of the Northland", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [] },
-        { "id": 6, "title": "No Men Are Foreign", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [] },
-        { "id": 7, "title": "On Killing a Tree", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [] },
-        { "id": 8, "title": "A Slumber Did My Spirit Seal", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [] }
+      "chapters": [
+        { "id": 1, "title": "The Fun They Had (Prose)", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "2026-07-19", "seoTitle": "JAC Class 9 Beehive Chapter 1 The Fun They Had Notes", "seoDescription": "Complete solutions and summary for English Beehive chapter 1 for JAC Board." },
+        { "id": 2, "title": "The Sound of Music (Prose)", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "2026-07-19", "seoTitle": "JAC Class 9 Beehive Chapter 2 The Sound of Music", "seoDescription": "Evelyn Glennie and Bismillah Khan stories explanation with text questions." },
+        { "id": 3, "title": "The Little Girl (Prose)", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "2026-07-19", "seoTitle": "JAC Class 9 Beehive Chapter 3 The Little Girl Solutions", "seoDescription": "Kezia's story values, analytical chapter breakdown, and grammar checks." },
+        { "id": 4, "title": "A Truly Beautiful Mind (Prose)", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "2026-07-19", "seoTitle": "JAC Class 9 Beehive Chapter 4 A Truly Beautiful Mind", "seoDescription": "Albert Einstein biography chapter notes and direct text evaluation files." },
+        { "id": 5, "title": "The Snake and the Mirror (Prose)", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "2026-07-19", "seoTitle": "JAC Class 9 Beehive Chapter 5 The Snake and the Mirror", "seoDescription": "Humorous story definitions, short summaries, and terminal question keys." },
+        { "id": 6, "title": "My Childhood (Prose)", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "2026-07-19", "seoTitle": "JAC Class 9 Beehive Chapter 6 My Childhood APJ Abdul Kalam", "seoDescription": "Dr. Kalam's childhood extract notes, worksheets, and answers for JAC Board." },
+        { "id": 7, "title": "Reach for the Top (Prose)", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "2026-07-19", "seoTitle": "JAC Class 9 Beehive Chapter 7 Reach for the Top Notes", "seoDescription": "Santosh Yadav and Maria Sharapova inspirational chapters text solutions." },
+        { "id": 8, "title": "Kathmandu (Prose)", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "2026-07-19", "seoTitle": "JAC Class 9 Beehive Chapter 8 Kathmandu Summary & QA", "seoDescription": "Travelogue accounts overview, question answers, and complex vocabulary notes." },
+        { "id": 9, "title": "If I Were You (Prose)", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "2026-07-19", "seoTitle": "JAC Class 9 Beehive Chapter 9 If I Were You Play", "seoDescription": "Gerrard play summaries, dramatic text interactions, and mock quiz updates." },
+        { "id": 10, "title": "The Road Not Taken (Poem)", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "2026-07-19", "seoTitle": "The Road Not Taken Class 9 Poem Explanations JAC", "seoDescription": "Robert Frost poem analysis, poetic devices, and central themes notes." },
+        { "id": 11, "title": "Wind (Poem)", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "2026-07-19", "seoTitle": "Wind Class 9 English Poem Poetic Devices & Summary", "seoDescription": "Subramania Bharati wind poem translation metrics and textbook key." },
+        { "id": 12, "title": "Rain on the Roof (Poem)", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "2026-07-19", "seoTitle": "Rain on the Roof Class 9 Poem Solutions & Central Idea", "seoDescription": "Poetic stanzas breakdowns, stanza-wise questions and vocabulary indices." },
+        { "id": 13, "title": "The Lake Isle of Innisfree (Poem)", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "2026-07-19", "seoTitle": "The Lake Isle of Innisfree Class 9 English Notes", "seoDescription": "WB Yeats nature poem definitions, short stanzas descriptions for JAC." },
+        { "id": 14, "title": "A Legend of the Northland (Poem)", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "2026-07-19", "seoTitle": "A Legend of the Northland Class 9 Ballad Analysis", "seoDescription": "Ballad story configurations, ethical conclusions, and mock MCQ arrays." },
+        { "id": 15, "title": "No Men Are Foreign (Poem)", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "2026-07-19", "seoTitle": "No Men Are Foreign Class 9 Poetry Core Values", "seoDescription": "Universal brotherhood concepts, objective evaluations, and textbook key." },
+        { "id": 16, "title": "On Killing a Tree (Poem)", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "2026-07-19", "seoTitle": "On Killing a Tree Class 9 English Poetic Stanzas", "seoDescription": "Gieve Patel poem breakdowns, ironies, and core evaluation questionnaires." },
+        { "id": 17, "title": "A Slumber Did My Spirit Seal (Poem)", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "2026-07-19", "seoTitle": "A Slumber Did My Spirit Seal Class 9 Notes", "seoDescription": "Wordsworth Lucy poem structural values, short answers, and test metrics." }
       ]
     },
     "english_moments": {
       "bookName": "Moments",
       "chapters": [
-        { "id": 1, "title": "The Lost Child", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
-        { "id": 2, "title": "The Adventures of Toto", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
-        { "id": 3, "title": "Iswaran the Storyteller", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
-        { "id": 4, "title": "In the Kingdom of Fools", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
-        { "id": 5, "title": "The Happy Prince", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
-        { "id": 6, "title": "Weathering the Storm in Ersama", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
-        { "id": 7, "title": "The Last Leaf", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
-        { "id": 8, "title": "A House Is Not a Home", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
-        { "id": 9, "title": "The Beggar", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" }
+        { "id": 1, "title": "The Lost Child", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "2026-07-19", "seoTitle": "JAC Class 9 Moments Chapter 1 The Lost Child Notes", "seoDescription": "Mulk Raj Anand's story summary, ethical themes, and question banks." },
+        { "id": 2, "title": "The Adventures of Toto", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "2026-07-19", "seoTitle": "JAC Class 9 Moments Chapter 2 The Adventures of Toto", "seoDescription": "Ruskin Bond mischievous monkey chapter overview and direct questions." },
+        { "id": 3, "title": "Iswaran the Storyteller", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "2026-07-19", "seoTitle": "JAC Class 9 Moments Chapter 3 Iswaran the Storyteller", "seoDescription": "Anecdotes parsing, dramatic story sheets, and core answers for JAC." },
+        { "id": 4, "title": "In the Kingdom of Fools", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "2026-07-19", "seoTitle": "JAC Class 9 Moments Chapter 4 In the Kingdom of Fools", "seoDescription": "Kannada folktale summaries, smart solutions, and value questionnaires." },
+        { "id": 5, "title": "The Happy Prince", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "2026-07-19", "seoTitle": "JAC Class 9 Moments Chapter 5 The Happy Prince Notes", "seoDescription": "Oscar Wilde classic short story descriptions and sample mock items." },
+        { "id": 6, "title": "Weathering the Storm in Ersama", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "2026-07-19", "seoTitle": "JAC Class 9 Moments Chapter 6 Weathering the Storm", "seoDescription": "Natural calamity management logs, Prashant character graph, and notes." },
+        { "id": 7, "title": "The Last Leaf", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "2026-07-19", "seoTitle": "JAC Class 9 Moments Chapter 7 The Last Leaf Solutions", "seoDescription": "O Henry masterpiece detailed notes, Behrman masterpiece value logs." },
+        { "id": 8, "title": "A House Is Not a Home", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "2026-07-19", "seoTitle": "JAC Class 9 Moments Chapter 8 A House Is Not a Home", "seoDescription": "Teenage crisis notes, family relationships values, text validations." },
+        { "id": 9, "title": "The Beggar", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "2026-07-19", "seoTitle": "JAC Class 9 Moments Chapter 9 The Beggar Study Guide", "seoDescription": "Anton Chekhov story adaptations, transformation logic, and text keys." }
       ]
     },
     "social_science_history": {
       "bookName": "भारत और समकालीन विश्व - I",
       "chapters": [
-        { "id": 1, "title": "फ्रांसीसी क्रांति", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
-        { "id": 2, "title": "यूरोप में समाजवाद एवं रूसी क्रांति", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
-        { "id": 3, "title": "नात्सीवाद और हिटलर का उदय", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
-        { "id": 4, "title": "वन्य समाज और उपनिवेशवाद", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" }
+        { "id": 1, "title": "फ्रांसीसी क्रांति", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "2026-07-19", "seoTitle": "JAC Class 9 History Chapter 1 फ्रांसीसी क्रांति Notes", "seoDescription": "French Revolution Class 9 detailed social science notes and dates sheet." },
+        { "id": 2, "title": "यूरोप में समाजवाद एवं रूसी क्रांति", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "2026-07-19", "seoTitle": "JAC Class 9 History Chapter 2 रूसी क्रांति Material", "seoDescription": "Socialism in Europe and Russian Revolution notes bank for Jharkhand Board." },
+        { "id": 3, "title": "नात्सीवाद और हिटलर का उदय", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "2026-07-19", "seoTitle": "JAC Class 9 History Chapter 3 नात्सीवाद और हिटलर का उदय", "seoDescription": "Nazism and Rise of Hitler notes repository and objective question sheets." },
+        { "id": 4, "title": "वन्य समाज और उपनिवेशवाद", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "2026-07-19", "seoTitle": "JAC Class 9 History Chapter 4 वन्य समाज और उपनिवेशवाद", "seoDescription": "Forest Society and Colonialism core history summaries and event mapping." }
       ]
     },
     "social_science_geography": {
       "bookName": "समकालीन भारत - I",
       "chapters": [
-        { "id": 1, "title": "भारत – आकार और स्थिति", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
-        { "id": 2, "title": "भारत का भौतिक स्वरूप", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
-        { "id": 3, "title": "अपवाह", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
-        { "id": 4, "title": "जलवायु", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
-        { "id": 5, "title": "प्राकृतिक वनस्पति तथा वन्य प्राणी", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
-        { "id": 6, "title": "जनसंख्या", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" }
+        { "id": 1, "title": "भारत – आकार और स्थिति", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "2026-07-19", "seoTitle": "JAC Class 9 Geography Chapter 1 भारत आकार और स्थिति", "seoDescription": "India Size and Location mapping notes and long test parameters." },
+        { "id": 2, "title": "भारत का भौतिक स्वरूप", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "2026-07-19", "seoTitle": "JAC Class 9 Geography Chapter 2 भारत का भौतिक स्वरूप", "seoDescription": "Physical Features of India division details, plateau and mountain logs." },
+        { "id": 3, "title": "अपवाह", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "2026-07-19", "seoTitle": "JAC Class 9 Geography Chapter 3 अपवाह Drainage Notes", "seoDescription": "Drainage systems, Himalayan and Peninsular rivers charts for JAC Board." },
+        { "id": 4, "title": "जलवायु", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "2026-07-19", "seoTitle": "JAC Class 9 Geography Chapter 4 जलवायु Notes & MCQs", "seoDescription": "Climate monsoonal cycles, jet streams variables and direct board tasks." },
+        { "id": 5, "title": "प्राकृतिक वनस्पति तथा वन्य प्राणी", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "2026-07-19", "seoTitle": "JAC Class 9 Geography Chapter 5 प्राकृतिक वनस्पति", "seoDescription": "Natural Vegetation and Wildlife notes, bio-reserves maps for JAC." },
+        { "id": 6, "title": "जनसंख्या", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "2026-07-19", "seoTitle": "JAC Class 9 Geography Chapter 6 जनसंख्या Core Guide", "seoDescription": "Population demographics, densities, age-sex structures analysis files." }
       ]
     },
     "social_science_civics": {
       "bookName": "लोकतांत्रिक राजनीति - I",
       "chapters": [
-        { "id": 1, "title": "लोकतंत्र क्या? लोकतंत्र क्यों?", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
-        { "id": 2, "title": "संविधान निर्माण", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
-        { "id": 3, "title": "चुनावी राजनीति", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
-        { "id": 4, "title": "संस्थाओं का कामकाज", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
-        { "id": 5, "title": "लोकतांत्रिक अधिकार", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" }
+        { "id": 1, "title": "लोकतंत्र क्या? लोकतंत्र क्यों?", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "2026-07-19", "seoTitle": "JAC Class 9 Civics Chapter 1 लोकतंत्र क्या लोकतंत्र क्यों", "seoDescription": "What is Democracy Why Democracy summary, definitions, features checklist." },
+        { "id": 2, "title": "संविधान निर्माण", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "2026-07-19", "seoTitle": "JAC Class 9 Civics Chapter 2 संविधान निर्माण Notes", "seoDescription": "Constitutional Design notes, South Africa log, Preamble values." },
+        { "id": 3, "title": "चुनावी राजनीति", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "2026-07-19", "seoTitle": "JAC Class 9 Civics Chapter 3 चुनावी राजनीति Guide", "seoDescription": "Electoral Politics mechanisms, EC functions, electoral roll files." },
+        { "id": 4, "title": "संस्थाओं का कामकाज", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "2026-07-19", "seoTitle": "JAC Class 9 Civics Chapter 4 संस्थाओं का कामकाज Notes", "seoDescription": "Working of Institutions, Parliament, Judiciary, Executive functions." },
+        { "id": 5, "title": "लोकतांत्रिक अधिकार", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "2026-07-19", "seoTitle": "JAC Class 9 Civics Chapter 5 लोकतांत्रिक अधिकार Book", "seoDescription": "Democratic Rights, Fundamental Rights definitions, court orders logs." }
       ]
     },
     "social_science_economics": {
       "bookName": "अर्थशास्त्र",
       "chapters": [
-        { "id": 1, "title": "पालमपुर गाँव की कहानी", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
-        { "id": 2, "title": "संसाधन के रूप में लोग", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
-        { "id": 3, "title": "निर्धनता : एक चुनौती", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
-        { "id": 4, "title": "भारत में खाद्य सुरक्षा", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" }
+        { "id": 1, "title": "पालमपुर गाँव की कहानी", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "2026-07-19", "seoTitle": "JAC Class 9 Economics Chapter 1 पालमपुर की कहानी", "seoDescription": "Story of Village Palampur production variables, farm non-farm jobs." },
+        { "id": 2, "title": "संसाधन के रूप में लोग", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "2026-07-19", "seoTitle": "JAC Class 9 Economics Chapter 2 संसाधन के रूप में लोग", "seoDescription": "People as Resource, health and education indices, unemployment logs." },
+        { "id": 3, "title": "निर्धनता : एक चुनौती", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "2026-07-19", "seoTitle": "JAC Class 9 Economics Chapter 3 निर्धनता एक चुनौती", "seoDescription": "Poverty as a Challenge estimations, global lines, anti-poverty drives." },
+        { "id": 4, "title": "भारत में खाद्य सुरक्षा", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "2026-07-19", "seoTitle": "JAC Class 9 Economics Chapter 4 खाद्य सुरक्षा Notes", "seoDescription": "Food Security in India, Buffer stock, PDS operations framework." }
       ]
     }
   },
   "class10": {
     "mathematics": {
-      "bookName": "गणित",
+      "bookName": "गणित (NCERT)",
       "chapters": [
-        { "id": 1, "title": "वास्तविक संख्याएँ", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
-        { "id": 2, "title": "बहुपद", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
-        { "id": 3, "title": "दो चर वाले रैखिक समीकरण युग्म", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
-        { "id": 4, "title": "द्विघात समीकरण", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
-        { "id": 5, "title": "समांतर श्रेढ़ियाँ", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
-        { "id": 6, "title": "त्रिभुज", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
-        { "id": 7, "title": "निर्देशांक ज्यामिति", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
-        { "id": 8, "title": "त्रिकोणमिति का परिचय", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
-        { "id": 9, "title": "त्रिकोणमिति के कुछ अनुप्रयोग", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
-        { "id": 10, "title": "वृत्त", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
-        { "id": 11, "title": "वृत्तों से संबंधित क्षेत्रफल", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
-        { "id": 12, "title": "पृष्ठीय क्षेत्रफल اور आयतन", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
-        { "id": 13, "title": "सांख्यिकी", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
-        { "id": 14, "title": "प्रायिकता", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" }
+        { "id": 1, "title": "वास्तविक संख्याएँ", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "2026-07-19", "seoTitle": "JAC Board Class 10 Maths Chapter 1 वास्तविक संख्याएँ Notes", "seoDescription": "Real Numbers Class 10 math notes, LCM/HCF properties, proofs for irrational numbers." },
+        { "id": 2, "title": "बहुपद", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "2026-07-19", "seoTitle": "JAC Board Class 10 Maths Chapter 2 बहुपद Question Bank", "seoDescription": "Polynomials Class 10 algebraic relation of zeroes and coefficient analysis." },
+        { "id": 3, "title": "दो चर वाले रैखिक समीकरण युग्म", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "2026-07-19", "seoTitle": "JAC Board Class 10 Maths Chapter 3 रैखिक समीकरण", "seoDescription": "Pair of Linear Equations in Two Variables graphical & substitution systems." },
+        { "id": 4, "title": "द्विघात समीकरण", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "2026-07-19", "seoTitle": "JAC Board Class 10 Maths Chapter 4 द्विघात समीकरण Solutions", "seoDescription": "Quadratic Equations Class 10 formula derivations and root character sheets." },
+        { "id": 5, "title": "समांतर श्रेढ़ियाँ", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "2026-07-19", "seoTitle": "JAC Board Class 10 Maths Chapter 5 समांतर श्रेढ़ियाँ Notes", "seoDescription": "Arithmetic Progressions Class 10 nth term, sum of terms step solutions." },
+        { "id": 6, "title": "त्रिभुज", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "2026-07-19", "seoTitle": "JAC Board Class 10 Maths Chapter 6 त्रिभुज Geometry Notes", "seoDescription": "Triangles Class 10 Thales theorem, similarity criteria proofs repository." },
+        { "id": 7, "title": "निर्देशांक ज्यामिति", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "2026-07-19", "seoTitle": "JAC Board Class 10 Maths Chapter 7 निर्देशांक ज्यामिति", "seoDescription": "Coordinate Geometry distance formula, section metric files for board." },
+        { "id": 8, "title": "त्रिकोणमिति का परिचय", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "2026-07-19", "seoTitle": "JAC Board Class 10 Maths Chapter 8 त्रिकोणमिति का परिचय", "seoDescription": "Introduction to Trigonometry standard identity equations and tabular grids." },
+        { "id": 9, "title": "त्रिकोणमिति के कुछ अनुप्रयोग", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "2026-07-19", "seoTitle": "JAC Board Class 10 Maths Chapter 9 ऊंचाई और दूरी Notes", "seoDescription": "Some Applications of Trigonometry heights and distances real model tasks." },
+        { "id": 10, "title": "वृत्त", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "2026-07-19", "seoTitle": "JAC Board Class 10 Maths Chapter 10 वृत्त Important Theorems", "seoDescription": "Circles Class 10 tangent point equations, geometric proofs checklist." },
+        { "id": 11, "title": "वृत्तों से संबंधित क्षेत्रफल", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "2026-07-19", "seoTitle": "JAC Board Class 10 Maths Chapter 11 वृत्तों से संबंधित क्षेत्रफल", "seoDescription": "Areas Related to Circles segment area, sector calculations overview." },
+        { "id": 12, "title": "पृष्ठीय क्षेत्रफल और आयतन", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "2026-07-19", "seoTitle": "JAC Board Class 10 Maths Chapter 12 पृष्ठीय क्षेत्रफल और आयतन", "seoDescription": "Surface Areas and Volumes solid conversions combinations formula lists." },
+        { "id": 13, "title": "सांख्यिकी", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "2026-07-19", "seoTitle": "JAC Board Class 10 Maths Chapter 13 सांख्यिकी Mean Median Mode", "seoDescription": "Statistics Class 10 grouped data mean, median, mode processing data charts." },
+        { "id": 14, "title": "प्रायिकता", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "2026-07-19", "seoTitle": "JAC Board Class 10 Maths Chapter 14 प्रायिकता Model Notes", "seoDescription": "Probability cards, dice experiments, absolute mathematical solution keys." }
       ]
     },
     "science": {
-      "bookName": "विज्ञान",
+      "bookName": "विज्ञान (NCERT)",
       "chapters": [
-        { "id": 1, "title": "रासायनिक अभिक्रियाएँ एवं समीकरण", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
-        { "id": 2, "title": "अम्ल, क्षारक एवं लवण", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
-        { "id": 3, "title": "धातु और अधातु", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
-        { "id": 4, "title": "कार्बन एवं उसके यौगिक", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
-        { "id": 5, "title": "जैव प्रक्रम", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
-        { "id": 6, "title": "नियंत्रण एवं समन्वय", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
-        { "id": 7, "title": "जीव जनन कैसे करते हैं?", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
-        { "id": 8, "title": "आनुवंशिकता", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
-        { "id": 9, "title": "प्रकाश – परावर्तन तथा अपवर्तन", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
-        { "id": 10, "title": "मानव नेत्र तथा रंगबिरंगा संसार", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
-        { "id": 11, "title": "विद्युत", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
-        { "id": 12, "title": "विद्युत धारा के चुंबकीय प्रभाव", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
-        { "id": 13, "title": "हमारा पर्यावरण", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" }
+        { "id": 1, "title": "रासायनिक अभिक्रियाएँ एवं समीकरण", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "2026-07-19", "seoTitle": "JAC Class 10 Science Chapter 1 रासायनिक अभिक्रियाएँ", "seoDescription": "Chemical Reactions and Equations dynamic balancing, oxidation notes." },
+        { "id": 2, "title": "अम्ल, क्षारक एवं लवण", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "2026-07-19", "seoTitle": "JAC Class 10 Science Chapter 2 अम्ल, क्षारक एवं लवण", "seoDescription": "Acids, Bases and Salts pH scale dynamics, indicator tracking worksheets." },
+        { "id": 3, "title": "धातु और अधातु", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "2026-07-19", "seoTitle": "JAC Class 10 Science Chapter 3 धातु और अधातु Notes", "seoDescription": "Metals and Non-metals metallurgy flow charts, ionic bond reactions." },
+        { "id": 4, "title": "कार्बन एवं उसके यौगिक", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "2026-07-19", "seoTitle": "JAC Class 10 Science Chapter 4 कार्बन एवं उसके यौगिक", "seoDescription": "Carbon and its Compounds homologous series, IUPAC names listings." },
+        { "id": 5, "title": "जैव प्रक्रम", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "2026-07-19", "seoTitle": "JAC Class 10 Science Chapter 5 जैव प्रक्रम Biology Notes", "seoDescription": "Life Processes nutrition, respiration, circulation structures map." },
+        { "id": 6, "title": "नियंत्रण एवं समन्वय", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "2026-07-19", "seoTitle": "JAC Class 10 Science Chapter 6 नियंत्रण एवं समन्वय", "seoDescription": "Control and Coordination reflex arc, endocrine hormones charts." },
+        { "id": 7, "title": "जीव जनन कैसे करते हैं?", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "2026-07-19", "seoTitle": "JAC Class 10 Science Chapter 7 जीव जनन कैसे करते हैं", "seoDescription": "How do Organisms Reproduce fission, budding, plant fertilization profiles." },
+        { "id": 8, "title": "आनुवंशिकता", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "2026-07-19", "seoTitle": "JAC Class 10 Science Chapter 8 आनुवंशिकता Study Guide", "seoDescription": "Heredity Mendel mono/dihybrid crosses, sex determination logic." },
+        { "id": 9, "title": "प्रकाश – परावर्तन तथा अपवर्तन", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "2026-07-19", "seoTitle": "JAC Class 10 Science Chapter 9 प्रकाश परावर्तन अपवर्तन", "seoDescription": "Light Reflection and Refraction ray tracing, lens formula numericals." },
+        { "id": 10, "title": "मानव नेत्र तथा रंगबिरंगा संसार", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "2026-07-19", "seoTitle": "JAC Class 10 Science Chapter 10 मानव नेत्र Notes", "seoDescription": "Human Eye and Colorful World eye defects fixes, prism dispersions." },
+        { "id": 11, "title": "विद्युत", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "2026-07-19", "seoTitle": "JAC Class 10 Science Chapter 11 विद्युत Physics Notes", "seoDescription": "Electricity Ohm's law, series-parallel configurations computation logs." },
+        { "id": 12, "title": "विद्युत धारा के चुंबकीय प्रभाव", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "2026-07-19", "seoTitle": "JAC Class 10 Science Chapter 12 चुंबकीय प्रभाव", "seoDescription": "Magnetic Effects of Electric Current field lines, solenoid systems rules." },
+        { "id": 13, "title": "हमारा पर्यावरण", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "2026-07-19", "seoTitle": "JAC Class 10 Science Chapter 13 हमारा पर्यावरण Guide", "seoDescription": "Our Environment ecosystem zones, ozone depletion data profiles." }
       ]
     },
     "hindi_kshitij": {
       "bookName": "क्षितिज (भाग 2)",
-      "gadya": [
-        { "id": 1, "title": "नेताजी का चश्मा", "author": "स्वयं प्रकाश", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
-        { "id": 2, "title": "बालगोबिन भगत", "author": "रामवृक्ष बेनीपुरी", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
-        { "id": 3, "title": "लखनवी अंदाज़", "author": "यशपाल", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
-        { "id": 4, "title": "एक कहानी यह भी", "author": "मन्नू भंडारी", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
-        { "id": 5, "title": "नौबतखाने में इबादत", "author": "यतीन्द्र मिश्र", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
-        { "id": 6, "title": "संस्कृति", "author": "भदंत आनंद कौसल्यायन", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" }
-      ],
-      "kavya": [
-        { "id": 1, "title": "पद", "author": "सूरदास", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [] },
-        { "id": 2, "title": "राम-लक्ष्मण-परशुराम संवाद", "author": "तुलसीदास", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [] },
-        { "id": 3, "title": "आत्मकथ्य", "author": "जयशंकर प्रसाद", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [] },
-        { "id": 4, "title": "उत्साह और अट नहीं रही है", "author": "सूर्यकांत त्रिपाठी 'निराला'", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [] },
-        { "id": 5, "title": "यह दंतुरित मुस्कान और फसल", "author": "नागार्जुन", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [] },
-        { "id": 6, "title": "संगतकार", "author": "मंगलेश डबराल", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [] }
+      "chapters": [
+        { "id": 1, "title": "नेताजी का चश्मा (गद्य)", "author": "स्वयं प्रकाश", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "2026-07-19", "seoTitle": "JAC Class 10 Hindi Chapter 1 नेताजी का चश्मा Notes", "seoDescription": "Netaji Ka Chashma Class 10 short summaries, character profiles, answers." },
+        { "id": 2, "title": "बालगोबिन भगत (गद्य)", "author": "रामवृक्ष बेनीपुरी", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "2026-07-19", "seoTitle": "JAC Class 10 Hindi Chapter 2 बालगोबिन भगत Analysis", "seoDescription": "Balgobin Bhagat Class 10 text explanations and social reform angles." },
+        { "id": 3, "title": "लखनवी अंदाज़ (गद्य)", "author": "यशपाल", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "2026-07-19", "seoTitle": "JAC Class 10 Hindi Chapter 3 लखनवी अंदाज़ Satire", "seoDescription": "Lakhnavi Andaz Class 10 critical remarks and model descriptive keys." },
+        { "id": 4, "title": "एक कहानी यह भी (गद्य)", "author": "मन्नू भंडारी", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "2026-07-19", "seoTitle": "JAC Class 10 Hindi Chapter 4 एक कहानी यह भी Book", "seoDescription": "Ek Kahani Yeh Bhi biographical traits, text evaluations for JAC." },
+        { "id": 5, "title": "नौबतखाने में इबादत (गद्य)", "author": "यतीन्द्र मिश्र", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "2026-07-19", "seoTitle": "JAC Class 10 Hindi Chapter 5 नौबतखाने में इबादत Notes", "seoDescription": "Bismillah Khan portrait metrics, musical historical files check." },
+        { "id": 6, "title": "संस्कृति (गद्य)", "author": "भदंत आनंद कौसल्यायन", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "2026-07-19", "seoTitle": "JAC Class 10 Hindi Chapter 6 संस्कृति Essay Solutions", "seoDescription": "Sanskriti essay details, civilization distinct markers checklist." },
+        { "id": 7, "title": "पद (काव्य)", "author": "सूरदास", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "2026-07-19", "seoTitle": "JAC Class 10 Hindi Chapter 7 सूरदास के पद व्याख्या", "seoDescription": "Surdas Ke Pad metrics, Braj language annotations, question assets." },
+        { "id": 8, "title": "राम-लक्ष्मण-परशुराम संवाद (काव्य)", "author": "तुलसीदास", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "2026-07-19", "seoTitle": "JAC Class 10 Hindi Chapter 8 परशुराम संवाद भावार्थ", "seoDescription": "Ram Lakshman Parashuram Samvad contextual dialogue summaries." },
+        { "id": 9, "title": "आत्मकथ्य (काव्य)", "author": "जयशंकर Prasad", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "2026-07-19", "seoTitle": "JAC Class 10 Hindi Chapter 9 आत्मकथ्य Poem Notes", "seoDescription": "Aatmakathya structural layout analysis, emotional logs, text answers." },
+        { "id": 10, "title": "उत्साह और अट नहीं रही है (काव्य)", "author": "सूर्यकांत त्रिपाठी 'निराला'", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "2026-07-19", "seoTitle": "JAC Class 10 Hindi Chapter 10 उत्साह कविता", "seoDescription": "Utsah & Att Nahi Rahi Hai nature description stanzas reference grids." },
+        { "id": 11, "title": "यह दंतुरित मुस्कान और फसल (काव्य)", "author": "नागार्जुन", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "2026-07-19", "seoTitle": "JAC Class 10 Hindi Chapter 11 यह दंतुरित मुस्कान", "seoDescription": "Nagार्जुन child expressions poetry notes, Fasal poem values track." },
+        { "id": 12, "title": "संगतकार (काव्य)", "author": "मंगलेश डबराल", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "2026-07-19", "seoTitle": "JAC Class 10 Hindi Chapter 12 संगतकार Notes & Questions", "seoDescription": "Sangatkar poem side artist status notes, technical text answers." }
       ]
     },
     "hindi_kritika": {
       "bookName": "कृतिका (भाग 2)",
       "chapters": [
-        { "id": 1, "title": "माता का अँचल", "author": "शिवपूजन सहाय", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
-        { "id": 2, "title": "साना-साना हाथ जोड़ि...", "author": "मधु कांकरिया", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
-        { "id": 3, "title": "मैं क्यों लिखता हूँ?", "author": "अज्ञेय", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" }
+        { "id": 1, "title": "माता का अँचल", "author": "शिवपूजन सहाय", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "2026-07-19", "seoTitle": "JAC Class 10 Kritika Chapter 1 माता का अँचल Notes", "seoDescription": "Mata Ka Anchal rural lifestyle narratives summary, text answers." },
+        { "id": 2, "title": "साना-साना हाथ जोड़ि...", "author": "मधु कांकरिया", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "2026-07-19", "seoTitle": "JAC Class 10 Kritika Chapter 2 साना-साना हाथ जोड़ि", "seoDescription": "Sana Sana Hath Jodi Sikkim travel history records, values data sheets." },
+        { "id": 3, "title": "मैं क्यों लिखता हूँ?", "author": "अज्ञेय", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "2026-07-19", "seoTitle": "JAC Class 10 Kritika Chapter 3 मैं क्यों लिखता हूँ Notes", "seoDescription": "Main Kyon Likhta Hoon author internal drive insights, target answer lists." }
       ]
     },
     "english_first_flight": {
       "bookName": "First Flight",
-      "prose": [
-        { "id": 1, "title": "A Letter to God", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
-        { "id": 2, "title": "Nelson Mandela: Long Walk to Freedom", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
-        { "id": 3, "title": "Two Stories about Flying", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
-        { "id": 4, "title": "From the Diary of Anne Frank", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
-        { "id": 5, "title": "Glimpses of India", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
-        { "id": 6, "title": "Mijbil the Otter", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
-        { "id": 7, "title": "Madam Rides the Bus", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
-        { "id": 8, "title": "The Sermon at Benares", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
-        { "id": 9, "title": "The Proposal", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" }
-      ],
-      "poems": [
-        { "id": 1, "title": "Dust of Snow", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [] },
-        { "id": 2, "title": "Fire and Ice", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [] },
-        { "id": 3, "title": "A Tiger in the Zoo", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [] },
-        { "id": 4, "title": "How to Tell Wild Animals", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [] },
-        { "id": 5, "title": "The Ball Poem", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [] },
-        { "id": 6, "title": "Amanda!", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [] },
-        { "id": 7, "title": "The Trees", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [] },
-        { "id": 8, "title": "Fog", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [] },
-        { "id": 9, "title": "The Tale of Custard the Dragon", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [] },
-        { "id": 10, "title": "For Anne Gregory", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [] }
+      "chapters": [
+        { "id": 1, "title": "A Letter to God (Prose)", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "2026-07-19", "seoTitle": "JAC Class 10 First Flight Chapter 1 A Letter to God", "seoDescription": "Lencho faith descriptions, postmaster values documentation bank." },
+        { "id": 2, "title": "Nelson Mandela: Long Walk to Freedom (Prose)", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "2026-07-19", "seoTitle": "JAC Class 10 First Flight Chapter 2 Nelson Mandela", "seoDescription": "Apartheid timeline descriptions, structural speech insights guides." },
+        { "id": 3, "title": "Two Stories about Flying (Prose)", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "2026-07-19", "seoTitle": "JAC Class 10 First Flight Chapter 3 Stories about Flying", "seoDescription": "Seagull first flight logging, Black Aeroplane mystery answers check." },
+        { "id": 4, "title": "From the Diary of Anne Frank (Prose)", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "2026-07-19", "seoTitle": "JAC Class 10 First Flight Chapter 4 Anne Frank Diary", "seoDescription": "Kitty logs tracking, dialogue summaries, teacher interactions logs." },
+        { "id": 5, "title": "Glimpses of India (Prose)", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "2026-07-19", "seoTitle": "JAC Class 10 First Flight Chapter 5 Glimpses of India", "seoDescription": "Goa baker logs, Coorg coffee parameters, Assam tea histories." },
+        { "id": 6, "title": "Mijbil the Otter (Prose)", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "2026-07-19", "seoTitle": "JAC Class 10 First Flight Chapter 6 Mijbil the Otter", "seoDescription": "Maxwell pet parameters tracking sheets, London journey notes." },
+        { "id": 7, "title": "Madam Rides the Bus (Prose)", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "2026-07-19", "seoTitle": "JAC Class 10 First Flight Chapter 7 Madam Rides Bus", "seoDescription": "Valli bus trip validations, mature processing tracking datasets." },
+        { "id": 8, "title": "The Sermon at Benares (Prose)", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "2026-07-19", "seoTitle": "JAC Class 10 First Flight Chapter 8 Sermon Benares", "seoDescription": "Buddha lessons validation, Kisa Gotami mustard seed stories logs." },
+        { "id": 9, "title": "The Proposal (Prose)", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "2026-07-19", "seoTitle": "JAC Class 10 First Flight Chapter 9 The Proposal Play", "seoDescription": "Chekhov marriage item dynamics, Lomov Natalya logic grids." },
+        { "id": 10, "title": "Dust of Snow (Poem)", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "2026-07-19", "seoTitle": "Dust of Snow Class 10 English Poem Explanations", "seoDescription": "Frost short poetry evaluation matrices, mood conversion notes." },
+        { "id": 11, "title": "Fire and Ice (Poem)", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "2026-07-19", "seoTitle": "Fire and Ice Class 10 English Poem Central Idea", "seoDescription": "Desire and hatred values analysis files, board model keys." },
+        { "id": 12, "title": "A Tiger in the Zoo (Poem)", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "2026-07-19", "seoTitle": "A Tiger in the Zoo Class 10 Poem Comparison", "seoDescription": "Captivity versus independence comparison records, target items grid." },
+        { "id": 13, "title": "How to Tell Wild Animals (Poem)", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "2026-07-19", "seoTitle": "How to Tell Wild Animals Class 10 Poem Analysis", "seoDescription": "Humorous poetry attributes parsing, vocabulary sheets for JAC." },
+        { "id": 14, "title": "The Ball Poem (Poem)", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "2026-07-19", "seoTitle": "The Ball Poem Class 10 English Poem Notes", "seoDescription": "Grief management insights, growth realities metrics summaries." },
+        { "id": 15, "title": "Amanda! (Poem)", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "2026-07-19", "seoTitle": "Amanda Class 10 Poem Summary & Poetic Devices", "seoDescription": "Parental monitoring checks, inner fantasy space map files." },
+        { "id": 16, "title": "The Trees (Poem)", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "2026-07-19", "seoTitle": "The Trees Class 10 Poem Metaphor Description", "seoDescription": "Feminist movement symbols tracking, nature returns summaries." },
+        { "id": 17, "title": "Fog (Poem)", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "2026-07-19", "seoTitle": "Fog Class 10 English Poem Metaphors List", "seoDescription": "Sandburg short poem cat comparisons metadata files check." },
+        { "id": 18, "title": "The Tale of Custard the Dragon (Poem)", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "2026-07-19", "seoTitle": "The Tale of Custard the Dragon Class 10 Notes", "seoDescription": "Comic ballad breakdown structures, real bravery metric analyses." },
+        { "id": 19, "title": "For Anne Gregory (Poem)", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "2026-07-19", "seoTitle": "For Anne Gregory Class 10 Poem Explanations", "seoDescription": "Physical features vs spiritual character value analysis sets." }
       ]
     },
     "english_footprints": {
       "bookName": "Footprints Without Feet",
       "chapters": [
-        { "id": 1, "title": "A Triumph of Surgery", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
-        { "id": 2, "title": "The Thief's Story", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
-        { "id": 3, "title": "The Midnight Visitor", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
-        { "id": 4, "title": "A Question of Trust", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
-        { "id": 5, "title": "Footprints Without Feet", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
-        { "id": 6, "title": "The Making of a Scientist", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
-        { "id": 7, "title": "The Necklace", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
-        { "id": 8, "title": "Bholi", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
-        { "id": 9, "title": "The Book That Saved the Earth", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" }
+        { "id": 1, "title": "A Triumph of Surgery", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "2026-07-19", "seoTitle": "JAC Class 10 Footprints Chapter 1 Triumph of Surgery", "seoDescription": "Tricki dog medical logs, Pumphrey rich care problems note guides." },
+        { "id": 2, "title": "The Thief's Story", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "2026-07-19", "seoTitle": "JAC Class 10 Footprints Chapter 2 The Thief Story", "seoDescription": "Hari Singh conversion tracking, Anil kind habits summaries." },
+        { "id": 3, "title": "The Midnight Visitor", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "2026-07-19", "seoTitle": "JAC Class 10 Footprints Chapter 3 Midnight Visitor", "seoDescription": "Ausable presence of mind validations vs Max script metrics." },
+        { "id": 4, "title": "A Question of Trust", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "2026-07-19", "seoTitle": "JAC Class 10 Footprints Chapter 4 Question of Trust", "seoDescription": "Horace Danby locks strategy, lady in red tricks explanation data." },
+        { "id": 5, "title": "Footprints Without Feet", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "2026-07-19", "seoTitle": "JAC Class 10 Footprints Chapter 5 Footprints Without Feet", "seoDescription": "Griffin invisibility science misuses logs, Iping inn fights." },
+        { "id": 6, "title": "The Making of a Scientist", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "2026-07-19", "seoTitle": "JAC Class 10 Footprints Chapter 6 Making Scientist", "seoDescription": "Richard Ebright monarch butterflies exploration notes files." },
+        { "id": 7, "title": "The Necklace", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "2026-07-19", "seoTitle": "JAC Class 10 Footprints Chapter 7 The Necklace Guide", "seoDescription": "Matilda Loisel vanity traps logs, hard work cycles tracking." },
+        { "id": 8, "title": "Bholi", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "2026-07-19", "seoTitle": "JAC Class 10 Footprints Chapter 8 Bholi Complete Notes", "seoDescription": "Sulekha self-respect values growth trackers, school transformation data." },
+        { "id": 9, "title": "The Book That Saved the Earth", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "2026-07-19", "seoTitle": "JAC Class 10 Footprints Chapter 9 Book Saved Earth", "seoDescription": "Martian humorous invasion data logs, rhymes tracking files." }
       ]
     },
     "social_science_history": {
       "bookName": "भारत और समकालीन विश्व - II",
       "chapters": [
-        { "id": 1, "title": "यूरोप में राष्ट्रवाद का उदय", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
-        { "id": 2, "title": "भारत में राष्ट्रवाद", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
-        { "id": 3, "title": "भूमंडलीकृत विश्व का बनना", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
-        { "id": 4, "title": "औद्योगीकरण का युग", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
-        { "id": 5, "title": "मुद्रण संस्कृति और आधुनिक दुनिया", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" }
+        { "id": 1, "title": "यूरोप में राष्ट्रवाद का उदय", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "2026-07-19", "seoTitle": "JAC Class 10 History Chapter 1 यूरोप में राष्ट्रवाद", "seoDescription": "Rise of Nationalism in Europe charts, Mazzini, Garibaldi profiles." },
+        { "id": 2, "title": "भारत में राष्ट्रवाद", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "2026-07-19", "seoTitle": "JAC Class 10 History Chapter 2 भारत में राष्ट्रवाद", "seoDescription": "Nationalism in India satyagraha cycles, NCM, CDM historical matrices." },
+        { "id": 3, "title": "भूमंडलीकृत विश्व का बनना", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "2026-07-19", "seoTitle": "JAC Class 10 History Chapter 3 भूमंडलीकृत विश्व", "seoDescription": "Making of a Global World silk routes data, Great Depression reports." },
+        { "id": 4, "title": "औद्योगीकरण का युग", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "2026-07-19", "seoTitle": "JAC Class 10 History Chapter 4 औद्योगीकरण का युग", "seoDescription": "Age of Industrialization guild units, steam engines entry metrics." },
+        { "id": 5, "title": "मुद्रण संस्कृति और आधुनिक दुनिया", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "2026-07-19", "seoTitle": "JAC Class 10 History Chapter 5 मुद्रण संस्कृति", "seoDescription": "Print Culture press developments, print impact logs check profiles." }
       ]
     },
     "social_science_geography": {
       "bookName": "समकालीन भारत - II",
       "chapters": [
-        { "id": 1, "title": "संसाधन और विकास", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
-        { "id": 2, "title": "वन और वन्यजीव संसाधन", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
-        { "id": 3, "title": "जल संसाधन", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
-        { "id": 4, "title": "कृषि", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
-        { "id": 5, "title": "खनिज तथा ऊर्जा संसाधन", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
-        { "id": 6, "title": "विनिर्माण उद्योग", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
-        { "id": 7, "title": "राष्ट्रीय अर्थव्यवस्था की जीवन रेखाएँ", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" }
+        { "id": 1, "title": "संसाधन और विकास", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "2026-07-19", "seoTitle": "JAC Class 10 Geography Chapter 1 संसाधन और विकास", "seoDescription": "Resources and Development classification models, soil types data." },
+        { "id": 2, "title": "वन और वन्यजीव संसाधन", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "2026-07-19", "seoTitle": "JAC Class 10 Geography Chapter 2 वन और वन्यजीव", "seoDescription": "Forest and Wildlife flora fauna threat levels, community conservation." },
+        { "id": 3, "title": "जल संसाधन", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "2026-07-19", "seoTitle": "JAC Class 10 Geography Chapter 3 जल संसाधन Notes", "seoDescription": "Water Resources multi-purpose dams logs, rain harvesting tools." },
+        { "id": 4, "title": "कृषि", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "2026-07-19", "seoTitle": "JAC Class 10 Geography Chapter 4 कृषि Study Material", "seoDescription": "Agriculture cropping seasons, institutional structural farm updates." },
+        { "id": 5, "title": "खनिज तथा ऊर्जा संसाधन", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "2026-07-19", "seoTitle": "JAC Class 10 Geography Chapter 5 खनिज और ऊर्जा", "seoDescription": "Minerals and Energy conventional non-conventional mines listings." },
+        { "id": 6, "title": "विनिर्माण उद्योग", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "2026-07-19", "seoTitle": "JAC Class 10 Geography Chapter 6 विनिर्माण उद्योग", "seoDescription": "Manufacturing Industries location factors, pollution mapping checks." },
+        { "id": 7, "title": "राष्ट्रीय अर्थव्यवस्था की जीवन रेखाएँ", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "2026-07-19", "seoTitle": "JAC Class 10 Geography Chapter 7 अर्थव्यवस्था की जीवन रेखाएँ", "seoDescription": "Lifelines of National Economy expressways, port data networks." }
       ]
     },
     "social_science_civics": {
       "bookName": "लोकतांत्रिक राजनीति - II",
       "chapters": [
-        { "id": 1, "title": "सत्ता की साझेदारी", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
-        { "id": 2, "title": "संघवाद", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
-        { "id": 3, "title": "जाति, धर्म और लैंगिक मसले", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
-        { "id": 4, "title": "राजनीतिक दल", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
-        { "id": 5, "title": "लोकतंत्र के परिणाम", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" }
+        { "id": 1, "title": "सत्ता की साझेदारी", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "2026-07-19", "seoTitle": "JAC Class 10 Civics Chapter 1 सत्ता की साझेदारी", "seoDescription": "Power Sharing Belgium vs Sri Lanka model arrangements databases." },
+        { "id": 2, "title": "संघवाद", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "2026-07-19", "seoTitle": "JAC Class 10 Civics Chapter 2 संघवाद Notes Guide", "seoDescription": "Federalism vertical configurations, decentralization 1992 laws logs." },
+        { "id": 3, "title": "जाति, धर्म और लैंगिक मसले", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "2026-07-19", "seoTitle": "JAC Class 10 Civics Chapter 3 जाति धर्म और लैंगिक मसले", "seoDescription": "Gender, Religion and Caste bias tracking, political representation." },
+        { "id": 4, "title": "राजनीतिक दल", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "2026-07-19", "seoTitle": "JAC Class 10 Civics Chapter 4 राजनीतिक दल Details", "seoDescription": "Political Parties national regional definitions, structural reform metrics." },
+        { "id": 5, "title": "लोकतंत्र के परिणाम", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "2026-07-19", "seoTitle": "JAC Class 10 Civics Chapter 5 लोकतंत्र के परिणाम", "seoDescription": "Outcomes of Democracy accountabilities, economic growths metrics check." }
       ]
     },
     "social_science_economics": {
       "bookName": "आर्थिक विकास की समझ",
       "chapters": [
-        { "id": 1, "title": "विकास", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
-        { "id": 2, "title": "भारतीय अर्थव्यवस्था के क्षेत्रक", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
-        { "id": 3, "title": "मुद्रा और साख", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
-        { "id": 4, "title": "वैश्वीकरण और भारतीय अर्थव्यवस्था", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" },
-        { "id": 5, "title": "उपभोक्ता अधिकार", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "", "seoTitle": "", "seoDescription": "" }
+        { "id": 1, "title": "विकास", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "2026-07-19", "seoTitle": "JAC Class 10 Economics Chapter 1 विकास Core Guide", "seoDescription": "Development PCI parameters, HDI trackers, sustainability checks." },
+        { "id": 2, "title": "भारतीय अर्थव्यवस्था के क्षेत्रक", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "2026-07-19", "seoTitle": "JAC Class 10 Economics Chapter 2 अर्थव्यवस्था के क्षेत्रक", "seoDescription": "Sectors of Indian Economy primary, secondary, tertiary GDP tracks." },
+        { "id": 3, "title": "मुद्रा और साख", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "2026-07-19", "seoTitle": "JAC Class 10 Economics Chapter 3 मुद्रा और साख Notes", "seoDescription": "Money and Credit formal informal terms, SHGs functions log sheet." },
+        { "id": 4, "title": "वैश्वीकरण और भारतीय अर्थव्यवस्था", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "2026-07-19", "seoTitle": "JAC Class 10 Economics Chapter 4 वैश्वीकरण Guide", "seoDescription": "Globalization MNCs operations, WTO parameters, integration logs." },
+        { "id": 5, "title": "उपभोक्ता अधिकार", "notes": "", "revision": "", "qa": "", "mcq": [], "pyq": [], "lastUpdated": "2026-07-19", "seoTitle": "JAC Class 10 Economics Chapter 5 उपभोक्ता अधिकार", "seoDescription": "Consumer Rights COPRA historical logs, redressal forums operations." }
       ]
     }
   }

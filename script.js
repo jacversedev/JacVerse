@@ -1,5 +1,5 @@
 ﻿/* ===================================
-   JACVERSE V2 FINAL (NAVIGATION FIX)
+   JACVERSE V2 FINAL (SEO & NAVIGATION)
    SCRIPT.JS
 =================================== */
 
@@ -13,8 +13,6 @@ document.addEventListener("DOMContentLoaded", () => {
             loader.style.display = "none";
         }, 300);
     }
-
-
 
 
     // 2. Auto Highlight Active Bottom Nav Link Based on URL
@@ -31,16 +29,12 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 
-
-
 // ===========================
 // Sidebar Toggle Setup
 // ===========================
 const menuBtn = document.getElementById("menuBtn");
 const sidebar = document.getElementById("sidebar");
 const overlay = document.getElementById("overlay");
-
-
 
 
 if (menuBtn && sidebar && overlay) {
@@ -50,8 +44,6 @@ if (menuBtn && sidebar && overlay) {
     });
 
 
-
-
     overlay.addEventListener("click", () => {
         sidebar.classList.remove("active");
         overlay.classList.remove("active");
@@ -59,14 +51,10 @@ if (menuBtn && sidebar && overlay) {
 }
 
 
-
-
 // ===========================
 // Dark Mode Setup & Storage
 // ===========================
 const themeBtn = document.getElementById("themeBtn");
-
-
 
 
 if (localStorage.getItem("theme") === "dark") {
@@ -79,14 +67,10 @@ if (localStorage.getItem("theme") === "dark") {
 }
 
 
-
-
 if (themeBtn) {
     themeBtn.addEventListener("click", () => {
         document.body.classList.toggle("dark");
         const icon = themeBtn.querySelector("i");
-
-
 
 
         if (document.body.classList.contains("dark")) {
@@ -106,23 +90,16 @@ if (themeBtn) {
 }
 
 
-
-
 // ===========================
 // Search Content Filter
 // ===========================
 const searchInput = document.querySelector(".search-box input");
 
 
-
-
 if (searchInput) {
     searchInput.addEventListener("keyup", function () {
         const value = this.value.toLowerCase();
-        // Dynamic dynamic cards ko bhi target karne ke liye yahan selectors check kiye hain
         const cards = document.querySelectorAll(".class-card, .feature-card, #subjectsGrid .card");
-
-
 
 
         cards.forEach(card => {
@@ -135,8 +112,6 @@ if (searchInput) {
         });
     });
 }
-
-
 
 
 // ===========================
@@ -153,13 +128,9 @@ const observer = new IntersectionObserver((entries) => {
 });
 
 
-
-
 document.querySelectorAll(".class-card, .feature-card, .motivation-box").forEach((el) => {
     observer.observe(el);
 });
-
-
 
 
 // Manual click fallback for active classes
@@ -169,8 +140,6 @@ document.querySelectorAll(".bottom-nav a").forEach(link => {
         this.classList.add("active");
     });
 });
-
-
 
 
 // ===========================
@@ -189,8 +158,6 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 });
 
 
-
-
 // Dismiss Drawer Panel
 document.querySelectorAll("#sidebar a").forEach(link => {
     link.addEventListener("click", () => {
@@ -200,8 +167,6 @@ document.querySelectorAll("#sidebar a").forEach(link => {
         }
     });
 });
-
-
 
 
 // Scroll Header State
@@ -214,17 +179,12 @@ window.addEventListener("scroll", () => {
 });
 
 
-
-
 // ==========================================
-// Dynamic Class/Subject Engine (UPDATED)
+// Dynamic Class/Subject Engine (With SEO Integration)
 // ==========================================
-// class.html aur class_2.html dono pages par safely trigger hone ke liye:
 if (window.location.pathname.includes("class.html") || window.location.pathname.includes("class_2.html")) {
     const params = new URLSearchParams(window.location.search);
     const classNo = params.get("class");
-
-
 
 
     if (classNo) {
@@ -232,9 +192,18 @@ if (window.location.pathname.includes("class.html") || window.location.pathname.
         if (titleEl) titleEl.textContent = `Class ${classNo}`;
 
 
+        // 🔥 SEO Setup for Class Page
+        document.title = `JAC Board Class ${classNo} Complete Study Material | JacVerse`;
+        let metaDesc = document.querySelector('meta[name="description"]');
+        if (!metaDesc) {
+            metaDesc = document.createElement('meta');
+            metaDesc.setAttribute('name', 'description');
+            document.head.appendChild(metaDesc);
+        }
+        metaDesc.setAttribute('content', `Get JAC Board Class ${classNo} all subjects solutions, text books name, chapter notes, online MCQ tests, and key study resources.`);
 
 
-        fetch("database.json")
+        fetch("database_2.json")[span_1](start_span)[span_1](end_span)
             .then(res => res.json())
             .then(data => {
                 const grid = document.getElementById("subjectsGrid");
@@ -243,8 +212,6 @@ if (window.location.pathname.includes("class.html") || window.location.pathname.
                 if (grid && data[targetKey]) {
                     const subjects = data[targetKey];
                     grid.innerHTML = "";
-
-
 
 
                     const iconMap = {
@@ -263,8 +230,6 @@ if (window.location.pathname.includes("class.html") || window.location.pathname.
                     };
 
 
-
-
                     for (let key in subjects) {
                         const subjectData = subjects[key];
                         const icon = iconMap[key] || "📘";
@@ -280,5 +245,97 @@ if (window.location.pathname.includes("class.html") || window.location.pathname.
                 }
             })
             .catch(err => console.error("Database loading error:", err));
+    }
+}
+
+
+// ==========================================
+// Dynamic Chapters Loader Engine (With Pure Google SEO)
+// ==========================================
+if (window.location.pathname.includes("chapters.html")) {
+    const params = new URLSearchParams(window.location.search);
+    const classNo = params.get("class");
+    const subjectKey = params.get("subject");
+
+
+    if (classNo && subjectKey) {
+        const classContextEl = document.getElementById("classContext");
+        if (classContextEl) classContextEl.textContent = `JAC Board Class ${classNo}`;
+
+
+        fetch("database_2.json")[span_2](start_span)[span_2](end_span)
+            .then(res => res.json())
+            .then(data => {
+                const targetClass = `class${classNo}`;
+                const subjectData = data[targetClass] ? data[targetClass][subjectKey] : null;
+                const container = document.getElementById("chaptersList");
+
+
+                if (container && subjectData) {
+                    const readableSubject = subjectKey.replace(/_/g, ' ').toUpperCase();
+                    const bookNameHindi = subjectData.bookName || "Study Material";
+
+
+                    // 🔥 DYNAMIC GOOGLE SEO INJECTION START
+                    document.title = `JAC Board Class ${classNo} ${readableSubject} (${bookNameHindi}) Notes, MCQs & PYQs | JacVerse`;
+
+
+                    let metaDesc = document.querySelector('meta[name="description"]');
+                    if (!metaDesc) {
+                        metaDesc = document.createElement('meta');
+                        metaDesc.setAttribute('name', 'description');
+                        document.head.appendChild(metaDesc);
+                    }
+                    metaDesc.setAttribute('content', `Download JAC Board Class ${classNo} ${bookNameHindi} (${readableSubject}) chapter-wise complete notes, important question answers, online MCQ tests, and previous year papers.`);
+                    // 🔥 DYNAMIC GOOGLE SEO INJECTION END
+
+
+                    // Update Headers in UI
+                    document.getElementById("subjectTitle").textContent = readableSubject;
+                    document.getElementById("bookSubTitle").textContent = bookNameHindi;
+                    
+                    container.innerHTML = "";
+
+
+                    // Extracting chapters based on json format[span_3](start_span)[span_3](end_span)
+                    let chaptersArray = [];
+                    if (subjectData.chapters) {
+                        chaptersArray = subjectData.chapters;
+                    } else {
+                        if (subjectData.gadya) chaptersArray = chaptersArray.concat(subjectData.gadya);
+                        if (subjectData.kavya) chaptersArray = chaptersArray.concat(subjectData.kavya);
+                        if (subjectData.prose) chaptersArray = chaptersArray.concat(subjectData.prose);
+                        if (subjectData.poems) chaptersArray = chaptersArray.concat(subjectData.poems);
+                    }
+
+
+                    if (chaptersArray.length === 0) {
+                        container.innerHTML = `<p style="text-align:center; color:#94a3b8;">कोई अध्याय नहीं मिला।</p>`;
+                        return;
+                    }
+
+
+                    // Render Chapters exactly as original UI layout
+                    chaptersArray.forEach((ch, index) => {
+                        container.innerHTML += `
+                            <div class="chapter-card">
+                                <h3><span>Ch ${ch.id || index + 1}</span> ${ch.title}</h3>
+                                <div class="resource-grid">
+                                    <a href="view.html?class=${classNo}&subject=${subjectKey}&id=${ch.id}&type=notes" class="res-btn">
+                                        <i class="fa-solid fa-file-pdf" style="color:#ef4444;"></i> नोट्स
+                                    </a>
+                                    <a href="view.html?class=${classNo}&subject=${subjectKey}&id=${ch.id}&type=mcq" class="res-btn">
+                                        <i class="fa-solid fa-circle-check" style="color:#22c55e;"></i> MCQ Test
+                                    </a>
+                                    <a href="view.html?class=${classNo}&subject=${subjectKey}&id=${ch.id}&type=qa" class="res-btn">
+                                        <i class="fa-solid fa-pen-to-square" style="color:#eab308;"></i> Q&A
+                                    </a>
+                                </div>
+                            </div>
+                        `;
+                    });
+                }
+            })
+            .catch(err => console.error("Chapters fetching error:", err));
     }
 }

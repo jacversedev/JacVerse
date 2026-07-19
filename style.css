@@ -1,5 +1,5 @@
 ﻿/* ===================================
-   JACVERSE V2 FINAL
+   JACVERSE V2 FINAL (FIXED NAV)
    STYLE.CSS
    PART 1
    Reset • Variables • Body • Loader
@@ -7,14 +7,10 @@
 
 
 /* Google Font */
-
-
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
 
 
 /* Reset */
-
-
 *{
     margin:0;
     padding:0;
@@ -28,322 +24,137 @@ html{
 
 
 /* Variables */
-
-
 :root{
-
-
     --primary:#2563eb;
     --primary-light:#3b82f6;
-
-
     --bg:#07111f;
     --bg2:#0d1b2a;
-
-
     --text:#ffffff;
     --text-light:#cbd5e1;
-
-
     --glass:rgba(255,255,255,.08);
     --border:rgba(255,255,255,.12);
-
-
-    --shadow:
-    0 15px 40px rgba(0,0,0,.35);
-
-
+    --shadow: 0 15px 40px rgba(0,0,0,.35);
     --radius:20px;
-
-
 }
 
 
 /* Body */
-
-
 body{
-
-
     font-family:'Poppins',sans-serif;
-
-
-    background:
-    linear-gradient(
-    180deg,
-    #07111f,
-    #10243d,
-    #07111f);
-
-
+    background: linear-gradient(180deg, #07111f, #10243d, #07111f);
     color:var(--text);
-
-
     overflow-x:hidden;
-
-
     min-height:100vh;
-
-
 }
 
 
 /* Links */
-
-
 a{
-
-
     text-decoration:none;
-
-
     color:inherit;
-
-
 }
 
 
 /* Images */
-
-
 img{
-
-
     max-width:100%;
-
-
     display:block;
-
-
 }
 
 
 /* Buttons */
-
-
 button{
-
-
     border:none;
-
-
     outline:none;
-
-
     cursor:pointer;
-
-
     font-family:inherit;
-
-
 }
 
 
 /* Lists */
-
-
 ul{
-
-
     list-style:none;
-
-
 }
 
 
 /* Selection */
-
-
 ::selection{
-
-
     background:#2563eb;
-
-
     color:#ffffff;
-
-
 }
 
 
 /* Scrollbar */
-
-
 ::-webkit-scrollbar{
-
-
     width:8px;
-
-
 }
-
-
 ::-webkit-scrollbar-track{
-
-
     background:#08121d;
-
-
 }
-
-
 ::-webkit-scrollbar-thumb{
-
-
     background:#2563eb;
-
-
     border-radius:20px;
-
-
 }
 
 
 /* ===========================
    Blur Background
 =========================== */
-
-
 .bg-blur{
-
-
     position:fixed;
-
-
     inset:0;
-
-
     z-index:-2;
-
-
     background:
-
-
-    radial-gradient(circle at top left,
-    rgba(59,130,246,.30),
-    transparent 35%),
-
-
-    radial-gradient(circle at bottom right,
-    rgba(37,99,235,.25),
-    transparent 40%),
-
-
-    linear-gradient(
-    180deg,
-    #07111f,
-    #10243d,
-    #07111f);
-
-
+    radial-gradient(circle at top left, rgba(59,130,246,.30), transparent 35%),
+    radial-gradient(circle at bottom right, rgba(37,99,235,.25), transparent 40%),
+    linear-gradient(180deg, #07111f, #10243d, #07111f);
 }
 
 
 /* ===========================
-   Loader
-=========================== */
-
-
+   Loader */
 .loader{
-
-
     position:fixed;
-
-
     inset:0;
-
-
     background:#07111f;
-
-
     display:flex;
-
-
     justify-content:center;
-
-
     align-items:center;
-
-
-    z-index:9999;
-
-
+    z-index:9999; /* Loader will stay underneath the bottom nav now */
 }
 
 
 .book-loader{
-
-
     display:flex;
-
-
     gap:8px;
-
-
 }
 
 
 .book-loader span{
-
-
     width:10px;
-
-
     height:45px;
-
-
     border-radius:20px;
-
-
     background:#2563eb;
-
-
     animation:loader 1s infinite;
-
-
 }
 
 
 .book-loader span:nth-child(2){
-
-
     animation-delay:.2s;
-
-
 }
 
 
 .book-loader span:nth-child(3){
-
-
     animation-delay:.4s;
-
-
 }
 
 
 @keyframes loader{
-
-
-    0%,100%{
-
-
-        transform:scaleY(1);
-
-
-    }
-
-
-    50%{
-
-
-        transform:scaleY(.4);
-
-
-    }
-
-
+    0%,100%{ transform:scaleY(1); }
+    50%{ transform:scaleY(.4); }
 }
+
+
 /* ===================================
    JACVERSE V2 FINAL
    STYLE.CSS
@@ -353,733 +164,327 @@ ul{
 
 
 /* ===========================
-   Header
-=========================== */
-
-
+   Header */
 header{
-
-
     position:fixed;
-
-
     top:0;
     left:0;
-
-
     width:100%;
-
-
     z-index:1000;
-
-
     background:rgba(7,17,31,.75);
-
-
     backdrop-filter:blur(20px);
     -webkit-backdrop-filter:blur(20px);
-
-
     border-bottom:1px solid rgba(255,255,255,.08);
-
-
 }
 
 
 /* Navbar */
-
-
 .navbar{
-
-
     max-width:1200px;
-
-
     margin:auto;
-
-
     padding:15px 20px;
-
-
     display:flex;
-
-
     justify-content:space-between;
-
-
     align-items:center;
-
-
 }
 
 
 /* Left */
-
-
 .left-nav{
-
-
     display:flex;
-
-
     align-items:center;
-
-
     gap:18px;
-
-
 }
 
 
 /* Right */
-
-
 .right-nav{
-
-
     display:flex;
-
-
     align-items:center;
-
-
 }
 
 
 /* Buttons */
-
-
 #menuBtn,
 #themeBtn{
-
-
     width:48px;
-
-
     height:48px;
-
-
     border-radius:14px;
-
-
     background:rgba(255,255,255,.08);
-
-
     color:#fff;
-
-
     font-size:20px;
-
-
     transition:.3s;
-
-
 }
 
 
 #menuBtn:hover,
 #themeBtn:hover{
-
-
     background:var(--primary);
-
-
     transform:scale(1.05);
-
-
 }
 
 
 /* Logo */
-
-
 .logo{
-
-
     display:flex;
-
-
     align-items:center;
-
-
     gap:12px;
-
-
 }
 
 
 .logo-box{
-
-
     width:52px;
     height:52px;
-
-
     display:flex;
-
-
     justify-content:center;
     align-items:center;
-
-
     border-radius:16px;
-
-
-    background:linear-gradient(
-    135deg,
-    var(--primary-light),
-    var(--primary));
-
-
+    background:linear-gradient(135deg, var(--primary-light), var(--primary));
     color:#fff;
-
-
     font-weight:700;
-
-
     font-size:22px;
-
-
-    box-shadow:
-    0 10px 25px
-    rgba(59,130,246,.35);
-
-
+    box-shadow: 0 10px 25px rgba(59,130,246,.35);
 }
 
 
 .logo h2{
-
-
     font-size:22px;
-
-
     color:#fff;
-
-
 }
 
 
 .logo p{
-
-
     font-size:13px;
-
-
     color:var(--text-light);
-
-
 }
 
 
 /* Main */
-
-
 main{
-
-
     padding-top:110px;
-
-
+    padding-bottom: 90px; /* Space for fixed bottom nav */
 }
 
 
 /* ===========================
-   Sidebar
-=========================== */
-
-
+   Sidebar */
 #sidebar{
-
-
     position:fixed;
-
-
     top:0;
-
-
     left:-300px;
-
-
     width:280px;
-
-
     height:100vh;
-
-
     background:rgba(10,18,35,.96);
-
-
     backdrop-filter:blur(22px);
-
-
     transition:.35s;
-
-
     z-index:1200;
-
-
     overflow-y:auto;
-
-
 }
 
 
 #sidebar.active{
-
-
     left:0;
-
-
 }
 
 
 .sidebar-header{
-
-
     padding:28px;
-
-
     border-bottom:1px solid rgba(255,255,255,.08);
-
-
 }
 
 
 .sidebar-header h2{
-
-
     color:#fff;
-
-
 }
 
 
 #sidebar ul{
-
-
     padding:15px;
-
-
 }
 
 
 #sidebar ul li{
-
-
     margin-bottom:10px;
-
-
 }
 
 
 #sidebar ul li a{
-
-
     display:flex;
-
-
     align-items:center;
-
-
     gap:14px;
-
-
     padding:14px 16px;
-
-
     border-radius:14px;
-
-
     color:#dbeafe;
-
-
     transition:.3s;
-
-
 }
 
 
 #sidebar ul li a:hover{
-
-
     background:rgba(59,130,246,.15);
-
-
     color:#fff;
-
-
     transform:translateX(5px);
-
-
 }
 
 
 /* Overlay */
-
-
 #overlay{
-
-
     position:fixed;
-
-
     inset:0;
-
-
     background:rgba(0,0,0,.45);
-
-
     opacity:0;
-
-
     visibility:hidden;
-
-
     transition:.3s;
-
-
     z-index:1100;
-
-
 }
 
 
 #overlay.active{
-
-
     opacity:1;
-
-
     visibility:visible;
-
-
 }
 
 
 /* ===========================
-   Hero
-=========================== */
-
-
+   Hero */
 .hero{
-
-
-    min-height:100vh;
-
-
+    min-height:90vh; /* Changed from 100vh to fit properly */
     display:flex;
-
-
     justify-content:center;
-
-
     align-items:center;
-
-
     padding:40px 20px 70px;
-
-
 }
 
 
 .hero-glass{
-
-
     width:100%;
-
-
     max-width:900px;
-
-
     text-align:center;
-
-
     padding:45px 30px;
-
-
     background:rgba(255,255,255,.08);
-
-
     border:1px solid rgba(255,255,255,.12);
-
-
     border-radius:28px;
-
-
     backdrop-filter:blur(20px);
-
-
     box-shadow:var(--shadow);
-
-
 }
 
 
 .badge{
-
-
     display:inline-flex;
-
-
     align-items:center;
-
-
     gap:8px;
-
-
     padding:10px 18px;
-
-
     border-radius:40px;
-
-
     background:rgba(59,130,246,.15);
-
-
     color:#93c5fd;
-
-
     margin-bottom:20px;
-
-
 }
 
 
 .hero-glass h1{
-
-
     font-size:clamp(2.2rem,5vw,3.8rem);
-
-
     line-height:1.2;
-
-
     margin-bottom:18px;
-
-
 }
 
 
 .hero-glass h1 span{
-
-
     color:#60a5fa;
-
-
 }
 
 
 .hero-glass p{
-
-
     max-width:650px;
-
-
     margin:auto;
-
-
     color:var(--text-light);
-
-
     line-height:1.8;
-
-
 }
 
 
 /* Live Update */
-
-
 .live-update{
-
-
     margin:28px auto;
-
-
     background:rgba(59,130,246,.12);
-
-
     border:1px solid rgba(59,130,246,.25);
-
-
     border-radius:50px;
-
-
     padding:12px 18px;
-
-
     display:flex;
-
-
     align-items:center;
-
-
     gap:10px;
-
-
     color:#dbeafe;
-
-
 }
 
 
 /* Search */
-
-
 .search-box{
-
-
     display:flex;
-
-
     align-items:center;
-
-
     gap:12px;
-
-
     margin:30px auto;
-
-
     max-width:650px;
-
-
     padding:16px 20px;
-
-
     border-radius:50px;
-
-
     background:rgba(255,255,255,.08);
-
-
     border:1px solid rgba(255,255,255,.12);
-
-
 }
 
 
 .search-box i{
-
-
     color:#60a5fa;
-
-
 }
 
 
 .search-box input{
-
-
     flex:1;
-
-
     border:none;
-
-
     outline:none;
-
-
     background:transparent;
-
-
     color:#fff;
-
-
     font-size:16px;
-
-
 }
 
 
 .search-box input::placeholder{
-
-
     color:#94a3b8;
-
-
 }
 
 
 /* Buttons */
-
-
 .hero-buttons{
-
-
     display:flex;
-
-
     justify-content:center;
-
-
     gap:18px;
-
-
     flex-wrap:wrap;
-
-
 }
 
 
 .btn-primary,
 .btn-secondary{
-
-
     padding:15px 28px;
-
-
     border-radius:50px;
-
-
     font-weight:600;
-
-
     transition:.3s;
-
-
 }
 
 
 .btn-primary{
-
-
-    background:linear-gradient(
-    135deg,
-    var(--primary-light),
-    var(--primary));
-
-
+    background:linear-gradient(135deg, var(--primary-light), var(--primary));
     color:#fff;
-
-
 }
 
 
 .btn-secondary{
-
-
     background:rgba(255,255,255,.08);
-
-
     border:1px solid rgba(255,255,255,.12);
-
-
     color:#fff;
-
-
 }
 
 
 .btn-primary:hover,
 .btn-secondary:hover{
-
-
     transform:translateY(-4px);
-
-
 }
+
+
 /* ===================================
    JACVERSE V2 FINAL
    STYLE.CSS
@@ -1089,398 +494,178 @@ main{
 
 
 /* ===========================
-   Classes Section
-=========================== */
-
-
+   Classes Section */
 .classes{
-
-
     max-width:1200px;
     margin:80px auto;
     padding:0 20px;
-
-
 }
 
 
 .section-title{
-
-
     text-align:center;
-
-
     font-size:2rem;
     font-weight:700;
-
-
     color:#ffffff;
-
-
     margin-bottom:40px;
-
-
 }
 
 
 .class-grid{
-
-
     display:grid;
-
-
-    grid-template-columns:
-    repeat(auto-fit,minmax(280px,1fr));
-
-
+    grid-template-columns: repeat(auto-fit,minmax(280px,1fr));
     gap:25px;
-
-
 }
 
 
 .class-card{
-
-
     background:rgba(255,255,255,.08);
-
-
     border:1px solid rgba(255,255,255,.12);
-
-
     backdrop-filter:blur(18px);
-
-
     border-radius:24px;
-
-
     padding:35px 25px;
-
-
     text-align:center;
-
-
     transition:.35s;
-
-
-    box-shadow:
-    0 15px 35px rgba(0,0,0,.20);
-
-
+    box-shadow: 0 15px 35px rgba(0,0,0,.20);
 }
 
 
 .class-card:hover{
-
-
     transform:translateY(-10px);
-
-
     border-color:#60a5fa;
-
-
-    box-shadow:
-    0 25px 50px rgba(0,0,0,.35),
-    0 0 30px rgba(59,130,246,.20);
-
-
+    box-shadow: 0 25px 50px rgba(0,0,0,.35), 0 0 30px rgba(59,130,246,.20);
 }
 
 
 .card-top{
-
-
     width:80px;
     height:80px;
-
-
     margin:0 auto 22px;
-
-
     display:flex;
-
-
     justify-content:center;
     align-items:center;
-
-
     border-radius:50%;
-
-
-    background:linear-gradient(
-    135deg,
-    #3b82f6,
-    #2563eb);
-
-
+    background:linear-gradient(135deg, #3b82f6, #2563eb);
     color:#fff;
-
-
     font-size:34px;
-
-
 }
 
 
 .class-card h3{
-
-
     font-size:24px;
-
-
     color:#fff;
-
-
     margin-bottom:12px;
-
-
 }
 
 
 .class-card p{
-
-
     color:#cbd5e1;
-
-
     line-height:1.7;
-
-
 }
 
 
 /* ===========================
-   Notes Section
-=========================== */
-
-
+   Notes Section */
 .features{
-
-
     max-width:1200px;
-
-
     margin:80px auto;
-
-
     padding:0 20px;
-
-
 }
 
 
 .feature-grid{
-
-
     display:grid;
-
-
     grid-template-columns:1fr;
-
-
     gap:25px;
-
-
 }
 
 
 .feature-card{
-
-
     background:rgba(255,255,255,.08);
-
-
     border:1px solid rgba(255,255,255,.12);
-
-
     backdrop-filter:blur(18px);
-
-
     border-radius:24px;
-
-
     padding:35px;
-
-
     text-align:center;
-
-
     transition:.35s;
-
-
 }
 
 
 .feature-card:hover{
-
-
     transform:translateY(-10px);
-
-
     border-color:#60a5fa;
-
-
 }
 
 
 .feature-card i{
-
-
     width:80px;
     height:80px;
-
-
     margin:0 auto 20px;
-
-
     display:flex;
-
-
     justify-content:center;
     align-items:center;
-
-
     border-radius:50%;
-
-
-    background:linear-gradient(
-    135deg,
-    #3b82f6,
-    #2563eb);
-
-
+    background:linear-gradient(135deg, #3b82f6, #2563eb);
     color:#fff;
-
-
     font-size:32px;
-
-
 }
 
 
 .feature-card h3{
-
-
     color:#fff;
-
-
     margin-bottom:10px;
-
-
     font-size:24px;
-
-
 }
 
 
 .feature-card p{
-
-
     color:#cbd5e1;
-
-
     line-height:1.8;
-
-
 }
 
 
 /* ===========================
-   Motivation Section
-=========================== */
-
-
+   Motivation Section */
 .motivation{
-
-
     max-width:1200px;
-
-
     margin:90px auto;
-
-
     padding:0 20px;
-
-
 }
 
 
 .motivation-box{
-
-
     text-align:center;
-
-
     padding:55px 30px;
-
-
     border-radius:28px;
-
-
-    background:linear-gradient(
-    135deg,
-    rgba(59,130,246,.18),
-    rgba(37,99,235,.12));
-
-
+    background:linear-gradient(135deg, rgba(59,130,246,.18), rgba(37,99,235,.12));
     border:1px solid rgba(96,165,250,.25);
-
-
     backdrop-filter:blur(20px);
-
-
     transition:.35s;
-
-
 }
 
 
 .motivation-box:hover{
-
-
     transform:translateY(-8px);
-
-
     border-color:#60a5fa;
-
-
 }
 
 
 .motivation-box h2{
-
-
     font-size:2rem;
-
-
     color:#fff;
-
-
     margin-bottom:18px;
-
-
 }
 
 
 .motivation-box p{
-
-
     max-width:700px;
-
-
     margin:auto;
-
-
     color:#dbeafe;
-
-
     line-height:1.8;
-
-
     font-size:17px;
-
-
 }
+
+
 /* ===================================
    JACVERSE V2 FINAL
    STYLE.CSS
@@ -1490,325 +675,144 @@ main{
 
 
 /* ===========================
-   Footer
-=========================== */
-
-
+   Footer */
 .footer{
-
-
     margin-top:90px;
-
-
     padding:60px 20px 100px;
-
-
     background:rgba(255,255,255,.06);
-
-
     border-top:1px solid rgba(255,255,255,.10);
-
-
     backdrop-filter:blur(20px);
-
-
 }
 
 
 .footer-top{
-
-
     max-width:1200px;
-
-
     margin:auto;
-
-
     display:flex;
-
-
     justify-content:space-between;
-
-
     align-items:flex-start;
-
-
     gap:40px;
-
-
     flex-wrap:wrap;
-
-
 }
 
 
 /* Footer Brand */
-
-
 .footer-brand{
-
-
     display:flex;
-
-
     align-items:center;
-
-
     gap:15px;
-
-
 }
 
 
 .footer-logo{
-
-
     width:60px;
-
-
     height:60px;
-
-
     border-radius:18px;
-
-
     display:flex;
-
-
     justify-content:center;
-
-
     align-items:center;
-
-
-    background:linear-gradient(
-    135deg,
-    #3b82f6,
-    #2563eb);
-
-
+    background:linear-gradient(135deg, #3b82f6, #2563eb);
     color:#fff;
-
-
     font-size:24px;
-
-
     font-weight:700;
-
-
 }
 
 
 .footer-brand h2{
-
-
     color:#fff;
-
-
     margin-bottom:5px;
-
-
 }
 
 
 .footer-brand p{
-
-
     color:#cbd5e1;
-
-
     font-size:14px;
-
-
 }
 
 
 /* Footer Links */
-
-
 .footer-links{
-
-
     display:flex;
-
-
     flex-wrap:wrap;
-
-
     gap:20px;
-
-
 }
 
 
 .footer-links a{
-
-
     color:#cbd5e1;
-
-
     transition:.3s;
-
-
 }
 
 
 .footer-links a:hover{
-
-
     color:#60a5fa;
-
-
 }
 
 
 /* Copyright */
-
-
 .copyright{
-
-
     text-align:center;
-
-
     margin-top:35px;
-
-
     color:#94a3b8;
-
-
     font-size:14px;
-
-
 }
 
 
 /* ===========================
-   Bottom Navigation
-=========================== */
-
-
+   Bottom Navigation */
 .bottom-nav{
-
-
     position:fixed;
-
-
     left:0;
-
-
     bottom:0;
-
-
     width:100%;
-
-
     height:72px;
-
-
-    background:rgba(7,17,31,.92);
-
-
+    background:rgba(7, 17, 31, 0.96); /* Higher opacity for safety */
     backdrop-filter:blur(20px);
-
-
     border-top:1px solid rgba(255,255,255,.08);
-
-
     display:flex;
-
-
     justify-content:space-around;
-
-
     align-items:center;
-
-
-    z-index:999;
-
-
+    z-index:10005; /* 🚀 Fixed! Higher than loader to display instantly */
 }
 
 
 /* Navigation Links */
-
-
 .bottom-nav a{
-
-
     display:flex;
-
-
     flex-direction:column;
-
-
     align-items:center;
-
-
     justify-content:center;
-
-
     gap:4px;
-
-
     color:#cbd5e1;
-
-
     font-size:13px;
-
-
     transition:.3s;
-
-
 }
 
 
 /* Icons */
-
-
 .bottom-nav a i{
-
-
     font-size:21px;
-
-
 }
 
 
 /* Hover */
-
-
 .bottom-nav a:hover{
-
-
     color:#60a5fa;
-
-
 }
 
 
 /* Active */
-
-
 .bottom-nav a.active{
-
-
     color:#3b82f6;
-
-
 }
 
 
 /* Store Icon */
-
-
 .bottom-nav a:last-child i{
-
-
     color:#facc15;
-
-
 }
+
+
 /* ===================================
    JACVERSE V2 FINAL
    STYLE.CSS
@@ -1818,67 +822,27 @@ main{
 
 
 /* ===========================
-   Fade Animation
-=========================== */
-
-
+   Fade Animation */
 .fade-up{
-
-
     opacity:0;
-
-
     transform:translateY(40px);
-
-
     animation:fadeUp .8s ease forwards;
-
-
 }
 
 
 @keyframes fadeUp{
-
-
-    from{
-
-
-        opacity:0;
-        transform:translateY(40px);
-
-
-    }
-
-
-    to{
-
-
-        opacity:1;
-        transform:translateY(0);
-
-
-    }
-
-
+    from{ opacity:0; transform:translateY(40px); }
+    to{ opacity:1; transform:translateY(0); }
 }
 
 
 /* ===========================
-   Hover Effects
-=========================== */
-
-
+   Hover Effects */
 .class-card,
 .feature-card,
 .hero-glass,
 .motivation-box{
-
-
-    transition:
-    transform .35s ease,
-    box-shadow .35s ease;
-
-
+    transition: transform .35s ease, box-shadow .35s ease;
 }
 
 
@@ -1886,161 +850,51 @@ main{
 .feature-card:hover,
 .hero-glass:hover,
 .motivation-box:hover{
-
-
     transform:translateY(-8px);
-
-
-    box-shadow:
-    0 18px 45px rgba(0,0,0,.25);
-
-
+    box-shadow: 0 18px 45px rgba(0,0,0,.25);
 }
 
 
 /* ===========================
-   Responsive
-=========================== */
-
-
+   Responsive */
 @media(max-width:992px){
-
-
-    .hero-glass{
-
-
-        padding:35px 25px;
-
-
-    }
-
-
+    .hero-glass{ padding:35px 25px; }
 }
 
 
 @media(max-width:768px){
-
-
-    .navbar{
-
-
-        padding:15px;
-
-
+    .navbar{ padding:15px; }
+    .logo h2{ font-size:20px; }
+    
+    .hero {
+        min-height: auto !important; /* 🚀 Fixed! Prevents blank spaces pushing the navigation down on mobile */
+        padding: 120px 18px 50px !important;
     }
-
-
-    .logo h2{
-
-
-        font-size:20px;
-
-
-    }
-
-
-    .hero{
-
-
-        padding:110px 18px 60px;
-
-
-    }
-
-
-    .hero-glass{
-
-
-        padding:25px 18px;
-
-
-    }
-
-
-    .hero-buttons{
-
-
-        flex-direction:column;
-
-
-    }
-
-
-    .btn-primary,
-    .btn-secondary{
-
-
-        width:100%;
-
-
-    }
-
-
+    
+    .hero-glass{ padding:25px 18px; }
+    .hero-buttons{ flex-direction:column; }
+    .btn-primary, .btn-secondary{ width:100%; }
+    
     .footer-top{
-
-
         flex-direction:column;
-
-
         text-align:center;
-
-
         align-items:center;
-
-
     }
-
-
 }
 
 
 @media(max-width:480px){
-
-
-    .hero-glass h1{
-
-
-        font-size:1.8rem;
-
-
-    }
-
-
-    .hero-glass p{
-
-
-        font-size:14px;
-
-
-    }
-
-
-    .section-title{
-
-
-        font-size:1.7rem;
-
-
-    }
-
-
+    .hero-glass h1{ font-size:1.8rem; }
+    .hero-glass p{ font-size:14px; }
+    .section-title{ font-size:1.7rem; }
 }
 
 
 /* ===========================
-   Dark Mode
-=========================== */
-
-
+   Dark Mode */
 body.dark{
-
-
     background:#020617;
-
-
     color:#ffffff;
-
-
 }
 
 
@@ -2052,94 +906,19 @@ body.dark .motivation-box,
 body.dark .footer,
 body.dark .bottom-nav,
 body.dark #sidebar{
-
-
     background:#0f172a;
-
-
 }
 
 
-body.dark .search-box{
-
-
-    background:#1e293b;
-
-
-}
-
-
-body.dark input{
-
-
-    color:#ffffff;
-
-
-}
+body.dark .search-box{ background:#1e293b; }
+body.dark input{ color:#ffffff; }
 
 
 /* ===========================
-   Focus
-=========================== */
-
-
+   Focus */
 button:focus,
 input:focus,
 a:focus{
-
-
     outline:2px solid #3b82f6;
-
-
     outline-offset:2px;
-
-
 }
-
-
-/* ===========================
-   Scrollbar
-=========================== */
-
-
-::-webkit-scrollbar{
-
-
-    width:8px;
-
-
-}
-
-
-::-webkit-scrollbar-thumb{
-
-
-    background:#2563eb;
-
-
-    border-radius:20px;
-
-
-}
-
-
-/* ===========================
-   Selection
-=========================== */
-
-
-::selection{
-
-
-    background:#2563eb;
-
-
-    color:#ffffff;
-
-
-}
-
-
-/* ===========================
-   END OF FILE
-=========================== */

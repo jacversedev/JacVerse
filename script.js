@@ -203,7 +203,7 @@ if (window.location.pathname.includes("class.html") || window.location.pathname.
         metaDesc.setAttribute('content', `Get JAC Board Class ${classNo} all subjects solutions, text books name, chapter notes, online MCQ tests, and key study resources.`);
 
 
-        fetch("database_2.json")[span_1](start_span)[span_1](end_span)
+        fetch("database_2.json")
             .then(res => res.json())
             .then(data => {
                 const grid = document.getElementById("subjectsGrid");
@@ -235,6 +235,7 @@ if (window.location.pathname.includes("class.html") || window.location.pathname.
                         const icon = iconMap[key] || "📘";
                         const engName = key.replace(/_/g, ' ').toUpperCase();
                         
+                        // 🔥 YAHAN LINK AB chapters.html PAR JAYEGA
                         grid.innerHTML += `
                             <a href="chapters.html?class=${classNo}&subject=${key}" class="card">
                                 <h2><span>${icon}</span> ${engName}</h2>
@@ -263,7 +264,7 @@ if (window.location.pathname.includes("chapters.html")) {
         if (classContextEl) classContextEl.textContent = `JAC Board Class ${classNo}`;
 
 
-        fetch("database_2.json")[span_2](start_span)[span_2](end_span)
+        fetch("database_2.json")
             .then(res => res.json())
             .then(data => {
                 const targetClass = `class${classNo}`;
@@ -297,7 +298,7 @@ if (window.location.pathname.includes("chapters.html")) {
                     container.innerHTML = "";
 
 
-                    // Extracting chapters based on json format[span_3](start_span)[span_3](end_span)
+                    // Extracting chapters based on json format
                     let chaptersArray = [];
                     if (subjectData.chapters) {
                         chaptersArray = subjectData.chapters;

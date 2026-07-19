@@ -203,7 +203,7 @@ if (window.location.pathname.includes("class.html") || window.location.pathname.
         metaDesc.setAttribute('content', `Get JAC Board Class ${classNo} all subjects solutions, text books name, chapter notes, online MCQ tests, and key study resources.`);
 
 
-        fetch("database_2.json")
+        fetch("./database_2.json") // Sahi relative path kiya gaya hai
             .then(res => res.json())
             .then(data => {
                 const grid = document.getElementById("subjectsGrid");
@@ -235,7 +235,6 @@ if (window.location.pathname.includes("class.html") || window.location.pathname.
                         const icon = iconMap[key] || "📘";
                         const engName = key.replace(/_/g, ' ').toUpperCase();
                         
-                        // 🔥 YAHAN LINK AB chapters.html PAR JAYEGA
                         grid.innerHTML += `
                             <a href="chapters.html?class=${classNo}&subject=${key}" class="card">
                                 <h2><span>${icon}</span> ${engName}</h2>
@@ -264,10 +263,11 @@ if (window.location.pathname.includes("chapters.html")) {
         if (classContextEl) classContextEl.textContent = `JAC Board Class ${classNo}`;
 
 
-        fetch("database_2.json")
+        fetch("./database_2.json") // Sahi relative path kiya gaya hai
             .then(res => res.json())
             .then(data => {
-                const targetClass = `class${classNo}`;
+                // Handle both structures: "class10" or just "10"
+                const targetClass = data[`class${classNo}`] ? `class${classNo}` : classNo;
                 const subjectData = data[targetClass] ? data[targetClass][subjectKey] : null;
                 const container = document.getElementById("chaptersList");
 
@@ -322,21 +322,27 @@ if (window.location.pathname.includes("chapters.html")) {
                             <div class="chapter-card">
                                 <h3><span>Ch ${ch.id || index + 1}</span> ${ch.title}</h3>
                                 <div class="resource-grid">
-                                    <a href="view.html?class=${classNo}&subject=${subjectKey}&id=${ch.id}&type=notes" class="res-btn">
+                                    <a href="view.html?class=${classNo}&subject=${subjectKey}&id=${ch.id || (index+1)}&type=notes" class="res-btn">
                                         <i class="fa-solid fa-file-pdf" style="color:#ef4444;"></i> नोट्स
                                     </a>
-                                    <a href="view.html?class=${classNo}&subject=${subjectKey}&id=${ch.id}&type=mcq" class="res-btn">
+                                    <a href="view.html?class=${classNo}&subject=${subjectKey}&id=${ch.id || (index+1)}&type=mcq" class="res-btn">
                                         <i class="fa-solid fa-circle-check" style="color:#22c55e;"></i> MCQ Test
                                     </a>
-                                    <a href="view.html?class=${classNo}&subject=${subjectKey}&id=${ch.id}&type=qa" class="res-btn">
+                                    <a href="view.html?class=${classNo}&subject=${subjectKey}&id=${ch.id || (index+1)}&type=qa" class="res-btn">
                                         <i class="fa-solid fa-pen-to-square" style="color:#eab308;"></i> Q&A
                                     </a>
                                 </div>
                             </div>
                         `;
                     });
+                } else {
+                    if (container) container.innerHTML = `<p style="text-align:center; color:#94a3b8;">डाटा खोजने में समस्या आई। कृपया database_2.json जांचें।</p>`;
                 }
             })
-            .catch(err => console.error("Chapters fetching error:", err));
+            .catch(err => {
+                console.error("Chapters fetching error:", err);
+                const container = document.getElementById("chaptersList");
+                if (container) container.innerHTML = `<p style="text-align:center; color:#ef4444;">त्रुटि: डाटा लोड नहीं हो सका।</p>`;
+            });
     }
 }

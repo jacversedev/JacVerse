@@ -3460,3 +3460,15 @@ if (document.readyState === "loading") {
 } else {
     bootJacVerseCoreEngine();
 }
+/* =====================================================
+   LOADER FIX
+===================================================== */
+window.addEventListener("load", () => {
+    const loader = document.getElementById("loader");
+    if (loader) {
+        loader.style.opacity = "0";
+        setTimeout(() => {
+            loader.style.display = "none";
+        }, 300); // 300ms transition time ke baad display none ho jayega
+    }
+});

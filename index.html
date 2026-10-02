@@ -1,17 +1,81 @@
-﻿JacVerse
-Learn • Practice • Success
-☰ JacVerse 🌙
-🏠 Home 📚 Classes 📝 Notes 🧠 MCQ 📄 PYQ 🧪 Self Test 🏆 Winners 📚 Study Material ℹ️ About 📞 Contact 🌙 Dark Mode 🔒 Privacy Policy 📜 Terms ⚠️ Disclaimer JAC BOARD • CLASS 9 & 10
-JacVerse
-Learn • Practice • Success
-Notes, MCQ, PYQ aur Self Test, sab ek hi jagah. Free, tez, aur seedha tumhare phone par.
-Study shuru karo 📘
-Class 9
-Subjects, books, chapters 📕
-Class 10
-Subjects, books, chapters 📝
-Notes
-Class → Subject → Chapter ❓
-MCQ
-Chapter-wise practice 📄PYQ 🧠Self Test 🏆Winners 📚Study Material
-Ye page agle step mein banega 🚧
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#040a1c">
+<title>JacVerse | Premium JAC Study Platform</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="orb o1"></div>
+<div class="orb o2"></div>
+
+<div id="splash">
+  <div class="logo">Jac<em>Verse</em></div>
+  <div class="line"></div>
+  <p>Learn • Practice • Success</p>
+</div>
+
+<header>
+  <div class="bar">
+    <button id="menuBtn" aria-label="Menu">☰</button>
+    <a class="brand" href="index.html">Jac<em>Verse</em></a>
+    <button id="themeBtn" aria-label="Dark mode">🌙</button>
+  </div>
+  <div class="search">
+    <input id="q" type="search" placeholder="🔎  Search chapter, notes, MCQ, PYQ…" autocomplete="off">
+    <div id="results"></div>
+  </div>
+</header>
+
+<div id="overlay"></div>
+<nav id="drawer">
+  <a href="index.html">🏠 Home</a>
+  <a href="#" data-soon>📚 Classes</a>
+  <a href="#" data-soon>📝 Notes</a>
+  <a href="#" data-soon>🧠 MCQ</a>
+  <a href="#" data-soon>📄 PYQ</a>
+  <a href="#" data-soon>🧪 Self Test</a>
+  <a href="#" data-soon>🏆 Winners</a>
+  <a href="#" data-soon>📚 Study Material</a>
+  <a href="#" data-soon>ℹ️ About</a>
+  <a href="#" data-soon>📞 Contact</a>
+  <a href="#" id="drawerTheme">🌙 Dark Mode</a>
+  <a href="#" data-soon>🔒 Privacy Policy</a>
+  <a href="#" data-soon>📜 Terms</a>
+  <a href="#" data-soon>⚠️ Disclaimer</a>
+</nav>
+
+<main>
+  <section class="hero glass">
+    <small class="eyebrow">JAC BOARD • CLASS 9 &amp; 10</small>
+    <h1>Jac<em>Verse</em></h1>
+    <p class="tag">Learn • Practice • Success</p>
+    <p class="desc">Notes, MCQ, PYQ aur Self Test, sab ek hi jagah. Free, tez, aur seedha tumhare phone par.</p>
+    <a class="cta" href="#classes">Study shuru karo</a>
+  </section>
+
+  <section id="classes" class="grid">
+    <a class="card glass" style="--i:0" href="#" data-soon><b>📘</b><h3>Class 9</h3><small data-sub="9">Subjects, books, chapters</small></a>
+    <a class="card glass" style="--i:1" href="#" data-soon><b>📕</b><h3>Class 10</h3><small data-sub="10">Subjects, books, chapters</small></a>
+    <a class="card glass" style="--i:2" href="#" data-soon><b>📝</b><h3>Notes</h3><small>Class → Subject → Chapter</small></a>
+    <a class="card glass" style="--i:3" href="#" data-soon><b>❓</b><h3>MCQ</h3><small>Chapter-wise practice</small></a>
+  </section>
+</main>
+
+<nav class="bottom">
+  <a href="#" data-soon><i class="glass">📄</i><small>PYQ</small></a>
+  <a href="#" data-soon><i class="glass">🧠</i><small>Self Test</small></a>
+  <a href="#" data-soon><i class="glass">🏆</i><small>Winners</small></a>
+  <a href="#" data-soon><i class="glass">📚</i><small>Study Material</small></a>
+</nav>
+
+<div id="toast">Ye page agle step mein banega 🚧</div>
+<script src="script.js"></script>
+</body>
+</html>

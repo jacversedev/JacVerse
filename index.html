@@ -10,13 +10,12 @@
 <meta property="og:description" content="JAC Board Class 9 aur 10 ke liye free notes, MCQ, PYQ aur self test.">
 <meta property="og:image" content="https://jacversedev.github.io/JacVerse/assets/logos/logo.webp">
 <link rel="icon" href="assets/logos/logo-s.webp">
-<link rel="preload" as="image" href="assets/logos/logo.webp">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:wght@600;700&display=swap" media="print" onload="this.media='all'">
 <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body class="app">
 
 
 <div class="orb o1"></div>
@@ -24,41 +23,43 @@
 
 
 <div id="splash">
-  <div class="sl"><img src="assets/logos/logo.webp" alt="JacVerse" width="230" height="230" fetchpriority="high"></div>
+  <div class="logo">Jac<em>Verse</em></div>
   <div class="line"></div>
   <p>Learn • Practice • Success</p>
 </div>
 
 
-<header>
-  <div class="bar">
-    <button id="menuBtn" aria-label="Menu">☰</button>
-    <a class="brand" href="#/"><img src="assets/logos/logo-s.webp" alt="" width="36" height="36">Jac<em>Verse</em></a>
-    <button id="themeBtn" aria-label="Dark mode">🌙</button>
-  </div>
-</header>
+<div id="shell">
+  <header>
+    <div class="bar">
+      <button id="menuBtn" aria-label="Menu">☰</button>
+      <a class="brand" href="#/">Jac<em>Verse</em></a>
+      <button id="themeBtn" aria-label="Dark mode">🌙</button>
+    </div>
+  </header>
+
+
+  <main id="main"><div id="app"><div class="empty glass">Load ho raha hai…</div></div></main>
+
+
+  <nav class="bottom">
+    <a href="#/pyq"><i class="glass">📄</i><small>PYQ</small></a>
+    <a href="#/test"><i class="glass">🧠</i><small>Self Test</small></a>
+    <a href="#/" class="home"><i class="glass">🏠</i><small>Home</small></a>
+    <a href="#/updates"><i class="glass">🔔</i><small>Updates</small></a>
+    <a href="#/material"><i class="glass">📚</i><small>Study Material</small></a>
+  </nav>
+</div>
 
 
 <div id="overlay"></div>
 <nav id="drawer">
-  <a href="#/">🏠 Home</a>
   <a href="#/page/about">ℹ️ About</a>
   <a href="#/page/contact">📞 Contact</a>
   <a href="#" id="drawerTheme">🌙 Dark Mode</a>
   <a href="#/page/privacy">🔒 Privacy Policy</a>
   <a href="#/page/terms">📜 Terms</a>
   <a href="#/page/disclaimer">⚠️ Disclaimer</a>
-</nav>
-
-
-<main><div id="app"><div class="empty glass">Load ho raha hai…</div></div></main>
-
-
-<nav class="bottom">
-  <a href="#/pyq"><i class="glass">📄</i><small>PYQ</small></a>
-  <a href="#/test"><i class="glass">🧠</i><small>Self Test</small></a>
-  <a href="#/updates"><i class="glass">🔔</i><small>Updates</small></a>
-  <a href="#/material"><i class="glass">📚</i><small>Study Material</small></a>
 </nav>
 
 

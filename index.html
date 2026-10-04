@@ -1,81 +1,68 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="hi">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="theme-color" content="#040a1c">
 <title>JacVerse | Premium JAC Study Platform</title>
+<meta name="description" content="JAC Board Class 9 aur 10 ke liye free study platform: notes, MCQ, PYQ, question answer aur self test, ek hi jagah.">
+<meta property="og:title" content="JacVerse | Premium JAC Study Platform">
+<meta property="og:description" content="JAC Board Class 9 aur 10 ke liye free notes, MCQ, PYQ aur self test.">
+<meta property="og:image" content="https://jacversedev.github.io/JacVerse/assets/logos/logo.webp">
+<link rel="icon" href="assets/logos/logo-s.webp">
+<link rel="preload" as="image" href="assets/logos/logo.webp">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:wght@600;700&display=swap" media="print" onload="this.media='all'">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
+
 <div class="orb o1"></div>
 <div class="orb o2"></div>
 
+
 <div id="splash">
-  <div class="logo">Jac<em>Verse</em></div>
+  <div class="sl"><img src="assets/logos/logo.webp" alt="JacVerse" width="230" height="230" fetchpriority="high"></div>
   <div class="line"></div>
   <p>Learn • Practice • Success</p>
 </div>
 
+
 <header>
   <div class="bar">
     <button id="menuBtn" aria-label="Menu">☰</button>
-    <a class="brand" href="index.html">Jac<em>Verse</em></a>
+    <a class="brand" href="#/"><img src="assets/logos/logo-s.webp" alt="" width="36" height="36">Jac<em>Verse</em></a>
     <button id="themeBtn" aria-label="Dark mode">🌙</button>
-  </div>
-  <div class="search">
-    <input id="q" type="search" placeholder="🔎  Search chapter, notes, MCQ, PYQ…" autocomplete="off">
-    <div id="results"></div>
   </div>
 </header>
 
+
 <div id="overlay"></div>
 <nav id="drawer">
-  <a href="index.html">🏠 Home</a>
-  <a href="#" data-soon>📚 Classes</a>
-  <a href="#" data-soon>📝 Notes</a>
-  <a href="#" data-soon>🧠 MCQ</a>
-  <a href="#" data-soon>📄 PYQ</a>
-  <a href="#" data-soon>🧪 Self Test</a>
-  <a href="#" data-soon>🏆 Winners</a>
-  <a href="#" data-soon>📚 Study Material</a>
-  <a href="#" data-soon>ℹ️ About</a>
-  <a href="#" data-soon>📞 Contact</a>
+  <a href="#/">🏠 Home</a>
+  <a href="#/page/about">ℹ️ About</a>
+  <a href="#/page/contact">📞 Contact</a>
   <a href="#" id="drawerTheme">🌙 Dark Mode</a>
-  <a href="#" data-soon>🔒 Privacy Policy</a>
-  <a href="#" data-soon>📜 Terms</a>
-  <a href="#" data-soon>⚠️ Disclaimer</a>
+  <a href="#/page/privacy">🔒 Privacy Policy</a>
+  <a href="#/page/terms">📜 Terms</a>
+  <a href="#/page/disclaimer">⚠️ Disclaimer</a>
 </nav>
 
-<main>
-  <section class="hero glass">
-    <small class="eyebrow">JAC BOARD • CLASS 9 &amp; 10</small>
-    <h1>Jac<em>Verse</em></h1>
-    <p class="tag">Learn • Practice • Success</p>
-    <p class="desc">Notes, MCQ, PYQ aur Self Test, sab ek hi jagah. Free, tez, aur seedha tumhare phone par.</p>
-    <a class="cta" href="#classes">Study shuru karo</a>
-  </section>
 
-  <section id="classes" class="grid">
-    <a class="card glass" style="--i:0" href="#" data-soon><b>📘</b><h3>Class 9</h3><small data-sub="9">Subjects, books, chapters</small></a>
-    <a class="card glass" style="--i:1" href="#" data-soon><b>📕</b><h3>Class 10</h3><small data-sub="10">Subjects, books, chapters</small></a>
-    <a class="card glass" style="--i:2" href="#" data-soon><b>📝</b><h3>Notes</h3><small>Class → Subject → Chapter</small></a>
-    <a class="card glass" style="--i:3" href="#" data-soon><b>❓</b><h3>MCQ</h3><small>Chapter-wise practice</small></a>
-  </section>
-</main>
+<main><div id="app"><div class="empty glass">Load ho raha hai…</div></div></main>
+
 
 <nav class="bottom">
-  <a href="#" data-soon><i class="glass">📄</i><small>PYQ</small></a>
-  <a href="#" data-soon><i class="glass">🧠</i><small>Self Test</small></a>
-  <a href="#" data-soon><i class="glass">🏆</i><small>Winners</small></a>
-  <a href="#" data-soon><i class="glass">📚</i><small>Study Material</small></a>
+  <a href="#/pyq"><i class="glass">📄</i><small>PYQ</small></a>
+  <a href="#/test"><i class="glass">🧠</i><small>Self Test</small></a>
+  <a href="#/updates"><i class="glass">🔔</i><small>Updates</small></a>
+  <a href="#/material"><i class="glass">📚</i><small>Study Material</small></a>
 </nav>
 
-<div id="toast">Ye page agle step mein banega 🚧</div>
+
+<div id="toast"></div>
 <script src="script.js"></script>
 </body>
 </html>

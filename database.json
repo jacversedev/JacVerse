@@ -1,1132 +1,514 @@
 ﻿{
-  "classes": {
-    "9": {
+  "site": {
+    "url": "https://jacversedev.github.io/JacVerse/"
+  },
+  "classes": [
+    {
+      "id": "class9",
       "name": "Class 9",
+      "icon": "📘",
       "subjects": [
         {
-          "id": "class-9-mathematics",
-          "name": "Mathematics",
-          "nameHindi": "गणित",
+          "id": "class9-maths",
+          "name": "गणित",
+          "icon": "📘",
           "books": [
             {
-              "id": "class-9-mathematics-book",
-              "name": "Mathematics",
+              "id": "class9-maths-book",
+              "name": "गणित",
+              "parts": [],
               "chapters": [
-                {
-                  "id": "c9-math-1",
-                  "number": 1,
-                  "title": "संख्या पद्धति"
-                },
-                {
-                  "id": "c9-math-2",
-                  "number": 2,
-                  "title": "बहुपद"
-                },
-                {
-                  "id": "c9-math-3",
-                  "number": 3,
-                  "title": "निर्देशांक ज्यामिति"
-                },
-                {
-                  "id": "c9-math-4",
-                  "number": 4,
-                  "title": "दो चरों वाले रैखिक समीकरण"
-                },
-                {
-                  "id": "c9-math-5",
-                  "number": 5,
-                  "title": "यूक्लिड की ज्यामिति का परिचय"
-                },
-                {
-                  "id": "c9-math-6",
-                  "number": 6,
-                  "title": "रेखाएँ और कोण"
-                },
-                {
-                  "id": "c9-math-7",
-                  "number": 7,
-                  "title": "त्रिभुज"
-                },
-                {
-                  "id": "c9-math-8",
-                  "number": 8,
-                  "title": "चतुर्भुज"
-                },
-                {
-                  "id": "c9-math-9",
-                  "number": 9,
-                  "title": "वृत्त"
-                },
-                {
-                  "id": "c9-math-10",
-                  "number": 10,
-                  "title": "हेरॉन का सूत्र"
-                },
-                {
-                  "id": "c9-math-11",
-                  "number": 11,
-                  "title": "पृष्ठीय क्षेत्रफल और आयतन"
-                },
-                {
-                  "id": "c9-math-12",
-                  "number": 12,
-                  "title": "सांख्यिकी"
-                }
+                {"id": "class9-maths-chapter-1", "name": "संख्या पद्धति", "sections": {"oneShot": [], "mcq": [], "questionAnswer": [], "examFocus": [], "notes": []}},
+                {"id": "class9-maths-chapter-2", "name": "बहुपद", "sections": {"oneShot": [], "mcq": [], "questionAnswer": [], "examFocus": [], "notes": []}},
+                {"id": "class9-maths-chapter-3", "name": "निर्देशांक ज्यामिति", "sections": {"oneShot": [], "mcq": [], "questionAnswer": [], "examFocus": [], "notes": []}},
+                {"id": "class9-maths-chapter-4", "name": "दो चरों वाले रैखिक समीकरण", "sections": {"oneShot": [], "mcq": [], "questionAnswer": [], "examFocus": [], "notes": []}},
+                {"id": "class9-maths-chapter-5", "name": "यूक्लिड की ज्यामिति का परिचय", "sections": {"oneShot": [], "mcq": [], "questionAnswer": [], "examFocus": [], "notes": []}},
+                {"id": "class9-maths-chapter-6", "name": "रेखाएँ और कोण", "sections": {"oneShot": [], "mcq": [], "questionAnswer": [], "examFocus": [], "notes": []}},
+                {"id": "class9-maths-chapter-7", "name": "त्रिभुज", "sections": {"oneShot": [], "mcq": [], "questionAnswer": [], "examFocus": [], "notes": []}},
+                {"id": "class9-maths-chapter-8", "name": "चतुर्भुज", "sections": {"oneShot": [], "mcq": [], "questionAnswer": [], "examFocus": [], "notes": []}},
+                {"id": "class9-maths-chapter-9", "name": "वृत्त", "sections": {"oneShot": [], "mcq": [], "questionAnswer": [], "examFocus": [], "notes": []}},
+                {"id": "class9-maths-chapter-10", "name": "हीरोन का सूत्र", "sections": {"oneShot": [], "mcq": [], "questionAnswer": [], "examFocus": [], "notes": []}},
+                {"id": "class9-maths-chapter-11", "name": "पृष्ठीय क्षेत्रफल और आयतन", "sections": {"oneShot": [], "mcq": [], "questionAnswer": [], "examFocus": [], "notes": []}},
+                {"id": "class9-maths-chapter-12", "name": "सांख्यिकी", "sections": {"oneShot": [], "mcq": [], "questionAnswer": [], "examFocus": [], "notes": []}}
               ]
             }
-          ]
+          ],
+          "pyq": []
         },
         {
-          "id": "class-9-science",
-          "name": "Science",
-          "nameHindi": "विज्ञान",
+          "id": "class9-science",
+          "name": "विज्ञान",
+          "icon": "🔬",
           "books": [
             {
-              "id": "class-9-science-book",
-              "name": "Science",
+              "id": "class9-science-book",
+              "name": "विज्ञान",
+              "parts": [],
               "chapters": [
-                {
-                  "id": "c9-science-1",
-                  "number": 1,
-                  "title": "हमारे आस-पास के पदार्थ"
-                },
-                {
-                  "id": "c9-science-2",
-                  "number": 2,
-                  "title": "क्या हमारे आस-पास के पदार्थ शुद्ध हैं?"
-                },
-                {
-                  "id": "c9-science-3",
-                  "number": 3,
-                  "title": "परमाणु एवं अणु"
-                },
-                {
-                  "id": "c9-science-4",
-                  "number": 4,
-                  "title": "परमाणु की संरचना"
-                },
-                {
-                  "id": "c9-science-5",
-                  "number": 5,
-                  "title": "जीवन की मौलिक इकाई"
-                },
-                {
-                  "id": "c9-science-6",
-                  "number": 6,
-                  "title": "ऊतक"
-                },
-                {
-                  "id": "c9-science-7",
-                  "number": 7,
-                  "title": "गति"
-                },
-                {
-                  "id": "c9-science-8",
-                  "number": 8,
-                  "title": "बल तथा गति के नियम"
-                },
-                {
-                  "id": "c9-science-9",
-                  "number": 9,
-                  "title": "गुरुत्वाकर्षण"
-                },
-                {
-                  "id": "c9-science-10",
-                  "number": 10,
-                  "title": "कार्य तथा ऊर्जा"
-                },
-                {
-                  "id": "c9-science-11",
-                  "number": 11,
-                  "title": "ध्वनि"
-                },
-                {
-                  "id": "c9-science-12",
-                  "number": 12,
-                  "title": "खाद्य संसाधनों में सुधार"
-                }
+                {"id": "class9-science-chapter-1", "name": "हमारे आस-पास के पदार्थ", "sections": {"oneShot": [], "mcq": [], "questionAnswer": [], "examFocus": [], "notes": []}},
+                {"id": "class9-science-chapter-2", "name": "क्या हमारे आस-पास के पदार्थ शुद्ध हैं", "sections": {"oneShot": [], "mcq": [], "questionAnswer": [], "examFocus": [], "notes": []}},
+                {"id": "class9-science-chapter-3", "name": "परमाणु एवं अणु", "sections": {"oneShot": [], "mcq": [], "questionAnswer": [], "examFocus": [], "notes": []}},
+                {"id": "class9-science-chapter-4", "name": "परमाणु की संरचना", "sections": {"oneShot": [], "mcq": [], "questionAnswer": [], "examFocus": [], "notes": []}},
+                {"id": "class9-science-chapter-5", "name": "जीवन की मौलिक इकाई", "sections": {"oneShot": [], "mcq": [], "questionAnswer": [], "examFocus": [], "notes": []}},
+                {"id": "class9-science-chapter-6", "name": "ऊतक", "sections": {"oneShot": [], "mcq": [], "questionAnswer": [], "examFocus": [], "notes": []}},
+                {"id": "class9-science-chapter-7", "name": "गति", "sections": {"oneShot": [], "mcq": [], "questionAnswer": [], "examFocus": [], "notes": []}},
+                {"id": "class9-science-chapter-8", "name": "बल तथा गति के नियम", "sections": {"oneShot": [], "mcq": [], "questionAnswer": [], "examFocus": [], "notes": []}},
+                {"id": "class9-science-chapter-9", "name": "गुरुत्वाकर्षण", "sections": {"oneShot": [], "mcq": [], "questionAnswer": [], "examFocus": [], "notes": []}},
+                {"id": "class9-science-chapter-10", "name": "कार्य तथा ऊर्जा", "sections": {"oneShot": [], "mcq": [], "questionAnswer": [], "examFocus": [], "notes": []}},
+                {"id": "class9-science-chapter-11", "name": "ध्वनि", "sections": {"oneShot": [], "mcq": [], "questionAnswer": [], "examFocus": [], "notes": []}},
+                {"id": "class9-science-chapter-12", "name": "खाद्य संसाधनों में सुधार", "sections": {"oneShot": [], "mcq": [], "questionAnswer": [], "examFocus": [], "notes": []}}
               ]
             }
-          ]
+          ],
+          "pyq": []
         },
         {
-          "id": "class-9-social-science",
-          "name": "Social Science",
-          "nameHindi": "सामाजिक विज्ञान",
+          "id": "class9-social-science",
+          "name": "सामाजिक विज्ञान",
+          "icon": "🌍",
           "books": [
             {
-              "id": "class-9-history",
+              "id": "class9-history-book",
               "name": "इतिहास",
+              "desc": "भारत और समकालीन विश्व - 1",
+              "icon": "🏛️",
+              "parts": [],
               "chapters": [
-                {
-                  "id": "c9-history-1",
-                  "number": 1,
-                  "title": "फ्रांसीसी क्रांति"
-                },
-                {
-                  "id": "c9-history-2",
-                  "number": 2,
-                  "title": "यूरोप में समाजवाद एवं रूसी क्रांति"
-                },
-                {
-                  "id": "c9-history-3",
-                  "number": 3,
-                  "title": "नात्सीवाद और हिटलर का उदय"
-                },
-                {
-                  "id": "c9-history-4",
-                  "number": 4,
-                  "title": "वन्य समाज और उपनिवेशवाद"
-                },
-                {
-                  "id": "c9-history-5",
-                  "number": 5,
-                  "title": "आधुनिक विश्व में चरवाहे"
-                }
+                {"id": "class9-history-chapter-1", "name": "फ्रांसीसी क्रांति", "sections": {"oneShot": [], "mcq": [], "questionAnswer": [], "examFocus": [], "notes": []}},
+                {"id": "class9-history-chapter-2", "name": "यूरोप में समाजवाद एवं रूसी क्रांति", "sections": {"oneShot": [], "mcq": [], "questionAnswer": [], "examFocus": [], "notes": []}},
+                {"id": "class9-history-chapter-3", "name": "नात्सीवाद और हिटलर का उदय", "sections": {"oneShot": [], "mcq": [], "questionAnswer": [], "examFocus": [], "notes": []}},
+                {"id": "class9-history-chapter-4", "name": "वन्य समाज एवं उपनिवेशवाद", "sections": {"oneShot": [], "mcq": [], "questionAnswer": [], "examFocus": [], "notes": []}},
+                {"id": "class9-history-chapter-5", "name": "आधुनिक विश्व में चरवाहे", "sections": {"oneShot": [], "mcq": [], "questionAnswer": [], "examFocus": [], "notes": []}}
               ]
             },
             {
-              "id": "class-9-geography",
+              "id": "class9-geography-book",
               "name": "भूगोल",
+              "desc": "समकालीन भारत - 1",
+              "icon": "🗺️",
+              "parts": [],
               "chapters": [
-                {
-                  "id": "c9-geography-1",
-                  "number": 1,
-                  "title": "भारत - आकार और स्थिति"
-                },
-                {
-                  "id": "c9-geography-2",
-                  "number": 2,
-                  "title": "भारत का भौतिक स्वरूप"
-                },
-                {
-                  "id": "c9-geography-3",
-                  "number": 3,
-                  "title": "अपवाह"
-                },
-                {
-                  "id": "c9-geography-4",
-                  "number": 4,
-                  "title": "जलवायु"
-                },
-                {
-                  "id": "c9-geography-5",
-                  "number": 5,
-                  "title": "प्राकृतिक वनस्पति तथा वन्य प्राणी"
-                },
-                {
-                  "id": "c9-geography-6",
-                  "number": 6,
-                  "title": "जनसंख्या"
-                }
+                {"id": "class9-geography-chapter-1", "name": "भारत - आकार और स्थिति", "sections": {"oneShot": [], "mcq": [], "questionAnswer": [], "examFocus": [], "notes": []}},
+                {"id": "class9-geography-chapter-2", "name": "भारत का भौतिक स्वरूप", "sections": {"oneShot": [], "mcq": [], "questionAnswer": [], "examFocus": [], "notes": []}},
+                {"id": "class9-geography-chapter-3", "name": "अपवाह", "sections": {"oneShot": [], "mcq": [], "questionAnswer": [], "examFocus": [], "notes": []}},
+                {"id": "class9-geography-chapter-4", "name": "जलवायु", "sections": {"oneShot": [], "mcq": [], "questionAnswer": [], "examFocus": [], "notes": []}},
+                {"id": "class9-geography-chapter-5", "name": "प्राकृतिक वनस्पति तथा वन्य प्राणी", "sections": {"oneShot": [], "mcq": [], "questionAnswer": [], "examFocus": [], "notes": []}},
+                {"id": "class9-geography-chapter-6", "name": "जनसंख्या", "sections": {"oneShot": [], "mcq": [], "questionAnswer": [], "examFocus": [], "notes": []}}
               ]
             },
             {
-              "id": "class-9-civics",
+              "id": "class9-civics-book",
               "name": "नागरिक शास्त्र",
+              "desc": "लोकतांत्रिक राजनीति - 1",
+              "icon": "⚖️",
+              "parts": [],
               "chapters": [
-                {
-                  "id": "c9-civics-1",
-                  "number": 1,
-                  "title": "लोकतंत्र क्या? लोकतंत्र क्यों?"
-                },
-                {
-                  "id": "c9-civics-2",
-                  "number": 2,
-                  "title": "संविधान निर्माण"
-                },
-                {
-                  "id": "c9-civics-3",
-                  "number": 3,
-                  "title": "चुनावी राजनीति"
-                },
-                {
-                  "id": "c9-civics-4",
-                  "number": 4,
-                  "title": "संस्थाओं का कामकाज"
-                },
-                {
-                  "id": "c9-civics-5",
-                  "number": 5,
-                  "title": "लोकतांत्रिक अधिकार"
-                }
+                {"id": "class9-civics-chapter-1", "name": "लोकतंत्र क्या? लोकतंत्र क्यों?", "sections": {"oneShot": [], "mcq": [], "questionAnswer": [], "examFocus": [], "notes": []}},
+                {"id": "class9-civics-chapter-2", "name": "संविधान निर्माण", "sections": {"oneShot": [], "mcq": [], "questionAnswer": [], "examFocus": [], "notes": []}},
+                {"id": "class9-civics-chapter-3", "name": "चुनावी राजनीति", "sections": {"oneShot": [], "mcq": [], "questionAnswer": [], "examFocus": [], "notes": []}},
+                {"id": "class9-civics-chapter-4", "name": "संस्थाओं का कामकाज", "sections": {"oneShot": [], "mcq": [], "questionAnswer": [], "examFocus": [], "notes": []}},
+                {"id": "class9-civics-chapter-5", "name": "लोकतांत्रिक अधिकार", "sections": {"oneShot": [], "mcq": [], "questionAnswer": [], "examFocus": [], "notes": []}}
               ]
             },
             {
-              "id": "class-9-economics",
+              "id": "class9-economics-book",
               "name": "अर्थशास्त्र",
+              "icon": "💰",
+              "parts": [],
               "chapters": [
-                {
-                  "id": "c9-economics-1",
-                  "number": 1,
-                  "title": "पालमपुर गाँव की कहानी"
-                },
-                {
-                  "id": "c9-economics-2",
-                  "number": 2,
-                  "title": "संसाधन के रूप में लोग"
-                },
-                {
-                  "id": "c9-economics-3",
-                  "number": 3,
-                  "title": "निर्धनता: एक चुनौती"
-                },
-                {
-                  "id": "c9-economics-4",
-                  "number": 4,
-                  "title": "भारत में खाद्य सुरक्षा"
-                }
+                {"id": "class9-economics-chapter-1", "name": "पालमपुर गाँव की कहानी", "sections": {"oneShot": [], "mcq": [], "questionAnswer": [], "examFocus": [], "notes": []}},
+                {"id": "class9-economics-chapter-2", "name": "संसाधन के रूप में लोग", "sections": {"oneShot": [], "mcq": [], "questionAnswer": [], "examFocus": [], "notes": []}},
+                {"id": "class9-economics-chapter-3", "name": "निर्धनता : एक चुनौती", "sections": {"oneShot": [], "mcq": [], "questionAnswer": [], "examFocus": [], "notes": []}},
+                {"id": "class9-economics-chapter-4", "name": "भारत में खाद्य सुरक्षा", "sections": {"oneShot": [], "mcq": [], "questionAnswer": [], "examFocus": [], "notes": []}}
               ]
             }
-          ]
+          ],
+          "pyq": []
         },
         {
-          "id": "class-9-hindi",
-          "name": "Hindi",
-          "nameHindi": "हिंदी",
+          "id": "class9-hindi",
+          "name": "हिंदी",
+          "icon": "📕",
           "books": [
             {
-              "id": "class-9-kshitij",
+              "id": "class9-hindi-kshitij-book",
               "name": "क्षितिज भाग-1",
-              "chapters": [
+              "icon": "📕",
+              "parts": [
                 {
-                  "id": "c9-hindi-kshitij-1",
-                  "number": 1,
-                  "title": "दो बैलों की कथा"
+                  "id": "class9-hindi-kshitij-gadya",
+                  "name": "गद्य खंड",
+                  "chapters": [
+                    {"id": "class9-hindi-kshitij-chapter-1", "name": "दो बैलों की कथा", "desc": "प्रेमचंद", "sections": {"oneShot": [], "mcq": [], "questionAnswer": [], "examFocus": [], "notes": []}},
+                    {"id": "class9-hindi-kshitij-chapter-2", "name": "ल्हासा की ओर", "desc": "राहुल सांकृत्यायन", "sections": {"oneShot": [], "mcq": [], "questionAnswer": [], "examFocus": [], "notes": []}},
+                    {"id": "class9-hindi-kshitij-chapter-3", "name": "उपभोक्तावाद की संस्कृति", "desc": "श्यामाचरण दुबे", "sections": {"oneShot": [], "mcq": [], "questionAnswer": [], "examFocus": [], "notes": []}},
+                    {"id": "class9-hindi-kshitij-chapter-4", "name": "साँवले सपनों की याद", "desc": "जाबिर हुसैन", "sections": {"oneShot": [], "mcq": [], "questionAnswer": [], "examFocus": [], "notes": []}},
+                    {"id": "class9-hindi-kshitij-chapter-5", "name": "प्रेमचंद के फटे जूते", "desc": "हरिशंकर परसाई", "sections": {"oneShot": [], "mcq": [], "questionAnswer": [], "examFocus": [], "notes": []}},
+                    {"id": "class9-hindi-kshitij-chapter-6", "name": "मेरे बचपन के दिन", "desc": "महादेवी वर्मा", "sections": {"oneShot": [], "mcq": [], "questionAnswer": [], "examFocus": [], "notes": []}}
+                  ]
                 },
                 {
-                  "id": "c9-hindi-kshitij-2",
-                  "number": 2,
-                  "title": "ल्हासा की ओर"
-                },
-                {
-                  "id": "c9-hindi-kshitij-3",
-                  "number": 3,
-                  "title": "उपभोक्तावाद की संस्कृति"
-                },
-                {
-                  "id": "c9-hindi-kshitij-4",
-                  "number": 4,
-                  "title": "सांवले सपनों की याद"
-                },
-                {
-                  "id": "c9-hindi-kshitij-5",
-                  "number": 5,
-                  "title": "प्रेमचंद के फटे जूते"
-                },
-                {
-                  "id": "c9-hindi-kshitij-6",
-                  "number": 6,
-                  "title": "मेरे बचपन के दिन"
-                },
-                {
-                  "id": "c9-hindi-kshitij-7",
-                  "number": 7,
-                  "title": "साखियाँ एवं सबद"
-                },
-                {
-                  "id": "c9-hindi-kshitij-8",
-                  "number": 8,
-                  "title": "वाख"
-                },
-                {
-                  "id": "c9-hindi-kshitij-9",
-                  "number": 9,
-                  "title": "सवैये"
-                },
-                {
-                  "id": "c9-hindi-kshitij-10",
-                  "number": 10,
-                  "title": "कैदी और कोकिला"
-                },
-                {
-                  "id": "c9-hindi-kshitij-11",
-                  "number": 11,
-                  "title": "ग्राम श्री"
-                },
-                {
-                  "id": "c9-hindi-kshitij-12",
-                  "number": 12,
-                  "title": "चंद्र गहना से लौटती बेर"
-                },
-                {
-                  "id": "c9-hindi-kshitij-13",
-                  "number": 13,
-                  "title": "मेघ आए"
-                },
-                {
-                  "id": "c9-hindi-kshitij-14",
-                  "number": 14,
-                  "title": "बच्चे काम पर जा रहे हैं"
+                  "id": "class9-hindi-kshitij-kavya",
+                  "name": "काव्य खंड",
+                  "chapters": [
+                    {"id": "class9-hindi-kshitij-chapter-7", "name": "साखियाँ एवं सबद", "desc": "कबीर", "sections": {"oneShot": [], "mcq": [], "questionAnswer": [], "examFocus": [], "notes": []}},
+                    {"id": "class9-hindi-kshitij-chapter-8", "name": "वाख", "desc": "ललद्यद", "sections": {"oneShot": [], "mcq": [], "questionAnswer": [], "examFocus": [], "notes": []}},
+                    {"id": "class9-hindi-kshitij-chapter-9", "name": "सवैये", "desc": "रसखान", "sections": {"oneShot": [], "mcq": [], "questionAnswer": [], "examFocus": [], "notes": []}},
+                    {"id": "class9-hindi-kshitij-chapter-10", "name": "कैदी और कोकिला", "desc": "माखनलाल चतुर्वेदी", "sections": {"oneShot": [], "mcq": [], "questionAnswer": [], "examFocus": [], "notes": []}},
+                    {"id": "class9-hindi-kshitij-chapter-11", "name": "ग्राम श्री", "desc": "सुमित्रानंदन पंत", "sections": {"oneShot": [], "mcq": [], "questionAnswer": [], "examFocus": [], "notes": []}},
+                    {"id": "class9-hindi-kshitij-chapter-12", "name": "मेघ आए", "desc": "सर्वेश्वर दयाल सक्सेना", "sections": {"oneShot": [], "mcq": [], "questionAnswer": [], "examFocus": [], "notes": []}},
+                    {"id": "class9-hindi-kshitij-chapter-13", "name": "बच्चे काम पर जा रहे हैं", "desc": "राजेश जोशी", "sections": {"oneShot": [], "mcq": [], "questionAnswer": [], "examFocus": [], "notes": []}}
+                  ]
                 }
-              ]
+              ],
+              "chapters": []
             },
             {
-              "id": "class-9-kritika",
+              "id": "class9-hindi-kritika-book",
               "name": "कृतिका भाग-1",
+              "icon": "📕",
+              "parts": [],
               "chapters": [
-                {
-                  "id": "c9-hindi-kritika-1",
-                  "number": 1,
-                  "title": "इस जल प्रलय में"
-                },
-                {
-                  "id": "c9-hindi-kritika-2",
-                  "number": 2,
-                  "title": "मेरे संग की औरतें"
-                },
-                {
-                  "id": "c9-hindi-kritika-3",
-                  "number": 3,
-                  "title": "रीढ़ की हड्डी"
-                }
+                {"id": "class9-hindi-kritika-chapter-1", "name": "इस जल प्रलय में", "desc": "फणीश्वरनाथ रेणु", "sections": {"oneShot": [], "mcq": [], "questionAnswer": [], "examFocus": [], "notes": []}},
+                {"id": "class9-hindi-kritika-chapter-2", "name": "मेरे संग की औरतें", "desc": "मृदुला गर्ग", "sections": {"oneShot": [], "mcq": [], "questionAnswer": [], "examFocus": [], "notes": []}},
+                {"id": "class9-hindi-kritika-chapter-3", "name": "रीढ़ की हड्डी", "desc": "जगदीशचंद्र माथुर", "sections": {"oneShot": [], "mcq": [], "questionAnswer": [], "examFocus": [], "notes": []}}
               ]
             }
-          ]
+          ],
+          "pyq": []
         },
         {
-          "id": "class-9-english",
+          "id": "class9-english",
           "name": "English",
+          "icon": "📗",
           "books": [
             {
-              "id": "class-9-beehive",
+              "id": "class9-english-beehive-book",
               "name": "Beehive",
-              "sections": [
+              "icon": "📗",
+              "parts": [
                 {
-                  "id": "c9-beehive-prose",
+                  "id": "class9-english-beehive-prose",
                   "name": "Prose",
                   "chapters": [
-                    {
-                      "id": "c9-beehive-prose-1",
-                      "number": 1,
-                      "title": "The Fun They Had"
-                    },
-                    {
-                      "id": "c9-beehive-prose-2",
-                      "number": 2,
-                      "title": "The Sound of Music"
-                    },
-                    {
-                      "id": "c9-beehive-prose-3",
-                      "number": 3,
-                      "title": "The Little Girl"
-                    },
-                    {
-                      "id": "c9-beehive-prose-4",
-                      "number": 4,
-                      "title": "A Truly Beautiful Mind"
-                    },
-                    {
-                      "id": "c9-beehive-prose-5",
-                      "number": 5,
-                      "title": "The Snake and the Mirror"
-                    },
-                    {
-                      "id": "c9-beehive-prose-6",
-                      "number": 6,
-                      "title": "My Childhood"
-                    },
-                    {
-                      "id": "c9-beehive-prose-7",
-                      "number": 7,
-                      "title": "Reach for the Top"
-                    },
-                    {
-                      "id": "c9-beehive-prose-8",
-                      "number": 8,
-                      "title": "Kathmandu"
-                    },
-                    {
-                      "id": "c9-beehive-prose-9",
-                      "number": 9,
-                      "title": "If I Were You"
-                    }
+                    {"id": "class9-english-beehive-chapter-1", "name": "The Fun They Had", "sections": {"oneShot": [], "mcq": [], "questionAnswer": [], "examFocus": [], "notes": []}},
+                    {"id": "class9-english-beehive-chapter-2", "name": "The Sound of Music", "sections": {"oneShot": [], "mcq": [], "questionAnswer": [], "examFocus": [], "notes": []}},
+                    {"id": "class9-english-beehive-chapter-3", "name": "The Little Girl", "sections": {"oneShot": [], "mcq": [], "questionAnswer": [], "examFocus": [], "notes": []}},
+                    {"id": "class9-english-beehive-chapter-4", "name": "A Truly Beautiful Mind", "sections": {"oneShot": [], "mcq": [], "questionAnswer": [], "examFocus": [], "notes": []}},
+                    {"id": "class9-english-beehive-chapter-5", "name": "The Snake and the Mirror", "sections": {"oneShot": [], "mcq": [], "questionAnswer": [], "examFocus": [], "notes": []}},
+                    {"id": "class9-english-beehive-chapter-6", "name": "My Childhood", "sections": {"oneShot": [], "mcq": [], "questionAnswer": [], "examFocus": [], "notes": []}},
+                    {"id": "class9-english-beehive-chapter-7", "name": "Reach for the Top", "sections": {"oneShot": [], "mcq": [], "questionAnswer": [], "examFocus": [], "notes": []}},
+                    {"id": "class9-english-beehive-chapter-8", "name": "Kathmandu", "sections": {"oneShot": [], "mcq": [], "questionAnswer": [], "examFocus": [], "notes": []}},
+                    {"id": "class9-english-beehive-chapter-9", "name": "If I Were You", "sections": {"oneShot": [], "mcq": [], "questionAnswer": [], "examFocus": [], "notes": []}}
                   ]
                 },
                 {
-                  "id": "c9-beehive-poetry",
-                  "name": "Poetry",
+                  "id": "class9-english-beehive-poems",
+                  "name": "Poems",
                   "chapters": [
-                    {
-                      "id": "c9-beehive-poetry-1",
-                      "number": 1,
-                      "title": "The Road Not Taken"
-                    },
-                    {
-                      "id": "c9-beehive-poetry-2",
-                      "number": 2,
-                      "title": "Wind"
-                    },
-                    {
-                      "id": "c9-beehive-poetry-3",
-                      "number": 3,
-                      "title": "Rain on the Roof"
-                    },
-                    {
-                      "id": "c9-beehive-poetry-4",
-                      "number": 4,
-                      "title": "The Lake Isle of Innisfree"
-                    },
-                    {
-                      "id": "c9-beehive-poetry-5",
-                      "number": 5,
-                      "title": "A Legend of the Northland"
-                    },
-                    {
-                      "id": "c9-beehive-poetry-6",
-                      "number": 6,
-                      "title": "No Men Are Foreign"
-                    },
-                    {
-                      "id": "c9-beehive-poetry-7",
-                      "number": 7,
-                      "title": "On Killing a Tree"
-                    },
-                    {
-                      "id": "c9-beehive-poetry-8",
-                      "number": 8,
-                      "title": "A Slumber Did My Spirit Seal"
-                    }
+                    {"id": "class9-english-beehive-chapter-10", "name": "The Road Not Taken", "sections": {"oneShot": [], "mcq": [], "questionAnswer": [], "examFocus": [], "notes": []}},
+                    {"id": "class9-english-beehive-chapter-11", "name": "Wind", "sections": {"oneShot": [], "mcq": [], "questionAnswer": [], "examFocus": [], "notes": []}},
+                    {"id": "class9-english-beehive-chapter-12", "name": "Rain on the Roof", "sections": {"oneShot": [], "mcq": [], "questionAnswer": [], "examFocus": [], "notes": []}},
+                    {"id": "class9-english-beehive-chapter-13", "name": "The Lake Isle of Innisfree", "sections": {"oneShot": [], "mcq": [], "questionAnswer": [], "examFocus": [], "notes": []}},
+                    {"id": "class9-english-beehive-chapter-14", "name": "A Legend of the Northland", "sections": {"oneShot": [], "mcq": [], "questionAnswer": [], "examFocus": [], "notes": []}},
+                    {"id": "class9-english-beehive-chapter-15", "name": "No Men Are Foreign", "sections": {"oneShot": [], "mcq": [], "questionAnswer": [], "examFocus": [], "notes": []}},
+                    {"id": "class9-english-beehive-chapter-16", "name": "On Killing a Tree", "sections": {"oneShot": [], "mcq": [], "questionAnswer": [], "examFocus": [], "notes": []}},
+                    {"id": "class9-english-beehive-chapter-17", "name": "A Slumber Did My Spirit Seal", "sections": {"oneShot": [], "mcq": [], "questionAnswer": [], "examFocus": [], "notes": []}}
                   ]
                 }
-              ]
+              ],
+              "chapters": []
             },
             {
-              "id": "class-9-moments",
+              "id": "class9-english-moments-book",
               "name": "Moments",
+              "icon": "📗",
+              "parts": [],
               "chapters": [
-                {
-                  "id": "c9-moments-1",
-                  "number": 1,
-                  "title": "The Lost Child"
-                },
-                {
-                  "id": "c9-moments-2",
-                  "number": 2,
-                  "title": "The Adventures of Toto"
-                },
-                {
-                  "id": "c9-moments-3",
-                  "number": 3,
-                  "title": "Iswaran the Storyteller"
-                },
-                {
-                  "id": "c9-moments-4",
-                  "number": 4,
-                  "title": "In the Kingdom of Fools"
-                },
-                {
-                  "id": "c9-moments-5",
-                  "number": 5,
-                  "title": "The Happy Prince"
-                },
-                {
-                  "id": "c9-moments-6",
-                  "number": 6,
-                  "title": "Weathering the Storm in Ersama"
-                },
-                {
-                  "id": "c9-moments-7",
-                  "number": 7,
-                  "title": "The Last Leaf"
-                },
-                {
-                  "id": "c9-moments-8",
-                  "number": 8,
-                  "title": "A House Is Not a Home"
-                },
-                {
-                  "id": "c9-moments-9",
-                  "number": 9,
-                  "title": "The Beggar"
-                }
+                {"id": "class9-english-moments-chapter-1", "name": "The Lost Child", "sections": {"oneShot": [], "mcq": [], "questionAnswer": [], "examFocus": [], "notes": []}},
+                {"id": "class9-english-moments-chapter-2", "name": "The Adventures of Toto", "sections": {"oneShot": [], "mcq": [], "questionAnswer": [], "examFocus": [], "notes": []}},
+                {"id": "class9-english-moments-chapter-3", "name": "Iswaran the Storyteller", "sections": {"oneShot": [], "mcq": [], "questionAnswer": [], "examFocus": [], "notes": []}},
+                {"id": "class9-english-moments-chapter-4", "name": "In the Kingdom of Fools", "sections": {"oneShot": [], "mcq": [], "questionAnswer": [], "examFocus": [], "notes": []}},
+                {"id": "class9-english-moments-chapter-5", "name": "The Happy Prince", "sections": {"oneShot": [], "mcq": [], "questionAnswer": [], "examFocus": [], "notes": []}},
+                {"id": "class9-english-moments-chapter-6", "name": "Weathering the Storm in Ersama", "sections": {"oneShot": [], "mcq": [], "questionAnswer": [], "examFocus": [], "notes": []}},
+                {"id": "class9-english-moments-chapter-7", "name": "The Last Leaf", "sections": {"oneShot": [], "mcq": [], "questionAnswer": [], "examFocus": [], "notes": []}},
+                {"id": "class9-english-moments-chapter-8", "name": "A House Is Not a Home", "sections": {"oneShot": [], "mcq": [], "questionAnswer": [], "examFocus": [], "notes": []}},
+                {"id": "class9-english-moments-chapter-9", "name": "The Beggar", "sections": {"oneShot": [], "mcq": [], "questionAnswer": [], "examFocus": [], "notes": []}}
               ]
             }
-          ]
+          ],
+          "pyq": []
         }
       ]
     },
-    "10": {
+    {
+      "id": "class10",
       "name": "Class 10",
+      "icon": "📕",
       "subjects": [
         {
-          "id": "class-10-mathematics",
-          "name": "Mathematics",
-          "nameHindi": "गणित",
+          "id": "class10-maths",
+          "name": "गणित",
+          "icon": "📘",
           "books": [
             {
-              "id": "class-10-mathematics-book",
-              "name": "Mathematics",
+              "id": "class10-maths-book",
+              "name": "गणित",
+              "parts": [],
               "chapters": [
-                {
-                  "id": "c10-math-1",
-                  "number": 1,
-                  "title": "वास्तविक संख्याएँ"
-                },
-                {
-                  "id": "c10-math-2",
-                  "number": 2,
-                  "title": "बहुपद"
-                },
-                {
-                  "id": "c10-math-3",
-                  "number": 3,
-                  "title": "दो चरों वाले रैखिक समीकरण युग्म"
-                },
-                {
-                  "id": "c10-math-4",
-                  "number": 4,
-                  "title": "द्विघात समीकरण"
-                },
-                {
-                  "id": "c10-math-5",
-                  "number": 5,
-                  "title": "समांतर श्रेढ़ियाँ"
-                },
-                {
-                  "id": "c10-math-6",
-                  "number": 6,
-                  "title": "त्रिभुज"
-                },
-                {
-                  "id": "c10-math-7",
-                  "number": 7,
-                  "title": "निर्देशांक ज्यामिति"
-                },
-                {
-                  "id": "c10-math-8",
-                  "number": 8,
-                  "title": "त्रिकोणमिति का परिचय"
-                },
-                {
-                  "id": "c10-math-9",
-                  "number": 9,
-                  "title": "त्रिकोणमिति के कुछ अनुप्रयोग"
-                },
-                {
-                  "id": "c10-math-10",
-                  "number": 10,
-                  "title": "वृत्त"
-                },
-                {
-                  "id": "c10-math-11",
-                  "number": 11,
-                  "title": "वृत्तों से संबंधित क्षेत्रफल"
-                },
-                {
-                  "id": "c10-math-12",
-                  "number": 12,
-                  "title": "पृष्ठीय क्षेत्रफल और आयतन"
-                },
-                {
-                  "id": "c10-math-13",
-                  "number": 13,
-                  "title": "सांख्यिकी"
-                },
-                {
-                  "id": "c10-math-14",
-                  "number": 14,
-                  "title": "प्रायिकता"
-                }
+                {"id": "class10-maths-chapter-1", "name": "वास्तविक संख्याएँ", "sections": {"oneShot": [], "mcq": [], "questionAnswer": [], "examFocus": [], "notes": []}},
+                {"id": "class10-maths-chapter-2", "name": "बहुपद", "sections": {"oneShot": [], "mcq": [], "questionAnswer": [], "examFocus": [], "notes": []}},
+                {"id": "class10-maths-chapter-3", "name": "दो चरों वाले रैखिक समीकरण युग्म", "sections": {"oneShot": [], "mcq": [], "questionAnswer": [], "examFocus": [], "notes": []}},
+                {"id": "class10-maths-chapter-4", "name": "द्विघात समीकरण", "sections": {"oneShot": [], "mcq": [], "questionAnswer": [], "examFocus": [], "notes": []}},
+                {"id": "class10-maths-chapter-5", "name": "समांतर श्रेढ़ियाँ", "sections": {"oneShot": [], "mcq": [], "questionAnswer": [], "examFocus": [], "notes": []}},
+                {"id": "class10-maths-chapter-6", "name": "त्रिभुज", "sections": {"oneShot": [], "mcq": [], "questionAnswer": [], "examFocus": [], "notes": []}},
+                {"id": "class10-maths-chapter-7", "name": "निर्देशांक ज्यामिति", "sections": {"oneShot": [], "mcq": [], "questionAnswer": [], "examFocus": [], "notes": []}},
+                {"id": "class10-maths-chapter-8", "name": "त्रिकोणमिति का परिचय", "sections": {"oneShot": [], "mcq": [], "questionAnswer": [], "examFocus": [], "notes": []}},
+                {"id": "class10-maths-chapter-9", "name": "त्रिकोणमिति के कुछ अनुप्रयोग", "sections": {"oneShot": [], "mcq": [], "questionAnswer": [], "examFocus": [], "notes": []}},
+                {"id": "class10-maths-chapter-10", "name": "वृत्त", "sections": {"oneShot": [], "mcq": [], "questionAnswer": [], "examFocus": [], "notes": []}},
+                {"id": "class10-maths-chapter-11", "name": "वृत्तों से संबंधित क्षेत्रफल", "sections": {"oneShot": [], "mcq": [], "questionAnswer": [], "examFocus": [], "notes": []}},
+                {"id": "class10-maths-chapter-12", "name": "पृष्ठीय क्षेत्रफल और आयतन", "sections": {"oneShot": [], "mcq": [], "questionAnswer": [], "examFocus": [], "notes": []}},
+                {"id": "class10-maths-chapter-13", "name": "सांख्यिकी", "sections": {"oneShot": [], "mcq": [], "questionAnswer": [], "examFocus": [], "notes": []}},
+                {"id": "class10-maths-chapter-14", "name": "प्रायिकता", "sections": {"oneShot": [], "mcq": [], "questionAnswer": [], "examFocus": [], "notes": []}}
               ]
             }
-          ]
+          ],
+          "pyq": []
         },
         {
-          "id": "class-10-science",
-          "name": "Science",
-          "nameHindi": "विज्ञान",
+          "id": "class10-science",
+          "name": "विज्ञान",
+          "icon": "🔬",
           "books": [
             {
-              "id": "class-10-science-book",
-              "name": "Science",
+              "id": "class10-science-book",
+              "name": "विज्ञान",
+              "parts": [],
               "chapters": [
-                {
-                  "id": "c10-science-1",
-                  "number": 1,
-                  "title": "रासायनिक अभिक्रियाएँ एवं समीकरण"
-                },
-                {
-                  "id": "c10-science-2",
-                  "number": 2,
-                  "title": "अम्ल, क्षारक एवं लवण"
-                },
-                {
-                  "id": "c10-science-3",
-                  "number": 3,
-                  "title": "धातु एवं अधतु"
-                },
-                {
-                  "id": "c10-science-4",
-                  "number": 4,
-                  "title": "कार्बन एवं उसके यौगिक"
-                },
-                {
-                  "id": "c10-science-5",
-                  "number": 5,
-                  "title": "जैव प्रक्रम"
-                },
-                {
-                  "id": "c10-science-6",
-                  "number": 6,
-                  "title": "नियंत्रण एवं समन्वय"
-                },
-                {
-                  "id": "c10-science-7",
-                  "number": 7,
-                  "title": "जीव जनन कैसे करते हैं?"
-                },
-                {
-                  "id": "c10-science-8",
-                  "number": 8,
-                  "title": "आनुवंशिकता एवं जैव विकास"
-                },
-                {
-                  "id": "c10-science-9",
-                  "number": 9,
-                  "title": "प्रकाश – परावर्तन तथा अपवर्तन"
-                },
-                {
-                  "id": "c10-science-10",
-                  "number": 10,
-                  "title": "मानव नेत्र तथा रंगबिरंगा संसार"
-                },
-                {
-                  "id": "c10-science-11",
-                  "number": 11,
-                  "title": "विद्युत"
-                },
-                {
-                  "id": "c10-science-12",
-                  "number": 12,
-                  "title": "विद्युत धारा के चुंबकीय प्रभाव"
-                },
-                {
-                  "id": "c10-science-13",
-                  "number": 13,
-                  "title": "हमारा पर्यावरण"
-                }
+                {"id": "class10-science-chapter-1", "name": "रासायनिक अभिक्रियाएँ एवं समीकरण", "sections": {"oneShot": [], "mcq": [], "questionAnswer": [], "examFocus": [], "notes": []}},
+                {"id": "class10-science-chapter-2", "name": "अम्ल, क्षारक एवं लवण", "sections": {"oneShot": [], "mcq": [], "questionAnswer": [], "examFocus": [], "notes": []}},
+                {"id": "class10-science-chapter-3", "name": "धातु एवं अधातु", "sections": {"oneShot": [], "mcq": [], "questionAnswer": [], "examFocus": [], "notes": []}},
+                {"id": "class10-science-chapter-4", "name": "कार्बन एवं उसके यौगिक", "sections": {"oneShot": [], "mcq": [], "questionAnswer": [], "examFocus": [], "notes": []}},
+                {"id": "class10-science-chapter-5", "name": "जैव प्रक्रम", "sections": {"oneShot": [], "mcq": [], "questionAnswer": [], "examFocus": [], "notes": []}},
+                {"id": "class10-science-chapter-6", "name": "नियंत्रण एवं समन्वय", "sections": {"oneShot": [], "mcq": [], "questionAnswer": [], "examFocus": [], "notes": []}},
+                {"id": "class10-science-chapter-7", "name": "जीव जनन कैसे करते हैं?", "sections": {"oneShot": [], "mcq": [], "questionAnswer": [], "examFocus": [], "notes": []}},
+                {"id": "class10-science-chapter-8", "name": "आनुवंशिकता", "sections": {"oneShot": [], "mcq": [], "questionAnswer": [], "examFocus": [], "notes": []}},
+                {"id": "class10-science-chapter-9", "name": "प्रकाश - परावर्तन तथा अपवर्तन", "sections": {"oneShot": [], "mcq": [], "questionAnswer": [], "examFocus": [], "notes": []}},
+                {"id": "class10-science-chapter-10", "name": "मानव नेत्र तथा रंगबिरंगा संसार", "sections": {"oneShot": [], "mcq": [], "questionAnswer": [], "examFocus": [], "notes": []}},
+                {"id": "class10-science-chapter-11", "name": "विद्युत्", "sections": {"oneShot": [], "mcq": [], "questionAnswer": [], "examFocus": [], "notes": []}},
+                {"id": "class10-science-chapter-12", "name": "विद्युत् धारा के चुंबकीय प्रभाव", "sections": {"oneShot": [], "mcq": [], "questionAnswer": [], "examFocus": [], "notes": []}},
+                {"id": "class10-science-chapter-13", "name": "हमारा पर्यावरण", "sections": {"oneShot": [], "mcq": [], "questionAnswer": [], "examFocus": [], "notes": []}}
               ]
             }
-          ]
+          ],
+          "pyq": []
         },
         {
-          "id": "class-10-social-science",
-          "name": "Social Science",
-          "nameHindi": "सामाजिक विज्ञान",
+          "id": "class10-social-science",
+          "name": "सामाजिक विज्ञान",
+          "icon": "🌍",
           "books": [
             {
-              "id": "class-10-history",
+              "id": "class10-history-book",
               "name": "इतिहास",
+              "desc": "भारत और समकालीन विश्व - 2",
+              "icon": "🏛️",
+              "parts": [],
               "chapters": [
-                {
-                  "id": "c10-history-1",
-                  "number": 1,
-                  "title": "यूरोप में राष्ट्रवाद का उदय"
-                },
-                {
-                  "id": "c10-history-2",
-                  "number": 2,
-                  "title": "भारत में राष्ट्रवाद"
-                },
-                {
-                  "id": "c10-history-3",
-                  "number": 3,
-                  "title": "भूमंडलीकृत विश्व का बनना"
-                },
-                {
-                  "id": "c10-history-4",
-                  "number": 4,
-                  "title": "औद्योगिकीकरण का युग"
-                },
-                {
-                  "id": "c10-history-5",
-                  "number": 5,
-                  "title": "मुद्रण संस्कृति और आधुनिक दुनिया"
-                }
+                {"id": "class10-history-chapter-1", "name": "यूरोप में राष्ट्रवाद का उदय", "sections": {"oneShot": [], "mcq": [], "questionAnswer": [], "examFocus": [], "notes": []}},
+                {"id": "class10-history-chapter-2", "name": "भारत में राष्ट्रवाद", "sections": {"oneShot": [], "mcq": [], "questionAnswer": [], "examFocus": [], "notes": []}},
+                {"id": "class10-history-chapter-3", "name": "भूमंडलीकृत विश्व का बनना", "sections": {"oneShot": [], "mcq": [], "questionAnswer": [], "examFocus": [], "notes": []}},
+                {"id": "class10-history-chapter-4", "name": "औद्योगीकरण का युग", "sections": {"oneShot": [], "mcq": [], "questionAnswer": [], "examFocus": [], "notes": []}},
+                {"id": "class10-history-chapter-5", "name": "मुद्रण संस्कृति और आधुनिक दुनिया", "sections": {"oneShot": [], "mcq": [], "questionAnswer": [], "examFocus": [], "notes": []}}
               ]
             },
             {
-              "id": "class-10-geography",
+              "id": "class10-geography-book",
               "name": "भूगोल",
+              "desc": "समकालीन भारत - 2",
+              "icon": "🗺️",
+              "parts": [],
               "chapters": [
-                {
-                  "id": "c10-geography-1",
-                  "number": 1,
-                  "title": "संसाधन एवं विकास"
-                },
-                {
-                  "id": "c10-geography-2",
-                  "number": 2,
-                  "title": "वन एवं वन्य जीव संसाधन"
-                },
-                {
-                  "id": "c10-geography-3",
-                  "number": 3,
-                  "title": "जल संसाधन"
-                },
-                {
-                  "id": "c10-geography-4",
-                  "number": 4,
-                  "title": "कृषि"
-                },
-                {
-                  "id": "c10-geography-5",
-                  "number": 5,
-                  "title": "खनिज तथा ऊर्जा संसाधन"
-                },
-                {
-                  "id": "c10-geography-6",
-                  "number": 6,
-                  "title": "विनिर्माण उद्योग"
-                },
-                {
-                  "id": "c10-geography-7",
-                  "number": 7,
-                  "title": "राष्ट्रीय अर्थव्यवस्था की जीवन रेखाएँ"
-                }
+                {"id": "class10-geography-chapter-1", "name": "संसाधन एवं विकास", "sections": {"oneShot": [], "mcq": [], "questionAnswer": [], "examFocus": [], "notes": []}},
+                {"id": "class10-geography-chapter-2", "name": "वन एवं वन्य जीव संसाधन", "sections": {"oneShot": [], "mcq": [], "questionAnswer": [], "examFocus": [], "notes": []}},
+                {"id": "class10-geography-chapter-3", "name": "जल संसाधन", "sections": {"oneShot": [], "mcq": [], "questionAnswer": [], "examFocus": [], "notes": []}},
+                {"id": "class10-geography-chapter-4", "name": "कृषि", "sections": {"oneShot": [], "mcq": [], "questionAnswer": [], "examFocus": [], "notes": []}},
+                {"id": "class10-geography-chapter-5", "name": "खनिज तथा ऊर्जा संसाधन", "sections": {"oneShot": [], "mcq": [], "questionAnswer": [], "examFocus": [], "notes": []}},
+                {"id": "class10-geography-chapter-6", "name": "विनिर्माण उद्योग", "sections": {"oneShot": [], "mcq": [], "questionAnswer": [], "examFocus": [], "notes": []}},
+                {"id": "class10-geography-chapter-7", "name": "राष्ट्रीय अर्थव्यवस्था की जीवन रेखाएँ", "sections": {"oneShot": [], "mcq": [], "questionAnswer": [], "examFocus": [], "notes": []}}
               ]
             },
             {
-              "id": "class-10-civics",
+              "id": "class10-civics-book",
               "name": "नागरिक शास्त्र",
+              "desc": "लोकतांत्रिक राजनीति - 2",
+              "icon": "⚖️",
+              "parts": [],
               "chapters": [
-                {
-                  "id": "c10-civics-1",
-                  "number": 1,
-                  "title": "सत्ता की साझेदारी"
-                },
-                {
-                  "id": "c10-civics-2",
-                  "number": 2,
-                  "title": "संघवाद"
-                },
-                {
-                  "id": "c10-civics-3",
-                  "number": 3,
-                  "title": "जाति, धर्म और लैंगिक मसले"
-                },
-                {
-                  "id": "c10-civics-4",
-                  "number": 4,
-                  "title": "राजनीतिक दल"
-                },
-                {
-                  "id": "c10-civics-5",
-                  "number": 5,
-                  "title": "लोकतंत्र के परिणाम"
-                }
+                {"id": "class10-civics-chapter-1", "name": "सत्ता की साझेदारी", "sections": {"oneShot": [], "mcq": [], "questionAnswer": [], "examFocus": [], "notes": []}},
+                {"id": "class10-civics-chapter-2", "name": "संघवाद", "sections": {"oneShot": [], "mcq": [], "questionAnswer": [], "examFocus": [], "notes": []}},
+                {"id": "class10-civics-chapter-3", "name": "जाति, धर्म और लैंगिक मसले", "sections": {"oneShot": [], "mcq": [], "questionAnswer": [], "examFocus": [], "notes": []}},
+                {"id": "class10-civics-chapter-4", "name": "राजनीतिक दल", "sections": {"oneShot": [], "mcq": [], "questionAnswer": [], "examFocus": [], "notes": []}},
+                {"id": "class10-civics-chapter-5", "name": "लोकतंत्र के परिणाम", "sections": {"oneShot": [], "mcq": [], "questionAnswer": [], "examFocus": [], "notes": []}}
               ]
             },
             {
-              "id": "class-10-economics",
+              "id": "class10-economics-book",
               "name": "अर्थशास्त्र",
+              "desc": "आर्थिक विकास की समझ",
+              "icon": "💰",
+              "parts": [],
               "chapters": [
-                {
-                  "id": "c10-economics-1",
-                  "number": 1,
-                  "title": "विकास"
-                },
-                {
-                  "id": "c10-economics-2",
-                  "number": 2,
-                  "title": "भारतीय अर्थव्यवस्था के क्षेत्रक"
-                },
-                {
-                  "id": "c10-economics-3",
-                  "number": 3,
-                  "title": "मुद्रा और साख"
-                },
-                {
-                  "id": "c10-economics-4",
-                  "number": 4,
-                  "title": "वैश्वीकरण और भारतीय अर्थव्यवस्था"
-                },
-                {
-                  "id": "c10-economics-5",
-                  "number": 5,
-                  "title": "उपभोक्ता अधिकार"
-                }
+                {"id": "class10-economics-chapter-1", "name": "विकास", "sections": {"oneShot": [], "mcq": [], "questionAnswer": [], "examFocus": [], "notes": []}},
+                {"id": "class10-economics-chapter-2", "name": "भारतीय अर्थव्यवस्था के क्षेत्रक", "sections": {"oneShot": [], "mcq": [], "questionAnswer": [], "examFocus": [], "notes": []}},
+                {"id": "class10-economics-chapter-3", "name": "मुद्रा और साख", "sections": {"oneShot": [], "mcq": [], "questionAnswer": [], "examFocus": [], "notes": []}},
+                {"id": "class10-economics-chapter-4", "name": "वैश्वीकरण और भारतीय अर्थव्यवस्था", "sections": {"oneShot": [], "mcq": [], "questionAnswer": [], "examFocus": [], "notes": []}},
+                {"id": "class10-economics-chapter-5", "name": "उपभोक्ता अधिकार", "sections": {"oneShot": [], "mcq": [], "questionAnswer": [], "examFocus": [], "notes": []}}
               ]
             }
-          ]
+          ],
+          "pyq": []
         },
         {
-          "id": "class-10-hindi",
-          "name": "Hindi",
-          "nameHindi": "हिंदी",
+          "id": "class10-hindi",
+          "name": "हिंदी",
+          "icon": "📕",
           "books": [
             {
-              "id": "class-10-kshitij",
+              "id": "class10-hindi-kshitij-book",
               "name": "क्षितिज भाग-2",
-              "chapters": [
+              "icon": "📕",
+              "parts": [
                 {
-                  "id": "c10-hindi-kshitij-1",
-                  "number": 1,
-                  "title": "नेताजी का चश्मा"
+                  "id": "class10-hindi-kshitij-kavya",
+                  "name": "काव्य खंड",
+                  "chapters": [
+                    {"id": "class10-hindi-kshitij-chapter-1", "name": "पद", "desc": "सूरदास", "sections": {"oneShot": [], "mcq": [], "questionAnswer": [], "examFocus": [], "notes": []}},
+                    {"id": "class10-hindi-kshitij-chapter-2", "name": "राम-लक्ष्मण-परशुराम संवाद", "desc": "तुलसीदास", "sections": {"oneShot": [], "mcq": [], "questionAnswer": [], "examFocus": [], "notes": []}},
+                    {"id": "class10-hindi-kshitij-chapter-3", "name": "आत्मकथ्य", "desc": "जयशंकर प्रसाद", "sections": {"oneShot": [], "mcq": [], "questionAnswer": [], "examFocus": [], "notes": []}},
+                    {"id": "class10-hindi-kshitij-chapter-4", "name": "उत्साह, अट नहीं रही है", "desc": "सूर्यकांत त्रिपाठी 'निराला'", "sections": {"oneShot": [], "mcq": [], "questionAnswer": [], "examFocus": [], "notes": []}},
+                    {"id": "class10-hindi-kshitij-chapter-5", "name": "यह दंतुरित मुसकान, फसल", "desc": "नागार्जुन", "sections": {"oneShot": [], "mcq": [], "questionAnswer": [], "examFocus": [], "notes": []}},
+                    {"id": "class10-hindi-kshitij-chapter-6", "name": "संगतकार", "desc": "मंगलेश डबराल", "sections": {"oneShot": [], "mcq": [], "questionAnswer": [], "examFocus": [], "notes": []}}
+                  ]
                 },
                 {
-                  "id": "c10-hindi-kshitij-2",
-                  "number": 2,
-                  "title": "बालगोबिन भगत"
-                },
-                {
-                  "id": "c10-hindi-kshitij-3",
-                  "number": 3,
-                  "title": "लखनवी अंदाज"
-                },
-                {
-                  "id": "c10-hindi-kshitij-4",
-                  "number": 4,
-                  "title": "एक कहानी यह भी"
-                },
-                {
-                  "id": "c10-hindi-kshitij-5",
-                  "number": 5,
-                  "title": "नौबतखाने में इबादत"
-                },
-                {
-                  "id": "c10-hindi-kshitij-6",
-                  "number": 6,
-                  "title": "संस्कृति"
-                },
-                {
-                  "id": "c10-hindi-kshitij-7",
-                  "number": 7,
-                  "title": "पद"
-                },
-                {
-                  "id": "c10-hindi-kshitij-8",
-                  "number": 8,
-                  "title": "राम-लक्ष्मण-परशुराम संवाद"
-                },
-                {
-                  "id": "c10-hindi-kshitij-9",
-                  "number": 9,
-                  "title": "सवैया और कवित्त"
-                },
-                {
-                  "id": "c10-hindi-kshitij-10",
-                  "number": 10,
-                  "title": "आत्मकथ्य"
-                },
-                {
-                  "id": "c10-hindi-kshitij-11",
-                  "number": 11,
-                  "title": "उत्साह और अट नहीं रही है"
-                },
-                {
-                  "id": "c10-hindi-kshitij-12",
-                  "number": 12,
-                  "title": "यह दंतुरित मुस्कान और फसल"
-                },
-                {
-                  "id": "c10-hindi-kshitij-13",
-                  "number": 13,
-                  "title": "संगतकार"
+                  "id": "class10-hindi-kshitij-gadya",
+                  "name": "गद्य खंड",
+                  "chapters": [
+                    {"id": "class10-hindi-kshitij-chapter-7", "name": "नेताजी का चश्मा", "desc": "स्वयं प्रकाश", "sections": {"oneShot": [], "mcq": [], "questionAnswer": [], "examFocus": [], "notes": []}},
+                    {"id": "class10-hindi-kshitij-chapter-8", "name": "बालगोबिन भगत", "desc": "रामवृक्ष बेनीपुरी", "sections": {"oneShot": [], "mcq": [], "questionAnswer": [], "examFocus": [], "notes": []}},
+                    {"id": "class10-hindi-kshitij-chapter-9", "name": "लखनवी अंदाज़", "desc": "यशपाल", "sections": {"oneShot": [], "mcq": [], "questionAnswer": [], "examFocus": [], "notes": []}},
+                    {"id": "class10-hindi-kshitij-chapter-10", "name": "एक कहानी यह भी", "desc": "मन्नू भंडारी", "sections": {"oneShot": [], "mcq": [], "questionAnswer": [], "examFocus": [], "notes": []}},
+                    {"id": "class10-hindi-kshitij-chapter-11", "name": "नौबतखाने में इबादत", "desc": "यतीन्द्र मिश्र", "sections": {"oneShot": [], "mcq": [], "questionAnswer": [], "examFocus": [], "notes": []}},
+                    {"id": "class10-hindi-kshitij-chapter-12", "name": "संस्कृति", "desc": "भदंत आनंद कौसल्यायन", "sections": {"oneShot": [], "mcq": [], "questionAnswer": [], "examFocus": [], "notes": []}}
+                  ]
                 }
-              ]
+              ],
+              "chapters": []
             },
             {
-              "id": "class-10-kritika",
+              "id": "class10-hindi-kritika-book",
               "name": "कृतिका भाग-2",
+              "icon": "📕",
+              "parts": [],
               "chapters": [
-                {
-                  "id": "c10-hindi-kritika-1",
-                  "number": 1,
-                  "title": "माता का अँचल"
-                },
-                {
-                  "id": "c10-hindi-kritika-2",
-                  "number": 2,
-                  "title": "साना-साना हाथ जोड़ि..."
-                },
-                {
-                  "id": "c10-hindi-kritika-3",
-                  "number": 3,
-                  "title": "मैं क्यों लिखता हूँ?"
-                }
+                {"id": "class10-hindi-kritika-chapter-1", "name": "माता का अँचल", "desc": "शिवपूजन सहाय", "sections": {"oneShot": [], "mcq": [], "questionAnswer": [], "examFocus": [], "notes": []}},
+                {"id": "class10-hindi-kritika-chapter-2", "name": "साना-साना हाथ जोड़ि...", "desc": "मधु कांकरिया", "sections": {"oneShot": [], "mcq": [], "questionAnswer": [], "examFocus": [], "notes": []}},
+                {"id": "class10-hindi-kritika-chapter-3", "name": "मैं क्यों लिखता हूँ?", "desc": "अज्ञेय", "sections": {"oneShot": [], "mcq": [], "questionAnswer": [], "examFocus": [], "notes": []}}
               ]
             }
-          ]
+          ],
+          "pyq": []
         },
         {
-          "id": "class-10-english",
+          "id": "class10-english",
           "name": "English",
+          "icon": "📗",
           "books": [
             {
-              "id": "class-10-first-flight",
+              "id": "class10-english-firstflight-book",
               "name": "First Flight",
-              "sections": [
+              "icon": "📗",
+              "parts": [
                 {
-                  "id": "c10-first-flight-prose",
+                  "id": "class10-english-firstflight-prose",
                   "name": "Prose",
                   "chapters": [
-                    {
-                      "id": "c10-first-flight-prose-1",
-                      "number": 1,
-                      "title": "A Letter to God"
-                    },
-                    {
-                      "id": "c10-first-flight-prose-2",
-                      "number": 2,
-                      "title": "Nelson Mandela: Long Walk to Freedom"
-                    },
-                    {
-                      "id": "c10-first-flight-prose-3",
-                      "number": 3,
-                      "title": "Two Stories about Flying"
-                    },
-                    {
-                      "id": "c10-first-flight-prose-4",
-                      "number": 4,
-                      "title": "From the Diary of Anne Frank"
-                    },
-                    {
-                      "id": "c10-first-flight-prose-5",
-                      "number": 5,
-                      "title": "Glimpses of India"
-                    },
-                    {
-                      "id": "c10-first-flight-prose-6",
-                      "number": 6,
-                      "title": "Mijbil the Otter"
-                    },
-                    {
-                      "id": "c10-first-flight-prose-7",
-                      "number": 7,
-                      "title": "Madam Rides the Bus"
-                    },
-                    {
-                      "id": "c10-first-flight-prose-8",
-                      "number": 8,
-                      "title": "The Sermon at Benares"
-                    },
-                    {
-                      "id": "c10-first-flight-prose-9",
-                      "number": 9,
-                      "title": "The Proposal"
-                    }
+                    {"id": "class10-english-firstflight-chapter-1", "name": "A Letter to God", "sections": {"oneShot": [], "mcq": [], "questionAnswer": [], "examFocus": [], "notes": []}},
+                    {"id": "class10-english-firstflight-chapter-2", "name": "Nelson Mandela: Long Walk to Freedom", "sections": {"oneShot": [], "mcq": [], "questionAnswer": [], "examFocus": [], "notes": []}},
+                    {"id": "class10-english-firstflight-chapter-3", "name": "Two Stories about Flying", "sections": {"oneShot": [], "mcq": [], "questionAnswer": [], "examFocus": [], "notes": []}},
+                    {"id": "class10-english-firstflight-chapter-4", "name": "From the Diary of Anne Frank", "sections": {"oneShot": [], "mcq": [], "questionAnswer": [], "examFocus": [], "notes": []}},
+                    {"id": "class10-english-firstflight-chapter-5", "name": "Glimpses of India", "sections": {"oneShot": [], "mcq": [], "questionAnswer": [], "examFocus": [], "notes": []}},
+                    {"id": "class10-english-firstflight-chapter-6", "name": "Mijbil the Otter", "sections": {"oneShot": [], "mcq": [], "questionAnswer": [], "examFocus": [], "notes": []}},
+                    {"id": "class10-english-firstflight-chapter-7", "name": "Madam Rides the Bus", "sections": {"oneShot": [], "mcq": [], "questionAnswer": [], "examFocus": [], "notes": []}},
+                    {"id": "class10-english-firstflight-chapter-8", "name": "The Sermon at Benares", "sections": {"oneShot": [], "mcq": [], "questionAnswer": [], "examFocus": [], "notes": []}},
+                    {"id": "class10-english-firstflight-chapter-9", "name": "The Proposal", "sections": {"oneShot": [], "mcq": [], "questionAnswer": [], "examFocus": [], "notes": []}}
                   ]
                 },
                 {
-                  "id": "c10-first-flight-poetry",
-                  "name": "Poetry",
+                  "id": "class10-english-firstflight-poems",
+                  "name": "Poems",
                   "chapters": [
-                    {
-                      "id": "c10-first-flight-poetry-1",
-                      "number": 1,
-                      "title": "Dust of Snow"
-                    },
-                    {
-                      "id": "c10-first-flight-poetry-2",
-                      "number": 2,
-                      "title": "Fire and Ice"
-                    },
-                    {
-                      "id": "c10-first-flight-poetry-3",
-                      "number": 3,
-                      "title": "A Tiger in the Zoo"
-                    },
-                    {
-                      "id": "c10-first-flight-poetry-4",
-                      "number": 4,
-                      "title": "How to Tell Wild Animals"
-                    },
-                    {
-                      "id": "c10-first-flight-poetry-5",
-                      "number": 5,
-                      "title": "The Ball Poem"
-                    },
-                    {
-                      "id": "c10-first-flight-poetry-6",
-                      "number": 6,
-                      "title": "Amanda!"
-                    },
-                    {
-                      "id": "c10-first-flight-poetry-7",
-                      "number": 7,
-                      "title": "The Trees"
-                    },
-                    {
-                      "id": "c10-first-flight-poetry-8",
-                      "number": 8,
-                      "title": "Fog"
-                    },
-                    {
-                      "id": "c10-first-flight-poetry-9",
-                      "number": 9,
-                      "title": "The Tale of Custard the Dragon"
-                    },
-                    {
-                      "id": "c10-first-flight-poetry-10",
-                      "number": 10,
-                      "title": "For Anne Gregory"
-                    }
+                    {"id": "class10-english-firstflight-chapter-10", "name": "Dust of Snow", "sections": {"oneShot": [], "mcq": [], "questionAnswer": [], "examFocus": [], "notes": []}},
+                    {"id": "class10-english-firstflight-chapter-11", "name": "Fire and Ice", "sections": {"oneShot": [], "mcq": [], "questionAnswer": [], "examFocus": [], "notes": []}},
+                    {"id": "class10-english-firstflight-chapter-12", "name": "A Tiger in the Zoo", "sections": {"oneShot": [], "mcq": [], "questionAnswer": [], "examFocus": [], "notes": []}},
+                    {"id": "class10-english-firstflight-chapter-13", "name": "How to Tell Wild Animals", "sections": {"oneShot": [], "mcq": [], "questionAnswer": [], "examFocus": [], "notes": []}},
+                    {"id": "class10-english-firstflight-chapter-14", "name": "The Ball Poem", "sections": {"oneShot": [], "mcq": [], "questionAnswer": [], "examFocus": [], "notes": []}},
+                    {"id": "class10-english-firstflight-chapter-15", "name": "Amanda!", "sections": {"oneShot": [], "mcq": [], "questionAnswer": [], "examFocus": [], "notes": []}},
+                    {"id": "class10-english-firstflight-chapter-16", "name": "The Trees", "sections": {"oneShot": [], "mcq": [], "questionAnswer": [], "examFocus": [], "notes": []}},
+                    {"id": "class10-english-firstflight-chapter-17", "name": "Fog", "sections": {"oneShot": [], "mcq": [], "questionAnswer": [], "examFocus": [], "notes": []}},
+                    {"id": "class10-english-firstflight-chapter-18", "name": "The Tale of Custard the Dragon", "sections": {"oneShot": [], "mcq": [], "questionAnswer": [], "examFocus": [], "notes": []}},
+                    {"id": "class10-english-firstflight-chapter-19", "name": "For Anne Gregory", "sections": {"oneShot": [], "mcq": [], "questionAnswer": [], "examFocus": [], "notes": []}}
                   ]
                 }
-              ]
+              ],
+              "chapters": []
             },
             {
-              "id": "class-10-footprints-without-feet",
+              "id": "class10-english-footprints-book",
               "name": "Footprints Without Feet",
+              "icon": "📗",
+              "parts": [],
               "chapters": [
-                {
-                  "id": "c10-footprints-1",
-                  "number": 1,
-                  "title": "A Triumph of Surgery"
-                },
-                {
-                  "id": "c10-footprints-2",
-                  "number": 2,
-                  "title": "The Thief’s Story"
-                },
-                {
-                  "id": "c10-footprints-3",
-                  "number": 3,
-                  "title": "The Midnight Visitor"
-                },
-                {
-                  "id": "c10-footprints-4",
-                  "number": 4,
-                  "title": "A Question of Trust"
-                },
-                {
-                  "id": "c10-footprints-5",
-                  "number": 5,
-                  "title": "Footprints without Feet"
-                },
-                {
-                  "id": "c10-footprints-6",
-                  "number": 6,
-                  "title": "The Making of a Scientist"
-                },
-                {
-                  "id": "c10-footprints-7",
-                  "number": 7,
-                  "title": "The Necklace"
-                },
-                {
-                  "id": "c10-footprints-8",
-                  "number": 8,
-                  "title": "Bholi"
-                },
-                {
-                  "id": "c10-footprints-9",
-                  "number": 9,
-                  "title": "The Book That Saved the Earth"
-                }
+                {"id": "class10-english-footprints-chapter-1", "name": "A Triumph of Surgery", "sections": {"oneShot": [], "mcq": [], "questionAnswer": [], "examFocus": [], "notes": []}},
+                {"id": "class10-english-footprints-chapter-2", "name": "The Thief's Story", "sections": {"oneShot": [], "mcq": [], "questionAnswer": [], "examFocus": [], "notes": []}},
+                {"id": "class10-english-footprints-chapter-3", "name": "The Midnight Visitor", "sections": {"oneShot": [], "mcq": [], "questionAnswer": [], "examFocus": [], "notes": []}},
+                {"id": "class10-english-footprints-chapter-4", "name": "A Question of Trust", "sections": {"oneShot": [], "mcq": [], "questionAnswer": [], "examFocus": [], "notes": []}},
+                {"id": "class10-english-footprints-chapter-5", "name": "Footprints without Feet", "sections": {"oneShot": [], "mcq": [], "questionAnswer": [], "examFocus": [], "notes": []}},
+                {"id": "class10-english-footprints-chapter-6", "name": "The Making of a Scientist", "sections": {"oneShot": [], "mcq": [], "questionAnswer": [], "examFocus": [], "notes": []}},
+                {"id": "class10-english-footprints-chapter-7", "name": "The Necklace", "sections": {"oneShot": [], "mcq": [], "questionAnswer": [], "examFocus": [], "notes": []}},
+                {"id": "class10-english-footprints-chapter-8", "name": "Bholi", "sections": {"oneShot": [], "mcq": [], "questionAnswer": [], "examFocus": [], "notes": []}},
+                {"id": "class10-english-footprints-chapter-9", "name": "The Book That Saved the Earth", "sections": {"oneShot": [], "mcq": [], "questionAnswer": [], "examFocus": [], "notes": []}}
               ]
             }
-          ]
+          ],
+          "pyq": []
         }
       ]
     }
-  },
+  ],
   "updates": [],
-  "store": {
-    "products": []
-  },
-  "winners": [],
-  "resources": []
+  "studyMaterial": [],
+  "pages": {
+    "about": {
+      "title": "About",
+      "body": []
+    },
+    "contact": {
+      "title": "Contact",
+      "body": []
+    },
+    "privacy": {
+      "title": "Privacy Policy",
+      "body": []
+    },
+    "terms": {
+      "title": "Terms",
+      "body": []
+    },
+    "disclaimer": {
+      "title": "Disclaimer",
+      "body": []
+    }
+  }
 }

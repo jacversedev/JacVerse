@@ -44,7 +44,7 @@ function page(rel, title, desc, crumbs, body) {
 <link rel="stylesheet" href="${SITE}style.css">
 <script>try{var t=localStorage.getItem("jv-theme");if(t)document.documentElement.dataset.theme=t}catch(e){}</script>
 </head><body>
-<header><div class="bar" style="justify-content:center"><a class="brand" href="${SITE}"><img src="${SITE}assets/logos/logo-s.webp" alt="" width="36" height="36">Jac<em>Verse</em></a></div></header>
+<header><div class="bar" style="justify-content:center"><a class="brand" href="${SITE}">Jac<em>Verse</em></a></div></header>
 <main class="pg"><div class="crumbs">${trail}</div>${body}</main>
 </body></html>`);
   urls.push(url);

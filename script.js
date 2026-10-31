@@ -5,7 +5,7 @@ const root = document.documentElement;
 const MODE = { study: "Study", notes: "Notes", mcq: "MCQ", test: "Self Test", pyq: "PYQ" };
 const SEC = { oneShot: ["📖", "One-Shot Revision", "One-Shot"], mcq: ["📝", "MCQ", "MCQ"], questionAnswer: ["📚", "Question Answer", "Q&A"], examFocus: ["🎯", "Exam Focus", "Exam Focus"], notes: ["📒", "Notes", "Notes"] };
 const SOON = "Is section ka content jald aayega.";
-let DB = { classes: [], updates: [], studyMaterial: [], pages: {} }, NODE = {}, DUPS = [], T = null;
+let DB = { classes: [], updates: [], studyMaterial: [], pages: {}, formulas: [] }, NODE = {}, FN = {}, DUPS = [], T = null;
 
 
 /* ---------- Opening animation, theme, menu, toast ---------- */
@@ -22,7 +22,6 @@ try { const s = localStorage.getItem("jv-theme"); if (s) root.dataset.theme = s;
 function paintTheme() {
   const light = root.dataset.theme === "light";
   $("themeBtn").textContent = light ? "☀️" : "🌙";
-  $("drawerTheme").textContent = light ? "☀️ Light Mode" : "🌙 Dark Mode";
 }
 function toggleTheme() {
   root.dataset.theme = root.dataset.theme === "light" ? "dark" : "light";
@@ -31,7 +30,6 @@ function toggleTheme() {
 }
 paintTheme();
 $("themeBtn").onclick = toggleTheme;
-$("drawerTheme").onclick = (e) => { e.preventDefault(); toggleTheme(); };
 const menu = (open) => { $("drawer").classList.toggle("open", open); $("overlay").classList.toggle("show", open); };
 $("menuBtn").onclick = () => menu(true);
 $("overlay").onclick = () => menu(false);
@@ -56,6 +54,8 @@ function indexDB() {
   DB.classes.forEach((c) => {
     c.subjects = c.subjects || [];
     add(c, "class", null);
+    c.pyqYears = c.pyqYears || [];
+    c.pyqYears.forEach((p) => add(p, "pyq", c.id));
     c.subjects.forEach((s) => {
       s.books = s.books || []; s.pyq = s.pyq || [];
       add(s, "subject", c.id);
@@ -109,14 +109,15 @@ const mcqCard = (q, i, test) => `<div class="q glass" data-ans="${ansIndex(q)}" 
 function renderSection(k, h) {
   const a = secOf(h, k);
   if (!a.length) return empty(SOON);
+  if (k === "examFocus") { let n = 0; return a.map((x) => (x.options ? mcqCard(x, ++n) : qaCard(x))).join(""); }
   return k === "mcq" ? a.map((q, i) => mcqCard(q, i + 1)).join("") : k === "questionAnswer" || k === "examFocus" ? a.map(qaCard).join("") : a.map(block).join("");
 }
 
 
 /* ---------- Views ---------- */
-const home = () => `<section class="hero glass"><img class="mark" src="assets/logos/logo-s.webp" alt="JacVerse" width="112" height="112">
+const home = () => `<section class="hero glass">
   <small class="eyebrow">JAC BOARD • CLASS 9 &amp; 10</small><p class="tag">Learn • Practice • Success</p>
-  <p class="desc">Notes, MCQ, PYQ aur Self Test, sab ek hi jagah. Free, tez, aur seedha tumhare phone par.</p>
+  <p class="desc">Padhai wahi, jo safalta tak le jaaye.</p>
   <a class="cta" href="#/study">Study shuru karo</a></section>
   <section class="grid">` +
   DB.classes.map((c, i) => card(`#/study/${c.id}`, c.icon, c.name, `${c.subjects.length} subjects`, i)).join("") +
@@ -144,6 +145,9 @@ const pyqPaper = (n) => crumbs(trail("pyq", n)) + `<h2>${esc(NODE[n.parent].d.na
 
 function navView(m, n) {
   const d = n.d;
+  if (m === "pyq" && n.type === "class") return crumbs(trail(m, n)) + `<h2>${esc(d.name)}: Year chuno</h2>` + (d.pyqYears.length
+    ? `<section class="grid">` + d.pyqYears.map((p, i) => card(`#/pyq/${p.id}`, "📄", p.year, `${(p.images || []).length} pages`, i)).join("") + `</section>`
+    : empty("PYQ jald aayenge."));
   if (n.type === "class") return crumbs(trail(m, n)) + `<h2>${esc(d.name)}: Subject chuno</h2><section class="grid">` +
     d.subjects.map((s, i) => card(`#/${m}/${s.id}`, s.icon || "📚", s.name,
       m === "pyq" ? `${s.pyq.length} papers` : s.books.length > 1 ? `${s.books.length} books` : `${chCount(s)} chapters`, i)).join("") + `</section>`;
@@ -171,7 +175,7 @@ function chapterView(m, n, sec) {
   }
   if (SEC[sec]) return head(SEC[sec][1]) + `<h3 class="sec">${SEC[sec][0]} ${SEC[sec][1]}</h3>` + renderSection(sec, h);
   return head() + (h.desc ? `<p class="note">${esc(h.desc)}</p>` : "") + `<section class="grid">` +
-    Object.keys(SEC).map((k, i) => card(`#/study/${h.id}/${k}`, SEC[k][0], SEC[k][1], secOf(h, k).length ? "Available" : "Jald aayega", i)).join("") + `</section>`;
+    Object.keys(SEC).filter((k) => k !== "notes").map((k, i) => card(`#/study/${h.id}/${k}`, SEC[k][0], SEC[k][1], secOf(h, k).length ? "Available" : "Jald aayega", i)).join("") + `</section>`;
 }
 
 
@@ -192,9 +196,15 @@ function testHtml() {
 const testView = () => { $("app").innerHTML = testHtml(); window.scrollTo(0, 0); };
 
 
-const updatesView = () => crumbs([["Home", "#/"], ["Updates"]]) + `<h2>Updates</h2>` + (DB.updates.length
-  ? DB.updates.map((u) => `<div class="q glass">${u.image ? `<img loading="lazy" src="${esc(u.image)}" alt="${esc(u.title)}">` : ""}<p class="muted">${esc(u.date)}</p><p class="qt">${esc(u.title)}</p>${u.link ? `<a class="btn" href="${esc(u.link)}" target="_blank" rel="noopener">Official link kholo</a>` : ""}</div>`).join("")
-  : empty("Abhi koi update nahi hai."));
+const updatesView = (id) => {
+  if (!id) return crumbs([["Home", "#/"], ["Updates"]]) + `<h2>🔔 Latest Updates</h2>` + (DB.updates.length
+    ? `<section class="grid">` + DB.updates.map((u, i) => card(`#/updates/${u.id}`, u.icon || "📢", u.title, "", i)).join("") + `</section>`
+    : empty("Abhi koi update nahi hai."));
+  const u = DB.updates.find((x) => x.id === id);
+  if (!u) return notFound();
+  return crumbs([["Home", "#/"], ["Updates", "#/updates"], [u.title]]) + `<h2>${esc(u.icon || "")} ${esc(u.title)}</h2>` +
+    ((u.images || []).length ? u.images.map((s, i) => `<img class="paper" loading="lazy" src="${esc(s)}" alt="${esc(u.title)} ${i + 1}">`).join("") : empty("Abhi koi update nahi hai."));
+};
 
 
 const materialView = () => crumbs([["Home", "#/"], ["Study Material"]]) + `<h2>Study Material</h2>` + (DB.studyMaterial.length
@@ -203,16 +213,52 @@ const materialView = () => crumbs([["Home", "#/"], ["Study Material"]]) + `<h2>S
   : empty("Study material jald aayega."));
 
 
+const CONTACT_FORM = `<div class="q glass cform"><h3 class="sec" style="margin-top:0">Message bhejo</h3>
+  <label>Naam</label><input id="cName" type="text" autocomplete="name">
+  <label>Subject</label><input id="cSub" type="text">
+  <label>Message</label><textarea id="cMsg" rows="6"></textarea>
+  <button class="btn" id="sendMail">Send Message</button></div>`;
 const pageView = (k) => {
   const p = DB.pages[k];
-  return p ? crumbs([["Home", "#/"], [p.title]]) + `<h2>${esc(p.title)}</h2>` + (p.body && p.body.length ? p.body.map(block).join("") : empty(SOON)) : notFound();
+  return p ? crumbs([["Home", "#/"], [p.title]]) + `<h2>${esc(p.title)}</h2>` + (p.body && p.body.length ? p.body.map(block).join("") : empty(SOON)) + (k === "contact" ? CONTACT_FORM : "") : notFound();
 };
+
+
+/* ---------- Formula Library: Formula > Mathematics/Science > Part > (Group) > Chapter > Formulas ---------- */
+function indexFormulas() {
+  FN = {};
+  const add = (d, type, parent) => { FN[d.id] = { d, type, parent }; };
+  DB.formulas.forEach((f) => {
+    add(f, "sub", null);
+    (f.parts || []).forEach((p) => {
+      add(p, "part", f.id);
+      (p.chapters || []).forEach((c) => add(c, "chap", p.id));
+      (p.groups || []).forEach((g) => { add(g, "group", p.id); (g.chapters || []).forEach((c) => add(c, "chap", g.id)); });
+    });
+  });
+}
+const fmt = (x) => esc(String(x).replace(/`/g, ""));
+const fxItem = (x) => `<div class="q glass fx">${x.label ? `<div class="gold">${fmt(x.label)}</div>` : ""}${x.formula ? `<code>${fmt(x.formula)}</code>` : ""}${x.text ? `<div class="rt">${fmt(x.text)}</div>` : ""}${x.english ? `<p class="muted">${fmt(x.english)}</p>` : ""}${x.hindi ? `<p class="hi">${fmt(x.hindi)}</p>` : ""}</div>`;
+const countCh = (p) => (p.chapters || []).length + (p.groups || []).reduce((n, g) => n + g.chapters.length, 0);
+function formulaView(id) {
+  const top = [["Home", "#/"], ["Formula", "#/formula"]];
+  if (!id) return crumbs([["Home", "#/"], ["Formula"]]) + `<h2>Formula Library</h2><section class="grid">` + DB.formulas.map((f, i) => card(`#/formula/${f.id}`, f.icon, f.name, `${(f.parts || []).length} parts`, i)).join("") + `</section>`;
+  const n = FN[id];
+  if (!n) return notFound();
+  const chain = []; for (let x = n; x; x = x.parent && FN[x.parent]) chain.unshift(x);
+  const cr = (last) => crumbs(top.concat(chain.slice(0, -1).map((x) => [x.d.name, `#/formula/${x.d.id}`]), [[last]]));
+  if (n.type === "sub") return cr(n.d.name) + `<h2>${esc(n.d.name)}</h2>` + (n.d.parts || []).map((p) => row(`#/formula/${p.id}`, p.name, `${countCh(p)} chapters`)).join("");
+  if (n.type === "part") return cr(n.d.name) + `<h2>${esc(n.d.name)}</h2>` + (n.d.groups ? n.d.groups.map((g) => row(`#/formula/${g.id}`, g.name, `${g.chapters.length} chapters`)).join("") : (n.d.chapters || []).map((c) => row(`#/formula/${c.id}`, c.name)).join(""));
+  if (n.type === "group") return cr(n.d.name) + `<h2>${esc(n.d.name)}</h2>` + n.d.chapters.map((c) => row(`#/formula/${c.id}`, c.name)).join("");
+  return cr(n.d.name) + `<h2>${esc(n.d.name)}</h2>` + ((n.d.items || []).length ? n.d.items.map(fxItem).join("") : empty("Formulas jald aayenge."));
+}
 
 
 /* ---------- Router: #/mode/id/section, id = Class, Subject, Book or Chapter ---------- */
 function view(a, b, c) {
   if (!a) return home();
-  if (a === "updates") return updatesView();
+  if (a === "updates") return updatesView(b);
+  if (a === "formula") return formulaView(b);
   if (a === "material") return materialView();
   if (a === "page") return pageView(b);
   if (!MODE[a]) return notFound();
@@ -250,6 +296,10 @@ document.addEventListener("click", (ev) => {
     if (ans >= 0) { opts[ans].classList.add("right"); if (k !== ans) opts[k].classList.add("wrong"); }
     q.querySelector(".why").innerHTML = (ans < 0 ? "" : k === ans ? "✅ Sahi jawab! " : "❌ Galat jawab. ") + rt(q.dataset.why);
     t.remove();
+  } else if (t.id === "sendMail") {
+    const g = (id) => ($(id).value || "").trim(), name = g("cName"), sub = g("cSub"), msg = g("cMsg");
+    if (!sub || !msg) return toast("Subject aur Message likho");
+    location.href = "mailto:jvhelp1@gmail.com?subject=" + encodeURIComponent(sub) + "&body=" + encodeURIComponent((name ? "Naam: " + name + "\n\n" : "") + msg);
   } else if (t.id === "start") { T.i = 0; testView(); }
   else if (t.id === "retry") { T.i = 0; T.log = []; testView(); }
   else if (t.id === "next") {
@@ -270,7 +320,9 @@ function setup(data) {
   DB.updates = DB.updates || [];
   DB.studyMaterial = DB.studyMaterial || [];
   DB.pages = DB.pages || {};
+  DB.formulas = DB.formulas || [];
   indexDB();
+  indexFormulas();
   route();
 }
 fetch("database.json")

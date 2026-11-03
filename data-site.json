@@ -1,0 +1,107 @@
+{
+ "site": {
+  "url": "https://jacversedev.github.io/JacVerse/"
+ },
+ "pages": {
+  "about": {
+   "title": "About",
+   "body": [
+    {
+     "title": "Jac Verse – Learn • Practice • Success",
+     "content": "<p>Jac Verse is an independent educational platform created to help students, especially JAC Board students.</p><h3>Our Mission</h3><p>To make education easier, accessible, and free for students.</p><h3>What We Offer</h3><ul><li>Study Notes</li><li>MCQs</li><li>Previous Year Questions</li><li>Question &amp; Answers</li><li>Formula Library</li><li>Self Tests</li><li>Class 9 &amp; 10 Study Materials</li></ul><h3>Our Goal</h3><p>To help every student learn, practice, and succeed.</p><p>Jac Verse is not affiliated with any government organization, JAC, JCERT, or NCERT.</p><p><b>Made for Students, Built for Learning.</b></p>"
+    }
+   ]
+  },
+  "contact": {
+   "title": "Contact",
+   "body": [
+    {
+     "title": "Contact Us – Jac Verse",
+     "content": "<p>Have any questions, suggestions, or feedback?</p><p>You can contact us for:</p><ul><li>Website Issues</li><li>Incorrect Study Materials</li><li>Content Corrections</li><li>Suggestions</li><li>Copyright Concerns</li></ul><p>Email: <a href=\"mailto:jvhelp1@gmail.com\">jvhelp1@gmail.com</a></p><p>We will try to respond as soon as possible.</p><p>Thank you for supporting Jac Verse!</p>"
+    }
+   ]
+  },
+  "privacy": {
+   "title": "Privacy Policy",
+   "body": [
+    {
+     "title": "Privacy Policy – Jac Verse",
+     "content": "<ul><li>Jac Verse does not require users to create an account.</li><li>We do not ask for personal information to access study materials.</li><li>Technical information may be processed by our hosting provider.</li><li>If you contact us, we may receive your email address.</li><li>Browser storage may be used to save website preferences.</li><li>Third-party services may use cookies.</li><li>External websites have their own privacy policies.</li><li>We take reasonable steps to protect information.</li><li>This policy may be updated when necessary.</li></ul><p>For privacy questions:<br>Email: <a href=\"mailto:jvhelp1@gmail.com\">jvhelp1@gmail.com</a></p>"
+    }
+   ]
+  },
+  "terms": {
+   "title": "Terms",
+   "body": [
+    {
+     "title": "Terms & Conditions – Jac Verse",
+     "content": "<ul><li>Jac Verse is an independent educational platform.</li><li>All resources are provided for educational purposes.</li><li>Users may use materials for personal study.</li><li>Copying or redistributing original content without permission is prohibited.</li><li>Misuse of the website is not allowed.</li><li>We may update or remove content when necessary.</li><li>We do not guarantee examination results.</li><li>Users should verify important information with official textbooks.</li><li>Third-party websites follow their own terms and policies.</li><li>By using Jac Verse, you agree to these terms.</li></ul><p>Email: <a href=\"mailto:jvhelp1@gmail.com\">jvhelp1@gmail.com</a></p>"
+    }
+   ]
+  },
+  "disclaimer": {
+   "title": "Disclaimer",
+   "body": [
+    {
+     "title": "Disclaimer – Jac Verse",
+     "content": "<ul><li>Jac Verse is an independent educational platform.</li><li>It is not operated by the Government of Jharkhand.</li><li>It is not officially affiliated with JAC, JCERT, or NCERT.</li><li>All materials are provided for educational purposes.</li><li>We try to maintain accurate and updated content.</li><li>We do not guarantee examination results.</li><li>Students should refer to official textbooks.</li><li>All third-party trademarks belong to their respective owners.</li><li>We are not responsible for external website content.</li></ul><p>For queries:<br>Email: <a href=\"mailto:jvhelp1@gmail.com\">jvhelp1@gmail.com</a></p>"
+    }
+   ]
+  }
+ },
+ "updates": [
+  {
+   "id": "notifications",
+   "title": "Exam Notifications",
+   "icon": "📢",
+   "images": []
+  },
+  {
+   "id": "results",
+   "title": "Results Updates",
+   "icon": "📝",
+   "images": []
+  },
+  {
+   "id": "routine",
+   "title": "Exam Date & Routine",
+   "icon": "📅",
+   "images": []
+  },
+  {
+   "id": "admitcard",
+   "title": "Admit Card Updates",
+   "icon": "🎫",
+   "images": []
+  },
+  {
+   "id": "registration",
+   "title": "Registration Updates",
+   "icon": "📋",
+   "images": []
+  },
+  {
+   "id": "notices",
+   "title": "Official Notices",
+   "icon": "🏛️",
+   "images": []
+  }
+ ],
+ "studyMaterial": [],
+ "formulas": [
+  {
+   "id": "math",
+   "name": "Mathematics",
+   "icon": "➗",
+   "file": "data-formula-math.json",
+   "info": "6 parts"
+  },
+  {
+   "id": "science",
+   "name": "Science",
+   "icon": "🔬",
+   "file": "data-formula-science.json",
+   "info": "7 parts"
+  }
+ ]
+}

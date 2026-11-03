@@ -1,0 +1,548 @@
+{
+ "id": "class10",
+ "name": "Class 10",
+ "icon": "📕",
+ "subjects": [
+  {
+   "id": "class10-maths",
+   "name": "गणित",
+   "icon": "📘",
+   "books": [
+    {
+     "id": "class10-maths-book",
+     "name": "गणित",
+     "parts": [],
+     "chapters": [
+      {
+       "id": "class10-maths-chapter-1",
+       "name": "वास्तविक संख्याएँ"
+      },
+      {
+       "id": "class10-maths-chapter-2",
+       "name": "बहुपद"
+      },
+      {
+       "id": "class10-maths-chapter-3",
+       "name": "दो चरों वाले रैखिक समीकरण युग्म"
+      },
+      {
+       "id": "class10-maths-chapter-4",
+       "name": "द्विघात समीकरण"
+      },
+      {
+       "id": "class10-maths-chapter-5",
+       "name": "समांतर श्रेढ़ियाँ"
+      },
+      {
+       "id": "class10-maths-chapter-6",
+       "name": "त्रिभुज"
+      },
+      {
+       "id": "class10-maths-chapter-7",
+       "name": "निर्देशांक ज्यामिति"
+      },
+      {
+       "id": "class10-maths-chapter-8",
+       "name": "त्रिकोणमिति का परिचय"
+      },
+      {
+       "id": "class10-maths-chapter-9",
+       "name": "त्रिकोणमिति के कुछ अनुप्रयोग"
+      },
+      {
+       "id": "class10-maths-chapter-10",
+       "name": "वृत्त"
+      },
+      {
+       "id": "class10-maths-chapter-11",
+       "name": "वृत्तों से संबंधित क्षेत्रफल"
+      },
+      {
+       "id": "class10-maths-chapter-12",
+       "name": "पृष्ठीय क्षेत्रफल और आयतन"
+      },
+      {
+       "id": "class10-maths-chapter-13",
+       "name": "सांख्यिकी"
+      },
+      {
+       "id": "class10-maths-chapter-14",
+       "name": "प्रायिकता"
+      }
+     ]
+    }
+   ],
+   "pyq": []
+  },
+  {
+   "id": "class10-science",
+   "name": "विज्ञान",
+   "icon": "🔬",
+   "books": [
+    {
+     "id": "class10-science-book",
+     "name": "विज्ञान",
+     "parts": [],
+     "chapters": [
+      {
+       "id": "class10-science-chapter-1",
+       "name": "रासायनिक अभिक्रियाएँ एवं समीकरण"
+      },
+      {
+       "id": "class10-science-chapter-2",
+       "name": "अम्ल, क्षारक एवं लवण"
+      },
+      {
+       "id": "class10-science-chapter-3",
+       "name": "धातु एवं अधातु"
+      },
+      {
+       "id": "class10-science-chapter-4",
+       "name": "कार्बन एवं उसके यौगिक"
+      },
+      {
+       "id": "class10-science-chapter-5",
+       "name": "जैव प्रक्रम"
+      },
+      {
+       "id": "class10-science-chapter-6",
+       "name": "नियंत्रण एवं समन्वय"
+      },
+      {
+       "id": "class10-science-chapter-7",
+       "name": "जीव जनन कैसे करते हैं?"
+      },
+      {
+       "id": "class10-science-chapter-8",
+       "name": "आनुवंशिकता"
+      },
+      {
+       "id": "class10-science-chapter-9",
+       "name": "प्रकाश - परावर्तन तथा अपवर्तन"
+      },
+      {
+       "id": "class10-science-chapter-10",
+       "name": "मानव नेत्र तथा रंगबिरंगा संसार"
+      },
+      {
+       "id": "class10-science-chapter-11",
+       "name": "विद्युत्"
+      },
+      {
+       "id": "class10-science-chapter-12",
+       "name": "विद्युत् धारा के चुंबकीय प्रभाव"
+      },
+      {
+       "id": "class10-science-chapter-13",
+       "name": "हमारा पर्यावरण"
+      }
+     ]
+    }
+   ],
+   "pyq": []
+  },
+  {
+   "id": "class10-social-science",
+   "name": "सामाजिक विज्ञान",
+   "icon": "🌍",
+   "books": [
+    {
+     "id": "class10-history-book",
+     "name": "इतिहास",
+     "desc": "भारत और समकालीन विश्व - 2",
+     "icon": "🏛️",
+     "parts": [],
+     "chapters": [
+      {
+       "id": "class10-history-chapter-1",
+       "name": "यूरोप में राष्ट्रवाद का उदय"
+      },
+      {
+       "id": "class10-history-chapter-2",
+       "name": "भारत में राष्ट्रवाद"
+      },
+      {
+       "id": "class10-history-chapter-3",
+       "name": "भूमंडलीकृत विश्व का बनना"
+      },
+      {
+       "id": "class10-history-chapter-4",
+       "name": "औद्योगीकरण का युग"
+      },
+      {
+       "id": "class10-history-chapter-5",
+       "name": "मुद्रण संस्कृति और आधुनिक दुनिया"
+      }
+     ]
+    },
+    {
+     "id": "class10-geography-book",
+     "name": "भूगोल",
+     "desc": "समकालीन भारत - 2",
+     "icon": "🗺️",
+     "parts": [],
+     "chapters": [
+      {
+       "id": "class10-geography-chapter-1",
+       "name": "संसाधन एवं विकास"
+      },
+      {
+       "id": "class10-geography-chapter-2",
+       "name": "वन एवं वन्य जीव संसाधन"
+      },
+      {
+       "id": "class10-geography-chapter-3",
+       "name": "जल संसाधन"
+      },
+      {
+       "id": "class10-geography-chapter-4",
+       "name": "कृषि"
+      },
+      {
+       "id": "class10-geography-chapter-5",
+       "name": "खनिज तथा ऊर्जा संसाधन"
+      },
+      {
+       "id": "class10-geography-chapter-6",
+       "name": "विनिर्माण उद्योग"
+      },
+      {
+       "id": "class10-geography-chapter-7",
+       "name": "राष्ट्रीय अर्थव्यवस्था की जीवन रेखाएँ"
+      }
+     ]
+    },
+    {
+     "id": "class10-civics-book",
+     "name": "नागरिक शास्त्र",
+     "desc": "लोकतांत्रिक राजनीति - 2",
+     "icon": "⚖️",
+     "parts": [],
+     "chapters": [
+      {
+       "id": "class10-civics-chapter-1",
+       "name": "सत्ता की साझेदारी"
+      },
+      {
+       "id": "class10-civics-chapter-2",
+       "name": "संघवाद"
+      },
+      {
+       "id": "class10-civics-chapter-3",
+       "name": "जाति, धर्म और लैंगिक मसले"
+      },
+      {
+       "id": "class10-civics-chapter-4",
+       "name": "राजनीतिक दल"
+      },
+      {
+       "id": "class10-civics-chapter-5",
+       "name": "लोकतंत्र के परिणाम"
+      }
+     ]
+    },
+    {
+     "id": "class10-economics-book",
+     "name": "अर्थशास्त्र",
+     "desc": "आर्थिक विकास की समझ",
+     "icon": "💰",
+     "parts": [],
+     "chapters": [
+      {
+       "id": "class10-economics-chapter-1",
+       "name": "विकास"
+      },
+      {
+       "id": "class10-economics-chapter-2",
+       "name": "भारतीय अर्थव्यवस्था के क्षेत्रक"
+      },
+      {
+       "id": "class10-economics-chapter-3",
+       "name": "मुद्रा और साख"
+      },
+      {
+       "id": "class10-economics-chapter-4",
+       "name": "वैश्वीकरण और भारतीय अर्थव्यवस्था"
+      },
+      {
+       "id": "class10-economics-chapter-5",
+       "name": "उपभोक्ता अधिकार"
+      }
+     ]
+    }
+   ],
+   "pyq": []
+  },
+  {
+   "id": "class10-hindi",
+   "name": "हिंदी",
+   "icon": "📕",
+   "books": [
+    {
+     "id": "class10-hindi-kshitij-book",
+     "name": "क्षितिज भाग-2",
+     "icon": "📕",
+     "parts": [
+      {
+       "id": "class10-hindi-kshitij-kavya",
+       "name": "काव्य खंड",
+       "chapters": [
+        {
+         "id": "class10-hindi-kshitij-chapter-1",
+         "name": "पद",
+         "desc": "सूरदास"
+        },
+        {
+         "id": "class10-hindi-kshitij-chapter-2",
+         "name": "राम-लक्ष्मण-परशुराम संवाद",
+         "desc": "तुलसीदास"
+        },
+        {
+         "id": "class10-hindi-kshitij-chapter-3",
+         "name": "आत्मकथ्य",
+         "desc": "जयशंकर प्रसाद"
+        },
+        {
+         "id": "class10-hindi-kshitij-chapter-4",
+         "name": "उत्साह, अट नहीं रही है",
+         "desc": "सूर्यकांत त्रिपाठी 'निराला'"
+        },
+        {
+         "id": "class10-hindi-kshitij-chapter-5",
+         "name": "यह दंतुरित मुसकान, फसल",
+         "desc": "नागार्जुन"
+        },
+        {
+         "id": "class10-hindi-kshitij-chapter-6",
+         "name": "संगतकार",
+         "desc": "मंगलेश डबराल"
+        }
+       ]
+      },
+      {
+       "id": "class10-hindi-kshitij-gadya",
+       "name": "गद्य खंड",
+       "chapters": [
+        {
+         "id": "class10-hindi-kshitij-chapter-7",
+         "name": "नेताजी का चश्मा",
+         "desc": "स्वयं प्रकाश"
+        },
+        {
+         "id": "class10-hindi-kshitij-chapter-8",
+         "name": "बालगोबिन भगत",
+         "desc": "रामवृक्ष बेनीपुरी"
+        },
+        {
+         "id": "class10-hindi-kshitij-chapter-9",
+         "name": "लखनवी अंदाज़",
+         "desc": "यशपाल"
+        },
+        {
+         "id": "class10-hindi-kshitij-chapter-10",
+         "name": "एक कहानी यह भी",
+         "desc": "मन्नू भंडारी"
+        },
+        {
+         "id": "class10-hindi-kshitij-chapter-11",
+         "name": "नौबतखाने में इबादत",
+         "desc": "यतीन्द्र मिश्र"
+        },
+        {
+         "id": "class10-hindi-kshitij-chapter-12",
+         "name": "संस्कृति",
+         "desc": "भदंत आनंद कौसल्यायन"
+        }
+       ]
+      }
+     ],
+     "chapters": []
+    },
+    {
+     "id": "class10-hindi-kritika-book",
+     "name": "कृतिका भाग-2",
+     "icon": "📕",
+     "parts": [],
+     "chapters": [
+      {
+       "id": "class10-hindi-kritika-chapter-1",
+       "name": "माता का अँचल",
+       "desc": "शिवपूजन सहाय"
+      },
+      {
+       "id": "class10-hindi-kritika-chapter-2",
+       "name": "साना-साना हाथ जोड़ि...",
+       "desc": "मधु कांकरिया"
+      },
+      {
+       "id": "class10-hindi-kritika-chapter-3",
+       "name": "मैं क्यों लिखता हूँ?",
+       "desc": "अज्ञेय"
+      }
+     ]
+    }
+   ],
+   "pyq": []
+  },
+  {
+   "id": "class10-english",
+   "name": "English",
+   "icon": "📗",
+   "books": [
+    {
+     "id": "class10-english-firstflight-book",
+     "name": "First Flight",
+     "icon": "📗",
+     "parts": [
+      {
+       "id": "class10-english-firstflight-prose",
+       "name": "Prose",
+       "chapters": [
+        {
+         "id": "class10-english-firstflight-chapter-1",
+         "name": "A Letter to God"
+        },
+        {
+         "id": "class10-english-firstflight-chapter-2",
+         "name": "Nelson Mandela: Long Walk to Freedom"
+        },
+        {
+         "id": "class10-english-firstflight-chapter-3",
+         "name": "Two Stories about Flying"
+        },
+        {
+         "id": "class10-english-firstflight-chapter-4",
+         "name": "From the Diary of Anne Frank"
+        },
+        {
+         "id": "class10-english-firstflight-chapter-5",
+         "name": "Glimpses of India"
+        },
+        {
+         "id": "class10-english-firstflight-chapter-6",
+         "name": "Mijbil the Otter"
+        },
+        {
+         "id": "class10-english-firstflight-chapter-7",
+         "name": "Madam Rides the Bus"
+        },
+        {
+         "id": "class10-english-firstflight-chapter-8",
+         "name": "The Sermon at Benares"
+        },
+        {
+         "id": "class10-english-firstflight-chapter-9",
+         "name": "The Proposal"
+        }
+       ]
+      },
+      {
+       "id": "class10-english-firstflight-poems",
+       "name": "Poems",
+       "chapters": [
+        {
+         "id": "class10-english-firstflight-chapter-10",
+         "name": "Dust of Snow"
+        },
+        {
+         "id": "class10-english-firstflight-chapter-11",
+         "name": "Fire and Ice"
+        },
+        {
+         "id": "class10-english-firstflight-chapter-12",
+         "name": "A Tiger in the Zoo"
+        },
+        {
+         "id": "class10-english-firstflight-chapter-13",
+         "name": "How to Tell Wild Animals"
+        },
+        {
+         "id": "class10-english-firstflight-chapter-14",
+         "name": "The Ball Poem"
+        },
+        {
+         "id": "class10-english-firstflight-chapter-15",
+         "name": "Amanda!"
+        },
+        {
+         "id": "class10-english-firstflight-chapter-16",
+         "name": "The Trees"
+        },
+        {
+         "id": "class10-english-firstflight-chapter-17",
+         "name": "Fog"
+        },
+        {
+         "id": "class10-english-firstflight-chapter-18",
+         "name": "The Tale of Custard the Dragon"
+        },
+        {
+         "id": "class10-english-firstflight-chapter-19",
+         "name": "For Anne Gregory"
+        }
+       ]
+      }
+     ],
+     "chapters": []
+    },
+    {
+     "id": "class10-english-footprints-book",
+     "name": "Footprints Without Feet",
+     "icon": "📗",
+     "parts": [],
+     "chapters": [
+      {
+       "id": "class10-english-footprints-chapter-1",
+       "name": "A Triumph of Surgery"
+      },
+      {
+       "id": "class10-english-footprints-chapter-2",
+       "name": "The Thief's Story"
+      },
+      {
+       "id": "class10-english-footprints-chapter-3",
+       "name": "The Midnight Visitor"
+      },
+      {
+       "id": "class10-english-footprints-chapter-4",
+       "name": "A Question of Trust"
+      },
+      {
+       "id": "class10-english-footprints-chapter-5",
+       "name": "Footprints without Feet"
+      },
+      {
+       "id": "class10-english-footprints-chapter-6",
+       "name": "The Making of a Scientist"
+      },
+      {
+       "id": "class10-english-footprints-chapter-7",
+       "name": "The Necklace"
+      },
+      {
+       "id": "class10-english-footprints-chapter-8",
+       "name": "Bholi"
+      },
+      {
+       "id": "class10-english-footprints-chapter-9",
+       "name": "The Book That Saved the Earth"
+      }
+     ]
+    }
+   ],
+   "pyq": []
+  }
+ ],
+ "pyqYears": [
+  {
+   "id": "pyq-class10-2024",
+   "year": "2024",
+   "images": []
+  },
+  {
+   "id": "pyq-class10-2025",
+   "year": "2025",
+   "images": []
+  }
+ ]
+}

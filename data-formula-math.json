@@ -1,0 +1,2492 @@
+{
+ "id": "math",
+ "name": "Mathematics",
+ "icon": "➗",
+ "parts": [
+  {
+   "id": "math-part-1",
+   "name": "अंकगणित एवं दैनिक गणित | Arithmetic",
+   "chapters": [
+    {
+     "id": "math-1-1",
+     "name": "1.1 मूलभूत गणित | Basic Mathematics",
+     "items": [
+      {
+       "formula": "`BODMAS: Brackets → Of → Division → Multiplication → Addition → Subtraction`",
+       "english": "Order of operations",
+       "hindi": "पहले कोष्ठक, फिर \"का\", फिर भाग, गुणा, जोड़, घटाव।"
+      },
+      {
+       "formula": "`Dividend = Divisor × Quotient + Remainder`",
+       "english": "Division rule",
+       "hindi": "भाज्य = भाजक × भागफल + शेषफल।"
+      },
+      {
+       "formula": "`LCM × HCF = First number × Second number`",
+       "english": "For two numbers only",
+       "hindi": "केवल दो संख्याओं के लिए ल.स. × म.स. = दोनों संख्याओं का गुणनफल।"
+      },
+      {
+       "formula": "`1 + 2 + … + n = n(n+1)/2`",
+       "english": "Sum of first n natural numbers",
+       "hindi": "प्रथम n प्राकृत संख्याओं का योग।"
+      },
+      {
+       "formula": "`1² + 2² + … + n² = n(n+1)(2n+1)/6`",
+       "english": "Sum of squares",
+       "hindi": "वर्गों का योग।"
+      },
+      {
+       "formula": "`1³ + 2³ + … + n³ = [n(n+1)/2]²`",
+       "english": "Sum of cubes",
+       "hindi": "घनों का योग।"
+      },
+      {
+       "formula": "`Sum of first n odd numbers = n²`",
+       "hindi": "प्रथम n विषम संख्याओं का योग = n²।"
+      },
+      {
+       "formula": "`Sum of first n even numbers = n(n+1)`",
+       "hindi": "प्रथम n सम संख्याओं का योग = n(n+1)।"
+      },
+      {
+       "formula": "`Number of factors of N = p^a · q^b · r^c → (a+1)(b+1)(c+1)`",
+       "hindi": "अभाज्य गुणनखंड में घातों में 1 जोड़कर गुणा करें।"
+      },
+      {
+       "formula": "`HCF = (Product of common prime factors, least power)`; `LCM = (all prime factors, highest power)`",
+       "hindi": "म.स. में उभयनिष्ठ कम घात, ल.स. में सभी अधिकतम घात।"
+      },
+      {
+       "label": "Divisibility / विभाज्यता",
+       "text": "2 (last digit even/सम), 3 (digit sum ÷3), 4 (last two digits ÷4), 5 (ends 0/5), 6 (÷2 और ÷3), 8 (last three digits ÷8), 9 (digit sum ÷9), 11 (odd-place sum − even-place sum = 0 या 11 का गुणज)।"
+      }
+     ]
+    },
+    {
+     "id": "math-1-2",
+     "name": "1.2 प्रतिशत | Percentage",
+     "items": [
+      {
+       "formula": "`x% of N = (x/100) × N`",
+       "hindi": "N का x प्रतिशत।"
+      },
+      {
+       "formula": "`Percentage = (Part / Whole) × 100`",
+       "hindi": "भाग / पूर्ण × 100।"
+      },
+      {
+       "formula": "`% Change = (Change / Original) × 100`",
+       "hindi": "परिवर्तन प्रतिशत = (बदलाव / मूल मान) × 100।"
+      },
+      {
+       "formula": "`Successive change: a% and b% → a + b + (ab/100) %`",
+       "hindi": "क्रमागत वृद्धि/कमी (घटाव के लिए ऋण चिह्न लगाएँ)।"
+      },
+      {
+       "formula": "`Population after n years = P (1 + r/100)^n`",
+       "hindi": "n वर्ष बाद जनसंख्या; घटने पर `(1 − r/100)^n`।"
+      },
+      {
+       "formula": "`If price ↑ r%, reduce consumption by [r/(100+r)] × 100 %`",
+       "hindi": "कीमत r% बढ़े तो खर्च समान रखने हेतु खपत इतने % घटाएँ।"
+      },
+      {
+       "formula": "`If price ↓ r%, increase consumption by [r/(100−r)] × 100 %`",
+       "hindi": "कीमत r% घटे तो खपत इतने % बढ़ाएँ।"
+      },
+      {
+       "formula": "`Fractions: 1/2=50%, 1/3=33.33%, 1/4=25%, 1/5=20%, 1/6=16.67%, 1/8=12.5%, 1/9=11.11%, 1/10=10%, 1/12=8.33%`",
+       "hindi": "याद रखने योग्य भिन्न-प्रतिशत।"
+      }
+     ]
+    },
+    {
+     "id": "math-1-3",
+     "name": "1.3 लाभ एवं हानि | Profit & Loss",
+     "items": [
+      {
+       "formula": "`Profit = SP − CP`; `Loss = CP − SP`",
+       "hindi": "लाभ = विक्रय मूल्य − क्रय मूल्य।"
+      },
+      {
+       "formula": "`Profit % = (Profit/CP) × 100`; `Loss % = (Loss/CP) × 100`",
+       "hindi": "लाभ/हानि % सदा क्रय मूल्य पर।"
+      },
+      {
+       "formula": "`SP = CP × (100 + P%)/100`; `SP = CP × (100 − L%)/100`",
+       "hindi": "विक्रय मूल्य निकालना।"
+      },
+      {
+       "formula": "`CP = SP × 100/(100 + P%)`; `CP = SP × 100/(100 − L%)`",
+       "hindi": "क्रय मूल्य निकालना।"
+      },
+      {
+       "formula": "`Discount = MP − SP`; `Discount % = (Discount/MP) × 100`",
+       "hindi": "छूट अंकित मूल्य (MP) पर।"
+      },
+      {
+       "formula": "`SP = MP × (100 − D%)/100`",
+       "hindi": "छूट के बाद विक्रय मूल्य।"
+      },
+      {
+       "formula": "`Successive discount d1, d2 = d1 + d2 − (d1·d2/100)`",
+       "hindi": "क्रमागत छूट का कुल प्रभाव।"
+      },
+      {
+       "formula": "`Two articles same SP, one at x% profit, other at x% loss → Loss % = x²/100`",
+       "hindi": "हमेशा हानि होती है।"
+      },
+      {
+       "formula": "`Gain % (false weight) = [Error/(True value − Error)] × 100`",
+       "hindi": "कम तौल से लाभ।"
+      },
+      {
+       "formula": "`MP = CP × (100 + P%)/(100 − D%)`",
+       "hindi": "अंकित मूल्य का संबंध।"
+      }
+     ]
+    },
+    {
+     "id": "math-1-4",
+     "name": "1.4 ब्याज एवं छूट | Interest & Discount",
+     "items": [
+      {
+       "formula": "`SI = (P × R × T)/100`",
+       "english": "Simple Interest",
+       "hindi": "साधारण ब्याज (मूलधन × दर × समय / 100)।"
+      },
+      {
+       "formula": "`A = P + SI = P(1 + RT/100)`",
+       "hindi": "मिश्रधन।"
+      },
+      {
+       "formula": "`CI: A = P (1 + R/100)^n`; `CI = A − P`",
+       "hindi": "चक्रवृद्धि ब्याज।"
+      },
+      {
+       "formula": "`Half-yearly: A = P (1 + R/200)^(2n)`; `Quarterly: A = P (1 + R/400)^(4n)`",
+       "hindi": "अर्धवार्षिक / त्रैमासिक संयोजन।"
+      },
+      {
+       "formula": "`CI − SI (2 yrs) = P (R/100)²`",
+       "hindi": "2 वर्ष में CI और SI का अंतर।"
+      },
+      {
+       "formula": "`CI − SI (3 yrs) = P (R/100)² (3 + R/100)`",
+       "hindi": "3 वर्ष में अंतर।"
+      },
+      {
+       "formula": "`Doubling time (SI) = 100/R yrs`; `Rule of 72 (CI) ≈ 72/R yrs`",
+       "hindi": "धन दोगुना होने का समय।"
+      },
+      {
+       "formula": "`True Discount TD = (A × R × T)/(100 + R × T)`",
+       "hindi": "यथार्थ छूट (A = देय राशि)।"
+      },
+      {
+       "formula": "`Present Worth PW = A × 100/(100 + RT)`",
+       "hindi": "वर्तमान मूल्य।"
+      },
+      {
+       "formula": "`Banker's Discount BD = (A × R × T)/100`",
+       "hindi": "बैंकर्स छूट (देय राशि पर SI)।"
+      },
+      {
+       "formula": "`BG = BD − TD = TD × RT/100`",
+       "hindi": "बैंकर्स लाभ।"
+      },
+      {
+       "formula": "`TD = √(PW × BG)`",
+       "hindi": "यथार्थ छूट का संबंध।"
+      }
+     ]
+    },
+    {
+     "id": "math-1-5",
+     "name": "1.5 अनुपात एवं समानुपात | Ratio & Proportion",
+     "items": [
+      {
+       "formula": "`a : b = a/b`",
+       "hindi": "दो राशियों की तुलना।"
+      },
+      {
+       "formula": "`a/b = c/d ⟺ ad = bc`",
+       "hindi": "समानुपात में अंत्य पदों का गुणा = मध्य पदों का गुणा।"
+      },
+      {
+       "formula": "`Mean proportion of a, b = √(ab)`; `Third proportion = b²/a`",
+       "hindi": "मध्यानुपाती / तृतीयानुपाती।"
+      },
+      {
+       "formula": "`Componendo: (a+b)/b = (c+d)/d`; `Dividendo: (a−b)/b = (c−d)/d`; `Componendo-Dividendo: (a+b)/(a−b) = (c+d)/(c−d)`",
+       "hindi": "अनुपात के गुण।"
+      },
+      {
+       "formula": "`Direct variation: x/y = k`; `Inverse variation: xy = k`",
+       "hindi": "समानुपात / व्युत्क्रमानुपात।"
+      },
+      {
+       "formula": "`Dividing N in a:b → a/(a+b) × N and b/(a+b) × N`",
+       "hindi": "N को अनुपात में बाँटना।"
+      },
+      {
+       "formula": "`Duplicate ratio a²:b²; Triplicate a³:b³; Sub-duplicate √a:√b`",
+       "hindi": "द्विगुणित, त्रिगुणित, उपद्विगुणित अनुपात।"
+      },
+      {
+       "formula": "`Compound ratio of a:b and c:d = ac:bd`",
+       "hindi": "संयुक्त अनुपात।"
+      }
+     ]
+    },
+    {
+     "id": "math-1-6",
+     "name": "1.6 औसत एवं साझेदारी | Average & Partnership",
+     "items": [
+      {
+       "formula": "`Average = Sum of observations / Number of observations`",
+       "hindi": "औसत = योग / संख्या।"
+      },
+      {
+       "formula": "`Average of AP = (First + Last)/2`",
+       "hindi": "समांतर श्रेणी का औसत।"
+      },
+      {
+       "formula": "`Avg of first n natural numbers = (n+1)/2`; `Avg of first n even = n+1`; `Avg of first n odd = n`",
+       "hindi": "विशेष औसत।"
+      },
+      {
+       "formula": "`New avg when person replaced = Old avg + (New − Old)/n`",
+       "hindi": "व्यक्ति बदलने पर औसत।"
+      },
+      {
+       "formula": "`Combined avg = (n1·a1 + n2·a2)/(n1 + n2)`",
+       "hindi": "संयुक्त औसत।"
+      },
+      {
+       "formula": "`Average speed (equal distance) = 2xy/(x + y)`",
+       "hindi": "समान दूरी पर औसत चाल।"
+      },
+      {
+       "formula": "`Partnership: Profit ratio = (Capital1 × Time1) : (Capital2 × Time2)`",
+       "hindi": "लाभ-विभाजन = पूँजी × समय का अनुपात।"
+      },
+      {
+       "formula": "`Working partner gets commission first, then rest in ratio`",
+       "hindi": "कार्यशील साझेदार को पहले कमीशन।"
+      }
+     ]
+    },
+    {
+     "id": "math-1-7",
+     "name": "1.7 समय एवं कार्य | Time & Work",
+     "items": [
+      {
+       "formula": "`Work = Rate × Time`",
+       "hindi": "कार्य = दर × समय।"
+      },
+      {
+       "formula": "`A and B together: T = (x·y)/(x + y)`",
+       "hindi": "A, B अलग-अलग x, y दिन लें तो साथ में।"
+      },
+      {
+       "formula": "`1/T = 1/x + 1/y + 1/z`",
+       "hindi": "तीन व्यक्तियों का साथ कार्य।"
+      },
+      {
+       "formula": "`M1·D1·H1/W1 = M2·D2·H2/W2`",
+       "hindi": "व्यक्ति × दिन × घंटे / कार्य समान रहता है।"
+      },
+      {
+       "formula": "`Efficiency ∝ 1/Time`",
+       "hindi": "क्षमता समय की व्युत्क्रमानुपाती।"
+      },
+      {
+       "formula": "`Total work = LCM of days (Pipe/Unit method)`",
+       "hindi": "दिनों का ल.स. कुल कार्य मानें।"
+      },
+      {
+       "formula": "`If A is n times as efficient as B → Days ratio A:B = 1:n`",
+       "hindi": "अधिक कुशल व्यक्ति कम दिन लेगा।"
+      },
+      {
+       "formula": "`Wages ∝ Work done (efficiency × days)`",
+       "hindi": "मजदूरी कार्य के अनुपात में।"
+      }
+     ]
+    },
+    {
+     "id": "math-1-8",
+     "name": "1.8 चाल, समय एवं दूरी | Speed, Time & Distance",
+     "items": [
+      {
+       "formula": "`Speed = Distance/Time`; `D = S × T`; `T = D/S`",
+       "hindi": "चाल = दूरी / समय।"
+      },
+      {
+       "formula": "`km/h → m/s: × 5/18`; `m/s → km/h: × 18/5`",
+       "hindi": "इकाई परिवर्तन।"
+      },
+      {
+       "formula": "`Relative speed: opposite = S1 + S2; same direction = S1 − S2`",
+       "hindi": "सापेक्ष चाल।"
+      },
+      {
+       "formula": "`Train crossing pole/man: T = L/S`",
+       "hindi": "खंभा/आदमी पार करने में ट्रेन की लंबाई।"
+      },
+      {
+       "formula": "`Train crossing platform: T = (L + P)/S`",
+       "hindi": "प्लेटफॉर्म पार करने में L + P।"
+      },
+      {
+       "formula": "`Two trains crossing: T = (L1 + L2)/Relative speed`",
+       "hindi": "दो ट्रेनें।"
+      },
+      {
+       "formula": "`Downstream = u + v`; `Upstream = u − v`",
+       "hindi": "धारा के अनुकूल / प्रतिकूल (u = नाव, v = धारा)।"
+      },
+      {
+       "formula": "`Still water speed u = (D + U)/2`; `Current v = (D − U)/2`",
+       "hindi": "शांत जल में नाव / धारा की चाल।"
+      },
+      {
+       "formula": "`Avg speed (round trip) = 2·D·U/(D + U)`",
+       "hindi": "आने-जाने की औसत चाल।"
+      },
+      {
+       "formula": "`Race: A beats B by d meters in race of D → Ratio of speeds = D : (D − d)`",
+       "hindi": "दौड़ में चाल का अनुपात।"
+      }
+     ]
+    },
+    {
+     "id": "math-1-9",
+     "name": "1.9 मिश्रण एवं आरोपण | Mixture & Alligation",
+     "items": [
+      {
+       "formula": "`Cheaper qty : Dearer qty = (d − m) : (m − c)`",
+       "english": "Alligation rule (c = cheap price, d = dear price, m = mean price)",
+       "hindi": "सस्ती:महँगी वस्तु का अनुपात।"
+      },
+      {
+       "formula": "`Mean price m = (c1·q1 + c2·q2)/(q1 + q2)`",
+       "hindi": "मिश्रण की औसत कीमत।"
+      },
+      {
+       "formula": "`Replacement: Final qty = Initial × (1 − x/n)^k`",
+       "english": "x removed from n, repeated k times",
+       "hindi": "n में से x निकालकर पानी मिलाना, k बार।"
+      },
+      {
+       "formula": "`Gain % in mixture = (Selling price − Mean cost)/Mean cost × 100`",
+       "hindi": "मिश्रण में लाभ।"
+      },
+      {
+       "formula": "`Water to add = Total × (Old strength − New strength)/New strength`",
+       "hindi": "घोल पतला करने हेतु जल।"
+      }
+     ]
+    },
+    {
+     "id": "math-1-10",
+     "name": "1.10 आयु संबंधी प्रश्न | Problems on Ages",
+     "items": [
+      {
+       "formula": "`Age after n years = Present + n`; `Age n years ago = Present − n`",
+       "hindi": "भविष्य/भूत की आयु।"
+      },
+      {
+       "formula": "`Ratio a:b → Ages = a·k and b·k`",
+       "hindi": "अनुपात से k मानकर आयु निकालें।"
+      },
+      {
+       "formula": "`Ratio after n yrs: (a·k + n)/(b·k + n) = given ratio`",
+       "hindi": "समीकरण बनाकर k हल करें।"
+      },
+      {
+       "formula": "`Difference between two ages is always constant`",
+       "hindi": "दो व्यक्तियों की आयु का अंतर सदा समान रहता है।"
+      },
+      {
+       "formula": "`Sum of ages after n yrs = Present sum + (number of persons × n)`",
+       "hindi": "योग में प्रत्येक के n जुड़ते हैं।"
+      }
+     ]
+    },
+    {
+     "id": "math-1-11",
+     "name": "1.11 नल एवं टंकी | Pipes & Cisterns",
+     "items": [
+      {
+       "formula": "`Inlet fills in x hrs → work/hr = 1/x`; `Outlet empties in y hrs → −1/y`",
+       "hindi": "भरने वाला नल +, खाली करने वाला −।"
+      },
+      {
+       "formula": "`Both inlets: T = xy/(x + y)`",
+       "hindi": "दो भरने वाले नल साथ।"
+      },
+      {
+       "formula": "`Inlet + Outlet: T = xy/(y − x)` (y > x)",
+       "hindi": "एक भरे, एक खाली करे।"
+      },
+      {
+       "formula": "`Net rate = Σ(inlets) − Σ(outlets)`",
+       "hindi": "कुल दर।"
+      },
+      {
+       "formula": "`Leak: Time with leak − Time without leak = extra time`",
+       "hindi": "रिसाव वाला प्रश्न।"
+      }
+     ]
+    },
+    {
+     "id": "math-1-12",
+     "name": "1.12 कैलेंडर एवं घड़ी | Calendar & Clock",
+     "items": [
+      {
+       "formula": "`Odd days: 100 yrs = 5, 200 yrs = 3, 300 yrs = 1, 400 yrs = 0`",
+       "hindi": "शताब्दी के विषम दिन।"
+      },
+      {
+       "formula": "`Leap year: divisible by 4 (century: by 400); has 366 days = 52 weeks + 2 odd days`",
+       "hindi": "लीप वर्ष।"
+      },
+      {
+       "formula": "`Ordinary year = 1 odd day`",
+       "hindi": "सामान्य वर्ष में 1 विषम दिन।"
+      },
+      {
+       "formula": "`Odd days of months: Jan 3, Feb 0/1, Mar 3, Apr 2, May 3, Jun 2, Jul 3, Aug 3, Sep 2, Oct 3, Nov 2, Dec 3`",
+       "hindi": "माह के विषम दिन (दिनों को 7 से भाग देकर शेष)।"
+      },
+      {
+       "formula": "`Day = (Total odd days) mod 7` (0=Sun, 1=Mon, … 6=Sat)",
+       "hindi": "कुल विषम दिनों से वार।"
+      },
+      {
+       "formula": "`Angle between hands θ = |30H − (11/2)M|°`",
+       "hindi": "H घंटे M मिनट पर घड़ी की सुइयों के बीच कोण।"
+      },
+      {
+       "formula": "`Minute hand = 6°/min; Hour hand = 0.5°/min; Relative = 5.5°/min`",
+       "hindi": "सुइयों की कोणीय गति।"
+      },
+      {
+       "formula": "`Hands overlap every 65 5/11 min (11 times in 12 hrs, 22 times in a day)`",
+       "hindi": "सुइयाँ एक-दूसरे पर।"
+      },
+      {
+       "formula": "`Hands opposite: 11 times in 12 hrs; right angle: 22 times in 12 hrs (44 per day)`",
+       "hindi": "सुइयाँ विपरीत / समकोण।"
+      },
+      {
+       "formula": "`Time when hands coincide after H o'clock = (60H/11) min past H`",
+       "hindi": "H बजे के बाद सुइयाँ कब मिलेंगी।"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "math-part-2",
+   "name": "बीजगणित | Algebra",
+   "chapters": [
+    {
+     "id": "math-2-1",
+     "name": "2.1 बीजीय सर्वसमिकाएँ | Algebraic Identities",
+     "items": [
+      {
+       "formula": "`(a + b)² = a² + 2ab + b²`; `(a − b)² = a² − 2ab + b²`"
+      },
+      {
+       "formula": "`a² − b² = (a + b)(a − b)`",
+       "hindi": "वर्गों का अंतर।"
+      },
+      {
+       "formula": "`(a + b)³ = a³ + 3a²b + 3ab² + b³ = a³ + b³ + 3ab(a + b)`"
+      },
+      {
+       "formula": "`(a − b)³ = a³ − 3a²b + 3ab² − b³ = a³ − b³ − 3ab(a − b)`"
+      },
+      {
+       "formula": "`a³ + b³ = (a + b)(a² − ab + b²)`; `a³ − b³ = (a − b)(a² + ab + b²)`"
+      },
+      {
+       "formula": "`(a + b + c)² = a² + b² + c² + 2(ab + bc + ca)`"
+      },
+      {
+       "formula": "`a³ + b³ + c³ − 3abc = (a + b + c)(a² + b² + c² − ab − bc − ca)`",
+       "hindi": "यदि a+b+c=0 तो a³+b³+c³ = 3abc।"
+      },
+      {
+       "formula": "`(x + a)(x + b) = x² + (a + b)x + ab`"
+      },
+      {
+       "formula": "`(a + b)² + (a − b)² = 2(a² + b²)`; `(a + b)² − (a − b)² = 4ab`"
+      },
+      {
+       "formula": "`a⁴ − b⁴ = (a² + b²)(a + b)(a − b)`; `a⁴ + a²b² + b⁴ = (a² + ab + b²)(a² − ab + b²)`"
+      },
+      {
+       "formula": "`x + 1/x = k → x² + 1/x² = k² − 2`; `x³ + 1/x³ = k³ − 3k`",
+       "hindi": "x और 1/x वाले प्रश्नों में उपयोगी।"
+      }
+     ]
+    },
+    {
+     "id": "math-2-2",
+     "name": "2.2 बहुपद एवं गुणनखंड | Polynomials & Factorisation",
+     "items": [
+      {
+       "formula": "`Degree = highest power of variable`",
+       "hindi": "बहुपद की घात सर्वोच्च घातांक होती है।"
+      },
+      {
+       "formula": "`Remainder Theorem: P(x) ÷ (x − a) → Remainder = P(a)`",
+       "hindi": "शेषफल प्रमेय।"
+      },
+      {
+       "formula": "`Factor Theorem: (x − a) is a factor of P(x) ⟺ P(a) = 0`",
+       "hindi": "गुणनखंड प्रमेय।"
+      },
+      {
+       "formula": "`Zeroes of ax² + bx + c: sum = −b/a, product = c/a`",
+       "hindi": "शून्यकों का योग व गुणनफल।"
+      },
+      {
+       "formula": "`Cubic ax³ + bx² + cx + d: Σα = −b/a, Σαβ = c/a, αβγ = −d/a`",
+       "hindi": "त्रिघात बहुपद के शून्यक।"
+      },
+      {
+       "label": "Methods / विधियाँ",
+       "text": "common factor (उभयनिष्ठ), grouping (समूहन), splitting middle term (मध्य पद विभाजन), identities (सर्वसमिका), trial method (a = ±1, ±2 से जाँच)।"
+      }
+     ]
+    },
+    {
+     "id": "math-2-3",
+     "name": "2.3 रैखिक समीकरण | Linear Equations",
+     "items": [
+      {
+       "formula": "`ax + b = 0 → x = −b/a`",
+       "hindi": "एक चर का रैखिक समीकरण।"
+      },
+      {
+       "formula": "`a1x + b1y = c1; a2x + b2y = c2 → x = (b1c2 − b2c1)/(a1b2 − a2b1), y = (c1a2 − c2a1)/(a1b2 − a2b1)`",
+       "hindi": "क्रेमर/वज्रगुणन विधि।"
+      },
+      {
+       "formula": "`a1/a2 ≠ b1/b2 → unique solution`",
+       "hindi": "अद्वितीय हल (प्रतिच्छेदी रेखाएँ)।"
+      },
+      {
+       "formula": "`a1/a2 = b1/b2 = c1/c2 → infinite solutions`",
+       "hindi": "अनंत हल (संपाती रेखाएँ)।"
+      },
+      {
+       "formula": "`a1/a2 = b1/b2 ≠ c1/c2 → no solution`",
+       "hindi": "कोई हल नहीं (समांतर रेखाएँ)।"
+      }
+     ]
+    },
+    {
+     "id": "math-2-4",
+     "name": "2.4 द्विघात समीकरण | Quadratic Equations",
+     "items": [
+      {
+       "formula": "`ax² + bx + c = 0 → x = [−b ± √(b² − 4ac)] / 2a`",
+       "hindi": "श्रीधराचार्य सूत्र।"
+      },
+      {
+       "formula": "`Discriminant D = b² − 4ac`",
+       "hindi": "विविक्तकर।"
+      },
+      {
+       "formula": "`D > 0: two real distinct roots; D = 0: equal real roots; D < 0: complex roots`",
+       "hindi": "मूलों की प्रकृति।"
+      },
+      {
+       "formula": "`Sum of roots α + β = −b/a`; `Product αβ = c/a`",
+       "hindi": "मूलों का योग व गुणनफल।"
+      },
+      {
+       "formula": "`Equation from roots: x² − (α + β)x + αβ = 0`"
+      },
+      {
+       "formula": "`α² + β² = (α + β)² − 2αβ`; `α − β = √D / a`; `α³ + β³ = (α + β)³ − 3αβ(α + β)`"
+      },
+      {
+       "formula": "`Min/Max value of ax² + bx + c = −D/4a at x = −b/2a`",
+       "hindi": "a>0 पर न्यूनतम, a<0 पर अधिकतम।"
+      },
+      {
+       "formula": "`Roots reciprocal ⟺ a = c`; `Roots equal & opposite ⟺ b = 0`"
+      }
+     ]
+    },
+    {
+     "id": "math-2-5",
+     "name": "2.5 घात एवं घातांक | Powers & Exponents",
+     "items": [
+      {
+       "formula": "`a^m × a^n = a^(m+n)`; `a^m ÷ a^n = a^(m−n)`"
+      },
+      {
+       "formula": "`(a^m)^n = a^(mn)`; `(ab)^n = a^n · b^n`; `(a/b)^n = a^n / b^n`"
+      },
+      {
+       "formula": "`a⁰ = 1`; `a^(−n) = 1/a^n`; `a^(1/n) = ⁿ√a`; `a^(m/n) = (ⁿ√a)^m`"
+      },
+      {
+       "formula": "`If a^x = a^y (a ≠ 0, ±1) → x = y`",
+       "hindi": "आधार समान हो तो घातांक बराबर।"
+      },
+      {
+       "formula": "`Surds: √a · √b = √(ab)`; `√(a/b) = √a/√b`; `(√a + √b)(√a − √b) = a − b`",
+       "hindi": "करणी, परिमेयकरण।"
+      }
+     ]
+    },
+    {
+     "id": "math-2-6",
+     "name": "2.6 लघुगणक | Logarithms",
+     "items": [
+      {
+       "formula": "`a^x = N ⟺ log_a N = x`",
+       "hindi": "घातांक रूप ↔ लघुगणक रूप।"
+      },
+      {
+       "formula": "`log(mn) = log m + log n`",
+       "hindi": "गुणा → जोड़।"
+      },
+      {
+       "formula": "`log(m/n) = log m − log n`",
+       "hindi": "भाग → घटाव।"
+      },
+      {
+       "formula": "`log(m^n) = n · log m`"
+      },
+      {
+       "formula": "`log_a b = log_c b / log_c a`; `log_a b × log_b a = 1`",
+       "hindi": "आधार परिवर्तन।"
+      },
+      {
+       "formula": "`log_a a = 1`; `log_a 1 = 0`; `a^(log_a x) = x`"
+      },
+      {
+       "formula": "`log_(a^n) x = (1/n) log_a x`; `log_10 2 ≈ 0.3010`, `log_10 3 ≈ 0.4771`"
+      }
+     ]
+    },
+    {
+     "id": "math-2-7",
+     "name": "2.7 अनुक्रम एवं श्रेणी | Sequence & Series",
+     "items": [
+      {
+       "formula": "`Sequence: ordered list a1, a2, a3, …`",
+       "hindi": "अनुक्रम = क्रमबद्ध संख्याओं की सूची; श्रेणी = उनका योग।"
+      },
+      {
+       "formula": "`Sn = a1 + a2 + … + an; a_n = S_n − S_(n−1)`",
+       "hindi": "n-वाँ पद योग से निकालना।"
+      },
+      {
+       "formula": "`Σ k = n(n+1)/2; Σ k² = n(n+1)(2n+1)/6; Σ k³ = [n(n+1)/2]²`"
+      },
+      {
+       "formula": "`Harmonic sequence: 1/a1, 1/a2, … in AP`",
+       "hindi": "हरात्मक श्रेणी के व्युत्क्रम AP में होते हैं।"
+      },
+      {
+       "formula": "`Telescoping: Σ 1/[k(k+1)] = 1 − 1/(n+1)`",
+       "hindi": "पद कटकर शेष बचते हैं।"
+      }
+     ]
+    },
+    {
+     "id": "math-2-8",
+     "name": "2.8 समांतर एवं गुणोत्तर श्रेणी | AP & GP",
+     "items": [
+      {
+       "label": "AP (समांतर श्रेणी)",
+       "text": ""
+      },
+      {
+       "formula": "`a_n = a + (n − 1)d`",
+       "hindi": "n-वाँ पद (a = प्रथम पद, d = सार्व अंतर)।"
+      },
+      {
+       "formula": "`S_n = (n/2)[2a + (n − 1)d] = (n/2)(a + l)`",
+       "hindi": "n पदों का योग।"
+      },
+      {
+       "formula": "`Arithmetic Mean AM = (a + b)/2`; `If a, b, c in AP → 2b = a + c`"
+      },
+      {
+       "formula": "`Number of terms n = (l − a)/d + 1`",
+       "hindi": "**GP (गुणोत्तर श्रेणी):**"
+      },
+      {
+       "formula": "`a_n = a · r^(n−1)`",
+       "hindi": "n-वाँ पद (r = सार्व अनुपात)।"
+      },
+      {
+       "formula": "`S_n = a(r^n − 1)/(r − 1) (r > 1)`; `S_n = a(1 − r^n)/(1 − r) (r < 1)`"
+      },
+      {
+       "formula": "`S_∞ = a/(1 − r), |r| < 1`",
+       "hindi": "अनंत पदों का योग।"
+      },
+      {
+       "formula": "`Geometric Mean GM = √(ab)`; `If a, b, c in GP → b² = ac`"
+      },
+      {
+       "formula": "`AM ≥ GM ≥ HM; GM² = AM × HM`",
+       "hindi": "माध्यों की असमिका।"
+      },
+      {
+       "formula": "`HM = 2ab/(a + b)`"
+      }
+     ]
+    },
+    {
+     "id": "math-2-9",
+     "name": "2.9 द्विपद प्रमेय | Binomial Theorem",
+     "items": [
+      {
+       "formula": "`(x + y)^n = Σ nCr · x^(n−r) · y^r (r = 0 to n)`",
+       "hindi": "द्विपद विस्तार।"
+      },
+      {
+       "formula": "`General term T(r+1) = nCr · x^(n−r) · y^r`",
+       "hindi": "(r+1)-वाँ पद।"
+      },
+      {
+       "formula": "`Middle term: n even → T(n/2 + 1); n odd → T((n+1)/2) and T((n+3)/2)`",
+       "hindi": "मध्य पद।"
+      },
+      {
+       "formula": "`nC0 + nC1 + … + nCn = 2^n`; `nC0 + nC2 + … = nC1 + nC3 + … = 2^(n−1)`"
+      },
+      {
+       "formula": "`Number of terms = n + 1`"
+      },
+      {
+       "formula": "`(1 + x)^n = 1 + nx + n(n−1)x²/2! + … (|x| < 1, any real n)`",
+       "hindi": "सामान्य द्विपद श्रेणी।"
+      },
+      {
+       "formula": "`(1 + x)^(−1) = 1 − x + x² − …`; `(1 − x)^(−1) = 1 + x + x² + …`"
+      }
+     ]
+    },
+    {
+     "id": "math-2-10",
+     "name": "2.10 क्रमचय एवं संचय | Permutations & Combinations",
+     "items": [
+      {
+       "formula": "`n! = n × (n−1) × … × 1`; `0! = 1`",
+       "hindi": "n का क्रमगुणित।"
+      },
+      {
+       "formula": "`nPr = n!/(n − r)!`",
+       "english": "Arrangements",
+       "hindi": "क्रमचय (क्रम मायने रखता है)।"
+      },
+      {
+       "formula": "`nCr = n!/[r!(n − r)!]`",
+       "english": "Selections",
+       "hindi": "संचय (क्रम मायने नहीं रखता)।"
+      },
+      {
+       "formula": "`nCr = nC(n−r)`; `nCr + nC(r−1) = (n+1)Cr`; `nPr = nCr × r!`"
+      },
+      {
+       "formula": "`Circular arrangement = (n − 1)!`; `Necklace/garland = (n − 1)!/2`",
+       "hindi": "वृत्ताकार क्रमचय।"
+      },
+      {
+       "formula": "`Repeated objects: n!/(p! q! r!)`",
+       "hindi": "समान वस्तुएँ दोहराई जाएँ तो।"
+      },
+      {
+       "formula": "`With repetition allowed: n^r`",
+       "hindi": "पुनरावृत्ति सहित।"
+      },
+      {
+       "formula": "`Derangement D_n = n! [1 − 1/1! + 1/2! − … + (−1)^n/n!]`"
+      },
+      {
+       "formula": "`Diagonals of n-gon = n(n − 3)/2`; `Handshakes among n people = nC2`"
+      },
+      {
+       "formula": "`Distribute n identical items to r persons = (n + r − 1)C(r − 1)`",
+       "hindi": "समान वस्तुओं का वितरण।"
+      }
+     ]
+    },
+    {
+     "id": "math-2-11",
+     "name": "2.11 सम्मिश्र संख्याएँ | Complex Numbers",
+     "items": [
+      {
+       "formula": "`i = √−1; i² = −1; i³ = −i; i⁴ = 1`",
+       "hindi": "काल्पनिक इकाई।"
+      },
+      {
+       "formula": "`z = a + ib; Conjugate z̄ = a − ib`",
+       "hindi": "सम्मिश्र संख्या व संयुग्मी।"
+      },
+      {
+       "formula": "`Modulus |z| = √(a² + b²)`; `z · z̄ = |z|²`"
+      },
+      {
+       "formula": "`Argument θ = tan⁻¹(b/a)`",
+       "hindi": "कोणांक (चतुर्थांश देखकर सही कोण लें)।"
+      },
+      {
+       "formula": "`Polar form: z = r(cos θ + i sin θ) = r·e^(iθ)`",
+       "hindi": "ध्रुवीय रूप।"
+      },
+      {
+       "formula": "`|z1 z2| = |z1||z2|; |z1/z2| = |z1|/|z2|; arg(z1 z2) = arg z1 + arg z2`"
+      },
+      {
+       "formula": "`De Moivre: (cos θ + i sin θ)^n = cos nθ + i sin nθ`",
+       "hindi": "डी-मोइवर प्रमेय।"
+      },
+      {
+       "formula": "`Euler: e^(iθ) = cos θ + i sin θ`"
+      },
+      {
+       "formula": "`Cube roots of unity: 1, ω, ω²; 1 + ω + ω² = 0; ω³ = 1`",
+       "hindi": "इकाई के घनमूल।"
+      },
+      {
+       "formula": "`nth roots of unity: e^(2πik/n), k = 0, 1, …, n−1`"
+      },
+      {
+       "formula": "`Triangle inequality: |z1 + z2| ≤ |z1| + |z2|`"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "math-part-3",
+   "name": "ज्यामिति एवं क्षेत्रमिति | Geometry & Mensuration",
+   "chapters": [
+    {
+     "id": "math-3-1",
+     "name": "3.1 रेखा एवं कोण | Lines & Angles",
+     "items": [
+      {
+       "formula": "`Complementary: A + B = 90°`; `Supplementary: A + B = 180°`",
+       "hindi": "पूरक / संपूरक कोण।"
+      },
+      {
+       "formula": "`Linear pair = 180°`; `Angles around a point = 360°`",
+       "hindi": "रैखिक युग्म / एक बिंदु के चारों ओर।"
+      },
+      {
+       "formula": "`Vertically opposite angles are equal`",
+       "hindi": "शीर्षाभिमुख कोण बराबर।"
+      },
+      {
+       "label": "Parallel lines + transversal",
+       "text": "corresponding = equal (संगत), alternate interior = equal (एकांतर), co-interior sum = 180° (क्रमागत अंतः)।"
+      },
+      {
+       "formula": "`Angle bisector divides angle into two equal parts`",
+       "hindi": "कोण समद्विभाजक।"
+      }
+     ]
+    },
+    {
+     "id": "math-3-2",
+     "name": "3.2 त्रिभुज | Triangle",
+     "items": [
+      {
+       "formula": "`Sum of angles = 180°`; `Exterior angle = sum of two opposite interior angles`",
+       "hindi": "बहिष्कोण = दो अंतः सम्मुख कोणों का योग।"
+      },
+      {
+       "formula": "`Area = ½ × base × height`",
+       "hindi": "क्षेत्रफल = ½ × आधार × ऊँचाई।"
+      },
+      {
+       "formula": "`Heron: Area = √[s(s−a)(s−b)(s−c)], s = (a+b+c)/2`"
+      },
+      {
+       "formula": "`Area = ½ ab sin C`"
+      },
+      {
+       "formula": "`Equilateral: Area = (√3/4)a²; height = (√3/2)a; perimeter = 3a`",
+       "hindi": "समबाहु त्रिभुज।"
+      },
+      {
+       "formula": "`Isosceles: Area = (b/4)√(4a² − b²)` (a = equal sides, b = base)",
+       "hindi": "समद्विबाहु।"
+      },
+      {
+       "formula": "`Right triangle: H² = P² + B²`",
+       "hindi": "पाइथागोरस प्रमेय।"
+      },
+      {
+       "formula": "`Pythagorean triplets: (3,4,5), (5,12,13), (8,15,17), (7,24,25), (20,21,29)`"
+      },
+      {
+       "formula": "`Inradius r = Area/s`; `Right Δ: r = (P + B − H)/2`"
+      },
+      {
+       "formula": "`Circumradius R = abc/(4·Area) = a/(2 sin A)`; `Right Δ: R = H/2`"
+      },
+      {
+       "formula": "`Centroid divides median 2:1`",
+       "hindi": "केंद्रक माध्यिका को 2:1 में बाँटता है।"
+      },
+      {
+       "formula": "`Apollonius: AB² + AC² = 2(AD² + BD²)` (AD = median)",
+       "hindi": "माध्यिका प्रमेय।"
+      },
+      {
+       "formula": "`Angle bisector theorem: BD/DC = AB/AC`",
+       "hindi": "कोण समद्विभाजक प्रमेय।"
+      },
+      {
+       "formula": "`BPT (Thales): DE ∥ BC → AD/DB = AE/EC`",
+       "hindi": "आधारभूत समानुपातिकता प्रमेय।"
+      },
+      {
+       "formula": "`Similar Δs: Area ratio = (Side ratio)²`",
+       "hindi": "समरूप त्रिभुजों के क्षेत्रफलों का अनुपात भुजाओं के वर्ग का अनुपात।"
+      },
+      {
+       "formula": "`Incentre angle ∠BIC = 90° + A/2`; `Orthocentre angle ∠BHC = 180° − A`"
+      },
+      {
+       "formula": "**Congruence:** SSS, SAS, ASA, AAS, RHS",
+       "hindi": "सर्वांगसमता की कसौटियाँ।"
+      }
+     ]
+    },
+    {
+     "id": "math-3-3",
+     "name": "3.3 चतुर्भुज | Quadrilaterals",
+     "items": [
+      {
+       "formula": "`Sum of angles = 360°`"
+      },
+      {
+       "formula": "`Square: Area = a²; Perimeter = 4a; Diagonal = a√2`"
+      },
+      {
+       "formula": "`Rectangle: Area = l × b; Perimeter = 2(l + b); Diagonal = √(l² + b²)`"
+      },
+      {
+       "formula": "`Parallelogram: Area = base × height; Perimeter = 2(a + b)`"
+      },
+      {
+       "formula": "`Rhombus: Area = ½ d1 d2; Side = ½√(d1² + d2²); Perimeter = 4a`"
+      },
+      {
+       "formula": "`Trapezium: Area = ½ (a + b) × h; Median = (a + b)/2`",
+       "hindi": "समलंब चतुर्भुज।"
+      },
+      {
+       "formula": "`Kite: Area = ½ d1 d2`",
+       "hindi": "पतंग।"
+      },
+      {
+       "formula": "`Cyclic quad: opposite angles sum = 180°`",
+       "hindi": "चक्रीय चतुर्भुज।"
+      },
+      {
+       "formula": "`Ptolemy: AC · BD = AB · CD + AD · BC`",
+       "hindi": "टॉलेमी प्रमेय।"
+      },
+      {
+       "formula": "`Brahmagupta: Area = √[(s−a)(s−b)(s−c)(s−d)]`"
+      },
+      {
+       "formula": "`Diagonals: rectangle equal; rhombus perpendicular bisectors; square equal + perpendicular`",
+       "hindi": "विकर्णों के गुण।"
+      }
+     ]
+    },
+    {
+     "id": "math-3-4",
+     "name": "3.4 बहुभुज | Polygons",
+     "items": [
+      {
+       "formula": "`Sum of interior angles = (n − 2) × 180°`"
+      },
+      {
+       "formula": "`Each interior angle (regular) = (n − 2) × 180°/n`"
+      },
+      {
+       "formula": "`Each exterior angle (regular) = 360°/n`; `Sum of exterior angles = 360°`"
+      },
+      {
+       "formula": "`Number of diagonals = n(n − 3)/2`"
+      },
+      {
+       "formula": "`Regular polygon area = n a² / (4 tan(180°/n))`"
+      },
+      {
+       "formula": "`Regular hexagon: Area = (3√3/2)a²`; `Regular octagon: Area = 2(1 + √2)a²`"
+      },
+      {
+       "formula": "`Number of sides n = 360°/exterior angle`",
+       "hindi": "बाह्य कोण से भुजाओं की संख्या।"
+      }
+     ]
+    },
+    {
+     "id": "math-3-5",
+     "name": "3.5 वृत्त | Circle",
+     "items": [
+      {
+       "formula": "`Circumference C = 2πr = πd`; `Area = πr²`",
+       "hindi": "परिधि व क्षेत्रफल।"
+      },
+      {
+       "formula": "`Arc length = (θ/360°) × 2πr`; `Sector area = (θ/360°) × πr² = ½ r l`"
+      },
+      {
+       "formula": "`Segment area = Sector − Triangle = (r²/2)(θ − sin θ)` (θ in radians)"
+      },
+      {
+       "formula": "`Chord length = 2√(r² − d²)` (d = distance from centre)",
+       "hindi": "जीवा की लंबाई।"
+      },
+      {
+       "formula": "`Angle at centre = 2 × angle at circumference`",
+       "hindi": "केंद्र पर बना कोण परिधि कोण का दुगुना।"
+      },
+      {
+       "formula": "`Angle in semicircle = 90°`; `Angles in same segment are equal`"
+      },
+      {
+       "formula": "`Tangent ⊥ radius at point of contact`; `Tangent length = √(d² − r²)`",
+       "hindi": "स्पर्श रेखा की लंबाई।"
+      },
+      {
+       "formula": "`Two tangents from external point are equal`",
+       "hindi": "बाह्य बिंदु से खींची स्पर्श रेखाएँ बराबर।"
+      },
+      {
+       "formula": "`Intersecting chords: PA · PB = PC · PD`; `Tangent-secant: PT² = PA · PB`"
+      },
+      {
+       "formula": "`Common tangents: Direct = √[d² − (r1 − r2)²]; Transverse = √[d² − (r1 + r2)²]`"
+      },
+      {
+       "formula": "`Ring (annulus) area = π(R² − r²)`",
+       "hindi": "छल्ला/पथ का क्षेत्रफल।"
+      }
+     ]
+    },
+    {
+     "id": "math-3-6",
+     "name": "3.6 परिमाप एवं क्षेत्रफल | Perimeter & Area",
+     "items": [
+      {
+       "formula": "`Path around rectangle (width w): Area = (l + 2w)(b + 2w) − lb` (outside)",
+       "hindi": "आयत के चारों ओर रास्ता।"
+      },
+      {
+       "formula": "`Path inside: Area = lb − (l − 2w)(b − 2w)`"
+      },
+      {
+       "formula": "`Cost = Area × rate per unit`; `Fencing cost = Perimeter × rate`",
+       "hindi": "लागत।"
+      },
+      {
+       "formula": "`Number of tiles = Floor area / Tile area`",
+       "hindi": "टाइल्स की संख्या।"
+      },
+      {
+       "formula": "`Wheel: distance in one revolution = 2πr`",
+       "hindi": "पहिए का एक चक्कर।"
+      },
+      {
+       "formula": "`Rectangle with fixed perimeter has max area when it is a square`",
+       "hindi": "समान परिमाप में वर्ग का क्षेत्रफल अधिकतम।"
+      },
+      {
+       "formula": "`1 hectare = 10,000 m²; 1 acre ≈ 4047 m²`"
+      }
+     ]
+    },
+    {
+     "id": "math-3-7",
+     "name": "3.7 घन एवं घनाभ | Cube & Cuboid",
+     "items": [
+      {
+       "formula": "`Cube: Volume = a³; TSA = 6a²; LSA = 4a²; Diagonal = a√3`"
+      },
+      {
+       "formula": "`Cuboid: Volume = l × b × h`"
+      },
+      {
+       "formula": "`Cuboid TSA = 2(lb + bh + hl); LSA = 2h(l + b)`"
+      },
+      {
+       "formula": "`Cuboid diagonal = √(l² + b² + h²)`"
+      },
+      {
+       "formula": "`Total edges of cuboid = 4(l + b + h)`"
+      },
+      {
+       "formula": "`Cube: 12 edges, 8 vertices, 6 faces`",
+       "hindi": "घन के 12 किनारे, 8 शीर्ष, 6 फलक।"
+      },
+      {
+       "formula": "`Cube cut into n³ small cubes: with 3 faces painted = 8, 2 faces = 12(n−2), 1 face = 6(n−2)², none = (n−2)³`",
+       "hindi": "रंगे घन वाला प्रश्न।"
+      }
+     ]
+    },
+    {
+     "id": "math-3-8",
+     "name": "3.8 बेलन एवं शंकु | Cylinder & Cone",
+     "items": [
+      {
+       "label": "Cylinder / बेलन",
+       "text": ""
+      },
+      {
+       "formula": "`Volume = πr²h`; `CSA = 2πrh`; `TSA = 2πr(r + h)`"
+      },
+      {
+       "formula": "`Hollow cylinder: Volume = πh(R² − r²); CSA = 2πh(R + r)`",
+       "hindi": "**Cone / शंकु:**"
+      },
+      {
+       "formula": "`Slant height l = √(r² + h²)`"
+      },
+      {
+       "formula": "`Volume = ⅓πr²h`; `CSA = πrl`; `TSA = πr(r + l)`"
+      },
+      {
+       "formula": "`Frustum: Volume = ⅓πh(R² + r² + Rr); CSA = π(R + r)l; TSA = π(R + r)l + π(R² + r²); l = √[h² + (R − r)²]`",
+       "hindi": "शंकु का छिन्नक।"
+      },
+      {
+       "formula": "`Cone from sector (radius R, angle θ): slant l = R; base radius r = (θ/360°) × R`",
+       "hindi": "त्रिज्यखंड से शंकु बनाना।"
+      }
+     ]
+    },
+    {
+     "id": "math-3-9",
+     "name": "3.9 गोला एवं अर्धगोला | Sphere & Hemisphere",
+     "items": [
+      {
+       "formula": "`Sphere: Volume = (4/3)πr³; Surface area = 4πr²`"
+      },
+      {
+       "formula": "`Hemisphere: Volume = (2/3)πr³; CSA = 2πr²; TSA = 3πr²`"
+      },
+      {
+       "formula": "`Spherical shell: Volume = (4/3)π(R³ − r³)`"
+      },
+      {
+       "formula": "`Volume of sphere inscribed in cube of side a: (4/3)π(a/2)³`",
+       "hindi": "घन में अंतर्गत गोला।"
+      },
+      {
+       "formula": "`Great circle of sphere has radius r`",
+       "hindi": "गोले का दीर्घवृत्त।"
+      }
+     ]
+    },
+    {
+     "id": "math-3-10",
+     "name": "3.10 पृष्ठीय क्षेत्रफल एवं आयतन | Surface Area & Volume",
+     "items": [
+      {
+       "formula": "`Prism: Volume = Base area × height; LSA = Perimeter of base × height`",
+       "hindi": "प्रिज्म।"
+      },
+      {
+       "formula": "`Pyramid: Volume = ⅓ × Base area × height; LSA = ½ × Perimeter × slant height`",
+       "hindi": "पिरामिड।"
+      },
+      {
+       "formula": "`Regular tetrahedron (edge a): Volume = a³/(6√2); Surface area = √3 a²`"
+      },
+      {
+       "formula": "`Melting/recasting: Volume before = Volume after`",
+       "hindi": "पिघलाकर नया आकार बनाने पर आयतन समान।"
+      },
+      {
+       "formula": "`Number of small solids = Volume of big / Volume of small`"
+      },
+      {
+       "formula": "`Volume of liquid flowing = Area of cross-section × Speed × Time`",
+       "hindi": "पाइप से बहता पानी।"
+      },
+      {
+       "formula": "`1 m³ = 1000 litres; 1 litre = 1000 cm³`",
+       "hindi": "इकाई संबंध।"
+      }
+     ]
+    },
+    {
+     "id": "math-3-11",
+     "name": "3.11 संयुक्त ठोस आकृतियाँ | Combined Solids",
+     "items": [
+      {
+       "formula": "`Total volume = sum of volumes of parts`",
+       "hindi": "कुल आयतन = हिस्सों का योग।"
+      },
+      {
+       "formula": "`Total surface area = sum of exposed surfaces only (joined faces excluded)`",
+       "hindi": "जुड़े भाग का क्षेत्रफल छोड़ दें।"
+      },
+      {
+       "formula": "`Cone + hemisphere (same r): Volume = ⅓πr²h + ⅔πr³; TSA = πrl + 2πr²`"
+      },
+      {
+       "formula": "`Cylinder + hemisphere on top: Volume = πr²h + ⅔πr³; TSA = 2πrh + 2πr² + πr²`"
+      },
+      {
+       "formula": "`Capsule: Volume = πr²h + (4/3)πr³`"
+      },
+      {
+       "formula": "`Tent (cylinder + cone): CSA = 2πrh + πrl`"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "math-part-4",
+   "name": "त्रिकोणमिति एवं निर्देशांक ज्यामिति | Trigonometry & Coordinate Geometry",
+   "chapters": [
+    {
+     "id": "math-4-1",
+     "name": "4.1 त्रिकोणमितीय अनुपात | Trigonometric Ratios",
+     "items": [
+      {
+       "formula": "`sin θ = P/H; cos θ = B/H; tan θ = P/B`",
+       "hindi": "लंब/कर्ण, आधार/कर्ण, लंब/आधार।"
+      },
+      {
+       "formula": "`cosec θ = H/P; sec θ = H/B; cot θ = B/P`",
+       "hindi": "व्युत्क्रम अनुपात।"
+      },
+      {
+       "formula": "`tan θ = sin θ / cos θ; cot θ = cos θ / sin θ`"
+      },
+      {
+       "formula": "`sin θ · cosec θ = 1; cos θ · sec θ = 1; tan θ · cot θ = 1`"
+      },
+      {
+       "formula": "`Range: −1 ≤ sin θ, cos θ ≤ 1; tan θ any real`",
+       "hindi": "मानों का परिसर।"
+      },
+      {
+       "formula": "`ASTC rule: Q1 all +, Q2 sin +, Q3 tan +, Q4 cos +`",
+       "hindi": "चतुर्थांश के अनुसार चिह्न।"
+      },
+      {
+       "formula": "`sin(90° − θ) = cos θ; cos(90° − θ) = sin θ; tan(90° − θ) = cot θ`",
+       "hindi": "पूरक कोण।"
+      },
+      {
+       "formula": "`sin(180° − θ) = sin θ; cos(180° − θ) = −cos θ`; `sin(−θ) = −sin θ; cos(−θ) = cos θ`"
+      },
+      {
+       "formula": "`π radian = 180°; 1° = π/180 rad; arc s = rθ`",
+       "hindi": "डिग्री-रेडियन संबंध।"
+      }
+     ]
+    },
+    {
+     "id": "math-4-2",
+     "name": "4.2 त्रिकोणमितीय सर्वसमिकाएँ | Trigonometric Identities",
+     "items": [
+      {
+       "formula": "`sin²θ + cos²θ = 1`"
+      },
+      {
+       "formula": "`1 + tan²θ = sec²θ`"
+      },
+      {
+       "formula": "`1 + cot²θ = cosec²θ`"
+      },
+      {
+       "formula": "`sec²θ − tan²θ = 1; cosec²θ − cot²θ = 1`"
+      },
+      {
+       "formula": "`(sin θ + cos θ)² = 1 + 2 sin θ cos θ`"
+      },
+      {
+       "formula": "`sin⁴θ + cos⁴θ = 1 − 2 sin²θ cos²θ`; `sin⁶θ + cos⁶θ = 1 − 3 sin²θ cos²θ`"
+      },
+      {
+       "formula": "`Max/Min of a sin θ + b cos θ = ±√(a² + b²)`",
+       "hindi": "अधिकतम/न्यूनतम मान।"
+      }
+     ]
+    },
+    {
+     "id": "math-4-3",
+     "name": "4.3 मानक कोणों के मान | Standard Angle Values",
+     "items": [
+      {
+       "text": "| θ | 0° | 30° | 45° | 60° | 90° | |---|---|---|---|---|---| | sin | 0 | 1/2 | 1/√2 | √3/2 | 1 | | cos | 1 | √3/2 | 1/√2 | 1/2 | 0 | | tan | 0 | 1/√3 | 1 | √3 | ∞ | | cosec | ∞ | 2 | √2 | 2/√3 | 1 | | sec | 1 | 2/√3 | √2 | 2 | ∞ | | cot | ∞ | √3 | 1 | 1/√3 | 0 |"
+      },
+      {
+       "label": "HI याद करने की ट्रिक",
+       "text": "sin के मान = √0/2, √1/2, √2/2, √3/2, √4/2; cos उसका उल्टा क्रम।"
+      }
+     ]
+    },
+    {
+     "id": "math-4-4",
+     "name": "4.4 योग एवं अंतर के सूत्र | Sum & Difference Formulas",
+     "items": [
+      {
+       "formula": "`sin(A ± B) = sin A cos B ± cos A sin B`"
+      },
+      {
+       "formula": "`cos(A ± B) = cos A cos B ∓ sin A sin B`"
+      },
+      {
+       "formula": "`tan(A ± B) = (tan A ± tan B)/(1 ∓ tan A tan B)`"
+      },
+      {
+       "formula": "`2 sin A cos B = sin(A+B) + sin(A−B)`; `2 cos A sin B = sin(A+B) − sin(A−B)`"
+      },
+      {
+       "formula": "`2 cos A cos B = cos(A+B) + cos(A−B)`; `2 sin A sin B = cos(A−B) − cos(A+B)`"
+      },
+      {
+       "formula": "`sin C + sin D = 2 sin((C+D)/2) cos((C−D)/2)`; `sin C − sin D = 2 cos((C+D)/2) sin((C−D)/2)`"
+      },
+      {
+       "formula": "`cos C + cos D = 2 cos((C+D)/2) cos((C−D)/2)`; `cos C − cos D = −2 sin((C+D)/2) sin((C−D)/2)`"
+      }
+     ]
+    },
+    {
+     "id": "math-4-5",
+     "name": "4.5 द्विगुण एवं अर्ध कोण सूत्र | Double & Half Angle Formulas",
+     "items": [
+      {
+       "formula": "`sin 2A = 2 sin A cos A = 2 tan A/(1 + tan²A)`"
+      },
+      {
+       "formula": "`cos 2A = cos²A − sin²A = 2cos²A − 1 = 1 − 2sin²A = (1 − tan²A)/(1 + tan²A)`"
+      },
+      {
+       "formula": "`tan 2A = 2 tan A/(1 − tan²A)`"
+      },
+      {
+       "formula": "`sin 3A = 3 sin A − 4 sin³A`; `cos 3A = 4 cos³A − 3 cos A`; `tan 3A = (3 tan A − tan³A)/(1 − 3 tan²A)`"
+      },
+      {
+       "formula": "`sin(A/2) = ±√[(1 − cos A)/2]`; `cos(A/2) = ±√[(1 + cos A)/2]`; `tan(A/2) = (1 − cos A)/sin A = sin A/(1 + cos A)`"
+      },
+      {
+       "formula": "`sin²A = (1 − cos 2A)/2; cos²A = (1 + cos 2A)/2`"
+      }
+     ]
+    },
+    {
+     "id": "math-4-6",
+     "name": "4.6 ऊँचाई एवं दूरी | Heights & Distances",
+     "items": [
+      {
+       "formula": "`tan θ = Height / Distance (h = d tan θ)`",
+       "hindi": "उन्नयन कोण पर ऊँचाई = दूरी × tan θ।"
+      },
+      {
+       "label": "Angle of elevation / उन्नयन कोण",
+       "text": "ऊपर देखने पर क्षैतिज से कोण; **Depression / अवनमन कोण:** नीचे देखने पर।"
+      },
+      {
+       "formula": "`Two points at distance d on same line, angles α (nearer) and β (farther): h = d/(cot β − cot α)`",
+       "hindi": "एक ही रेखा में दो बिंदुओं से मीनार की ऊँचाई।"
+      },
+      {
+       "formula": "`If angles are α and (90° − α) at distances a and b: h = √(ab)`",
+       "hindi": "पूरक कोण होने पर ऊँचाई = √(दूरियों का गुणनफल)।"
+      },
+      {
+       "formula": "`Sine rule: a/sin A = b/sin B = c/sin C = 2R`"
+      },
+      {
+       "formula": "`Cosine rule: a² = b² + c² − 2bc cos A`"
+      },
+      {
+       "formula": "`45° elevation → height = distance; 30° → h = d/√3; 60° → h = d√3`",
+       "hindi": "विशेष कोण पर सीधा संबंध।"
+      }
+     ]
+    },
+    {
+     "id": "math-4-7",
+     "name": "4.7 दूरी एवं मध्यबिंदु सूत्र | Distance & Midpoint Formulas",
+     "items": [
+      {
+       "formula": "`Distance = √[(x2 − x1)² + (y2 − y1)²]`",
+       "hindi": "दो बिंदुओं के बीच दूरी।"
+      },
+      {
+       "formula": "`Distance from origin = √(x² + y²)`"
+      },
+      {
+       "formula": "`Midpoint = ((x1 + x2)/2, (y1 + y2)/2)`",
+       "hindi": "मध्य बिंदु।"
+      },
+      {
+       "formula": "`3D distance = √[(x2−x1)² + (y2−y1)² + (z2−z1)²]`"
+      },
+      {
+       "formula": "`Area of triangle = ½ |x1(y2 − y3) + x2(y3 − y1) + x3(y1 − y2)|`",
+       "hindi": "निर्देशांकों से त्रिभुज का क्षेत्रफल।"
+      },
+      {
+       "formula": "`Three points collinear ⟺ Area = 0`",
+       "hindi": "संरेख बिंदु।"
+      },
+      {
+       "formula": "`Centroid = ((x1+x2+x3)/3, (y1+y2+y3)/3)`",
+       "hindi": "केंद्रक।"
+      }
+     ]
+    },
+    {
+     "id": "math-4-8",
+     "name": "4.8 विभाजन सूत्र | Section Formula",
+     "items": [
+      {
+       "formula": "`Internal: P = ((m·x2 + n·x1)/(m + n), (m·y2 + n·y1)/(m + n))`",
+       "hindi": "अंतः विभाजन m:n में।"
+      },
+      {
+       "formula": "`External: P = ((m·x2 − n·x1)/(m − n), (m·y2 − n·y1)/(m − n))`",
+       "hindi": "बाह्य विभाजन।"
+      },
+      {
+       "formula": "`Ratio in which x-axis divides: −y1 : y2`; `y-axis divides: −x1 : x2`",
+       "hindi": "अक्ष द्वारा विभाजन अनुपात।"
+      },
+      {
+       "formula": "`Incentre = ((a·x1 + b·x2 + c·x3)/(a+b+c), (a·y1 + b·y2 + c·y3)/(a+b+c))`"
+      },
+      {
+       "formula": "`Parallelogram: diagonals bisect each other → midpoints of diagonals same`",
+       "hindi": "समांतर चतुर्भुज के विकर्ण एक-दूसरे को समद्विभाजित करते हैं।"
+      }
+     ]
+    },
+    {
+     "id": "math-4-9",
+     "name": "4.9 सरल रेखा के समीकरण | Straight Line Equations",
+     "items": [
+      {
+       "formula": "`Slope m = (y2 − y1)/(x2 − x1) = tan θ`",
+       "hindi": "ढाल।"
+      },
+      {
+       "formula": "`Slope-intercept: y = mx + c`"
+      },
+      {
+       "formula": "`Point-slope: y − y1 = m(x − x1)`"
+      },
+      {
+       "formula": "`Two-point: (y − y1)/(y2 − y1) = (x − x1)/(x2 − x1)`"
+      },
+      {
+       "formula": "`Intercept form: x/a + y/b = 1`",
+       "hindi": "अंतःखंड रूप।"
+      },
+      {
+       "formula": "`General: ax + by + c = 0; slope = −a/b`"
+      },
+      {
+       "formula": "`Normal form: x cos α + y sin α = p`"
+      },
+      {
+       "formula": "`Angle between lines: tan θ = |(m1 − m2)/(1 + m1 m2)|`"
+      },
+      {
+       "formula": "`Parallel: m1 = m2; Perpendicular: m1 · m2 = −1`",
+       "hindi": "समांतर / लंबवत रेखाएँ।"
+      },
+      {
+       "formula": "`Distance of point (x1, y1) from ax + by + c = 0: |ax1 + by1 + c|/√(a² + b²)`",
+       "hindi": "बिंदु से रेखा की दूरी।"
+      },
+      {
+       "formula": "`Distance between parallel lines: |c1 − c2|/√(a² + b²)`"
+      },
+      {
+       "formula": "`Line through intersection of L1 and L2: L1 + λ L2 = 0`"
+      }
+     ]
+    },
+    {
+     "id": "math-4-10",
+     "name": "4.10 वृत्त एवं शंकु परिच्छेद | Circle & Conic Sections",
+     "items": [
+      {
+       "label": "Circle / वृत्त",
+       "text": ""
+      },
+      {
+       "formula": "`(x − h)² + (y − k)² = r²`",
+       "hindi": "केंद्र (h, k), त्रिज्या r।"
+      },
+      {
+       "formula": "`x² + y² = r²` (centre origin)"
+      },
+      {
+       "formula": "`General: x² + y² + 2gx + 2fy + c = 0; centre (−g, −f); r = √(g² + f² − c)`"
+      },
+      {
+       "formula": "`Diameter form: (x − x1)(x − x2) + (y − y1)(y − y2) = 0`"
+      },
+      {
+       "formula": "`Tangent length from (x1, y1) = √(x1² + y1² + 2gx1 + 2fy1 + c)`"
+      },
+      {
+       "formula": "`Line y = mx + c tangent to x² + y² = a² ⟺ c² = a²(1 + m²)`",
+       "hindi": "**Parabola / परवलय** `y² = 4ax`: focus (a, 0); directrix x = −a; latus rectum = 4a; e = 1 **Ellipse / दीर्घवृत्त** `x²/a² + y²/b² = 1 (a > b)`: e = √(1 − b²/a²); foci (±ae, 0); latus rectum = 2b²/a; area = πab **Hyperbola / अतिपरवलय** `x²/a² − y²/b² = 1`: e = √(1 + b²/a²); foci (±ae, 0); asymptotes y = ±(b/a)x; latus rectum = 2b²/a"
+      },
+      {
+       "formula": "`Eccentricity: parabola e = 1; ellipse e < 1; hyperbola e > 1`",
+       "hindi": "उत्केंद्रता से शंकु की पहचान।"
+      }
+     ]
+    },
+    {
+     "id": "math-4-11",
+     "name": "4.11 सदिश एवं त्रिविमीय ज्यामिति | Vectors & 3D Geometry",
+     "items": [
+      {
+       "formula": "`|a| = √(a1² + a2² + a3²)`; `Unit vector â = a/|a|`",
+       "hindi": "मापांक / इकाई सदिश।"
+      },
+      {
+       "formula": "`Dot product a · b = |a||b| cos θ = a1b1 + a2b2 + a3b3`",
+       "hindi": "अदिश गुणनफल।"
+      },
+      {
+       "formula": "`Cross product |a × b| = |a||b| sin θ`",
+       "hindi": "सदिश गुणनफल (परिणाम दोनों के लंबवत)।"
+      },
+      {
+       "formula": "`i·i = j·j = k·k = 1; i×j = k, j×k = i, k×i = j`"
+      },
+      {
+       "formula": "`a ⊥ b ⟺ a · b = 0; a ∥ b ⟺ a × b = 0`"
+      },
+      {
+       "formula": "`Projection of a on b = (a · b)/|b|`"
+      },
+      {
+       "formula": "`Area of parallelogram = |a × b|; Area of triangle = ½|a × b|`"
+      },
+      {
+       "formula": "`Scalar triple product [a b c] = a · (b × c) = Volume of parallelepiped`"
+      },
+      {
+       "formula": "`Direction cosines l = cos α, m = cos β, n = cos γ; l² + m² + n² = 1`",
+       "hindi": "दिक् कोज्याएँ।"
+      },
+      {
+       "formula": "`Line in 3D: (x − x1)/a = (y − y1)/b = (z − z1)/c`"
+      },
+      {
+       "formula": "`Plane: ax + by + cz + d = 0; distance of point = |ax1 + by1 + cz1 + d|/√(a² + b² + c²)`",
+       "hindi": "समतल का समीकरण।"
+      },
+      {
+       "formula": "`Angle between planes: cos θ = |a1a2 + b1b2 + c1c2|/(√(a1²+b1²+c1²) √(a2²+b2²+c2²))`"
+      },
+      {
+       "formula": "`Sphere: (x − a)² + (y − b)² + (z − c)² = r²`",
+       "hindi": "गोले का समीकरण।"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "math-part-5",
+   "name": "सांख्यिकी एवं प्रायिकता | Statistics & Probability",
+   "chapters": [
+    {
+     "id": "math-5-1",
+     "name": "5.1 माध्य, माध्यिका एवं बहुलक | Mean, Median & Mode",
+     "items": [
+      {
+       "label": "Mean / माध्य",
+       "text": ""
+      },
+      {
+       "formula": "`Ungrouped: x̄ = Σx/n`"
+      },
+      {
+       "formula": "`Grouped (direct): x̄ = Σfx/Σf`"
+      },
+      {
+       "formula": "`Assumed mean: x̄ = A + Σfd/Σf`"
+      },
+      {
+       "formula": "`Step deviation: x̄ = A + h × Σfu/Σf, u = (x − A)/h`"
+      },
+      {
+       "formula": "`Weighted mean = Σwx/Σw`"
+      },
+      {
+       "formula": "`GM = (x1 · x2 … xn)^(1/n); HM = n/Σ(1/x)`",
+       "hindi": "**Median / माध्यिका:**"
+      },
+      {
+       "formula": "`Odd n: value at (n + 1)/2; Even n: average of n/2 and (n/2 + 1) terms`"
+      },
+      {
+       "formula": "`Grouped: Median = L + [(N/2 − cf)/f] × h`",
+       "hindi": "L = माध्यिका वर्ग की निम्न सीमा, cf = पूर्व संचयी बारंबारता, h = वर्ग-माप। **Mode / बहुलक:**"
+      },
+      {
+       "formula": "`Ungrouped: most frequent value`"
+      },
+      {
+       "formula": "`Grouped: Mode = L + [(f1 − f0)/(2f1 − f0 − f2)] × h`"
+      },
+      {
+       "formula": "`Empirical relation: Mode = 3 Median − 2 Mean`"
+      }
+     ]
+    },
+    {
+     "id": "math-5-2",
+     "name": "5.2 विचरण एवं मानक विचलन | Variance & Standard Deviation",
+     "items": [
+      {
+       "formula": "`Range = Max − Min`"
+      },
+      {
+       "formula": "`Mean deviation = Σ|x − x̄|/n`"
+      },
+      {
+       "formula": "`Variance σ² = Σ(x − x̄)²/n = Σx²/n − (x̄)²`"
+      },
+      {
+       "formula": "`Standard deviation σ = √Variance`",
+       "hindi": "प्रसरण का वर्गमूल।"
+      },
+      {
+       "formula": "`Grouped: σ² = Σf(x − x̄)²/Σf = Σfx²/Σf − (Σfx/Σf)²`"
+      },
+      {
+       "formula": "`Sample SD: s = √[Σ(x − x̄)²/(n − 1)]`"
+      },
+      {
+       "formula": "`Coefficient of variation CV = (σ/x̄) × 100`",
+       "hindi": "विचरण गुणांक (कम CV = अधिक स्थिरता)।"
+      },
+      {
+       "formula": "`Quartile deviation = (Q3 − Q1)/2`; `IQR = Q3 − Q1`"
+      },
+      {
+       "formula": "`Adding constant k: σ unchanged; multiplying by k: σ becomes |k|σ`"
+      },
+      {
+       "formula": "`SD of first n natural numbers = √[(n² − 1)/12]`"
+      },
+      {
+       "formula": "`Combined variance: σ² = [n1(σ1² + d1²) + n2(σ2² + d2²)]/(n1 + n2)`"
+      }
+     ]
+    },
+    {
+     "id": "math-5-3",
+     "name": "5.3 सहसंबंध एवं प्रतिगमन | Correlation & Regression",
+     "items": [
+      {
+       "formula": "`Karl Pearson r = Cov(x,y)/(σx σy) = Σ(x−x̄)(y−ȳ)/√[Σ(x−x̄)² Σ(y−ȳ)²]`"
+      },
+      {
+       "formula": "`Cov(x,y) = Σxy/n − x̄ȳ`"
+      },
+      {
+       "formula": "`−1 ≤ r ≤ 1; r = +1 perfect positive; r = −1 perfect negative; r = 0 no linear correlation`",
+       "hindi": "सहसंबंध गुणांक का परिसर।"
+      },
+      {
+       "formula": "`Spearman rank: ρ = 1 − 6Σd²/[n(n² − 1)]`",
+       "hindi": "कोटि सहसंबंध।"
+      },
+      {
+       "formula": "`Regression y on x: y − ȳ = b_yx (x − x̄); b_yx = r σy/σx`"
+      },
+      {
+       "formula": "`Regression x on y: x − x̄ = b_xy (y − ȳ); b_xy = r σx/σy`"
+      },
+      {
+       "formula": "`r² = b_xy × b_yx`; `Both regression lines pass through (x̄, ȳ)`",
+       "hindi": "दोनों प्रतिगमन रेखाएँ माध्यों के बिंदु से गुजरती हैं।"
+      }
+     ]
+    },
+    {
+     "id": "math-5-4",
+     "name": "5.4 प्रायिकता | Probability",
+     "items": [
+      {
+       "formula": "`P(E) = Favourable outcomes/Total outcomes`",
+       "hindi": "अनुकूल परिणाम / कुल परिणाम।"
+      },
+      {
+       "formula": "`0 ≤ P(E) ≤ 1`; `P(E) + P(not E) = 1`"
+      },
+      {
+       "formula": "`P(A ∪ B) = P(A) + P(B) − P(A ∩ B)`",
+       "hindi": "योग नियम।"
+      },
+      {
+       "formula": "`Mutually exclusive: P(A ∩ B) = 0`; `Independent: P(A ∩ B) = P(A) × P(B)`"
+      },
+      {
+       "formula": "`P(at least one) = 1 − P(none)`"
+      },
+      {
+       "formula": "`Odds in favour = m : n → P = m/(m + n)`"
+      },
+      {
+       "label": "Standard sample spaces",
+       "text": "coin n → 2^n; dice n → 6^n; cards 52 (13 each suit; 4 kings, 12 face cards, 26 red); two dice → 36 outcomes।"
+      },
+      {
+       "formula": "`Binomial: P(X = r) = nCr · p^r · q^(n−r)`",
+       "hindi": "n प्रयासों में r सफलताएँ।"
+      }
+     ]
+    },
+    {
+     "id": "math-5-5",
+     "name": "5.5 सशर्त प्रायिकता | Conditional Probability",
+     "items": [
+      {
+       "formula": "`P(A|B) = P(A ∩ B)/P(B), P(B) ≠ 0`",
+       "hindi": "B हो चुका हो तो A की प्रायिकता।"
+      },
+      {
+       "formula": "`Multiplication rule: P(A ∩ B) = P(A) · P(B|A) = P(B) · P(A|B)`"
+      },
+      {
+       "formula": "`Independent events: P(A|B) = P(A)`"
+      },
+      {
+       "formula": "`Total probability: P(B) = Σ P(Ai) · P(B|Ai)`",
+       "hindi": "संपूर्ण प्रायिकता प्रमेय।"
+      },
+      {
+       "formula": "`P(A'|B) = 1 − P(A|B)`"
+      }
+     ]
+    },
+    {
+     "id": "math-5-6",
+     "name": "5.6 बेयस प्रमेय | Bayes' Theorem",
+     "items": [
+      {
+       "formula": "`P(Ai|B) = [P(Ai) · P(B|Ai)] / Σ[P(Aj) · P(B|Aj)]`",
+       "hindi": "घटना B घटने के बाद कारण Ai की प्रायिकता।"
+      },
+      {
+       "formula": "`Prior = P(Ai); Likelihood = P(B|Ai); Posterior = P(Ai|B)`",
+       "hindi": "पूर्व / संभाविता / पश्च प्रायिकता।"
+      },
+      {
+       "label": "Steps / चरण",
+       "text": "(1) सभी कारण Ai लिखें (2) P(Ai) व P(B|Ai) लिखें (3) P(B) निकालें (4) सूत्र लगाएँ।"
+      }
+     ]
+    },
+    {
+     "id": "math-5-7",
+     "name": "5.7 प्रायिकता वितरण | Probability Distributions",
+     "items": [
+      {
+       "formula": "`Mean E(X) = Σ x·p(x)`; `Var(X) = E(X²) − [E(X)]²`"
+      },
+      {
+       "formula": "`E(aX + b) = aE(X) + b; Var(aX + b) = a² Var(X)`"
+      },
+      {
+       "formula": "`Binomial: mean = np; variance = npq; SD = √(npq)`",
+       "hindi": "द्विपद वितरण।"
+      },
+      {
+       "formula": "`Poisson: P(X = r) = e^(−λ) λ^r / r!; mean = variance = λ`",
+       "hindi": "प्वासों वितरण।"
+      },
+      {
+       "formula": "`Geometric: P(X = r) = q^(r−1) p; mean = 1/p`"
+      },
+      {
+       "formula": "`Uniform on [a, b]: mean = (a + b)/2; variance = (b − a)²/12`"
+      },
+      {
+       "formula": "`Normal: f(x) = [1/(σ√(2π))] e^(−(x − μ)²/(2σ²)); Z = (x − μ)/σ`",
+       "hindi": "सामान्य वितरण; Z = मानकीकृत मान।"
+      },
+      {
+       "formula": "`68-95-99.7 rule: μ ± 1σ = 68%, ± 2σ = 95%, ± 3σ = 99.7%`",
+       "hindi": "अनुभवजन्य नियम।"
+      }
+     ]
+    },
+    {
+     "id": "math-5-8",
+     "name": "5.8 आँकड़ों का विश्लेषण | Data Analysis",
+     "items": [
+      {
+       "formula": "`Class width h = Upper limit − Lower limit`; `Class mark = (Upper + Lower)/2`",
+       "hindi": "वर्ग-माप / वर्ग-चिह्न।"
+      },
+      {
+       "formula": "`Relative frequency = f/N; Cumulative frequency = running total`",
+       "hindi": "सापेक्ष / संचयी बारंबारता।"
+      },
+      {
+       "formula": "`Pie chart angle = (Value/Total) × 360°`",
+       "hindi": "वृत्त-चित्र का कोण।"
+      },
+      {
+       "formula": "`Quartile Q1 = ((n+1)/4)th term; Q2 = ((n+1)/2)th; Q3 = (3(n+1)/4)th`"
+      },
+      {
+       "formula": "`Percentile Pk = (k(n+1)/100)th term`"
+      },
+      {
+       "formula": "`Outlier if x < Q1 − 1.5·IQR or x > Q3 + 1.5·IQR`",
+       "hindi": "असामान्य मान की पहचान।"
+      },
+      {
+       "formula": "`Pearson skewness = (Mean − Mode)/σ`; `Bowley skewness = (Q3 + Q1 − 2Q2)/(Q3 − Q1)`",
+       "hindi": "विषमता गुणांक।"
+      },
+      {
+       "formula": "`Moving average = average of consecutive k values`",
+       "hindi": "चल माध्य।"
+      },
+      {
+       "label": "Graphs / आलेख",
+       "text": "Histogram (आयत चित्र), Frequency polygon (बारंबारता बहुभुज), Ogive (तोरण)।"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "math-part-6",
+   "name": "उच्च गणित एवं कॉलेज | Higher Maths & College",
+   "chapters": [
+    {
+     "id": "math-6-1",
+     "name": "6.1 समुच्चय एवं फलन | Sets & Functions",
+     "items": [
+      {
+       "label": "Sets / समुच्चय",
+       "text": ""
+      },
+      {
+       "formula": "`n(A ∪ B) = n(A) + n(B) − n(A ∩ B)`"
+      },
+      {
+       "formula": "`n(A ∪ B ∪ C) = n(A) + n(B) + n(C) − n(A∩B) − n(B∩C) − n(A∩C) + n(A∩B∩C)`"
+      },
+      {
+       "formula": "`De Morgan: (A ∪ B)' = A' ∩ B'; (A ∩ B)' = A' ∪ B'`",
+       "hindi": "डी-मॉर्गन नियम।"
+      },
+      {
+       "formula": "`Number of subsets = 2^n; proper subsets = 2^n − 1`; `Power set P(A) has 2^n elements`",
+       "hindi": "उपसमुच्चयों की संख्या।"
+      },
+      {
+       "formula": "`n(A × B) = n(A) · n(B)`",
+       "hindi": "कार्तीय गुणन।"
+      },
+      {
+       "formula": "`A − B = A ∩ B'`; `A Δ B = (A − B) ∪ (B − A)`",
+       "hindi": "**Functions / फलन** (|A| = m, |B| = n):"
+      },
+      {
+       "formula": "`Total functions A→B = n^m; one-one = nPm; bijective (m = n) = n!`"
+      },
+      {
+       "formula": "`Composite: (f∘g)(x) = f(g(x))`"
+      },
+      {
+       "formula": "`Inverse: f(f⁻¹(x)) = x; swap x and y and solve`",
+       "hindi": "प्रतिलोम फलन।"
+      },
+      {
+       "formula": "`Even: f(−x) = f(x); Odd: f(−x) = −f(x)`",
+       "hindi": "सम / विषम फलन।"
+      },
+      {
+       "formula": "`Periodic: f(x + T) = f(x)`; period of sin x, cos x = 2π; tan x = π"
+      },
+      {
+       "formula": "`Bijective = One-one + Onto`",
+       "hindi": "एकैकी आच्छादक।"
+      }
+     ]
+    },
+    {
+     "id": "math-6-2",
+     "name": "6.2 सीमा एवं सततता | Limits & Continuity",
+     "items": [
+      {
+       "formula": "`lim(x→a) f(x) = L ⟺ LHL = RHL = L`",
+       "hindi": "बायाँ व दायाँ सीमा बराबर हों।"
+      },
+      {
+       "formula": "`lim(x→0) sin x / x = 1; tan x / x = 1; sin⁻¹x / x = 1; tan⁻¹x / x = 1`"
+      },
+      {
+       "formula": "`lim(x→0) (1 − cos x)/x² = 1/2`"
+      },
+      {
+       "formula": "`lim(x→0) (eˣ − 1)/x = 1; ln(1 + x)/x = 1; (aˣ − 1)/x = ln a`"
+      },
+      {
+       "formula": "`lim(x→0) (1 + x)^(1/x) = e; lim(x→∞) (1 + 1/x)^x = e; lim(x→∞) (1 + k/x)^x = e^k`"
+      },
+      {
+       "formula": "`lim(x→a) (xⁿ − aⁿ)/(x − a) = n·aⁿ⁻¹`"
+      },
+      {
+       "formula": "`L'Hôpital: if 0/0 or ∞/∞ → lim f/g = lim f'/g'`",
+       "hindi": "अवकलज लेकर सीमा निकालें।"
+      },
+      {
+       "formula": "`Continuity at a: lim(x→a) f(x) = f(a)`",
+       "hindi": "सततता की शर्त।"
+      },
+      {
+       "formula": "`Squeeze theorem: g(x) ≤ f(x) ≤ h(x), lim g = lim h = L → lim f = L`",
+       "hindi": "सैंडविच प्रमेय।"
+      }
+     ]
+    },
+    {
+     "id": "math-6-3",
+     "name": "6.3 अवकलन | Differentiation",
+     "items": [
+      {
+       "label": "Standard derivatives / मानक अवकलज",
+       "text": ""
+      },
+      {
+       "formula": "`d/dx(xⁿ) = n xⁿ⁻¹; d/dx(c) = 0`"
+      },
+      {
+       "formula": "`d/dx(eˣ) = eˣ; d/dx(aˣ) = aˣ ln a; d/dx(ln x) = 1/x; d/dx(log_a x) = 1/(x ln a)`"
+      },
+      {
+       "formula": "`d/dx(sin x) = cos x; d/dx(cos x) = −sin x; d/dx(tan x) = sec²x`"
+      },
+      {
+       "formula": "`d/dx(cot x) = −cosec²x; d/dx(sec x) = sec x tan x; d/dx(cosec x) = −cosec x cot x`"
+      },
+      {
+       "formula": "`d/dx(sin⁻¹x) = 1/√(1 − x²); d/dx(cos⁻¹x) = −1/√(1 − x²); d/dx(tan⁻¹x) = 1/(1 + x²)`"
+      },
+      {
+       "formula": "`d/dx(sinh x) = cosh x; d/dx(cosh x) = sinh x`",
+       "hindi": "**Rules / नियम:**"
+      },
+      {
+       "formula": "`Sum: (u ± v)' = u' ± v'`"
+      },
+      {
+       "formula": "`Product: (uv)' = u'v + uv'`",
+       "hindi": "गुणन नियम।"
+      },
+      {
+       "formula": "`Quotient: (u/v)' = (u'v − uv')/v²`",
+       "hindi": "भागफल नियम।"
+      },
+      {
+       "formula": "`Chain: d/dx f(g(x)) = f'(g(x)) · g'(x)`",
+       "hindi": "शृंखला नियम।"
+      },
+      {
+       "formula": "`Parametric: dy/dx = (dy/dt)/(dx/dt)`"
+      },
+      {
+       "formula": "`Logarithmic differentiation for y = u^v: ln y = v ln u`",
+       "hindi": "घात में चर हो तो। **Applications / अनुप्रयोग:**"
+      },
+      {
+       "formula": "`Slope of tangent = dy/dx; Normal slope = −1/(dy/dx)`"
+      },
+      {
+       "formula": "`Maxima: f'(x) = 0 and f''(x) < 0; Minima: f'(x) = 0 and f''(x) > 0`",
+       "hindi": "उच्चिष्ठ / निम्निष्ठ।"
+      },
+      {
+       "formula": "`Rolle: f(a) = f(b) → f'(c) = 0 for some c`"
+      },
+      {
+       "formula": "`Mean Value Theorem: f'(c) = [f(b) − f(a)]/(b − a)`",
+       "hindi": "माध्यमान प्रमेय।"
+      },
+      {
+       "label": "Maclaurin series",
+       "text": "`eˣ = 1 + x + x²/2! + x³/3! + …`; `sin x = x − x³/3! + x⁵/5! − …`; `cos x = 1 − x²/2! + x⁴/4! − …`; `ln(1 + x) = x − x²/2 + x³/3 − …`"
+      },
+      {
+       "formula": "`Rate of change: dV/dt = (dV/dr)(dr/dt)`"
+      }
+     ]
+    },
+    {
+     "id": "math-6-4",
+     "name": "6.4 समाकलन | Integration",
+     "items": [
+      {
+       "text": "**Standard integrals / मानक समाकल** (+ C हर जगह):"
+      },
+      {
+       "formula": "`∫xⁿ dx = xⁿ⁺¹/(n + 1) (n ≠ −1); ∫(1/x) dx = ln|x|`"
+      },
+      {
+       "formula": "`∫eˣ dx = eˣ; ∫aˣ dx = aˣ/ln a`"
+      },
+      {
+       "formula": "`∫sin x = −cos x; ∫cos x = sin x; ∫sec²x = tan x; ∫cosec²x = −cot x`"
+      },
+      {
+       "formula": "`∫sec x tan x = sec x; ∫cosec x cot x = −cosec x`"
+      },
+      {
+       "formula": "`∫tan x = ln|sec x|; ∫cot x = ln|sin x|; ∫sec x = ln|sec x + tan x|; ∫cosec x = ln|cosec x − cot x|`"
+      },
+      {
+       "formula": "`∫dx/√(a² − x²) = sin⁻¹(x/a); ∫dx/(a² + x²) = (1/a) tan⁻¹(x/a)`"
+      },
+      {
+       "formula": "`∫dx/(x² − a²) = (1/2a) ln|(x − a)/(x + a)|; ∫dx/(a² − x²) = (1/2a) ln|(a + x)/(a − x)|`"
+      },
+      {
+       "formula": "`∫dx/√(x² + a²) = ln|x + √(x² + a²)|; ∫dx/√(x² − a²) = ln|x + √(x² − a²)|`"
+      },
+      {
+       "formula": "`∫√(a² − x²) dx = (x/2)√(a² − x²) + (a²/2) sin⁻¹(x/a)`",
+       "hindi": "**Techniques / विधियाँ:**"
+      },
+      {
+       "formula": "`By parts: ∫u·v dx = u∫v dx − ∫[u' ∫v dx] dx`",
+       "hindi": "ILATE क्रम (Inverse, Log, Algebra, Trig, Exponential) से u चुनें।"
+      },
+      {
+       "formula": "`∫eˣ[f(x) + f'(x)] dx = eˣ f(x)`"
+      },
+      {
+       "formula": "`∫f'(x)/f(x) dx = ln|f(x)|`"
+      },
+      {
+       "formula": "`∫f(ax + b) dx = F(ax + b)/a`"
+      },
+      {
+       "formula": "`∫e^(ax) sin bx dx = e^(ax)(a sin bx − b cos bx)/(a² + b²)`; `∫e^(ax) cos bx dx = e^(ax)(a cos bx + b sin bx)/(a² + b²)`"
+      },
+      {
+       "label": "Substitution / प्रतिस्थापन",
+       "text": "put t = g(x), dt = g'(x)dx। **Definite integrals / निश्चित समाकल:**"
+      },
+      {
+       "formula": "`∫ₐᵇ f(x) dx = F(b) − F(a)`",
+       "hindi": "कलन का मूलभूत प्रमेय।"
+      },
+      {
+       "formula": "`∫ₐᵇ f = −∫ᵇₐ f; ∫ₐᵇ f = ∫ₐᶜ f + ∫꜀ᵇ f`"
+      },
+      {
+       "formula": "`∫₀ᵃ f(x) dx = ∫₀ᵃ f(a − x) dx` (King's property)"
+      },
+      {
+       "formula": "`Even f: ∫₋ₐᵃ f = 2∫₀ᵃ f; Odd f: ∫₋ₐᵃ f = 0`",
+       "hindi": "सम/विषम फलन पर समरूपता।"
+      },
+      {
+       "formula": "`Area under curve = ∫ₐᵇ y dx; between curves = ∫ₐᵇ (y_top − y_bottom) dx`",
+       "hindi": "वक्र के नीचे क्षेत्रफल।"
+      },
+      {
+       "formula": "`Volume of revolution about x-axis = π∫ₐᵇ y² dx`"
+      },
+      {
+       "formula": "`Arc length = ∫ₐᵇ √(1 + (dy/dx)²) dx`"
+      }
+     ]
+    },
+    {
+     "id": "math-6-5",
+     "name": "6.5 अवकल समीकरण | Differential Equations",
+     "items": [
+      {
+       "formula": "`Order = highest derivative; Degree = power of highest derivative (after removing radicals)`",
+       "hindi": "कोटि व घात।"
+      },
+      {
+       "formula": "**Variable separable:** `f(y) dy = g(x) dx → ∫f dy = ∫g dx + C`",
+       "hindi": "चर पृथक्करण।"
+      },
+      {
+       "formula": "**Homogeneous:** `dy/dx = F(y/x)` → put `y = vx`, `dy/dx = v + x dv/dx`",
+       "hindi": "समघात समीकरण।"
+      },
+      {
+       "formula": "**Linear 1st order:** `dy/dx + Py = Q`; `IF = e^(∫P dx)`; `y · IF = ∫Q · IF dx + C`",
+       "hindi": "रैखिक समीकरण व समाकलन गुणक।"
+      },
+      {
+       "label": "Exact",
+       "text": "`M dx + N dy = 0` with `∂M/∂y = ∂N/∂x` → `∫M dx (y const) + ∫(terms of N without x) dy = C`"
+      },
+      {
+       "label": "Bernoulli",
+       "text": "`dy/dx + Py = Q yⁿ` → put `z = y^(1−n)`"
+      },
+      {
+       "label": "**2nd order (constant coefficients)",
+       "formula": "`a y'' + b y' + c y = 0`**, auxiliary equation `am² + bm + c = 0`: - Real distinct m1, m2: `y = C1 e^(m1 x) + C2 e^(m2 x)` - Equal m: `y = (C1 + C2 x) e^(mx)` - Complex α ± iβ: `y = e^(αx)(C1 cos βx + C2 sin βx)` — **HI:** मूलों की प्रकृति से हल।"
+      },
+      {
+       "formula": "`Growth/decay: dN/dt = kN → N = N0 e^(kt)`",
+       "hindi": "वृद्धि / क्षय।"
+      },
+      {
+       "formula": "`Newton's cooling: dT/dt = −k(T − Tₛ)`"
+      }
+     ]
+    },
+    {
+     "id": "math-6-6",
+     "name": "6.6 आव्यूह एवं सारणिक | Matrices & Determinants",
+     "items": [
+      {
+       "formula": "`Order m × n; (AB)ᵢⱼ = Σ aᵢₖ bₖⱼ`",
+       "hindi": "गुणा तभी जब A के स्तंभ = B की पंक्तियाँ।"
+      },
+      {
+       "formula": "`(A + B)ᵀ = Aᵀ + Bᵀ; (AB)ᵀ = BᵀAᵀ; (AB)⁻¹ = B⁻¹A⁻¹`",
+       "hindi": "परिवर्त / प्रतिलोम के नियम।"
+      },
+      {
+       "formula": "`2×2 det: |a b; c d| = ad − bc`"
+      },
+      {
+       "formula": "`3×3 det (expansion along row 1) = a(ei − fh) − b(di − fg) + c(dh − eg)`"
+      },
+      {
+       "formula": "`A⁻¹ = adj(A)/|A|; A · adj(A) = |A| · I`"
+      },
+      {
+       "formula": "`2×2 inverse: [a b; c d]⁻¹ = 1/(ad − bc) × [d −b; −c a]`"
+      },
+      {
+       "formula": "`|AB| = |A||B|; |kA| = kⁿ|A|; |adj A| = |A|^(n−1); |Aᵀ| = |A|`"
+      },
+      {
+       "formula": "`Symmetric: Aᵀ = A; Skew-symmetric: Aᵀ = −A; Orthogonal: AAᵀ = I`",
+       "hindi": "विशेष आव्यूह।"
+      },
+      {
+       "formula": "`Cramer's rule: x = Dx/D, y = Dy/D, z = Dz/D (D ≠ 0)`",
+       "hindi": "क्रेमर नियम।"
+      },
+      {
+       "formula": "`System AX = B: |A| ≠ 0 → unique solution; |A| = 0 → infinite or none`"
+      },
+      {
+       "formula": "`Cayley–Hamilton: every matrix satisfies its own characteristic equation`",
+       "hindi": "हर आव्यूह अपने अभिलाक्षणिक समीकरण को संतुष्ट करता है।"
+      },
+      {
+       "formula": "`Eigenvalues: |A − λI| = 0; Σλ = Trace(A); Πλ = |A|`"
+      }
+     ]
+    },
+    {
+     "id": "math-6-7",
+     "name": "6.7 रैखिक बीजगणित | Linear Algebra",
+     "items": [
+      {
+       "label": "Vector space axioms / सदिश समष्टि",
+       "text": "closure under addition & scalar multiplication, zero vector, additive inverse।"
+      },
+      {
+       "formula": "`Linearly independent: c1v1 + … + cnvn = 0 ⟹ all ci = 0`",
+       "hindi": "रैखिकतः स्वतंत्र।"
+      },
+      {
+       "formula": "`dim(V) = number of vectors in a basis`",
+       "hindi": "आधार के सदिशों की संख्या = विमा।"
+      },
+      {
+       "formula": "`Rank–Nullity: rank(A) + nullity(A) = n (number of columns)`",
+       "hindi": "कोटि-शून्यता प्रमेय।"
+      },
+      {
+       "formula": "`Linear transformation: T(au + bv) = aT(u) + bT(v)`",
+       "hindi": "रैखिक रूपांतरण।"
+      },
+      {
+       "formula": "`Eigen equation: Av = λv`",
+       "hindi": "आइगेन मान व आइगेन सदिश।"
+      },
+      {
+       "formula": "`Diagonalisation: A = PDP⁻¹ → Aⁿ = PDⁿP⁻¹`"
+      },
+      {
+       "formula": "`Inner product ⟨u, v⟩; Norm ‖v‖ = √⟨v, v⟩; Cauchy–Schwarz: |⟨u, v⟩| ≤ ‖u‖‖v‖`"
+      },
+      {
+       "formula": "`Gram–Schmidt: u2 = v2 − [⟨v2, u1⟩/⟨u1, u1⟩] u1`",
+       "hindi": "लंबकोणीय आधार बनाना।"
+      },
+      {
+       "formula": "`Rank of A = number of non-zero rows in row-echelon form`",
+       "hindi": "सोपानक रूप में गैर-शून्य पंक्तियाँ।"
+      }
+     ]
+    },
+    {
+     "id": "math-6-8",
+     "name": "6.8 सदिश कलन | Vector Calculus",
+     "items": [
+      {
+       "formula": "`Gradient ∇f = (∂f/∂x) i + (∂f/∂y) j + (∂f/∂z) k`",
+       "hindi": "प्रवणता।"
+      },
+      {
+       "formula": "`Divergence ∇·F = ∂P/∂x + ∂Q/∂y + ∂R/∂z`",
+       "hindi": "अपसरण।"
+      },
+      {
+       "formula": "`Curl ∇×F = |i j k; ∂/∂x ∂/∂y ∂/∂z; P Q R|`",
+       "hindi": "कर्ल (घूर्णन)।"
+      },
+      {
+       "formula": "`Laplacian ∇²f = ∂²f/∂x² + ∂²f/∂y² + ∂²f/∂z²`"
+      },
+      {
+       "formula": "`∇ × (∇f) = 0; ∇ · (∇ × F) = 0`"
+      },
+      {
+       "formula": "`Directional derivative D_u f = ∇f · û`",
+       "hindi": "दिशात्मक अवकलज।"
+      },
+      {
+       "formula": "`Conservative field ⟺ curl F = 0`",
+       "hindi": "संरक्षी क्षेत्र।"
+      },
+      {
+       "formula": "`Green's theorem: ∮(P dx + Q dy) = ∬(∂Q/∂x − ∂P/∂y) dA`"
+      },
+      {
+       "formula": "`Stokes' theorem: ∮F·dr = ∬(∇×F)·n dS`"
+      },
+      {
+       "formula": "`Gauss divergence theorem: ∯F·dS = ∭(∇·F) dV`"
+      }
+     ]
+    },
+    {
+     "id": "math-6-9",
+     "name": "6.9 फूरियर श्रेणी एवं रूपांतरण | Fourier Series & Transform",
+     "items": [
+      {
+       "formula": "`f(x) = a0/2 + Σ[aₙ cos(nπx/L) + bₙ sin(nπx/L)]` on (−L, L); for L = π, use cos nx, sin nx"
+      },
+      {
+       "formula": "`a0 = (1/L)∫₋ₗᴸ f dx; aₙ = (1/L)∫₋ₗᴸ f cos(nπx/L) dx; bₙ = (1/L)∫₋ₗᴸ f sin(nπx/L) dx`"
+      },
+      {
+       "formula": "`Even function: bₙ = 0 (only cos terms); Odd function: a0 = aₙ = 0 (only sin terms)`",
+       "hindi": "सम फलन में केवल cos, विषम में केवल sin।"
+      },
+      {
+       "formula": "`Half-range cosine/sine series: coefficient = (2/L)∫₀ᴸ …`",
+       "hindi": "अर्ध-परास श्रेणी।"
+      },
+      {
+       "formula": "`Parseval: (1/L)∫₋ₗᴸ f² dx = a0²/2 + Σ(aₙ² + bₙ²)`"
+      },
+      {
+       "formula": "`Fourier transform: F(ω) = ∫₋∞^∞ f(t) e^(−iωt) dt`"
+      },
+      {
+       "formula": "`Inverse: f(t) = (1/2π)∫₋∞^∞ F(ω) e^(iωt) dω`"
+      },
+      {
+       "formula": "`Properties: linearity, time-shift f(t − a) → e^(−iωa)F(ω), convolution f*g → F·G`",
+       "hindi": "गुण।"
+      },
+      {
+       "formula": "`DFT: X(k) = Σ x(n) e^(−2πikn/N), n = 0 … N−1`"
+      }
+     ]
+    },
+    {
+     "id": "math-6-10",
+     "name": "6.10 लैप्लास रूपांतरण | Laplace Transform",
+     "items": [
+      {
+       "formula": "`L{f(t)} = F(s) = ∫₀^∞ e^(−st) f(t) dt`",
+       "hindi": "लैप्लास रूपांतर की परिभाषा।"
+      },
+      {
+       "formula": "`L{1} = 1/s; L{tⁿ} = n!/s^(n+1); L{e^(at)} = 1/(s − a)`"
+      },
+      {
+       "formula": "`L{sin at} = a/(s² + a²); L{cos at} = s/(s² + a²)`"
+      },
+      {
+       "formula": "`L{sinh at} = a/(s² − a²); L{cosh at} = s/(s² − a²)`"
+      },
+      {
+       "formula": "`First shifting: L{e^(at) f(t)} = F(s − a)`",
+       "hindi": "प्रथम स्थानांतरण।"
+      },
+      {
+       "formula": "`Multiplication by t: L{t f(t)} = −F'(s)`; `Division by t: L{f(t)/t} = ∫ₛ^∞ F(s) ds`"
+      },
+      {
+       "formula": "`L{f'(t)} = sF(s) − f(0)`; `L{f''(t)} = s²F(s) − s f(0) − f'(0)`",
+       "hindi": "अवकल समीकरण हल करने में।"
+      },
+      {
+       "formula": "`L{∫₀ᵗ f} = F(s)/s`"
+      },
+      {
+       "formula": "`Second shifting: L{f(t − a) u(t − a)} = e^(−as) F(s)`; `L{δ(t)} = 1`"
+      },
+      {
+       "formula": "`Convolution: L{f * g} = F(s) · G(s)`"
+      },
+      {
+       "formula": "`Final value: lim(t→∞) f(t) = lim(s→0) sF(s)`"
+      },
+      {
+       "label": "Inverse",
+       "text": "partial fractions से `L⁻¹{1/(s − a)} = e^(at)` आदि।"
+      }
+     ]
+    },
+    {
+     "id": "math-6-11",
+     "name": "6.11 संख्यात्मक विश्लेषण | Numerical Analysis",
+     "items": [
+      {
+       "formula": "`Bisection: c = (a + b)/2, keep interval where sign changes`",
+       "hindi": "द्विभाजन विधि।"
+      },
+      {
+       "formula": "`Regula Falsi: c = [a f(b) − b f(a)]/[f(b) − f(a)]`",
+       "hindi": "मिथ्या स्थिति विधि।"
+      },
+      {
+       "formula": "`Newton–Raphson: xₙ₊₁ = xₙ − f(xₙ)/f'(xₙ)`",
+       "hindi": "न्यूटन-रैफसन विधि।"
+      },
+      {
+       "formula": "`Secant: xₙ₊₁ = xₙ − f(xₙ)(xₙ − xₙ₋₁)/[f(xₙ) − f(xₙ₋₁)]`"
+      },
+      {
+       "formula": "`Newton forward: y = y0 + pΔy0 + [p(p−1)/2!]Δ²y0 + …, p = (x − x0)/h`"
+      },
+      {
+       "formula": "`Newton backward: y = yₙ + p∇yₙ + [p(p+1)/2!]∇²yₙ + …, p = (x − xₙ)/h`",
+       "hindi": "अंतर्वेशन सूत्र।"
+      },
+      {
+       "formula": "`Lagrange: y = Σ yᵢ Π (x − xⱼ)/(xᵢ − xⱼ), j ≠ i`"
+      },
+      {
+       "formula": "`Trapezoidal: ∫ ≈ (h/2)[y0 + 2(y1 + … + yₙ₋₁) + yₙ]`"
+      },
+      {
+       "formula": "`Simpson 1/3: ∫ ≈ (h/3)[y0 + 4(odd y) + 2(even y) + yₙ]` (n even)"
+      },
+      {
+       "formula": "`Simpson 3/8: ∫ ≈ (3h/8)[y0 + 3y1 + 3y2 + 2y3 + … + yₙ]` (n multiple of 3)"
+      },
+      {
+       "formula": "`Euler: yₙ₊₁ = yₙ + h f(xₙ, yₙ)`"
+      },
+      {
+       "formula": "`Runge–Kutta 4: y₁ = y0 + (k1 + 2k2 + 2k3 + k4)/6, k1 = h f(x0, y0), k2 = h f(x0 + h/2, y0 + k1/2), k3 = h f(x0 + h/2, y0 + k2/2), k4 = h f(x0 + h, y0 + k3)`"
+      },
+      {
+       "label": "Linear systems",
+       "text": "Gauss elimination (प्रत्यक्ष), Jacobi / Gauss–Seidel (पुनरावर्ती)।"
+      }
+     ]
+    },
+    {
+     "id": "math-6-12",
+     "name": "6.12 अनुकूलन एवं रैखिक प्रोग्रामन | Optimization & Linear Programming",
+     "items": [
+      {
+       "formula": "`Objective: Maximise / Minimise Z = ax + by`",
+       "hindi": "उद्देश्य फलन।"
+      },
+      {
+       "formula": "`Constraints: a1x + b1y ≤ c1, …, x ≥ 0, y ≥ 0`",
+       "hindi": "प्रतिबंध।"
+      },
+      {
+       "label": "Corner Point Method / कोने बिंदु विधि",
+       "text": "1. Constraints का graph बनाएँ → feasible region (सुसंगत क्षेत्र) पहचानें। 2. सभी कोने बिंदुओं (vertices) निकालें। 3. हर कोने पर Z का मान निकालें। 4. सबसे बड़ा = Maximum, सबसे छोटा = Minimum।"
+      },
+      {
+       "formula": "`If feasible region is unbounded: check that half-plane Z > M (or Z < m) has no common point with region`",
+       "hindi": "अपरिबद्ध क्षेत्र में अतिरिक्त जाँच।"
+      },
+      {
+       "formula": "`Optimum value of Z occurs at a corner point`",
+       "hindi": "इष्टतम मान कोने पर ही।"
+      },
+      {
+       "formula": "`Lagrange multiplier: ∇f = λ∇g subject to g(x, y) = 0`",
+       "hindi": "लैग्रेंज गुणक विधि।"
+      },
+      {
+       "formula": "`2-variable critical point test: D = fₓₓ f_yy − (fₓᵧ)²; D > 0 & fₓₓ > 0 → min; D > 0 & fₓₓ < 0 → max; D < 0 → saddle`",
+       "hindi": "द्विचर फलन के उच्चिष्ठ/निम्निष्ठ की जाँच।"
+      },
+      {
+       "formula": "`Gradient descent: xₙ₊₁ = xₙ − α ∇f(xₙ)`"
+      },
+      {
+       "label": "Simplex / Duality / Transportation / Assignment",
+       "text": "बड़े LP के लिए उन्नत विधियाँ।"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

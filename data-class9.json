@@ -1,0 +1,524 @@
+{
+ "id": "class9",
+ "name": "Class 9",
+ "icon": "📘",
+ "subjects": [
+  {
+   "id": "class9-maths",
+   "name": "गणित",
+   "icon": "📘",
+   "books": [
+    {
+     "id": "class9-maths-book",
+     "name": "गणित",
+     "parts": [],
+     "chapters": [
+      {
+       "id": "class9-maths-chapter-1",
+       "name": "संख्या पद्धति"
+      },
+      {
+       "id": "class9-maths-chapter-2",
+       "name": "बहुपद"
+      },
+      {
+       "id": "class9-maths-chapter-3",
+       "name": "निर्देशांक ज्यामिति"
+      },
+      {
+       "id": "class9-maths-chapter-4",
+       "name": "दो चरों वाले रैखिक समीकरण"
+      },
+      {
+       "id": "class9-maths-chapter-5",
+       "name": "यूक्लिड की ज्यामिति का परिचय"
+      },
+      {
+       "id": "class9-maths-chapter-6",
+       "name": "रेखाएँ और कोण"
+      },
+      {
+       "id": "class9-maths-chapter-7",
+       "name": "त्रिभुज"
+      },
+      {
+       "id": "class9-maths-chapter-8",
+       "name": "चतुर्भुज"
+      },
+      {
+       "id": "class9-maths-chapter-9",
+       "name": "वृत्त"
+      },
+      {
+       "id": "class9-maths-chapter-10",
+       "name": "हीरोन का सूत्र"
+      },
+      {
+       "id": "class9-maths-chapter-11",
+       "name": "पृष्ठीय क्षेत्रफल और आयतन"
+      },
+      {
+       "id": "class9-maths-chapter-12",
+       "name": "सांख्यिकी"
+      }
+     ]
+    }
+   ],
+   "pyq": []
+  },
+  {
+   "id": "class9-science",
+   "name": "विज्ञान",
+   "icon": "🔬",
+   "books": [
+    {
+     "id": "class9-science-book",
+     "name": "विज्ञान",
+     "parts": [],
+     "chapters": [
+      {
+       "id": "class9-science-chapter-1",
+       "name": "हमारे आस-पास के पदार्थ"
+      },
+      {
+       "id": "class9-science-chapter-2",
+       "name": "क्या हमारे आस-पास के पदार्थ शुद्ध हैं"
+      },
+      {
+       "id": "class9-science-chapter-3",
+       "name": "परमाणु एवं अणु"
+      },
+      {
+       "id": "class9-science-chapter-4",
+       "name": "परमाणु की संरचना"
+      },
+      {
+       "id": "class9-science-chapter-5",
+       "name": "जीवन की मौलिक इकाई"
+      },
+      {
+       "id": "class9-science-chapter-6",
+       "name": "ऊतक"
+      },
+      {
+       "id": "class9-science-chapter-7",
+       "name": "गति"
+      },
+      {
+       "id": "class9-science-chapter-8",
+       "name": "बल तथा गति के नियम"
+      },
+      {
+       "id": "class9-science-chapter-9",
+       "name": "गुरुत्वाकर्षण"
+      },
+      {
+       "id": "class9-science-chapter-10",
+       "name": "कार्य तथा ऊर्जा"
+      },
+      {
+       "id": "class9-science-chapter-11",
+       "name": "ध्वनि"
+      },
+      {
+       "id": "class9-science-chapter-12",
+       "name": "खाद्य संसाधनों में सुधार"
+      }
+     ]
+    }
+   ],
+   "pyq": []
+  },
+  {
+   "id": "class9-social-science",
+   "name": "सामाजिक विज्ञान",
+   "icon": "🌍",
+   "books": [
+    {
+     "id": "class9-history-book",
+     "name": "इतिहास",
+     "desc": "भारत और समकालीन विश्व - 1",
+     "icon": "🏛️",
+     "parts": [],
+     "chapters": [
+      {
+       "id": "class9-history-chapter-1",
+       "name": "फ्रांसीसी क्रांति"
+      },
+      {
+       "id": "class9-history-chapter-2",
+       "name": "यूरोप में समाजवाद एवं रूसी क्रांति"
+      },
+      {
+       "id": "class9-history-chapter-3",
+       "name": "नात्सीवाद और हिटलर का उदय"
+      },
+      {
+       "id": "class9-history-chapter-4",
+       "name": "वन्य समाज एवं उपनिवेशवाद"
+      },
+      {
+       "id": "class9-history-chapter-5",
+       "name": "आधुनिक विश्व में चरवाहे"
+      }
+     ]
+    },
+    {
+     "id": "class9-geography-book",
+     "name": "भूगोल",
+     "desc": "समकालीन भारत - 1",
+     "icon": "🗺️",
+     "parts": [],
+     "chapters": [
+      {
+       "id": "class9-geography-chapter-1",
+       "name": "भारत - आकार और स्थिति"
+      },
+      {
+       "id": "class9-geography-chapter-2",
+       "name": "भारत का भौतिक स्वरूप"
+      },
+      {
+       "id": "class9-geography-chapter-3",
+       "name": "अपवाह"
+      },
+      {
+       "id": "class9-geography-chapter-4",
+       "name": "जलवायु"
+      },
+      {
+       "id": "class9-geography-chapter-5",
+       "name": "प्राकृतिक वनस्पति तथा वन्य प्राणी"
+      },
+      {
+       "id": "class9-geography-chapter-6",
+       "name": "जनसंख्या"
+      }
+     ]
+    },
+    {
+     "id": "class9-civics-book",
+     "name": "नागरिक शास्त्र",
+     "desc": "लोकतांत्रिक राजनीति - 1",
+     "icon": "⚖️",
+     "parts": [],
+     "chapters": [
+      {
+       "id": "class9-civics-chapter-1",
+       "name": "लोकतंत्र क्या? लोकतंत्र क्यों?"
+      },
+      {
+       "id": "class9-civics-chapter-2",
+       "name": "संविधान निर्माण"
+      },
+      {
+       "id": "class9-civics-chapter-3",
+       "name": "चुनावी राजनीति"
+      },
+      {
+       "id": "class9-civics-chapter-4",
+       "name": "संस्थाओं का कामकाज"
+      },
+      {
+       "id": "class9-civics-chapter-5",
+       "name": "लोकतांत्रिक अधिकार"
+      }
+     ]
+    },
+    {
+     "id": "class9-economics-book",
+     "name": "अर्थशास्त्र",
+     "icon": "💰",
+     "parts": [],
+     "chapters": [
+      {
+       "id": "class9-economics-chapter-1",
+       "name": "पालमपुर गाँव की कहानी"
+      },
+      {
+       "id": "class9-economics-chapter-2",
+       "name": "संसाधन के रूप में लोग"
+      },
+      {
+       "id": "class9-economics-chapter-3",
+       "name": "निर्धनता : एक चुनौती"
+      },
+      {
+       "id": "class9-economics-chapter-4",
+       "name": "भारत में खाद्य सुरक्षा"
+      }
+     ]
+    }
+   ],
+   "pyq": []
+  },
+  {
+   "id": "class9-hindi",
+   "name": "हिंदी",
+   "icon": "📕",
+   "books": [
+    {
+     "id": "class9-hindi-kshitij-book",
+     "name": "क्षितिज भाग-1",
+     "icon": "📕",
+     "parts": [
+      {
+       "id": "class9-hindi-kshitij-gadya",
+       "name": "गद्य खंड",
+       "chapters": [
+        {
+         "id": "class9-hindi-kshitij-chapter-1",
+         "name": "दो बैलों की कथा",
+         "desc": "प्रेमचंद"
+        },
+        {
+         "id": "class9-hindi-kshitij-chapter-2",
+         "name": "ल्हासा की ओर",
+         "desc": "राहुल सांकृत्यायन"
+        },
+        {
+         "id": "class9-hindi-kshitij-chapter-3",
+         "name": "उपभोक्तावाद की संस्कृति",
+         "desc": "श्यामाचरण दुबे"
+        },
+        {
+         "id": "class9-hindi-kshitij-chapter-4",
+         "name": "साँवले सपनों की याद",
+         "desc": "जाबिर हुसैन"
+        },
+        {
+         "id": "class9-hindi-kshitij-chapter-5",
+         "name": "प्रेमचंद के फटे जूते",
+         "desc": "हरिशंकर परसाई"
+        },
+        {
+         "id": "class9-hindi-kshitij-chapter-6",
+         "name": "मेरे बचपन के दिन",
+         "desc": "महादेवी वर्मा"
+        }
+       ]
+      },
+      {
+       "id": "class9-hindi-kshitij-kavya",
+       "name": "काव्य खंड",
+       "chapters": [
+        {
+         "id": "class9-hindi-kshitij-chapter-7",
+         "name": "साखियाँ एवं सबद",
+         "desc": "कबीर"
+        },
+        {
+         "id": "class9-hindi-kshitij-chapter-8",
+         "name": "वाख",
+         "desc": "ललद्यद"
+        },
+        {
+         "id": "class9-hindi-kshitij-chapter-9",
+         "name": "सवैये",
+         "desc": "रसखान"
+        },
+        {
+         "id": "class9-hindi-kshitij-chapter-10",
+         "name": "कैदी और कोकिला",
+         "desc": "माखनलाल चतुर्वेदी"
+        },
+        {
+         "id": "class9-hindi-kshitij-chapter-11",
+         "name": "ग्राम श्री",
+         "desc": "सुमित्रानंदन पंत"
+        },
+        {
+         "id": "class9-hindi-kshitij-chapter-12",
+         "name": "मेघ आए",
+         "desc": "सर्वेश्वर दयाल सक्सेना"
+        },
+        {
+         "id": "class9-hindi-kshitij-chapter-13",
+         "name": "बच्चे काम पर जा रहे हैं",
+         "desc": "राजेश जोशी"
+        }
+       ]
+      }
+     ],
+     "chapters": []
+    },
+    {
+     "id": "class9-hindi-kritika-book",
+     "name": "कृतिका भाग-1",
+     "icon": "📕",
+     "parts": [],
+     "chapters": [
+      {
+       "id": "class9-hindi-kritika-chapter-1",
+       "name": "इस जल प्रलय में",
+       "desc": "फणीश्वरनाथ रेणु"
+      },
+      {
+       "id": "class9-hindi-kritika-chapter-2",
+       "name": "मेरे संग की औरतें",
+       "desc": "मृदुला गर्ग"
+      },
+      {
+       "id": "class9-hindi-kritika-chapter-3",
+       "name": "रीढ़ की हड्डी",
+       "desc": "जगदीशचंद्र माथुर"
+      }
+     ]
+    }
+   ],
+   "pyq": []
+  },
+  {
+   "id": "class9-english",
+   "name": "English",
+   "icon": "📗",
+   "books": [
+    {
+     "id": "class9-english-beehive-book",
+     "name": "Beehive",
+     "icon": "📗",
+     "parts": [
+      {
+       "id": "class9-english-beehive-prose",
+       "name": "Prose",
+       "chapters": [
+        {
+         "id": "class9-english-beehive-chapter-1",
+         "name": "The Fun They Had"
+        },
+        {
+         "id": "class9-english-beehive-chapter-2",
+         "name": "The Sound of Music"
+        },
+        {
+         "id": "class9-english-beehive-chapter-3",
+         "name": "The Little Girl"
+        },
+        {
+         "id": "class9-english-beehive-chapter-4",
+         "name": "A Truly Beautiful Mind"
+        },
+        {
+         "id": "class9-english-beehive-chapter-5",
+         "name": "The Snake and the Mirror"
+        },
+        {
+         "id": "class9-english-beehive-chapter-6",
+         "name": "My Childhood"
+        },
+        {
+         "id": "class9-english-beehive-chapter-7",
+         "name": "Reach for the Top"
+        },
+        {
+         "id": "class9-english-beehive-chapter-8",
+         "name": "Kathmandu"
+        },
+        {
+         "id": "class9-english-beehive-chapter-9",
+         "name": "If I Were You"
+        }
+       ]
+      },
+      {
+       "id": "class9-english-beehive-poems",
+       "name": "Poems",
+       "chapters": [
+        {
+         "id": "class9-english-beehive-chapter-10",
+         "name": "The Road Not Taken"
+        },
+        {
+         "id": "class9-english-beehive-chapter-11",
+         "name": "Wind"
+        },
+        {
+         "id": "class9-english-beehive-chapter-12",
+         "name": "Rain on the Roof"
+        },
+        {
+         "id": "class9-english-beehive-chapter-13",
+         "name": "The Lake Isle of Innisfree"
+        },
+        {
+         "id": "class9-english-beehive-chapter-14",
+         "name": "A Legend of the Northland"
+        },
+        {
+         "id": "class9-english-beehive-chapter-15",
+         "name": "No Men Are Foreign"
+        },
+        {
+         "id": "class9-english-beehive-chapter-16",
+         "name": "On Killing a Tree"
+        },
+        {
+         "id": "class9-english-beehive-chapter-17",
+         "name": "A Slumber Did My Spirit Seal"
+        }
+       ]
+      }
+     ],
+     "chapters": []
+    },
+    {
+     "id": "class9-english-moments-book",
+     "name": "Moments",
+     "icon": "📗",
+     "parts": [],
+     "chapters": [
+      {
+       "id": "class9-english-moments-chapter-1",
+       "name": "The Lost Child"
+      },
+      {
+       "id": "class9-english-moments-chapter-2",
+       "name": "The Adventures of Toto"
+      },
+      {
+       "id": "class9-english-moments-chapter-3",
+       "name": "Iswaran the Storyteller"
+      },
+      {
+       "id": "class9-english-moments-chapter-4",
+       "name": "In the Kingdom of Fools"
+      },
+      {
+       "id": "class9-english-moments-chapter-5",
+       "name": "The Happy Prince"
+      },
+      {
+       "id": "class9-english-moments-chapter-6",
+       "name": "Weathering the Storm in Ersama"
+      },
+      {
+       "id": "class9-english-moments-chapter-7",
+       "name": "The Last Leaf"
+      },
+      {
+       "id": "class9-english-moments-chapter-8",
+       "name": "A House Is Not a Home"
+      },
+      {
+       "id": "class9-english-moments-chapter-9",
+       "name": "The Beggar"
+      }
+     ]
+    }
+   ],
+   "pyq": []
+  }
+ ],
+ "pyqYears": [
+  {
+   "id": "pyq-class9-2024",
+   "year": "2024",
+   "images": []
+  },
+  {
+   "id": "pyq-class9-2025",
+   "year": "2025",
+   "images": []
+  }
+ ]
+}

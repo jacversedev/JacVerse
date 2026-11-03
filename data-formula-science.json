@@ -1,0 +1,3035 @@
+{
+ "id": "science",
+ "name": "Science",
+ "icon": "🔬",
+ "parts": [
+  {
+   "id": "sci-part-1",
+   "name": "प्राथमिक विज्ञान / PRIMARY SCIENCE (कक्षा 1–5)",
+   "chapters": [
+    {
+     "id": "sci-ch-1",
+     "name": "1. मापन और इकाइयाँ / Measurement and Units",
+     "items": [
+      {
+       "label": "लंबाई",
+       "formula": "1 km = 1000 m",
+       "english": "One kilometre equals 1000 metres."
+      },
+      {
+       "label": "लंबाई",
+       "formula": "1 m = 100 cm = 1000 mm",
+       "english": "One metre equals 100 centimetres or 1000 millimetres."
+      },
+      {
+       "label": "द्रव्यमान",
+       "formula": "1 kg = 1000 g",
+       "english": "One kilogram equals 1000 grams."
+      },
+      {
+       "label": "क्षमता",
+       "formula": "1 L = 1000 mL",
+       "english": "One litre equals 1000 millilitres."
+      },
+      {
+       "label": "समय",
+       "formula": "1 hour = 60 minutes = 3600 seconds",
+       "english": "One hour equals 60 minutes or 3600 seconds."
+      },
+      {
+       "label": "औसत चाल",
+       "formula": "चाल = दूरी ÷ समय",
+       "english": "`Speed = Distance / Time`."
+      },
+      {
+       "label": "तापमान",
+       "formula": "°F = (9/5 × °C) + 32",
+       "english": "Fahrenheit to Celsius relation: `°C = (5/9)(°F − 32)`."
+      }
+     ]
+    },
+    {
+     "id": "sci-ch-2",
+     "name": "2. क्षेत्रफल और आयतन / Area and Volume",
+     "items": [
+      {
+       "label": "वर्ग का क्षेत्रफल",
+       "formula": "A = a²",
+       "english": "Area of a square: `A = side²`."
+      },
+      {
+       "label": "आयत का क्षेत्रफल",
+       "formula": "A = l × b",
+       "english": "Area of a rectangle: `A = length × breadth`."
+      },
+      {
+       "label": "त्रिभुज का क्षेत्रफल",
+       "formula": "A = ½ × b × h",
+       "english": "Area of a triangle: `A = ½ × base × height`."
+      },
+      {
+       "label": "घन का आयतन",
+       "formula": "V = a³",
+       "english": "Volume of a cube: `V = side³`."
+      },
+      {
+       "label": "घनाभ का आयतन",
+       "formula": "V = l × b × h",
+       "english": "Volume of a cuboid: `V = length × breadth × height`."
+      }
+     ]
+    },
+    {
+     "id": "sci-ch-3",
+     "name": "3. जीव-जगत और पर्यावरण / Living World and Environment",
+     "items": [
+      {
+       "text": "इन अध्यायों में प्राथमिक स्तर पर कोई सार्वभौमिक संख्यात्मक सूत्र नहीं है। मुख्य संबंध:"
+      },
+      {
+       "text": "भोजन शृंखला / Food chain: उत्पादक → उपभोक्ता → अपघटक / Producer → Consumer → Decomposer."
+      },
+      {
+       "text": "पौधों की वृद्धि के लिए प्रकाश, जल, वायु और पोषक तत्व आवश्यक हैं / Plant growth requires light, water, air and nutrients."
+      },
+      {
+       "text": "जल चक्र / Water cycle: वाष्पीकरण → संघनन → वर्षण → संग्रह / Evaporation → Condensation → Precipitation → Collection."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "sci-part-2",
+   "name": "मध्य विद्यालय विज्ञान / MIDDLE SCHOOL SCIENCE (कक्षा 6–8)",
+   "chapters": [
+    {
+     "id": "sci-ch-4",
+     "name": "4. गति और समय / Motion and Time",
+     "items": [
+      {
+       "label": "चाल",
+       "formula": "v = d/t",
+       "english": "Speed = Distance / Time."
+      },
+      {
+       "label": "दूरी",
+       "formula": "d = v × t",
+       "english": "Distance = Speed × Time."
+      },
+      {
+       "label": "समय",
+       "formula": "t = d/v",
+       "english": "Time = Distance / Speed."
+      },
+      {
+       "label": "औसत चाल",
+       "formula": "औसत चाल = कुल दूरी ÷ कुल समय",
+       "english": "Average speed = Total distance / Total time."
+      },
+      {
+       "label": "समान गति में",
+       "formula": "d = vt",
+       "english": "Distance in uniform motion = speed × time."
+      }
+     ]
+    },
+    {
+     "id": "sci-ch-5",
+     "name": "5. बल और दाब / Force and Pressure",
+     "items": [
+      {
+       "label": "बल",
+       "formula": "F = m × a",
+       "english": "Force = Mass × Acceleration."
+      },
+      {
+       "label": "दाब",
+       "formula": "P = F/A",
+       "english": "Pressure = Force / Area."
+      },
+      {
+       "label": "घनत्व",
+       "formula": "ρ = m/V",
+       "english": "Density = Mass / Volume."
+      },
+      {
+       "label": "भार",
+       "formula": "W = m × g",
+       "english": "Weight = Mass × Gravitational acceleration."
+      }
+     ]
+    },
+    {
+     "id": "sci-ch-6",
+     "name": "6. कार्य, ऊर्जा और शक्ति / Work, Energy and Power",
+     "items": [
+      {
+       "label": "कार्य",
+       "formula": "`W = F × s` (जब बल और विस्थापन एक ही दिशा में हों)",
+       "english": "Work = Force × Displacement (same direction)."
+      },
+      {
+       "label": "शक्ति",
+       "formula": "P = W/t",
+       "english": "Power = Work / Time."
+      },
+      {
+       "label": "गतिज ऊर्जा",
+       "formula": "KE = ½mv²",
+       "english": "Kinetic energy = `½ × mass × speed²`."
+      },
+      {
+       "label": "स्थितिज ऊर्जा",
+       "formula": "PE = mgh",
+       "english": "Gravitational potential energy = `m × g × height`."
+      }
+     ]
+    },
+    {
+     "id": "sci-ch-7",
+     "name": "7. ऊष्मा और तापमान / Heat and Temperature",
+     "items": [
+      {
+       "label": "ऊष्मा",
+       "formula": "Q = mcΔT",
+       "english": "Heat energy = Mass × Specific heat capacity × Temperature change."
+      },
+      {
+       "label": "तापमान परिवर्तन",
+       "formula": "ΔT = T₂ − T₁",
+       "english": "Temperature change = Final temperature − Initial temperature."
+      },
+      {
+       "label": "सेल्सियस से केल्विन",
+       "formula": "K = °C + 273.15",
+       "english": "Kelvin temperature = Celsius temperature + 273.15."
+      }
+     ]
+    },
+    {
+     "id": "sci-ch-8",
+     "name": "8. प्रकाश / Light",
+     "items": [
+      {
+       "label": "परावर्तन का नियम",
+       "formula": "आपतन कोण = परावर्तन कोण",
+       "english": "Angle of incidence = Angle of reflection."
+      },
+      {
+       "label": "आवर्धन",
+       "formula": "m = hᵢ/hₒ",
+       "english": "Magnification = Image height / Object height."
+      },
+      {
+       "label": "प्रकाश की चाल",
+       "formula": "`c = 3 × 10⁸ m/s` (निर्वात में)",
+       "english": "Speed of light in vacuum."
+      }
+     ]
+    },
+    {
+     "id": "sci-ch-9",
+     "name": "9. ध्वनि और तरंगें / Sound and Waves",
+     "items": [
+      {
+       "label": "तरंग चाल",
+       "formula": "v = fλ",
+       "english": "Wave speed = Frequency × Wavelength."
+      },
+      {
+       "label": "आवृत्ति",
+       "formula": "f = 1/T",
+       "english": "Frequency = 1 / Time period."
+      },
+      {
+       "label": "आवर्तकाल",
+       "formula": "T = 1/f",
+       "english": "Time period = 1 / Frequency."
+      }
+     ]
+    },
+    {
+     "id": "sci-ch-10",
+     "name": "10. विद्युत / Electricity",
+     "items": [
+      {
+       "label": "विद्युत धारा",
+       "formula": "I = Q/t",
+       "english": "Electric current = Charge / Time."
+      },
+      {
+       "label": "विभवांतर",
+       "formula": "V = W/Q",
+       "english": "Potential difference = Work / Charge."
+      },
+      {
+       "label": "ओम का नियम",
+       "formula": "V = IR",
+       "english": "Ohm’s law: Voltage = Current × Resistance."
+      },
+      {
+       "label": "विद्युत शक्ति",
+       "formula": "P = VI",
+       "english": "Electric power = Voltage × Current."
+      }
+     ]
+    },
+    {
+     "id": "sci-ch-11",
+     "name": "11. सरल मशीनें / Simple Machines",
+     "items": [
+      {
+       "label": "यांत्रिक लाभ",
+       "formula": "MA = Load / Effort",
+       "english": "Mechanical advantage = Load / Effort."
+      },
+      {
+       "label": "वेग अनुपात",
+       "formula": "VR = दूरी (प्रयास) ÷ दूरी (भार)",
+       "english": "Velocity ratio = Distance moved by effort / Distance moved by load."
+      },
+      {
+       "label": "दक्षता",
+       "formula": "η = (MA/VR) × 100%",
+       "english": "Efficiency = (Mechanical advantage / Velocity ratio) × 100%."
+      }
+     ]
+    },
+    {
+     "id": "sci-ch-12",
+     "name": "12. पदार्थ और घनत्व / Matter and Density",
+     "items": [
+      {
+       "label": "घनत्व",
+       "formula": "ρ = m/V",
+       "english": "Density = Mass / Volume."
+      },
+      {
+       "label": "द्रव्यमान",
+       "formula": "m = ρV",
+       "english": "Mass = Density × Volume."
+      },
+      {
+       "label": "आयतन",
+       "formula": "V = m/ρ",
+       "english": "Volume = Mass / Density."
+      }
+     ]
+    },
+    {
+     "id": "sci-ch-13",
+     "name": "13. विलयन / Solutions",
+     "items": [
+      {
+       "label": "द्रव्यमान प्रतिशत",
+       "formula": "% (w/w) = (विलेय का द्रव्यमान ÷ विलयन का द्रव्यमान) × 100",
+       "english": "Mass percent = (Mass of solute / Mass of solution) × 100."
+      },
+      {
+       "label": "आयतन प्रतिशत",
+       "formula": "% (v/v) = (विलेय का आयतन ÷ विलयन का आयतन) × 100",
+       "english": "Volume percent = (Volume of solute / Volume of solution) × 100."
+      }
+     ]
+    },
+    {
+     "id": "sci-ch-14",
+     "name": "14. परमाणु और अणु / Atoms and Molecules",
+     "items": [
+      {
+       "label": "परमाणु क्रमांक",
+       "formula": "Z = प्रोटॉनों की संख्या",
+       "english": "Atomic number = Number of protons."
+      },
+      {
+       "label": "द्रव्यमान संख्या",
+       "formula": "A = प्रोटॉन + न्यूट्रॉन",
+       "english": "Mass number = Protons + Neutrons."
+      },
+      {
+       "label": "न्यूट्रॉन",
+       "formula": "n = A − Z",
+       "english": "Number of neutrons = Mass number − Atomic number."
+      }
+     ]
+    },
+    {
+     "id": "sci-ch-15",
+     "name": "15. कोशिका और सूक्ष्मजीव / Cell and Microorganisms",
+     "items": [
+      {
+       "label": "सूक्ष्मदर्शी आवर्धन",
+       "formula": "कुल आवर्धन = नेत्रिका आवर्धन × अभिदृश्यक आवर्धन",
+       "english": "Total magnification = Eyepiece magnification × Objective magnification."
+      },
+      {
+       "text": "कोशिका विभाजन में गुणसूत्रों का व्यवहार जीव के प्रकार और विभाजन के चरण पर निर्भर करता है; एक ही सरल संख्यात्मक सूत्र सभी कोशिकाओं पर लागू नहीं होता।",
+       "english": "Chromosome behaviour depends on organism type and stage of cell division."
+      }
+     ]
+    },
+    {
+     "id": "sci-ch-16",
+     "name": "16. कृषि और फसल उत्पादन / Agriculture and Crop Production",
+     "items": [
+      {
+       "label": "उत्पादकता",
+       "formula": "उपज = कुल उत्पादन ÷ क्षेत्रफल",
+       "english": "Yield = Total production / Area."
+      },
+      {
+       "label": "प्रतिशत वृद्धि",
+       "formula": "% वृद्धि = [(नया मान − पुराना मान) ÷ पुराना मान] × 100",
+       "english": "Percentage increase = [(New value − Old value) / Old value] × 100."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "sci-part-3",
+   "name": "माध्यमिक विज्ञान / SECONDARY SCIENCE (कक्षा 9–10)",
+   "chapters": [
+    {
+     "id": "sci-ch-17",
+     "name": "17. गति / Motion",
+     "items": [
+      {
+       "label": "चाल",
+       "formula": "v = दूरी/समय",
+       "english": "Speed = Distance / Time."
+      },
+      {
+       "label": "वेग",
+       "formula": "v = विस्थापन/समय",
+       "english": "Velocity = Displacement / Time."
+      },
+      {
+       "label": "त्वरण",
+       "formula": "a = (v − u)/t",
+       "english": "Acceleration = (Final velocity − Initial velocity) / Time."
+      },
+      {
+       "label": "गति का प्रथम समीकरण",
+       "formula": "v = u + at",
+       "english": "First equation of motion."
+      },
+      {
+       "label": "गति का द्वितीय समीकरण",
+       "formula": "s = ut + ½at²",
+       "english": "Second equation of motion."
+      },
+      {
+       "label": "गति का तृतीय समीकरण",
+       "formula": "v² = u² + 2as",
+       "english": "Third equation of motion."
+      },
+      {
+       "label": "औसत वेग (समान त्वरण में)",
+       "formula": "v_avg = (u + v)/2",
+       "english": "Average velocity under uniform acceleration."
+      }
+     ]
+    },
+    {
+     "id": "sci-ch-18",
+     "name": "18. बल के नियम / Laws of Motion",
+     "items": [
+      {
+       "label": "संवेग",
+       "formula": "p = mv",
+       "english": "Momentum = Mass × Velocity."
+      },
+      {
+       "label": "न्यूटन का दूसरा नियम",
+       "formula": "F = Δp/Δt",
+       "english": "Force = Rate of change of momentum."
+      },
+      {
+       "label": "स्थिर द्रव्यमान के लिए",
+       "formula": "F = ma",
+       "english": "Force = Mass × Acceleration."
+      },
+      {
+       "label": "आवेग",
+       "formula": "J = FΔt = Δp",
+       "english": "Impulse = Force × Time interval = Change in momentum."
+      },
+      {
+       "label": "क्रिया-प्रतिक्रिया",
+       "formula": "F₁₂ = −F₂₁",
+       "english": "Action and reaction forces are equal and opposite."
+      }
+     ]
+    },
+    {
+     "id": "sci-ch-19",
+     "name": "19. गुरुत्वाकर्षण / Gravitation",
+     "items": [
+      {
+       "label": "सार्वत्रिक गुरुत्वाकर्षण",
+       "formula": "F = Gm₁m₂/r²",
+       "english": "Newton’s law of universal gravitation."
+      },
+      {
+       "label": "गुरुत्वीय त्वरण",
+       "formula": "g = GM/R²",
+       "english": "Acceleration due to gravity at a planet’s surface."
+      },
+      {
+       "label": "भार",
+       "formula": "W = mg",
+       "english": "Weight = Mass × Gravitational acceleration."
+      },
+      {
+       "label": "घनत्व",
+       "formula": "ρ = m/V",
+       "english": "Density = Mass / Volume."
+      },
+      {
+       "label": "आपेक्षिक घनत्व",
+       "formula": "RD = पदार्थ का घनत्व ÷ जल का घनत्व",
+       "english": "Relative density = Density of substance / Density of water."
+      },
+      {
+       "label": "दाब",
+       "formula": "P = F/A",
+       "english": "Pressure = Force / Area."
+      },
+      {
+       "label": "उत्प्लावन बल",
+       "formula": "Fᵦ = ρVg",
+       "english": "Buoyant force = Fluid density × Displaced volume × g."
+      }
+     ]
+    },
+    {
+     "id": "sci-ch-20",
+     "name": "20. कार्य और ऊर्जा / Work and Energy",
+     "items": [
+      {
+       "label": "कार्य",
+       "formula": "W = Fs cosθ",
+       "english": "Work = Force × Displacement × cos(angle)."
+      },
+      {
+       "label": "गतिज ऊर्जा",
+       "formula": "KE = ½mv²",
+       "english": "Kinetic energy."
+      },
+      {
+       "label": "गुरुत्वीय स्थितिज ऊर्जा",
+       "formula": "PE = mgh",
+       "english": "Gravitational potential energy."
+      },
+      {
+       "label": "शक्ति",
+       "formula": "P = W/t",
+       "english": "Power = Work / Time."
+      },
+      {
+       "label": "ऊर्जा संरक्षण",
+       "formula": "`कुल ऊर्जा = स्थिर` (बाहरी ऊर्जा-हस्तांतरण न हो)",
+       "english": "Total energy remains constant in an isolated system."
+      }
+     ]
+    },
+    {
+     "id": "sci-ch-21",
+     "name": "21. ध्वनि / Sound",
+     "items": [
+      {
+       "label": "तरंग चाल",
+       "formula": "v = fλ",
+       "english": "Wave speed = Frequency × Wavelength."
+      },
+      {
+       "label": "आवृत्ति",
+       "formula": "f = 1/T",
+       "english": "Frequency = Reciprocal of time period."
+      },
+      {
+       "label": "प्रतिध्वनि की दूरी",
+       "formula": "d = vt/2",
+       "english": "Distance to reflecting surface = Speed of sound × Echo time / 2."
+      },
+      {
+       "label": "ध्वनि तीव्रता स्तर",
+       "formula": "β = 10 log₁₀(I/I₀) dB",
+       "english": "Sound intensity level in decibels."
+      }
+     ]
+    },
+    {
+     "id": "sci-ch-22",
+     "name": "22. प्रकाश — दर्पण और लेंस / Light — Mirrors and Lenses",
+     "items": [
+      {
+       "label": "परावर्तन",
+       "formula": "∠i = ∠r",
+       "english": "Angle of incidence equals angle of reflection."
+      },
+      {
+       "label": "गोलीय दर्पण सूत्र",
+       "formula": "1/f = 1/v + 1/u",
+       "english": "Mirror formula (Cartesian sign convention)."
+      },
+      {
+       "label": "दर्पण आवर्धन",
+       "formula": "m = hᵢ/hₒ = −v/u",
+       "english": "Mirror magnification."
+      },
+      {
+       "label": "लेंस सूत्र",
+       "formula": "1/f = 1/v − 1/u",
+       "english": "Thin lens formula (Cartesian sign convention)."
+      },
+      {
+       "label": "लेंस आवर्धन",
+       "formula": "m = hᵢ/hₒ = v/u",
+       "english": "Linear magnification of a thin lens."
+      },
+      {
+       "label": "लेंस की क्षमता",
+       "formula": "`P = 1/f` (f मीटर में; इकाई डायोप्टर)",
+       "english": "Lens power = Reciprocal of focal length in metres."
+      },
+      {
+       "label": "अपवर्तनांक",
+       "formula": "n = c/v",
+       "english": "Refractive index = Speed of light in vacuum / Speed in medium."
+      },
+      {
+       "label": "स्नेल का नियम",
+       "formula": "n₁ sin i = n₂ sin r",
+       "english": "Snell’s law."
+      }
+     ]
+    },
+    {
+     "id": "sci-ch-23",
+     "name": "23. मानव नेत्र / Human Eye",
+     "items": [
+      {
+       "label": "निकट बिंदु (सामान्य वयस्क आँख): लगभग",
+       "formula": "25 cm",
+       "english": "Least distance of distinct vision is approximately 25 cm for a normal adult eye."
+      },
+      {
+       "label": "दूर बिंदु (सामान्य आँख)",
+       "formula": "∞",
+       "english": "Far point of a normal eye is at infinity."
+      },
+      {
+       "label": "लेंस क्षमता",
+       "formula": "P = 1/f",
+       "english": "Power of corrective lens = Reciprocal of focal length in metres."
+      }
+     ]
+    },
+    {
+     "id": "sci-ch-24",
+     "name": "24. विद्युत / Electricity",
+     "items": [
+      {
+       "label": "धारा",
+       "formula": "I = Q/t",
+       "english": "Electric current = Charge / Time."
+      },
+      {
+       "label": "विभवांतर",
+       "formula": "V = W/Q",
+       "english": "Potential difference = Work / Charge."
+      },
+      {
+       "label": "ओम का नियम",
+       "formula": "V = IR",
+       "english": "Ohm’s law."
+      },
+      {
+       "label": "प्रतिरोध",
+       "formula": "R = V/I",
+       "english": "Resistance = Voltage / Current."
+      },
+      {
+       "label": "तार का प्रतिरोध",
+       "formula": "R = ρL/A",
+       "english": "Resistance = Resistivity × Length / Cross-sectional area."
+      },
+      {
+       "label": "श्रेणीक्रम प्रतिरोध",
+       "formula": "Rₛ = R₁ + R₂ + R₃ + ...",
+       "english": "Equivalent resistance in series."
+      },
+      {
+       "label": "समानांतर प्रतिरोध",
+       "formula": "1/Rₚ = 1/R₁ + 1/R₂ + 1/R₃ + ...",
+       "english": "Reciprocal rule for parallel resistors."
+      },
+      {
+       "label": "विद्युत शक्ति",
+       "formula": "P = VI = I²R = V²/R",
+       "english": "Electric power."
+      },
+      {
+       "label": "विद्युत ऊर्जा",
+       "formula": "E = Pt = VIt",
+       "english": "Electrical energy."
+      },
+      {
+       "label": "जूल ऊष्मा",
+       "formula": "H = I²Rt",
+       "english": "Joule’s law of heating."
+      },
+      {
+       "label": "विद्युत ऊर्जा की व्यावसायिक इकाई",
+       "formula": "1 kWh = 3.6 × 10⁶ J",
+       "english": "One kilowatt-hour equals 3.6 million joules."
+      }
+     ]
+    },
+    {
+     "id": "sci-ch-25",
+     "name": "25. चुंबकीय प्रभाव / Magnetic Effects of Current",
+     "items": [
+      {
+       "label": "सीधे चालक के चारों ओर चुंबकीय क्षेत्र",
+       "formula": "B = μ₀I/(2πr)",
+       "english": "Magnetic field around a long straight conductor in vacuum."
+      },
+      {
+       "label": "कुंडली के केंद्र पर (N turns)",
+       "formula": "B = μ₀NI/(2R)",
+       "english": "Magnetic field at the centre of a circular coil in vacuum."
+      },
+      {
+       "label": "चुंबकीय बल",
+       "formula": "F = BIL sinθ",
+       "english": "Force on a current-carrying conductor in a magnetic field."
+      }
+     ]
+    },
+    {
+     "id": "sci-ch-26",
+     "name": "26. रासायनिक समीकरण और मोल / Chemical Equations and Mole Concept",
+     "items": [
+      {
+       "label": "मोल संख्या",
+       "formula": "n = m/M",
+       "english": "Number of moles = Given mass / Molar mass."
+      },
+      {
+       "label": "कणों की संख्या",
+       "formula": "N = nNₐ",
+       "english": "Number of particles = Moles × Avogadro constant."
+      },
+      {
+       "label": "मोलर द्रव्यमान",
+       "formula": "M = m/n",
+       "english": "Molar mass = Mass / Number of moles."
+      },
+      {
+       "label": "द्रव्यमान संरक्षण",
+       "formula": "कुल अभिकारक द्रव्यमान = कुल उत्पाद द्रव्यमान",
+       "english": "Total mass of reactants = Total mass of products in a balanced closed-system reaction."
+      },
+      {
+       "label": "प्रतिशत संघटन",
+       "formula": "% तत्व = (तत्व का कुल द्रव्यमान ÷ यौगिक का कुल द्रव्यमान) × 100",
+       "english": "Percentage composition by mass."
+      }
+     ]
+    },
+    {
+     "id": "sci-ch-27",
+     "name": "27. अम्ल, क्षार और pH / Acids, Bases and pH",
+     "items": [
+      {
+       "formula": "pH = −log₁₀[H⁺]",
+       "english": "pH is the negative base-10 logarithm of hydrogen-ion concentration."
+      },
+      {
+       "formula": "pOH = −log₁₀[OH⁻]",
+       "english": "pOH is the negative base-10 logarithm of hydroxide-ion concentration."
+      },
+      {
+       "label": "25°C पर",
+       "formula": "pH + pOH = 14",
+       "english": "At 25°C, pH + pOH = 14 for dilute aqueous solutions."
+      },
+      {
+       "label": "उदासीनीकरण",
+       "formula": "अम्ल + क्षार → लवण + जल",
+       "english": "Acid + Base → Salt + Water."
+      }
+     ]
+    },
+    {
+     "id": "sci-ch-28",
+     "name": "28. परमाणु संरचना / Atomic Structure",
+     "items": [
+      {
+       "label": "परमाणु क्रमांक",
+       "formula": "Z = p",
+       "english": "Atomic number = Number of protons."
+      },
+      {
+       "label": "द्रव्यमान संख्या",
+       "formula": "A = p + n",
+       "english": "Mass number = Protons + Neutrons."
+      },
+      {
+       "label": "न्यूट्रॉन संख्या",
+       "formula": "n = A − Z",
+       "english": "Number of neutrons = Mass number − Atomic number."
+      },
+      {
+       "label": "औसत परमाणु द्रव्यमान",
+       "formula": "Aᵣ = Σ(समस्थानिक द्रव्यमान × भिन्नात्मक प्रचुरता)",
+       "english": "Relative atomic mass is the abundance-weighted mean of isotope masses."
+      }
+     ]
+    },
+    {
+     "id": "sci-ch-29",
+     "name": "29. विलयन की सांद्रता / Concentration of Solutions",
+     "items": [
+      {
+       "label": "मोलरता",
+       "formula": "`M = n/V` (V लीटर में)",
+       "english": "Molarity = Moles of solute / Volume of solution in litres."
+      },
+      {
+       "label": "मोललता",
+       "formula": "m = n/द्रावक का द्रव्यमान (kg)",
+       "english": "Molality = Moles of solute / Mass of solvent in kilograms."
+      },
+      {
+       "label": "मोल अंश",
+       "formula": "Xᵢ = nᵢ/Σn",
+       "english": "Mole fraction = Moles of component / Total moles."
+      },
+      {
+       "label": "द्रव्यमान प्रतिशत",
+       "formula": "% w/w = (विलेय द्रव्यमान/विलयन द्रव्यमान) × 100",
+       "english": "Mass percentage."
+      },
+      {
+       "label": "तनुकरण",
+       "formula": "M₁V₁ = M₂V₂",
+       "english": "Dilution equation for the same solute."
+      }
+     ]
+    },
+    {
+     "id": "sci-ch-30",
+     "name": "30. रासायनिक बंध / Chemical Bonding",
+     "items": [
+      {
+       "label": "औपचारिक आवेश",
+       "formula": "FC = V − L − B/2",
+       "english": "Formal charge = Valence electrons − Nonbonding electrons − Half of bonding electrons."
+      },
+      {
+       "label": "बंध क्रम (Molecular Orbital Theory)",
+       "formula": "Bond order = (Nᵦ − Nₐ)/2",
+       "english": "Bond order = (Bonding electrons − Antibonding electrons) / 2."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "sci-part-4",
+   "name": "उच्च माध्यमिक विज्ञान / HIGHER SECONDARY (कक्षा 11–12)",
+   "groups": [
+    {
+     "id": "sci-part-4-a",
+     "name": "भौतिक विज्ञान / PHYSICS",
+     "chapters": [
+      {
+       "id": "sci-ch-31",
+       "name": "31. सदिश और मापन / Vectors and Measurements",
+       "items": [
+        {
+         "label": "सदिश का परिमाण",
+         "formula": "|A| = √(Aₓ² + Aᵧ² + A_z²)",
+         "english": "Magnitude of a three-dimensional vector."
+        },
+        {
+         "label": "दो सदिशों का डॉट गुणनफल",
+         "formula": "A·B = AB cosθ",
+         "english": "Dot product of two vectors."
+        },
+        {
+         "label": "क्रॉस गुणनफल का परिमाण",
+         "formula": "|A×B| = AB sinθ",
+         "english": "Magnitude of the cross product."
+        },
+        {
+         "label": "प्रतिशत त्रुटि",
+         "formula": "% error = (निरपेक्ष त्रुटि ÷ मापा गया मान) × 100",
+         "english": "Percentage error = (Absolute error / Measured value) × 100."
+        },
+        {
+         "label": "विमीय सूत्र",
+         "formula": "`[v] = LT⁻¹`, `[a] = LT⁻²`, `[F] = MLT⁻²`, `[E] = ML²T⁻²`, `[P] = ML²T⁻³`",
+         "english": "Common dimensions of velocity, acceleration, force, energy and power."
+        }
+       ]
+      },
+      {
+       "id": "sci-ch-32",
+       "name": "32. एक-विमीय गति / Kinematics",
+       "items": [
+        {
+         "formula": "v = u + at",
+         "english": "First equation of uniformly accelerated motion."
+        },
+        {
+         "formula": "s = ut + ½at²",
+         "english": "Second equation of uniformly accelerated motion."
+        },
+        {
+         "formula": "v² = u² + 2as",
+         "english": "Third equation of uniformly accelerated motion."
+        },
+        {
+         "formula": "sₙ = u + (a/2)(2n − 1)",
+         "english": "Displacement during the nth second for uniform acceleration."
+        },
+        {
+         "label": "औसत वेग",
+         "formula": "v_avg = Δx/Δt",
+         "english": "Average velocity = Displacement / Time."
+        }
+       ]
+      },
+      {
+       "id": "sci-ch-33",
+       "name": "33. द्वि-विमीय गति और प्रक्षेप्य / 2D Motion and Projectile",
+       "items": [
+        {
+         "label": "घटक",
+         "formula": "`Aₓ = A cosθ`, `Aᵧ = A sinθ`",
+         "english": "Rectangular components of a vector."
+        },
+        {
+         "label": "प्रक्षेप्य का उड़ान समय",
+         "formula": "T = 2u sinθ/g",
+         "english": "Time of flight for launch and landing at the same height."
+        },
+        {
+         "label": "अधिकतम ऊँचाई",
+         "formula": "H = u²sin²θ/(2g)",
+         "english": "Maximum height of a projectile."
+        },
+        {
+         "label": "क्षैतिज परास",
+         "formula": "R = u²sin2θ/g",
+         "english": "Horizontal range for equal launch and landing heights."
+        },
+        {
+         "label": "वृत्तीय गति में अभिकेन्द्रीय त्वरण",
+         "formula": "a꜀ = v²/r = ω²r",
+         "english": "Centripetal acceleration."
+        },
+        {
+         "label": "कोणीय वेग",
+         "formula": "ω = 2π/T = 2πf",
+         "english": "Angular velocity."
+        }
+       ]
+      },
+      {
+       "id": "sci-ch-34",
+       "name": "34. न्यूटन के नियम और घर्षण / Newton’s Laws and Friction",
+       "items": [
+        {
+         "formula": "F = ma",
+         "english": "Newton’s second law for constant mass."
+        },
+        {
+         "label": "संवेग",
+         "formula": "p = mv",
+         "english": "Linear momentum."
+        },
+        {
+         "label": "घर्षण",
+         "formula": "fₛ ≤ μₛN",
+         "english": "Static friction is at most coefficient of static friction × normal reaction."
+        },
+        {
+         "label": "सीमांत घर्षण",
+         "formula": "fₛ,max = μₛN",
+         "english": "Limiting static friction."
+        },
+        {
+         "label": "गतिज घर्षण",
+         "formula": "fₖ = μₖN",
+         "english": "Kinetic friction."
+        },
+        {
+         "label": "आवेग",
+         "formula": "J = ∫F dt = Δp",
+         "english": "Impulse equals change in momentum."
+        }
+       ]
+      },
+      {
+       "id": "sci-ch-35",
+       "name": "35. कार्य, ऊर्जा और शक्ति / Work, Energy and Power",
+       "items": [
+        {
+         "formula": "W = ∫F·dr",
+         "english": "Work done by a variable force."
+        },
+        {
+         "formula": "K = ½mv²",
+         "english": "Translational kinetic energy."
+        },
+        {
+         "formula": "U = mgh",
+         "english": "Gravitational potential energy near Earth’s surface."
+        },
+        {
+         "label": "स्प्रिंग ऊर्जा",
+         "formula": "Uₛ = ½kx²",
+         "english": "Elastic potential energy stored in a spring."
+        },
+        {
+         "label": "शक्ति",
+         "formula": "P = dW/dt = F·v",
+         "english": "Instantaneous power."
+        },
+        {
+         "label": "कार्य-ऊर्जा प्रमेय",
+         "formula": "W_net = ΔK",
+         "english": "Net work equals change in kinetic energy."
+        }
+       ]
+      },
+      {
+       "id": "sci-ch-36",
+       "name": "36. घूर्णन गति / Rotational Motion",
+       "items": [
+        {
+         "label": "कोणीय वेग",
+         "formula": "ω = dθ/dt",
+         "english": "Angular velocity."
+        },
+        {
+         "label": "कोणीय त्वरण",
+         "formula": "α = dω/dt",
+         "english": "Angular acceleration."
+        },
+        {
+         "label": "रैखिक वेग",
+         "formula": "v = rω",
+         "english": "Linear speed in circular motion."
+        },
+        {
+         "label": "स्पर्शरेखीय त्वरण",
+         "formula": "aₜ = rα",
+         "english": "Tangential acceleration."
+        },
+        {
+         "label": "बल आघूर्ण",
+         "formula": "τ = rF sinθ",
+         "english": "Torque magnitude."
+        },
+        {
+         "label": "कोणीय संवेग",
+         "formula": "L = Iω",
+         "english": "Angular momentum for rotation about a fixed principal axis."
+        },
+        {
+         "label": "घूर्णी गतिज ऊर्जा",
+         "formula": "Kᵣ = ½Iω²",
+         "english": "Rotational kinetic energy."
+        },
+        {
+         "label": "घूर्णन का नियम",
+         "formula": "τ = Iα",
+         "english": "Rotational form of Newton’s second law."
+        },
+        {
+         "label": "जड़त्व आघूर्ण",
+         "formula": "I = Σmᵢrᵢ²",
+         "english": "Moment of inertia for point masses."
+        },
+        {
+         "label": "लुढ़कने की शर्त",
+         "formula": "v_cm = Rω",
+         "english": "Rolling without slipping."
+        }
+       ]
+      },
+      {
+       "id": "sci-ch-37",
+       "name": "37. गुरुत्वाकर्षण / Gravitation",
+       "items": [
+        {
+         "formula": "F = Gm₁m₂/r²",
+         "english": "Universal law of gravitation."
+        },
+        {
+         "formula": "g = GM/r²",
+         "english": "Gravitational field strength outside a spherical body."
+        },
+        {
+         "label": "गुरुत्वीय विभव",
+         "formula": "V = −GM/r",
+         "english": "Gravitational potential."
+        },
+        {
+         "label": "गुरुत्वीय स्थितिज ऊर्जा",
+         "formula": "U = −GMm/r",
+         "english": "Gravitational potential energy."
+        },
+        {
+         "label": "कक्षीय वेग",
+         "formula": "vₒ = √(GM/r)",
+         "english": "Orbital speed in a circular orbit."
+        },
+        {
+         "label": "पलायन वेग",
+         "formula": "vₑ = √(2GM/R) = √(2gR)",
+         "english": "Escape speed from a spherical body."
+        },
+        {
+         "label": "उपग्रह का आवर्तकाल",
+         "formula": "T = 2π√(r³/GM)",
+         "english": "Orbital period of a circular satellite orbit."
+        }
+       ]
+      },
+      {
+       "id": "sci-ch-38",
+       "name": "38. ठोस और द्रव के यांत्रिक गुण / Mechanical Properties of Solids and Fluids",
+       "items": [
+        {
+         "label": "तनाव",
+         "formula": "Stress = F/A",
+         "english": "Stress = Force / Area."
+        },
+        {
+         "label": "विकृति",
+         "formula": "Strain = ΔL/L",
+         "english": "Longitudinal strain."
+        },
+        {
+         "label": "यंग मापांक",
+         "formula": "Y = (F/A)/(ΔL/L)",
+         "english": "Young’s modulus."
+        },
+        {
+         "label": "दाब",
+         "formula": "P = P₀ + ρgh",
+         "english": "Pressure at depth h in a static fluid."
+        },
+        {
+         "label": "उत्प्लावन",
+         "formula": "Fᵦ = ρ_fluid V_displaced g",
+         "english": "Archimedes’ buoyant force."
+        },
+        {
+         "label": "सातत्य समीकरण",
+         "formula": "A₁v₁ = A₂v₂",
+         "english": "Continuity equation for incompressible steady flow."
+        },
+        {
+         "label": "बर्नौली समीकरण",
+         "formula": "P + ½ρv² + ρgh = constant",
+         "english": "Bernoulli’s equation along a streamline."
+        },
+        {
+         "label": "श्यान बल (Stokes)",
+         "formula": "F = 6πηrv",
+         "english": "Drag force on a small sphere at low Reynolds number."
+        },
+        {
+         "label": "पृष्ठ तनाव",
+         "formula": "S = F/l",
+         "english": "Surface tension = Force / Length."
+        }
+       ]
+      },
+      {
+       "id": "sci-ch-39",
+       "name": "39. ऊष्मीय गुण और ऊष्मागतिकी / Thermal Physics and Thermodynamics",
+       "items": [
+        {
+         "label": "रैखिक प्रसार",
+         "formula": "ΔL = αL₀ΔT",
+         "english": "Linear thermal expansion."
+        },
+        {
+         "label": "क्षेत्रीय प्रसार",
+         "formula": "ΔA = βA₀ΔT",
+         "english": "Area expansion."
+        },
+        {
+         "label": "आयतन प्रसार",
+         "formula": "ΔV = γV₀ΔT",
+         "english": "Volume expansion."
+        },
+        {
+         "label": "ऊष्मा",
+         "formula": "Q = mcΔT",
+         "english": "Sensible heat."
+        },
+        {
+         "label": "गुप्त ऊष्मा",
+         "formula": "Q = mL",
+         "english": "Latent heat."
+        },
+        {
+         "label": "आदर्श गैस",
+         "formula": "PV = nRT = NkBT",
+         "english": "Ideal gas equation."
+        },
+        {
+         "label": "प्रथम नियम",
+         "formula": "`ΔU = Q − W` (W = गैस द्वारा किया गया कार्य)",
+         "english": "First law of thermodynamics."
+        },
+        {
+         "label": "गैस का कार्य",
+         "formula": "W = ∫P dV",
+         "english": "Work done by a gas."
+        },
+        {
+         "label": "समतापी आदर्श गैस",
+         "formula": "ΔU = 0",
+         "english": "Internal energy change is zero for an ideal gas in an isothermal process."
+        },
+        {
+         "label": "रुद्धोष्म प्रक्रिया",
+         "formula": "PVᵞ = constant",
+         "english": "Reversible adiabatic relation for an ideal gas."
+        },
+        {
+         "label": "कैल्विन ताप",
+         "formula": "T(K) = t(°C) + 273.15",
+         "english": "Celsius-to-Kelvin conversion."
+        }
+       ]
+      },
+      {
+       "id": "sci-ch-40",
+       "name": "40. अणुगति सिद्धांत / Kinetic Theory",
+       "items": [
+        {
+         "label": "अणुओं की औसत अनुवादी गतिज ऊर्जा",
+         "formula": "K_avg = 3kBT/2",
+         "english": "Average translational kinetic energy per molecule."
+        },
+        {
+         "label": "RMS चाल",
+         "formula": "v_rms = √(3RT/M)",
+         "english": "Root-mean-square speed of an ideal gas."
+        },
+        {
+         "label": "दाब",
+         "formula": "P = ⅓ρv_rms²",
+         "english": "Kinetic-theory pressure relation."
+        },
+        {
+         "label": "स्वतंत्रता की f डिग्री पर ऊर्जा",
+         "formula": "U = (f/2)nRT",
+         "english": "Internal energy of an ideal gas with f active degrees of freedom."
+        }
+       ]
+      },
+      {
+       "id": "sci-ch-41",
+       "name": "41. दोलन / Oscillations",
+       "items": [
+        {
+         "label": "सरल आवर्त गति",
+         "formula": "a = −ω²x",
+         "english": "Acceleration in simple harmonic motion."
+        },
+        {
+         "label": "विस्थापन",
+         "formula": "x = A cos(ωt + φ)",
+         "english": "SHM displacement equation."
+        },
+        {
+         "label": "आवर्तकाल",
+         "formula": "T = 2π/ω",
+         "english": "Time period."
+        },
+        {
+         "label": "स्प्रिंग-द्रव्यमान",
+         "formula": "T = 2π√(m/k)",
+         "english": "Time period of a mass-spring oscillator."
+        },
+        {
+         "label": "सरल लोलक",
+         "formula": "`T = 2π√(l/g)` (छोटे कोण के लिए)",
+         "english": "Simple pendulum period for small oscillations."
+        },
+        {
+         "label": "कुल ऊर्जा",
+         "formula": "E = ½kA²",
+         "english": "Total energy of an ideal spring SHM."
+        }
+       ]
+      },
+      {
+       "id": "sci-ch-42",
+       "name": "42. तरंगें / Waves",
+       "items": [
+        {
+         "formula": "v = fλ",
+         "english": "Wave speed = Frequency × Wavelength."
+        },
+        {
+         "label": "तरंग संख्या",
+         "formula": "k = 2π/λ",
+         "english": "Wave number."
+        },
+        {
+         "label": "कोणीय आवृत्ति",
+         "formula": "ω = 2πf",
+         "english": "Angular frequency."
+        },
+        {
+         "label": "तरंग समीकरण",
+         "formula": "y = A sin(kx − ωt + φ)",
+         "english": "Progressive sinusoidal wave."
+        },
+        {
+         "label": "तनी हुई डोरी पर चाल",
+         "formula": "v = √(T/μ)",
+         "english": "Wave speed on a stretched string."
+        },
+        {
+         "label": "खुले पाइप की मूल आवृत्ति",
+         "formula": "f₁ = v/(2L)",
+         "english": "Fundamental frequency of an open pipe."
+        },
+        {
+         "label": "बंद पाइप की मूल आवृत्ति",
+         "formula": "f₁ = v/(4L)",
+         "english": "Fundamental frequency of a pipe closed at one end."
+        }
+       ]
+      },
+      {
+       "id": "sci-ch-43",
+       "name": "43. स्थिर वैद्युतिकी / Electrostatics",
+       "items": [
+        {
+         "label": "कूलॉम नियम",
+         "formula": "F = (1/4πε₀)|q₁q₂|/r²",
+         "english": "Coulomb’s law in vacuum."
+        },
+        {
+         "label": "विद्युत क्षेत्र",
+         "formula": "E = F/q",
+         "english": "Electric field = Force per unit positive test charge."
+        },
+        {
+         "label": "बिंदु आवेश का क्षेत्र",
+         "formula": "E = (1/4πε₀)q/r²",
+         "english": "Electric field due to a point charge."
+        },
+        {
+         "label": "विभव",
+         "formula": "V = (1/4πε₀)q/r",
+         "english": "Electric potential due to a point charge."
+        },
+        {
+         "label": "विभव ऊर्जा",
+         "formula": "U = qV",
+         "english": "Electric potential energy."
+        },
+        {
+         "label": "धारिता",
+         "formula": "C = Q/V",
+         "english": "Capacitance = Charge / Potential difference."
+        },
+        {
+         "label": "समांतर प्लेट संधारित्र",
+         "formula": "`C = ε₀A/d` (निर्वात)",
+         "english": "Parallel-plate capacitance in vacuum."
+        },
+        {
+         "label": "संधारित्र ऊर्जा",
+         "formula": "U = ½CV² = Q²/(2C) = ½QV",
+         "english": "Energy stored in a capacitor."
+        },
+        {
+         "label": "श्रेणीक्रम",
+         "formula": "1/C_eq = Σ(1/Cᵢ)",
+         "english": "Equivalent capacitance in series."
+        },
+        {
+         "label": "समानांतर",
+         "formula": "C_eq = ΣCᵢ",
+         "english": "Equivalent capacitance in parallel."
+        }
+       ]
+      },
+      {
+       "id": "sci-ch-44",
+       "name": "44. धारा विद्युत / Current Electricity",
+       "items": [
+        {
+         "formula": "I = dQ/dt",
+         "english": "Current as the rate of flow of charge."
+        },
+        {
+         "formula": "V = IR",
+         "english": "Ohm’s law."
+        },
+        {
+         "formula": "R = ρL/A",
+         "english": "Resistance of a uniform wire."
+        },
+        {
+         "label": "चालकता",
+         "formula": "σ = 1/ρ",
+         "english": "Conductivity = Reciprocal of resistivity."
+        },
+        {
+         "label": "ड्रिफ्ट धारा",
+         "formula": "I = neAv_d",
+         "english": "Current in terms of charge-carrier density and drift speed."
+        },
+        {
+         "label": "शक्ति",
+         "formula": "P = VI = I²R = V²/R",
+         "english": "Electric power."
+        },
+        {
+         "label": "विद्युत ऊर्जा",
+         "formula": "E = VIt",
+         "english": "Electrical energy for constant voltage and current."
+        },
+        {
+         "label": "सेल का टर्मिनल वोल्टेज",
+         "formula": "`V = ε − Ir` (डिस्चार्ज)",
+         "english": "Terminal voltage of a discharging cell."
+        },
+        {
+         "label": "किर्चहॉफ जंक्शन नियम",
+         "formula": "ΣI_in = ΣI_out",
+         "english": "Total current entering a junction equals total current leaving it."
+        },
+        {
+         "label": "किर्चहॉफ लूप नियम",
+         "formula": "ΣΔV = 0",
+         "english": "Algebraic sum of potential changes around a closed loop is zero."
+        }
+       ]
+      },
+      {
+       "id": "sci-ch-45",
+       "name": "45. चुंबकत्व / Magnetism",
+       "items": [
+        {
+         "label": "लॉरेंट्ज बल",
+         "formula": "F = qvB sinθ",
+         "english": "Magnetic force on a moving charge."
+        },
+        {
+         "label": "चालक पर बल",
+         "formula": "F = BIL sinθ",
+         "english": "Force on a current-carrying conductor."
+        },
+        {
+         "label": "वृत्तीय पथ की त्रिज्या",
+         "formula": "r = mv/(|q|B)",
+         "english": "Radius of circular motion of a charged particle perpendicular to a uniform magnetic field."
+        },
+        {
+         "label": "लंबे सीधे तार का क्षेत्र",
+         "formula": "B = μ₀I/(2πr)",
+         "english": "Magnetic field around a long straight wire."
+        },
+        {
+         "label": "लंबे सोलनॉइड का क्षेत्र",
+         "formula": "B = μ₀nI",
+         "english": "Magnetic field inside an ideal long solenoid."
+        },
+        {
+         "label": "चुंबकीय फ्लक्स",
+         "formula": "ΦB = BA cosθ",
+         "english": "Magnetic flux through a uniform field area."
+        }
+       ]
+      },
+      {
+       "id": "sci-ch-46",
+       "name": "46. विद्युत चुंबकीय प्रेरण और AC / EMI and Alternating Current",
+       "items": [
+        {
+         "label": "फैराडे नियम",
+         "formula": "ε = −N(dΦB/dt)",
+         "english": "Faraday’s law of electromagnetic induction."
+        },
+        {
+         "label": "गतिज EMF",
+         "formula": "`ε = Blv` (परस्पर लंबवत स्थितियों में)",
+         "english": "Motional emf for a rod moving perpendicular to the field and its length."
+        },
+        {
+         "label": "प्रेरक प्रतिघात",
+         "formula": "X_L = ωL",
+         "english": "Inductive reactance."
+        },
+        {
+         "label": "धारिता प्रतिघात",
+         "formula": "X_C = 1/(ωC)",
+         "english": "Capacitive reactance."
+        },
+        {
+         "label": "RMS वोल्टेज",
+         "formula": "V_rms = V₀/√2",
+         "english": "RMS voltage for a sinusoidal waveform."
+        },
+        {
+         "label": "RMS धारा",
+         "formula": "I_rms = I₀/√2",
+         "english": "RMS current for a sinusoidal waveform."
+        },
+        {
+         "label": "प्रतिबाधा (series RLC)",
+         "formula": "Z = √[R² + (X_L − X_C)²]",
+         "english": "Impedance of a series RLC circuit."
+        },
+        {
+         "label": "अनुनाद कोणीय आवृत्ति",
+         "formula": "ω₀ = 1/√(LC)",
+         "english": "Resonant angular frequency of an ideal series RLC circuit."
+        },
+        {
+         "label": "औसत शक्ति",
+         "formula": "P_avg = V_rms I_rms cosφ",
+         "english": "Average AC power."
+        }
+       ]
+      },
+      {
+       "id": "sci-ch-47",
+       "name": "47. विद्युत चुंबकीय तरंगें / Electromagnetic Waves",
+       "items": [
+        {
+         "label": "निर्वात में",
+         "formula": "c = 1/√(μ₀ε₀)",
+         "english": "Speed of electromagnetic waves in vacuum."
+        },
+        {
+         "label": "तरंग संबंध",
+         "formula": "c = fλ",
+         "english": "Speed = Frequency × Wavelength."
+        },
+        {
+         "label": "विद्युत और चुंबकीय क्षेत्र",
+         "formula": "E₀ = cB₀",
+         "english": "Field-amplitude relation for a plane electromagnetic wave in vacuum."
+        }
+       ]
+      },
+      {
+       "id": "sci-ch-48",
+       "name": "48. किरण और तरंग प्रकाशिकी / Ray and Wave Optics",
+       "items": [
+        {
+         "label": "स्नेल नियम",
+         "formula": "n₁sin i = n₂sin r",
+         "english": "Snell’s law of refraction."
+        },
+        {
+         "label": "लेंस सूत्र",
+         "formula": "1/f = 1/v − 1/u",
+         "english": "Thin lens formula using Cartesian sign convention."
+        },
+        {
+         "label": "दर्पण सूत्र",
+         "formula": "1/f = 1/v + 1/u",
+         "english": "Spherical mirror formula using Cartesian sign convention."
+        },
+        {
+         "label": "लेंस क्षमता",
+         "formula": "`P = 1/f` (मीटर में)",
+         "english": "Lens power in dioptres."
+        },
+        {
+         "label": "दो पतले संपर्क लेंस",
+         "formula": "1/F = 1/f₁ + 1/f₂",
+         "english": "Equivalent focal length of thin lenses in contact."
+        },
+        {
+         "label": "यंग द्वि-छिद्र फ्रिंज चौड़ाई",
+         "formula": "β = λD/d",
+         "english": "Fringe width in Young’s double-slit experiment."
+        },
+        {
+         "label": "एकल-छिद्र न्यूनतम",
+         "formula": "a sinθ = mλ",
+         "english": "Single-slit diffraction minima (m = 1, 2, 3...)."
+        },
+        {
+         "label": "मालुस नियम",
+         "formula": "I = I₀cos²θ",
+         "english": "Malus’s law for polarized light."
+        }
+       ]
+      },
+      {
+       "id": "sci-ch-49",
+       "name": "49. विकिरण और पदार्थ की द्वैत प्रकृति / Dual Nature",
+       "items": [
+        {
+         "label": "फोटॉन ऊर्जा",
+         "formula": "E = hf = hc/λ",
+         "english": "Photon energy."
+        },
+        {
+         "label": "फोटॉन संवेग",
+         "formula": "p = h/λ = E/c",
+         "english": "Photon momentum."
+        },
+        {
+         "label": "डी-ब्रॉग्ली तरंगदैर्ध्य",
+         "formula": "`λ = h/p = h/mv` (अ-आपेक्षिक)",
+         "english": "de Broglie wavelength."
+        },
+        {
+         "label": "आइंस्टीन प्रकाश-विद्युत समीकरण",
+         "formula": "hf = φ + K_max",
+         "english": "Einstein’s photoelectric equation."
+        },
+        {
+         "label": "निरोधी विभव",
+         "formula": "eV₀ = K_max",
+         "english": "Stopping potential relation."
+        }
+       ]
+      },
+      {
+       "id": "sci-ch-50",
+       "name": "50. परमाणु और नाभिक / Atoms and Nuclei",
+       "items": [
+        {
+         "label": "बोहर कक्षा त्रिज्या (हाइड्रोजन-जैसे आयन)",
+         "formula": "rₙ = a₀n²/Z",
+         "english": "Bohr orbit radius for a hydrogen-like ion."
+        },
+        {
+         "label": "ऊर्जा स्तर",
+         "formula": "Eₙ = −13.6 Z²/n² eV",
+         "english": "Bohr energy level for a hydrogen-like ion."
+        },
+        {
+         "label": "फोटॉन ऊर्जा",
+         "formula": "ΔE = hf",
+         "english": "Photon energy equals energy-level difference."
+        },
+        {
+         "label": "द्रव्यमान-ऊर्जा",
+         "formula": "E = mc²",
+         "english": "Mass-energy equivalence."
+        },
+        {
+         "label": "द्रव्यमान दोष",
+         "formula": "Δm = Zm_p + (A−Z)m_n − M_nucleus",
+         "english": "Mass defect."
+        },
+        {
+         "label": "बंधन ऊर्जा",
+         "formula": "BE = Δmc²",
+         "english": "Nuclear binding energy."
+        },
+        {
+         "label": "रेडियोधर्मी क्षय",
+         "formula": "N = N₀e^(−λt)",
+         "english": "Radioactive decay law."
+        },
+        {
+         "label": "अर्ध-आयु",
+         "formula": "T₁/₂ = 0.693/λ",
+         "english": "Half-life."
+        },
+        {
+         "label": "गतिविधि",
+         "formula": "A = λN",
+         "english": "Radioactive activity."
+        }
+       ]
+      },
+      {
+       "id": "sci-ch-51",
+       "name": "51. अर्धचालक / Semiconductor Electronics",
+       "items": [
+        {
+         "label": "चालकता (सरल मॉडल)",
+         "formula": "σ = neμₑ + peμₕ",
+         "english": "Semiconductor conductivity from electron and hole contributions."
+        },
+        {
+         "text": "डायोड का आदर्श व्यवहार: अग्र अभिनति में धारा प्रवाहित, उत्क्रम अभिनति में बहुत कम धारा।",
+         "english": "An ideal diode conducts in forward bias and blocks in reverse bias."
+        },
+        {
+         "label": "ट्रांजिस्टर धारा",
+         "formula": "I_E = I_B + I_C",
+         "english": "Emitter current = Base current + Collector current."
+        },
+        {
+         "label": "धारा लाभ",
+         "formula": "β = I_C/I_B",
+         "english": "Common-emitter current gain."
+        },
+        {
+         "formula": "α = I_C/I_E",
+         "english": "Common-base current gain."
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "sci-part-4-b",
+     "name": "रसायन विज्ञान / CHEMISTRY",
+     "chapters": [
+      {
+       "id": "sci-ch-52",
+       "name": "52. मोल अवधारणा और स्टॉइकियोमेट्री / Mole Concept and Stoichiometry",
+       "items": [
+        {
+         "formula": "n = m/M",
+         "english": "Moles = Mass / Molar mass."
+        },
+        {
+         "formula": "N = nNₐ",
+         "english": "Number of entities = Moles × Avogadro constant."
+        },
+        {
+         "label": "गैस का आदर्श समीकरण",
+         "formula": "PV = nRT",
+         "english": "Ideal gas equation."
+        },
+        {
+         "label": "मोलर आयतन (STP की परिभाषा पर निर्भर)",
+         "formula": "V_m = V/n",
+         "english": "Molar volume = Gas volume / Moles."
+        },
+        {
+         "text": "सीमित अभिकारक: संतुलित समीकरण के मोल अनुपात से तय किया जाता है।",
+         "english": "Limiting reagent is identified using stoichiometric mole ratios."
+        },
+        {
+         "label": "प्रतिशत उपज",
+         "formula": "% yield = (वास्तविक उपज ÷ सैद्धांतिक उपज) × 100",
+         "english": "Percentage yield."
+        },
+        {
+         "label": "परमाणु अर्थव्यवस्था",
+         "formula": "% atom economy = (वांछित उत्पाद का मोलर द्रव्यमान × गुणांक ÷ अभिकारकों के कुल मोलर द्रव्यमान का गुणांकित योग) × 100",
+         "english": "Atom economy."
+        }
+       ]
+      },
+      {
+       "id": "sci-ch-53",
+       "name": "53. गैसों के नियम / Gas Laws",
+       "items": [
+        {
+         "label": "बॉयल नियम",
+         "formula": "`P₁V₁ = P₂V₂` (T स्थिर)",
+         "english": "Boyle’s law."
+        },
+        {
+         "label": "चार्ल्स नियम",
+         "formula": "`V₁/T₁ = V₂/T₂` (P स्थिर; T Kelvin में)",
+         "english": "Charles’s law."
+        },
+        {
+         "label": "गे-लुसाक नियम",
+         "formula": "`P₁/T₁ = P₂/T₂` (V स्थिर)",
+         "english": "Gay-Lussac’s pressure law."
+        },
+        {
+         "label": "अवोगाद्रो नियम",
+         "formula": "`V₁/n₁ = V₂/n₂` (T, P स्थिर)",
+         "english": "Avogadro’s law."
+        },
+        {
+         "label": "संयुक्त गैस नियम",
+         "formula": "P₁V₁/T₁ = P₂V₂/T₂",
+         "english": "Combined gas law for fixed amount of gas."
+        },
+        {
+         "label": "डाल्टन आंशिक दाब",
+         "formula": "P_total = ΣPᵢ",
+         "english": "Dalton’s law of partial pressures."
+        },
+        {
+         "label": "गैस का आंशिक दाब",
+         "formula": "Pᵢ = XᵢP_total",
+         "english": "Partial pressure = Mole fraction × Total pressure."
+        },
+        {
+         "label": "ग्राहम नियम",
+         "formula": "r₁/r₂ = √(M₂/M₁)",
+         "english": "Ratio of effusion rates."
+        }
+       ]
+      },
+      {
+       "id": "sci-ch-54",
+       "name": "54. ऊष्मागतिकी / Chemical Thermodynamics",
+       "items": [
+        {
+         "label": "प्रथम नियम",
+         "formula": "`ΔU = q + w` (रसायन विज्ञान sign convention; system पर किया गया work = +)",
+         "english": "First law of thermodynamics in the chemistry sign convention."
+        },
+        {
+         "label": "स्थिर दाब पर",
+         "formula": "qₚ = ΔH",
+         "english": "Heat at constant pressure equals enthalpy change."
+        },
+        {
+         "label": "स्थिर आयतन पर",
+         "formula": "qᵥ = ΔU",
+         "english": "Heat at constant volume equals internal-energy change."
+        },
+        {
+         "label": "एन्थैल्पी",
+         "formula": "H = U + PV",
+         "english": "Enthalpy definition."
+        },
+        {
+         "formula": "`ΔH = ΔU + Δn_gRT` (आदर्श गैस अभिक्रिया के लिए)",
+         "english": "Relation between enthalpy and internal-energy changes."
+        },
+        {
+         "label": "गिब्स ऊर्जा",
+         "formula": "ΔG = ΔH − TΔS",
+         "english": "Gibbs free-energy change at constant temperature."
+        },
+        {
+         "label": "मानक गिब्स ऊर्जा",
+         "formula": "ΔG° = −RT ln K",
+         "english": "Standard Gibbs energy and equilibrium constant."
+        },
+        {
+         "label": "हेस नियम",
+         "formula": "ΔH_total = ΣΔH_steps",
+         "english": "Enthalpy change is independent of pathway."
+        }
+       ]
+      },
+      {
+       "id": "sci-ch-55",
+       "name": "55. रासायनिक साम्य / Chemical Equilibrium",
+       "items": [
+        {
+         "label": "सामान्य अभिक्रिया",
+         "formula": "`aA+bB ⇌ cC+dD`: `Kc = [C]^c[D]^d/[A]^a[B]^b`",
+         "english": "Equilibrium constant in concentration terms."
+        },
+        {
+         "formula": "Kp = Kc(RT)^Δn_g",
+         "english": "Relation between Kp and Kc for gaseous equilibria."
+        },
+        {
+         "text": "अभिक्रिया भागफल Q का रूप K जैसा होता है; Q की तुलना K से दिशा बताती है।",
+         "english": "Reaction quotient Q has the same form as K; comparing Q with K predicts direction."
+        },
+        {
+         "formula": "pH = −log[H⁺]",
+         "english": "pH definition."
+        },
+        {
+         "formula": "K_w = [H⁺][OH⁻]",
+         "english": "Ionic product of water."
+        },
+        {
+         "label": "संयुग्मी अम्ल-क्षार",
+         "formula": "K_a × K_b = K_w",
+         "english": "For a conjugate acid-base pair at the same temperature."
+        },
+        {
+         "label": "बफर (Henderson–Hasselbalch)",
+         "formula": "pH = pK_a + log([A⁻]/[HA])",
+         "english": "Henderson–Hasselbalch equation for an acidic buffer."
+        }
+       ]
+      },
+      {
+       "id": "sci-ch-56",
+       "name": "56. आयनिक साम्य / Ionic Equilibrium",
+       "items": [
+        {
+         "label": "अम्ल आयनीकरण",
+         "formula": "K_a = [H⁺][A⁻]/[HA]",
+         "english": "Acid dissociation constant for HA."
+        },
+        {
+         "label": "क्षार आयनीकरण",
+         "formula": "K_b = [BH⁺][OH⁻]/[B]",
+         "english": "Base dissociation constant."
+        },
+        {
+         "formula": "`pK_a = −log K_a`, `pK_b = −log K_b`",
+         "english": "Negative logarithms of dissociation constants."
+        },
+        {
+         "label": "कमजोर एक-क्षारीय अम्ल के लिए (कम आयनीकरण)",
+         "formula": "[H⁺] ≈ √(K_a C)",
+         "english": "Approximate hydrogen-ion concentration for a weak monoprotic acid."
+        },
+        {
+         "label": "विलेयता गुणनफल",
+         "formula": "K_sp = [ions]^stoichiometric powers",
+         "english": "Solubility product, with ion concentrations raised to stoichiometric powers."
+        }
+       ]
+      },
+      {
+       "id": "sci-ch-57",
+       "name": "57. रेडॉक्स और विद्युत रसायन / Redox and Electrochemistry",
+       "items": [
+        {
+         "label": "फैराडे नियम",
+         "formula": "m = (MIt)/(zF)",
+         "english": "Mass deposited or liberated during electrolysis."
+        },
+        {
+         "label": "सेल EMF",
+         "formula": "E_cell = E_cathode − E_anode",
+         "english": "Cell potential from reduction potentials."
+        },
+        {
+         "label": "नर्न्स्ट समीकरण (25°C)",
+         "formula": "E = E° − (0.0591/n)log Q",
+         "english": "Nernst equation at 298 K."
+        },
+        {
+         "label": "गिब्स ऊर्जा",
+         "formula": "ΔG = −nFE_cell",
+         "english": "Gibbs energy and cell potential."
+        },
+        {
+         "label": "मानक दशा",
+         "formula": "ΔG° = −nFE°_cell",
+         "english": "Standard Gibbs energy and standard cell potential."
+        }
+       ]
+      },
+      {
+       "id": "sci-ch-58",
+       "name": "58. रासायनिक गतिकी / Chemical Kinetics",
+       "items": [
+        {
+         "label": "औसत अभिक्रिया दर",
+         "formula": "`Rate = −Δ[R]/Δt = Δ[P]/Δt` (गुणांकों के अनुसार सामान्यीकृत रूप में)",
+         "english": "Average rate of reaction; divide by stoichiometric coefficients for normalized rate."
+        },
+        {
+         "label": "शून्य क्रम",
+         "formula": "[A]ₜ = [A]₀ − kt",
+         "english": "Integrated zero-order rate law."
+        },
+        {
+         "label": "प्रथम क्रम",
+         "formula": "ln([A]₀/[A]ₜ) = kt",
+         "english": "Integrated first-order rate law."
+        },
+        {
+         "label": "प्रथम क्रम अर्ध-आयु",
+         "formula": "t₁/₂ = 0.693/k",
+         "english": "Half-life of a first-order reaction."
+        },
+        {
+         "label": "शून्य क्रम अर्ध-आयु",
+         "formula": "t₁/₂ = [A]₀/(2k)",
+         "english": "Half-life of a zero-order reaction."
+        },
+        {
+         "label": "आरेनियस समीकरण",
+         "formula": "k = Ae^(−Eₐ/RT)",
+         "english": "Arrhenius equation."
+        },
+        {
+         "label": "दो तापों पर",
+         "formula": "ln(k₂/k₁) = (Eₐ/R)(1/T₁ − 1/T₂)",
+         "english": "Two-temperature Arrhenius relation."
+        }
+       ]
+      },
+      {
+       "id": "sci-ch-59",
+       "name": "59. विलयन के अणुसंख्यक गुण / Colligative Properties",
+       "items": [
+        {
+         "label": "राउल्ट नियम",
+         "formula": "P_A = X_A P_A°",
+         "english": "Partial vapour pressure of an ideal solution component."
+        },
+        {
+         "label": "सापेक्ष वाष्प-दाब अवनमन",
+         "formula": "`(P°−P)/P° = X_solute` (तनु आदर्श विलयन)",
+         "english": "Relative lowering of vapour pressure."
+        },
+        {
+         "label": "क्वथनांक उन्नयन",
+         "formula": "ΔT_b = iK_b m",
+         "english": "Elevation in boiling point."
+        },
+        {
+         "label": "हिमांक अवनमन",
+         "formula": "ΔT_f = iK_f m",
+         "english": "Depression in freezing point."
+        },
+        {
+         "label": "परासरण दाब",
+         "formula": "π = iCRT",
+         "english": "Osmotic pressure of a dilute solution."
+        },
+        {
+         "label": "वैन्ट हॉफ गुणांक",
+         "formula": "i = observed colligative effect / calculated effect",
+         "english": "van ’t Hoff factor."
+        }
+       ]
+      },
+      {
+       "id": "sci-ch-60",
+       "name": "60. ठोस अवस्था / Solid State",
+       "items": [
+        {
+         "label": "घनत्व",
+         "formula": "ρ = ZM/(a³Nₐ)",
+         "english": "Density of a cubic unit cell."
+        },
+        {
+         "label": "सरल घन",
+         "formula": "`Z = 1`; अंतःकेंद्रित घन: `Z = 2`; फलक-केंद्रित घन: `Z = 4`",
+         "english": "Atoms per unit cell for simple cubic, body-centred cubic and face-centred cubic lattices."
+        },
+        {
+         "label": "Bragg नियम",
+         "formula": "nλ = 2d sinθ",
+         "english": "Bragg’s law of X-ray diffraction."
+        }
+       ]
+      },
+      {
+       "id": "sci-ch-61",
+       "name": "61. रासायनिक बंध और आणविक संरचना / Chemical Bonding",
+       "items": [
+        {
+         "label": "औपचारिक आवेश",
+         "formula": "FC = V − N − B/2",
+         "english": "Formal charge."
+        },
+        {
+         "label": "बंध क्रम",
+         "formula": "BO = (N_b − N_a)/2",
+         "english": "Molecular orbital bond order."
+        },
+        {
+         "label": "द्विध्रुव आघूर्ण",
+         "formula": "μ = q × r",
+         "english": "Dipole moment for separated charges."
+        },
+        {
+         "text": "संकरण और बंध कोण का संबंध निश्चित ज्यामिति से समझा जाता है; सभी अणुओं के लिए एक ही कोण-सूत्र नहीं है।",
+         "english": "Hybridisation predicts idealised geometry; there is no single bond-angle formula for all molecules."
+        }
+       ]
+      },
+      {
+       "id": "sci-ch-62",
+       "name": "62. कार्बनिक रसायन / Organic Chemistry",
+       "items": [
+        {
+         "label": "असंतृप्ति की डिग्री (DBE/IHD)",
+         "formula": "DBE = (2C + 2 + N − H − X)/2",
+         "english": "Degree of unsaturation; X represents halogens, oxygen and sulfur are omitted."
+        },
+        {
+         "label": "सामान्य खुली शृंखला संतृप्त ऐल्केन",
+         "formula": "CₙH₂ₙ₊₂",
+         "english": "General formula of acyclic alkanes."
+        },
+        {
+         "label": "एक द्विबंध वाले खुली शृंखला ऐल्कीन",
+         "formula": "CₙH₂ₙ",
+         "english": "General formula of acyclic monoalkenes."
+        },
+        {
+         "label": "एक त्रिबंध वाले खुली शृंखला ऐल्काइन",
+         "formula": "CₙH₂ₙ₋₂",
+         "english": "General formula of acyclic monoalkynes."
+        },
+        {
+         "label": "एकलचक्रीय संतृप्त साइक्लोऐल्केन",
+         "formula": "CₙH₂ₙ",
+         "english": "General formula of monocyclic saturated cycloalkanes."
+        },
+        {
+         "label": "एस्टरीकरण",
+         "formula": "कार्बोक्सिलिक अम्ल + ऐल्कोहॉल ⇌ एस्टर + जल",
+         "english": "Carboxylic acid + Alcohol ⇌ Ester + Water."
+        },
+        {
+         "label": "साबुनीकरण",
+         "formula": "एस्टर + क्षार → कार्बोक्सिलेट लवण + ऐल्कोहॉल",
+         "english": "Ester + Base → Carboxylate salt + Alcohol."
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "sci-part-4-c",
+     "name": "जीव विज्ञान / BIOLOGY",
+     "chapters": [
+      {
+       "id": "sci-ch-63",
+       "name": "63. कोशिका और जैव-अणु / Cell and Biomolecules",
+       "items": [
+        {
+         "label": "कोशिका का आवर्धन",
+         "formula": "Magnification = Image size / Actual size",
+         "english": "Magnification = Image size / Actual size."
+        },
+        {
+         "label": "वास्तविक आकार",
+         "formula": "Actual size = Image size / Magnification",
+         "english": "Actual size = Image size / Magnification."
+        },
+        {
+         "label": "सतह-क्षेत्रफल/आयतन अनुपात",
+         "formula": "SA:V = Surface area / Volume",
+         "english": "Surface-area-to-volume ratio."
+        },
+        {
+         "label": "कोशिका विभाजन का समय",
+         "formula": "कुल समय = सभी चरणों की अवधि का योग",
+         "english": "Total cell-cycle time = Sum of phase durations."
+        }
+       ]
+      },
+      {
+       "id": "sci-ch-64",
+       "name": "64. आनुवंशिकी / Genetics",
+       "items": [
+        {
+         "label": "संकरण में संतति अनुपात",
+         "formula": "अनुपात = संबंधित genotype/phenotype की संख्या का अनुपात",
+         "english": "Offspring ratio = Ratio of counts of specified genotypes or phenotypes."
+        },
+        {
+         "label": "एकल संकर में पूर्ण प्रभाविता का सामान्य F₂ लक्षण प्रारूप",
+         "formula": "3 : 1",
+         "english": "Typical F₂ phenotypic ratio in a monohybrid cross with complete dominance."
+        },
+        {
+         "label": "एकल संकर F₂ जीन प्रारूप",
+         "formula": "1 : 2 : 1",
+         "english": "Typical F₂ genotypic ratio in a monohybrid cross."
+        },
+        {
+         "label": "द्विसंकर F₂ लक्षण प्रारूप",
+         "formula": "`9 : 3 : 3 : 1` (स्वतंत्र वर्गीकरण और पूर्ण प्रभाविता की शर्त पर)",
+         "english": "Typical dihybrid F₂ phenotypic ratio under independent assortment and complete dominance."
+        },
+        {
+         "label": "पुनर्संयोजन आवृत्ति",
+         "formula": "RF = (पुनर्संयोजक संतति ÷ कुल संतति) × 100%",
+         "english": "Recombination frequency."
+        },
+        {
+         "label": "हार्डी–वाइनबर्ग",
+         "formula": "`p + q = 1`; `p² + 2pq + q² = 1`",
+         "english": "Hardy–Weinberg equilibrium for two alleles."
+        }
+       ]
+      },
+      {
+       "id": "sci-ch-65",
+       "name": "65. जनसंख्या और पारिस्थितिकी / Population and Ecology",
+       "items": [
+        {
+         "label": "जनसंख्या घनत्व",
+         "formula": "D = N/Area",
+         "english": "Population density = Number of individuals / Area."
+        },
+        {
+         "label": "जन्म दर",
+         "formula": "Birth rate = जन्मों की संख्या ÷ कुल जनसंख्या ÷ समय",
+         "english": "Birth rate = Births / Population / Time."
+        },
+        {
+         "label": "मृत्यु दर",
+         "formula": "Death rate = deaths ÷ population ÷ time",
+         "english": "Death rate = Deaths / Population / Time."
+        },
+        {
+         "label": "जनसंख्या परिवर्तन",
+         "formula": "ΔN = (जन्म + आप्रवासन) − (मृत्यु + उत्प्रवासन)",
+         "english": "Population change = (Births + Immigration) − (Deaths + Emigration)."
+        },
+        {
+         "label": "घातीय वृद्धि",
+         "formula": "Nₜ = N₀e^(rt)",
+         "english": "Exponential population growth."
+        },
+        {
+         "label": "लॉजिस्टिक वृद्धि",
+         "formula": "dN/dt = rN(1 − N/K)",
+         "english": "Logistic population growth with carrying capacity K."
+        },
+        {
+         "label": "प्राथमिक उत्पादकता",
+         "formula": "NPP = GPP − R",
+         "english": "Net primary productivity = Gross primary productivity − Respiration."
+        },
+        {
+         "label": "दस प्रतिशत नियम",
+         "formula": "अगले पोषण स्तर की ऊर्जा ≈ पिछले स्तर की ऊर्जा का 10%",
+         "english": "Approximate ten-percent energy transfer rule; actual efficiency varies."
+        }
+       ]
+      },
+      {
+       "id": "sci-ch-66",
+       "name": "66. मानव शरीर क्रिया विज्ञान / Human Physiology",
+       "items": [
+        {
+         "label": "हृदय आउटपुट",
+         "formula": "CO = Heart rate × Stroke volume",
+         "english": "Cardiac output = Heart rate × Stroke volume."
+        },
+        {
+         "label": "BMI (केवल वयस्कों के लिए सामान्य संदर्भ)",
+         "formula": "BMI = mass(kg)/height(m)²",
+         "english": "Body mass index = Mass / Height squared. For children and teens, interpretation requires age- and sex-specific growth charts."
+        },
+        {
+         "label": "श्वसन गुणांक",
+         "formula": "RQ = CO₂ produced / O₂ consumed",
+         "english": "Respiratory quotient."
+        },
+        {
+         "label": "निस्यंदन दर का मूल विचार",
+         "formula": "GFR = समय प्रति इकाई में निस्यंदित द्रव का आयतन",
+         "english": "Glomerular filtration rate = Volume filtered per unit time."
+        }
+       ]
+      },
+      {
+       "id": "sci-ch-67",
+       "name": "67. प्रकाश संश्लेषण और श्वसन / Photosynthesis and Respiration",
+       "items": [
+        {
+         "label": "प्रकाश संश्लेषण का संतुलित समीकरण",
+         "formula": "6CO₂ + 6H₂O + प्रकाश ऊर्जा → C₆H₁₂O₆ + 6O₂",
+         "english": "Overall simplified photosynthesis equation."
+        },
+        {
+         "label": "वायवीय श्वसन",
+         "formula": "C₆H₁₂O₆ + 6O₂ → 6CO₂ + 6H₂O + ऊर्जा (ATP)",
+         "english": "Overall aerobic respiration equation."
+        },
+        {
+         "label": "श्वसन गुणांक",
+         "formula": "RQ = CO₂ निकला ÷ O₂ लिया",
+         "english": "Respiratory quotient."
+        }
+       ]
+      },
+      {
+       "id": "sci-ch-68",
+       "name": "68. जैव-प्रौद्योगिकी / Biotechnology",
+       "items": [
+        {
+         "label": "PCR में गुणन (आदर्श, 100% दक्षता)",
+         "formula": "N = N₀ × 2ⁿ",
+         "english": "Ideal DNA amplification after n PCR cycles."
+        },
+        {
+         "label": "विलयन सांद्रता",
+         "formula": "C = n/V",
+         "english": "Molar concentration = Moles / Volume."
+        },
+        {
+         "label": "एंजाइम दर",
+         "formula": "v = Vmax[S]/(Km + [S])",
+         "english": "Michaelis–Menten equation for a simple enzyme model."
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "sci-part-5",
+   "name": "कॉलेज स्तर / COLLEGE LEVEL",
+   "groups": [
+    {
+     "id": "sci-part-5-a",
+     "name": "उन्नत भौतिकी / ADVANCED PHYSICS",
+     "chapters": [
+      {
+       "id": "sci-ch-69",
+       "name": "69. गणितीय भौतिकी / Mathematical Physics",
+       "items": [
+        {
+         "label": "अवकलज",
+         "formula": "dy/dx = lim(Δx→0) [Δy/Δx]",
+         "english": "Derivative as the limiting rate of change."
+        },
+        {
+         "label": "समाकलन",
+         "formula": "∫f(x)dx",
+         "english": "Indefinite integral / accumulated quantity."
+        },
+        {
+         "label": "ढाल",
+         "formula": "slope = Δy/Δx",
+         "english": "Slope of a straight line."
+        },
+        {
+         "label": "ग्रेडिएंट",
+         "formula": "∇φ = (∂φ/∂x)i + (∂φ/∂y)j + (∂φ/∂z)k",
+         "english": "Gradient of a scalar field."
+        },
+        {
+         "label": "डाइवर्जेन्स",
+         "formula": "∇·A = ∂Aₓ/∂x + ∂Aᵧ/∂y + ∂A_z/∂z",
+         "english": "Divergence of a vector field."
+        },
+        {
+         "label": "कर्ल",
+         "formula": "∇×A",
+         "english": "Curl of a vector field."
+        },
+        {
+         "label": "लाप्लासियन",
+         "formula": "∇²φ = ∂²φ/∂x² + ∂²φ/∂y² + ∂²φ/∂z²",
+         "english": "Laplacian of a scalar field."
+        }
+       ]
+      },
+      {
+       "id": "sci-ch-70",
+       "name": "70. लैग्रांजियन और हैमिल्टोनियन यांत्रिकी / Lagrangian and Hamiltonian Mechanics",
+       "items": [
+        {
+         "label": "लैग्रांजियन",
+         "formula": "L = T − V",
+         "english": "Lagrangian = Kinetic energy − Potential energy."
+        },
+        {
+         "label": "Euler–Lagrange समीकरण",
+         "formula": "d/dt(∂L/∂q̇ᵢ) − ∂L/∂qᵢ = 0",
+         "english": "Euler–Lagrange equation."
+        },
+        {
+         "label": "सामान्य संवेग",
+         "formula": "pᵢ = ∂L/∂q̇ᵢ",
+         "english": "Generalised momentum."
+        },
+        {
+         "label": "हैमिल्टोनियन",
+         "formula": "H = Σpᵢq̇ᵢ − L",
+         "english": "Hamiltonian function."
+        },
+        {
+         "label": "हैमिल्टन समीकरण",
+         "formula": "`q̇ᵢ = ∂H/∂pᵢ`, `ṗᵢ = −∂H/∂qᵢ`",
+         "english": "Hamilton’s canonical equations."
+        }
+       ]
+      },
+      {
+       "id": "sci-ch-71",
+       "name": "71. द्रव यांत्रिकी / Fluid Mechanics",
+       "items": [
+        {
+         "label": "निरंतरता",
+         "formula": "ρAv = constant",
+         "english": "Continuity equation for steady flow in a stream tube."
+        },
+        {
+         "label": "Navier–Stokes (Newtonian incompressible fluid)",
+         "formula": "ρ(∂v/∂t + v·∇v) = −∇p + μ∇²v + ρg",
+         "english": "Incompressible Newtonian Navier–Stokes equation."
+        },
+        {
+         "label": "Reynolds संख्या",
+         "formula": "Re = ρvL/μ",
+         "english": "Reynolds number."
+        },
+        {
+         "label": "Poiseuille प्रवाह",
+         "formula": "Q = πr⁴ΔP/(8μL)",
+         "english": "Volume flow rate through a long cylindrical tube under laminar flow."
+        },
+        {
+         "label": "Bernoulli",
+         "formula": "P + ½ρv² + ρgh = constant",
+         "english": "Bernoulli equation for ideal steady flow."
+        }
+       ]
+      },
+      {
+       "id": "sci-ch-72",
+       "name": "72. विद्युत चुंबकत्व / Electromagnetism",
+       "items": [
+        {
+         "label": "गाउस विद्युत नियम",
+         "formula": "∮E·dA = Q_enclosed/ε₀",
+         "english": "Gauss’s law for electricity."
+        },
+        {
+         "label": "गाउस चुंबकीय नियम",
+         "formula": "∮B·dA = 0",
+         "english": "Gauss’s law for magnetism."
+        },
+        {
+         "label": "फैराडे नियम",
+         "formula": "∮E·dl = −dΦB/dt",
+         "english": "Faraday’s law in integral form."
+        },
+        {
+         "label": "Ampere–Maxwell नियम",
+         "formula": "∮B·dl = μ₀I_enclosed + μ₀ε₀(dΦE/dt)",
+         "english": "Ampere–Maxwell law in vacuum."
+        },
+        {
+         "label": "विस्थापन धारा",
+         "formula": "I_d = ε₀ dΦE/dt",
+         "english": "Displacement current."
+        },
+        {
+         "label": "Poynting सदिश",
+         "formula": "S = (1/μ₀)(E×B)",
+         "english": "Electromagnetic energy-flux density in vacuum."
+        }
+       ]
+      },
+      {
+       "id": "sci-ch-73",
+       "name": "73. क्वांटम यांत्रिकी / Quantum Mechanics",
+       "items": [
+        {
+         "label": "डी-ब्रॉग्ली",
+         "formula": "λ = h/p",
+         "english": "de Broglie wavelength."
+        },
+        {
+         "label": "ऊर्जा-कंपन",
+         "formula": "E = hf = ħω",
+         "english": "Photon or quantum energy."
+        },
+        {
+         "label": "अनिश्चितता सिद्धांत",
+         "formula": "ΔxΔp ≥ ħ/2",
+         "english": "Heisenberg position-momentum uncertainty relation."
+        },
+        {
+         "label": "समय-स्वतंत्र Schrödinger समीकरण",
+         "formula": "−(ħ²/2m)∇²ψ + Vψ = Eψ",
+         "english": "Time-independent Schrödinger equation."
+        },
+        {
+         "label": "Born नियम",
+         "formula": "Probability density = |ψ|²",
+         "english": "Born probability density."
+        },
+        {
+         "label": "सामान्यीकरण",
+         "formula": "∫|ψ|²dτ = 1",
+         "english": "Normalisation condition for a wavefunction."
+        },
+        {
+         "label": "कम्यूटेटर",
+         "formula": "[x,p] = iħ",
+         "english": "Position-momentum commutation relation."
+        }
+       ]
+      },
+      {
+       "id": "sci-ch-74",
+       "name": "74. सापेक्षता / Relativity",
+       "items": [
+        {
+         "label": "Lorentz factor",
+         "formula": "γ = 1/√(1 − v²/c²)",
+         "english": "Lorentz factor."
+        },
+        {
+         "label": "समय प्रसारण",
+         "formula": "Δt = γΔt₀",
+         "english": "Time dilation."
+        },
+        {
+         "label": "लंबाई संकुचन",
+         "formula": "L = L₀/γ",
+         "english": "Length contraction along the direction of motion."
+        },
+        {
+         "label": "ऊर्जा-संवेग संबंध",
+         "formula": "E² = (pc)² + (mc²)²",
+         "english": "Relativistic energy-momentum relation."
+        },
+        {
+         "label": "द्रव्यमान-ऊर्जा",
+         "formula": "`E = mc²` (विश्राम ऊर्जा)",
+         "english": "Rest energy."
+        }
+       ]
+      },
+      {
+       "id": "sci-ch-75",
+       "name": "75. सांख्यिकीय यांत्रिकी / Statistical Mechanics",
+       "items": [
+        {
+         "label": "Boltzmann वितरण",
+         "formula": "Pᵢ ∝ e^(−Eᵢ/kBT)",
+         "english": "Boltzmann probability weight."
+        },
+        {
+         "label": "partition function",
+         "formula": "Z = Σᵢ e^(−Eᵢ/kBT)",
+         "english": "Canonical partition function for discrete states."
+        },
+        {
+         "label": "Helmholtz ऊर्जा",
+         "formula": "F = −kBT ln Z",
+         "english": "Helmholtz free energy."
+        },
+        {
+         "label": "एंट्रॉपी",
+         "formula": "S = kB ln Ω",
+         "english": "Boltzmann entropy for Ω accessible microstates."
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "sci-part-5-b",
+     "name": "उन्नत रसायन विज्ञान / ADVANCED CHEMISTRY",
+     "chapters": [
+      {
+       "id": "sci-ch-76",
+       "name": "76. क्वांटम रसायन / Quantum Chemistry",
+       "items": [
+        {
+         "label": "de Broglie",
+         "formula": "λ = h/mv",
+         "english": "Matter-wave wavelength for a non-relativistic particle."
+        },
+        {
+         "label": "अनिश्चितता",
+         "formula": "ΔxΔp ≥ ħ/2",
+         "english": "Heisenberg uncertainty principle."
+        },
+        {
+         "label": "Schrödinger",
+         "formula": "Ĥψ = Eψ",
+         "english": "Time-independent eigenvalue equation."
+        },
+        {
+         "label": "ऊर्जा स्तरों का अंतर",
+         "formula": "ΔE = hν",
+         "english": "Energy difference and absorbed or emitted photon frequency."
+        }
+       ]
+      },
+      {
+       "id": "sci-ch-77",
+       "name": "77. स्पेक्ट्रोस्कोपी / Spectroscopy",
+       "items": [
+        {
+         "label": "तरंग संख्या",
+         "formula": "ṽ = 1/λ",
+         "english": "Wavenumber."
+        },
+        {
+         "label": "फोटॉन ऊर्जा",
+         "formula": "E = hc/λ = hcṽ",
+         "english": "Photon energy in terms of wavelength or wavenumber."
+        },
+        {
+         "label": "Beer–Lambert नियम",
+         "formula": "A = εlc",
+         "english": "Absorbance = Molar absorptivity × Path length × Concentration."
+        },
+        {
+         "label": "NMR रासायनिक विस्थापन",
+         "formula": "δ = [(ν_sample − ν_ref)/ν₀] × 10⁶ ppm",
+         "english": "Chemical shift in parts per million."
+        }
+       ]
+      },
+      {
+       "id": "sci-ch-78",
+       "name": "78. सतह रसायन / Surface Chemistry",
+       "items": [
+        {
+         "label": "Langmuir adsorption",
+         "formula": "θ = KP/(1 + KP)",
+         "english": "Fractional surface coverage in the Langmuir model."
+        },
+        {
+         "label": "Freundlich adsorption",
+         "formula": "x/m = kP^(1/n)",
+         "english": "Freundlich adsorption isotherm for gases."
+        },
+        {
+         "label": "BET बहुपरत अधिशोषण",
+         "formula": "P/[V(P₀−P)] = 1/(V_m C) + [(C−1)/(V_m C)](P/P₀)",
+         "english": "BET adsorption isotherm in its linear form."
+        }
+       ]
+      },
+      {
+       "id": "sci-ch-79",
+       "name": "79. रासायनिक गतिकी और उत्प्रेरण / Chemical Kinetics and Catalysis",
+       "items": [
+        {
+         "label": "दर नियम",
+         "formula": "Rate = k[A]^m[B]^n",
+         "english": "Empirical rate law."
+        },
+        {
+         "label": "कुल क्रम",
+         "formula": "Order = m + n",
+         "english": "Overall reaction order."
+        },
+        {
+         "label": "Arrhenius",
+         "formula": "k = Ae^(−Eₐ/RT)",
+         "english": "Temperature dependence of rate constant."
+        },
+        {
+         "label": "Eyring",
+         "formula": "k = (kBT/h)e^(−ΔG‡/RT)",
+         "english": "Eyring equation from transition-state theory."
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "sci-part-5-c",
+     "name": "उन्नत जीव विज्ञान / ADVANCED BIOLOGY",
+     "chapters": [
+      {
+       "id": "sci-ch-80",
+       "name": "80. जैव रसायन / Biochemistry",
+       "items": [
+        {
+         "label": "Michaelis–Menten",
+         "formula": "v = Vmax[S]/(Km + [S])",
+         "english": "Enzyme reaction rate in the Michaelis–Menten model."
+        },
+        {
+         "label": "Turnover number",
+         "formula": "kcat = Vmax/[E]total",
+         "english": "Catalytic constant."
+        },
+        {
+         "label": "Catalytic efficiency",
+         "formula": "kcat/Km",
+         "english": "Catalytic efficiency."
+        },
+        {
+         "label": "pH",
+         "formula": "pH = −log₁₀[H⁺]",
+         "english": "Negative logarithm of hydrogen-ion concentration."
+        },
+        {
+         "label": "Henderson–Hasselbalch",
+         "formula": "pH = pKₐ + log([A⁻]/[HA])",
+         "english": "Buffer equation."
+        }
+       ]
+      },
+      {
+       "id": "sci-ch-81",
+       "name": "81. आणविक जीव विज्ञान / Molecular Biology",
+       "items": [
+        {
+         "label": "PCR आदर्श वृद्धि",
+         "formula": "N = N₀ × 2ⁿ",
+         "english": "Ideal doubling of DNA copies per PCR cycle."
+        },
+        {
+         "label": "DNA लंबाई (B-form का लगभग मान)",
+         "formula": "Length ≈ base pairs × 0.34 nm",
+         "english": "Approximate contour length of B-DNA."
+        },
+        {
+         "text": "DNA की मात्रा में परिवर्तन को replication, transcription या translation की दर के साथ न मिलाएँ; ये अलग-अलग प्रक्रियाएँ हैं।",
+         "english": "DNA amount, replication rate, transcription rate and translation rate are distinct quantities."
+        }
+       ]
+      },
+      {
+       "id": "sci-ch-82",
+       "name": "82. जनसंख्या आनुवंशिकी / Population Genetics",
+       "items": [
+        {
+         "label": "Hardy–Weinberg",
+         "formula": "p + q = 1",
+         "english": "Allele-frequency relation for two alleles."
+        },
+        {
+         "label": "Genotype frequencies",
+         "formula": "p² + 2pq + q² = 1",
+         "english": "Hardy–Weinberg genotype frequencies."
+        },
+        {
+         "label": "चयन गुणांक",
+         "formula": "s = 1 − w",
+         "english": "Selection coefficient when relative fitness is w."
+        },
+        {
+         "label": "प्रभावी जनसंख्या आकार",
+         "formula": "`Nₑ` की गणना जनसंख्या संरचना और प्रजनन असमानता पर निर्भर करती है।",
+         "english": "Effective population size depends on population structure and reproductive variance."
+        }
+       ]
+      },
+      {
+       "id": "sci-ch-83",
+       "name": "83. जैव-सांख्यिकी / Biostatistics",
+       "items": [
+        {
+         "label": "माध्य",
+         "formula": "x̄ = Σxᵢ/n",
+         "english": "Arithmetic mean."
+        },
+        {
+         "label": "प्रसरण",
+         "formula": "σ² = Σ(xᵢ−μ)²/N",
+         "english": "Population variance."
+        },
+        {
+         "label": "नमूना प्रसरण",
+         "formula": "s² = Σ(xᵢ−x̄)²/(n−1)",
+         "english": "Sample variance."
+        },
+        {
+         "label": "मानक विचलन",
+         "formula": "σ = √σ²",
+         "english": "Standard deviation."
+        },
+        {
+         "label": "मानक त्रुटि",
+         "formula": "SE = s/√n",
+         "english": "Standard error of the sample mean."
+        },
+        {
+         "label": "प्रतिशत",
+         "formula": "% = (भाग ÷ कुल) × 100",
+         "english": "Percentage = Part / Whole × 100."
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "sci-part-6",
+   "name": "पृथ्वी और अंतरिक्ष विज्ञान / EARTH AND SPACE SCIENCE",
+   "chapters": [
+    {
+     "id": "sci-ch-84",
+     "name": "84. खगोल विज्ञान / Astronomy",
+     "items": [
+      {
+       "label": "प्रकाश वर्ष की दूरी",
+       "formula": "d = c × t",
+       "english": "Distance = Speed of light × Time."
+      },
+      {
+       "label": "पारसेक",
+       "formula": "d(pc) = 1/p(arcsec)",
+       "english": "Distance in parsecs = Reciprocal of annual parallax in arcseconds."
+      },
+      {
+       "label": "लाल विस्थापन (कम वेग)",
+       "formula": "z ≈ v/c",
+       "english": "Approximate redshift for non-relativistic recession speed."
+      },
+      {
+       "label": "Hubble नियम",
+       "formula": "v = H₀d",
+       "english": "Recession speed = Hubble constant × Distance."
+      },
+      {
+       "label": "Kepler तीसरा नियम",
+       "formula": "T² ∝ a³",
+       "english": "Square of orbital period is proportional to cube of semi-major axis."
+      },
+      {
+       "label": "न्यूटन रूप",
+       "formula": "T² = 4π²a³/[G(M+m)]",
+       "english": "Kepler’s third law for two-body orbital motion."
+      }
+     ]
+    },
+    {
+     "id": "sci-ch-85",
+     "name": "85. भू-विज्ञान और भूभौतिकी / Geology and Geophysics",
+     "items": [
+      {
+       "label": "घनत्व",
+       "formula": "ρ = m/V",
+       "english": "Density = Mass / Volume."
+      },
+      {
+       "label": "दाब",
+       "formula": "P = F/A",
+       "english": "Pressure = Force / Area."
+      },
+      {
+       "label": "भूकंपीय तरंग चाल",
+       "formula": "v = दूरी/समय",
+       "english": "Seismic wave speed = Distance / Travel time."
+      },
+      {
+       "text": "भूकंपीय परिमाण और ऊर्जा का संबंध पैमाने पर निर्भर करता है; अलग magnitude scales को सीधे न मिलाएँ।",
+       "english": "Magnitude-energy relations depend on the magnitude scale used."
+      }
+     ]
+    },
+    {
+     "id": "sci-ch-86",
+     "name": "86. मौसम और जलवायु / Meteorology and Climate",
+     "items": [
+      {
+       "label": "सापेक्ष आर्द्रता",
+       "formula": "RH = (वास्तविक जलवाष्प दाब ÷ संतृप्त जलवाष्प दाब) × 100%",
+       "english": "Relative humidity."
+      },
+      {
+       "label": "घनत्व",
+       "formula": "ρ = m/V",
+       "english": "Density."
+      },
+      {
+       "label": "आदर्श गैस",
+       "formula": "P = ρR_specific T",
+       "english": "Ideal-gas relation using specific gas constant."
+      },
+      {
+       "label": "तापमान रूपांतरण",
+       "formula": "K = °C + 273.15",
+       "english": "Celsius-to-Kelvin conversion."
+      }
+     ]
+    },
+    {
+     "id": "sci-ch-87",
+     "name": "87. महासागर विज्ञान / Oceanography",
+     "items": [
+      {
+       "label": "दाब गहराई के साथ",
+       "formula": "P = P₀ + ρgh",
+       "english": "Hydrostatic pressure."
+      },
+      {
+       "label": "तरंग चाल (गहरे जल की गुरुत्वीय तरंग)",
+       "formula": "v = √(gλ/2π)",
+       "english": "Deep-water gravity-wave phase speed."
+      },
+      {
+       "text": "लवणता सामान्यतः द्रव्यमान/अनुपात आधारित माप है; उपयोग की गई परिभाषा और इकाई स्पष्ट लिखें।",
+       "english": "Salinity is convention- and unit-dependent; state the scale used."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "sci-part-7",
+   "name": "प्रतियोगी परीक्षाएँ / COMPETITIVE EXAM QUICK FORMULAS",
+   "chapters": [
+    {
+     "id": "sci-ch-88",
+     "name": "88. सामान्य भौतिकी / General Physics",
+     "items": [
+      {
+       "label": "चाल",
+       "formula": "v = d/t",
+       "english": "Speed = Distance / Time."
+      },
+      {
+       "label": "त्वरण",
+       "formula": "a = (v−u)/t",
+       "english": "Acceleration."
+      },
+      {
+       "label": "बल",
+       "formula": "F = ma",
+       "english": "Force."
+      },
+      {
+       "label": "कार्य",
+       "formula": "W = Fs cosθ",
+       "english": "Work."
+      },
+      {
+       "label": "शक्ति",
+       "formula": "P = W/t",
+       "english": "Power."
+      },
+      {
+       "label": "दाब",
+       "formula": "P = F/A",
+       "english": "Pressure."
+      },
+      {
+       "label": "घनत्व",
+       "formula": "ρ = m/V",
+       "english": "Density."
+      },
+      {
+       "label": "संवेग",
+       "formula": "p = mv",
+       "english": "Momentum."
+      },
+      {
+       "label": "गतिज ऊर्जा",
+       "formula": "KE = ½mv²",
+       "english": "Kinetic energy."
+      },
+      {
+       "label": "स्थितिज ऊर्जा",
+       "formula": "PE = mgh",
+       "english": "Potential energy."
+      },
+      {
+       "label": "ओम नियम",
+       "formula": "V = IR",
+       "english": "Ohm’s law."
+      },
+      {
+       "label": "विद्युत शक्ति",
+       "formula": "P = VI",
+       "english": "Electric power."
+      },
+      {
+       "label": "तरंग चाल",
+       "formula": "v = fλ",
+       "english": "Wave speed."
+      },
+      {
+       "label": "आवृत्ति",
+       "formula": "f = 1/T",
+       "english": "Frequency."
+      },
+      {
+       "label": "आवर्धन",
+       "formula": "m = image height/object height",
+       "english": "Magnification."
+      }
+     ]
+    },
+    {
+     "id": "sci-ch-89",
+     "name": "89. सामान्य रसायन विज्ञान / General Chemistry",
+     "items": [
+      {
+       "label": "मोल",
+       "formula": "n = m/M",
+       "english": "Number of moles."
+      },
+      {
+       "label": "कण",
+       "formula": "N = nNₐ",
+       "english": "Number of particles."
+      },
+      {
+       "label": "आदर्श गैस",
+       "formula": "PV = nRT",
+       "english": "Ideal gas equation."
+      },
+      {
+       "label": "मोलरता",
+       "formula": "M = n/V(L)",
+       "english": "Molarity."
+      },
+      {
+       "label": "pH",
+       "formula": "pH = −log[H⁺]",
+       "english": "pH."
+      },
+      {
+       "label": "प्रतिशत संघटन",
+       "formula": "% = (घटक का द्रव्यमान/कुल द्रव्यमान) × 100",
+       "english": "Mass percentage."
+      },
+      {
+       "label": "प्रतिशत उपज",
+       "formula": "% yield = actual/theoretical × 100",
+       "english": "Percentage yield."
+      },
+      {
+       "label": "तनुकरण",
+       "formula": "M₁V₁ = M₂V₂",
+       "english": "Dilution equation."
+      }
+     ]
+    },
+    {
+     "id": "sci-ch-90",
+     "name": "90. सामान्य जीव विज्ञान / General Biology",
+     "items": [
+      {
+       "label": "जनसंख्या घनत्व",
+       "formula": "D = N/Area",
+       "english": "Population density."
+      },
+      {
+       "label": "हृदय आउटपुट",
+       "formula": "CO = HR × SV",
+       "english": "Cardiac output."
+      },
+      {
+       "label": "श्वसन गुणांक",
+       "formula": "RQ = CO₂/O₂",
+       "english": "Respiratory quotient."
+      },
+      {
+       "label": "प्रकाश संश्लेषण",
+       "formula": "6CO₂ + 6H₂O → C₆H₁₂O₆ + 6O₂",
+       "english": "Simplified photosynthesis equation."
+      },
+      {
+       "label": "वायवीय श्वसन",
+       "formula": "C₆H₁₂O₆ + 6O₂ → 6CO₂ + 6H₂O + ATP",
+       "english": "Aerobic respiration equation."
+      },
+      {
+       "label": "Hardy–Weinberg",
+       "formula": "p² + 2pq + q² = 1",
+       "english": "Hardy–Weinberg genotype-frequency equation."
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,4 +1,4 @@
-﻿const $ = (id) => document.getElementById(id);
+const $ = (id) => document.getElementById(id);
 const esc = (s) => String(s == null ? "" : s).replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
 const rt = (s) => { s = String(s == null ? "" : s); return /<[a-z!][\s\S]*>/i.test(s) ? s : esc(s).replace(/\n/g, "<br>"); };
 const root = document.documentElement;
@@ -35,11 +35,11 @@ $("menuBtn").onclick = () => menu(true);
 $("overlay").onclick = () => menu(false);
 $("drawer").onclick = () => menu(false);
 let timer;
-function toast(m) {
+function toast(m, ms) {
   $("toast").textContent = m;
   $("toast").classList.add("show");
   clearTimeout(timer);
-  timer = setTimeout(() => $("toast").classList.remove("show"), 1800);
+  timer = setTimeout(() => $("toast").classList.remove("show"), ms || 1800);
 }
 
 
@@ -102,10 +102,13 @@ function trail(m, n) {
 const imgs = (a, alt) => (a || []).map((s) => `<img loading="lazy" src="${esc(s)}" alt="${esc(alt || "")}">`).join("");
 const block = (x) => { const o = typeof x === "string" ? { content: x } : x; return `<div class="q glass">${o.title ? `<h3 class="sec" style="margin-top:0">${esc(o.title)}</h3>` : ""}<div class="rt">${rt(o.content)}</div>${imgs(o.images, o.title)}</div>`; };
 const qaCard = (x) => `<div class="q glass"><div class="qt">${rt(x.question)}</div><details><summary>View Answer ▼</summary><div class="rt">${rt(x.answer)}</div></details></div>`;
-const mcqCard = (q, i, test) => `<div class="q glass" data-ans="${ansIndex(q)}" data-why="${esc(q.explanation || "")}">
+const mcqCard = (q, i, test) => {
+  const a = ansIndex(q);
+  return `<div class="q glass" data-ans="${a}" data-why="${esc(q.explanation || "")}"${test ? "" : ' data-done="1"'}>
   <div class="qt">${i}. ${rt(q.question)}</div>
-  ${(q.options || []).map((o, k) => `<button class="opt" data-k="${k}"><i>${"ABCD"[k] || k + 1}</i><span>${rt(o)}</span></button>`).join("")}
-  ${test ? "" : `<button class="btn check">Check Answer</button>`}<div class="why"></div></div>`;
+  ${(q.options || []).map((o, k) => `<button class="opt${!test && k === a ? " right" : ""}" data-k="${k}"><i>${"ABCD"[k] || k + 1}</i><span>${rt(o)}</span></button>`).join("")}
+  ${test ? "" : `<div class="why">${a < 0 ? "" : "✅ Sahi jawab: " + "ABCD"[a] + ". "}${rt(q.explanation || "")}</div>`}</div>`;
+};
 function renderSection(k, h) {
   const a = secOf(h, k);
   if (!a.length) return empty(SOON);
@@ -130,7 +133,7 @@ const classPicker = (m) => crumbs([["Home", "#/"], [MODE[m]]]) + `<h2>${MODE[m]}
 
 function chapterList(m, n, b) {
   let k = 0;
-  const line = (h) => row(`#/${m}/${h.id}`, `${++k}. ${h.name}`, h.desc, avail(h));
+  const line = (h) => row(`#/${m}/${h.id}`, `${++k}. ${h.name}`, ...(m === "mcq" || m === "notes" ? [] : [h.desc, avail(h)]));
   const body = b.parts.length ? b.parts.map((p) => `<h3 class="sec">${esc(p.name)}</h3>` + p.chapters.map(line).join("")).join("") : b.chapters.map(line).join("");
   return crumbs(trail(m, n)) + `<h2>${esc(n.d.name)}</h2>` + (b.desc && n.type === "book" ? `<p class="muted">${esc(b.desc)}</p>` : "") + (body || empty("Is book ke chapters jald aayenge."));
 }
@@ -139,14 +142,13 @@ function pyqSubject(n) {
   return crumbs(trail("pyq", n)) + `<h2>${esc(n.d.name)}: PYQ</h2>` +
     (list.length ? list.map((p) => row(`#/pyq/${p.id}`, `${p.year}`, `${(p.images || []).length} pages`)).join("") : empty("PYQ jald aayenge."));
 }
-const pyqPaper = (n) => crumbs(trail("pyq", n)) + `<h2>${esc(NODE[n.parent].d.name)} ${esc(n.d.year)}</h2>` +
-  ((n.d.images || []).length ? n.d.images.map((s, i) => `<img class="paper" loading="lazy" src="${esc(s)}" alt="${esc(NODE[n.parent].d.name)} ${esc(n.d.year)} question paper page ${i + 1}">`).join("") : empty(SOON));
+const pyqPaper = (n) => crumbs(trail("pyq", n)) + `<h2>${esc(NODE[n.parent].d.name)} ${esc(n.d.year)}</h2>` + autoImgs(n.d.id, n.d.images, false, true);
 
 
 function navView(m, n) {
   const d = n.d;
   if (m === "pyq" && n.type === "class") return crumbs(trail(m, n)) + `<h2>${esc(d.name)}: Year chuno</h2>` + (d.pyqYears.length
-    ? `<section class="grid">` + d.pyqYears.map((p, i) => card(`#/pyq/${p.id}`, "📄", p.year, `${(p.images || []).length} pages`, i)).join("") + `</section>`
+    ? `<section class="grid">` + d.pyqYears.map((p, i) => card(`#/pyq/${p.id}`, "📄", p.year, "", i)).join("") + `</section>`
     : empty("PYQ jald aayenge."));
   if (n.type === "class") return crumbs(trail(m, n)) + `<h2>${esc(d.name)}: Subject chuno</h2><section class="grid">` +
     d.subjects.map((s, i) => card(`#/${m}/${s.id}`, s.icon || "📚", s.name,
@@ -165,7 +167,7 @@ function navView(m, n) {
 function chapterView(m, n, sec) {
   const h = n.d, head = (x) => crumbs(trail(m, n).concat(x ? [[x]] : [])) + `<h2>${esc(h.name)}</h2>`;
   if (m === "pyq") return notFound();
-  if (m === "notes") return head() + renderSection("notes", h);
+  if (m === "notes") { const t = secOf(h, "notes"); return head() + t.map(block).join("") + autoImgs("notes-" + h.id, [], false, !t.length); }
   if (m === "mcq") return head() + renderSection("mcq", h);
   if (m === "test") {
     const qs = secOf(h, "mcq").filter((q) => ansIndex(q) >= 0);
@@ -202,8 +204,7 @@ const updatesView = (id) => {
     : empty("Abhi koi update nahi hai."));
   const u = DB.updates.find((x) => x.id === id);
   if (!u) return notFound();
-  return crumbs([["Home", "#/"], ["Updates", "#/updates"], [u.title]]) + `<h2>${esc(u.icon || "")} ${esc(u.title)}</h2>` +
-    ((u.images || []).length ? u.images.map((s, i) => `<img class="paper" loading="lazy" src="${esc(s)}" alt="${esc(u.title)} ${i + 1}">`).join("") : empty("Abhi koi update nahi hai."));
+  return crumbs([["Home", "#/"], ["Updates", "#/updates"], [u.title]]) + `<h2>${esc(u.icon || "")} ${esc(u.title)}</h2>` + autoImgs("updates-" + u.id, u.images, true, true);
 };
 
 
@@ -242,7 +243,7 @@ const fxItem = (x) => `<div class="q glass fx">${x.label ? `<div class="gold">${
 const countCh = (p) => (p.chapters || []).length + (p.groups || []).reduce((n, g) => n + g.chapters.length, 0);
 function formulaView(id) {
   const top = [["Home", "#/"], ["Formula", "#/formula"]];
-  if (!id) return crumbs([["Home", "#/"], ["Formula"]]) + `<h2>Formula Library</h2><section class="grid">` + DB.formulas.map((f, i) => card(`#/formula/${f.id}`, f.icon, f.name, `${(f.parts || []).length} parts`, i)).join("") + `</section>`;
+  if (!id) return crumbs([["Home", "#/"], ["Formula"]]) + `<h2>Formula Library</h2><section class="grid">` + DB.formulas.map((f, i) => card(`#/formula/${f.id}`, f.icon, f.name, f.info || "", i)).join("") + `</section>`;
   const n = FN[id];
   if (!n) return notFound();
   const chain = []; for (let x = n; x; x = x.parent && FN[x.parent]) chain.unshift(x);
@@ -251,6 +252,50 @@ function formulaView(id) {
   if (n.type === "part") return cr(n.d.name) + `<h2>${esc(n.d.name)}</h2>` + (n.d.groups ? n.d.groups.map((g) => row(`#/formula/${g.id}`, g.name, `${g.chapters.length} chapters`)).join("") : (n.d.chapters || []).map((c) => row(`#/formula/${c.id}`, c.name)).join(""));
   if (n.type === "group") return cr(n.d.name) + `<h2>${esc(n.d.name)}</h2>` + n.d.chapters.map((c) => row(`#/formula/${c.id}`, c.name)).join("");
   return cr(n.d.name) + `<h2>${esc(n.d.name)}</h2>` + ((n.d.items || []).length ? n.d.items.map(fxItem).join("") : empty("Formulas jald aayenge."));
+}
+
+
+/* ---------- Lazy data loading (small files), auto images ---------- */
+const jget = (f) => fetch(f).then((r) => { if (!r.ok) throw new Error(f + " (" + r.status + ")"); return r.json(); });
+async function loadBook(b) {
+  if (b._ok) return;
+  try {
+    const r = await fetch(`data-${b.id}.json`);
+    if (r.ok) { const d = await r.json(); chaptersOf(b).forEach((h) => { if (d[h.id]) h.sections = d[h.id]; }); b._ok = 1; }
+    else if (r.status === 404) b._ok = 1;
+  } catch (e) {}
+}
+async function loadFormula(f) { if (f.parts) return; try { Object.assign(f, await jget(f.file)); } catch (e) {} }
+async function ensure(p) {
+  const [a, b] = p;
+  if (a === "formula") { await Promise.all(DB.formulas.map(loadFormula)); indexFormulas(); return; }
+  const n = b && NODE[b];
+  if (!MODE[a] || !n) return;
+  const books = n.type === "subject" ? n.d.books : ["book", "part", "chapter"].includes(n.type) ? [up(n, "book").d] : [];
+  await Promise.all(books.map(loadBook));
+}
+const AIMG = {};
+const probeImg = (u) => new Promise((r) => { const i = new Image(); i.onload = () => r(true); i.onerror = () => r(false); i.src = u; });
+async function findImgs(prefix) {
+  const out = [], all = ["jpg", "png", "webp", "jpeg"];
+  for (let n = 1; n <= 300; n++) {
+    const order = AIMG[prefix] ? [AIMG[prefix]].concat(all.filter((e) => e !== AIMG[prefix])) : all;
+    let hit = null;
+    for (const e of order) { const u = `images/${prefix}-${n}.${e}`; if (await probeImg(u)) { hit = u; AIMG[prefix] = e; break; } }
+    if (!hit) break;
+    out.push(hit);
+  }
+  return out;
+}
+const autoImgs = (prefix, manual, rev, showEmpty) => `<div class="autoimgs" data-prefix="${esc(prefix)}" data-manual="${esc(JSON.stringify(manual || []))}" data-rev="${rev ? 1 : 0}" data-empty="${showEmpty ? 1 : 0}">${empty("Load ho raha hai…")}</div>`;
+async function hydrate() {
+  const box = document.querySelector(".autoimgs");
+  if (!box) return;
+  const my = RT, found = await findImgs(box.dataset.prefix);
+  if (my !== RT) return;
+  let list = JSON.parse(box.dataset.manual || "[]").concat(found);
+  if (box.dataset.rev === "1") list = list.reverse();
+  box.innerHTML = list.length ? list.map((u, i) => `<img class="paper" loading="lazy" src="${esc(u)}" alt="${esc(box.dataset.prefix)} ${i + 1}">`).join("") : box.dataset.empty === "1" ? empty("Abhi koi image nahi hai.") : "";
 }
 
 
@@ -269,12 +314,16 @@ function view(a, b, c) {
   if (n.type === "pyq") return a === "pyq" ? pyqPaper(n) : notFound();
   return navView(a, n);
 }
-function route() {
+let RT = 0;
+async function route() {
   if (!DB.classes.length) return;
-  const p = location.hash.replace(/^#\/?/, "").split("/").filter(Boolean).map(decodeURIComponent);
+  const my = ++RT, p = location.hash.replace(/^#\/?/, "").split("/").filter(Boolean).map(decodeURIComponent);
   T = null;
+  await ensure(p);
+  if (my !== RT) return;
   $("app").innerHTML = (DUPS.length ? empty("⚠️ Duplicate ya missing ID: " + esc(DUPS.join(", "))) : "") + view(p[0], p[1], p[2]);
   window.scrollTo(0, 0);
+  hydrate();
 }
 window.addEventListener("hashchange", route);
 
@@ -313,6 +362,19 @@ document.addEventListener("click", (ev) => {
 });
 
 
+/* ---------- Install App (PWA) + offline ---------- */
+let DEF = null;
+window.addEventListener("beforeinstallprompt", (e) => { e.preventDefault(); DEF = e; });
+window.addEventListener("appinstalled", () => { DEF = null; toast("App install ho gaya ✅"); });
+if ($("drawerInstall")) $("drawerInstall").onclick = async (e) => {
+  e.preventDefault();
+  if (matchMedia("(display-mode: standalone)").matches || navigator.standalone) return toast("App pehle se install hai ✅");
+  if (DEF) { DEF.prompt(); try { await DEF.userChoice; } catch (x) {} DEF = null; return; }
+  toast(/iphone|ipad|ipod/i.test(navigator.userAgent) ? "Safari mein Share dabao, phir 'Add to Home Screen' chuno" : "Browser menu (⋮) kholo, phir 'Install app' ya 'Add to Home screen' dabao", 5000);
+};
+if ("serviceWorker" in navigator) window.addEventListener("load", () => navigator.serviceWorker.register("sw.js").catch(() => {}));
+
+
 /* ---------- Start ---------- */
 function setup(data) {
   DB = data;
@@ -325,7 +387,6 @@ function setup(data) {
   indexFormulas();
   route();
 }
-fetch("database.json")
-  .then((r) => r.json())
-  .then(setup)
-  .catch((e) => ($("app").innerHTML = empty("database.json load nahi hua. Agar tumne abhi content daala hai, to kahin comma ya quote galat ho sakta hai.<br><small>" + esc(e.message) + "</small>")));
+Promise.all([jget("data-site.json"), jget("data-class9.json"), jget("data-class10.json")])
+  .then(([site, c9, c10]) => setup(Object.assign({}, site, { classes: [c9, c10] })))
+  .catch((e) => ($("app").innerHTML = empty("Data load nahi hua. Internet check karo, ya kisi data-*.json file mein comma ya quote galat ho sakta hai.<br><small>" + esc(e.message) + "</small>")));
